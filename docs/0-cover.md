@@ -192,14 +192,6 @@ A continuación, se detallan las actividades realizadas en cada entrega, la part
 
 # Student Outcome
 
-El curso contribuye al cumplimiento del Student Outcome ABET:
-
-**ABET – EAC - Student Outcome 3**
-
-**Criterio: Capacidad de comunicarse efectivamente con un rango de audiencias.**
-
-En el siguiente cuadro se describen las acciones realizadas y los enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 3.
-
 | Criterio específico | Acciones realizadas | Conclusiones |
 | --- | --- | --- |
 | **Comunica oralmente con efectividad a diferentes rangos de audiencia.** | **Crispin Valdivia, Angel Gabriel (U20221G181)**<br>**AV1:** Pendiente de completar con la actividad real realizada por el integrante.<br><br>**Lopez Rimachi, Sebastian Leonardo (U20241F946)**<br>**AV1:** Pendiente de completar con la actividad real realizada por el integrante.<br><br>**Montañez Salinas, Lorena Ariana (U202421125)**<br>**AV1:** Pendiente de completar con la actividad real realizada por la integrante.<br><br>**Tuesta Girón, Kiara Lucia (U20251I477)**<br>**AV1:** Pendiente de completar con la actividad real realizada por la integrante.<br><br>**Vizcarra Mamani, Candy Milagros (U20241F205)**<br>**AV1:** Pendiente de completar con la actividad real realizada por la integrante. | **AV1:** Pendiente de redactar la conclusión grupal en función de las actividades realmente realizadas. |
