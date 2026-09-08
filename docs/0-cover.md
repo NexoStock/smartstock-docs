@@ -10,9 +10,7 @@ Carrera de Ingeniería de Software
 
 **Ciclo: 5to**
 
-**1ASI0729**
-
-**Desarrollo de Aplicaciones Open Source**
+**1ASI0729 - Desarrollo de Aplicaciones Open Source**
 
 NRC
 
