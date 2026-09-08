@@ -79,20 +79,13 @@ Nombre del producto
 
 # Project Report Collaboration Insights
 
-**Repositorio de documentación del proyecto:**  
-https://github.com/NexoStock/smartstock-docs
+**Repositorio de documentación del proyecto:https://github.com/NexoStock/smartstock-docs**  
 
-En esta sección se presentan las evidencias de colaboración de los integrantes del equipo durante la elaboración y actualización del informe del proyecto. Las evidencias deberán guardar relación con los commits realizados en el repositorio y con el Registro de Versiones del Informe.
+A continuación, se detallan las actividades realizadas en cada entrega, la participación de los miembros del equipo, y las evidencias correspondientes.
 
 ## AV1
 
 **Report Insights AV1**
-
-<!-- Agregar aquí la captura de los Insights/commits de AV1 cuando corresponda. -->
-
-<!-- Ejemplo:
-![Report Insights AV1](../assets/images/report-insights-av1.png)
--->
 
 # Tabla de contenidos
 
