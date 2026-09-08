@@ -30,9 +30,13 @@ A continuación, se presentan la misión, visión y valores que guían a nuestra
 
 ## 1.1.2. Perfiles de integrantes del equipo
 
+![Angel Gabriel Crispin Valdivia](../assets/images/team-photos/angel-photo.png)
+
 ![Sebastian Leonardo Lopez Rimachi](../assets/images/team-photos/leonardo-photo.png)
 
 ![Lorena Ariana Montañez Salinas](../assets/images/team-photos/lorena-photo.png)
+
+![Kiara Lucia Tuesta Girón](../assets/images/team-photos/kiara-photo.png)
 
 ![Candy Milagros Vizcarra Mamani](../assets/images/team-photos/candy-photo.png)
 
