@@ -12,9 +12,7 @@ Carrera de Ingeniería de Software
 
 **1ASI0729 - Desarrollo de Aplicaciones Open Source**
 
-NRC
-
-**7729**
+**NRC: 7729**
 
 Docente
 
