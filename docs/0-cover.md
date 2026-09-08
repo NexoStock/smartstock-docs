@@ -65,9 +65,7 @@ Nombre del producto
   </tbody>
 </table>
 
-**Periodo 202620**
-
-**Setiembre 2026**
+**Setiembre, 2026**
 
 </div>
 
