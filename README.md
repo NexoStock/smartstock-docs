@@ -48,7 +48,6 @@ Este repositorio contiene el informe del trabajo final, incluyendo investigació
 - [Validation Interviews](docs/60-validation-interviews.md)
 - [Video About-the-Product](docs/70-product-video.md)
 - [Conclusiones y recomendaciones](docs/80-conclusions-recommendations.md)
-- [Video About-the-Team](docs/82-team-video.md)
 - [Bibliografía](docs/90-bibliography.md)
 - [Anexos](docs/99-annexes.md)
 
