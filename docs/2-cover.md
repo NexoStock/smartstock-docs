@@ -178,9 +178,9 @@ Esta información permitirá complementar el monitoreo en tiempo real con datos 
 10. ¿Qué limitaciones encuentra en esas herramientas o métodos?
 11. ¿Qué información considera más importante visualizar al revisar el inventario?
 12. ¿Qué tipo de alertas le resultarían útiles para detectar productos con bajo stock?
-13. ¿Qué tan útil sería comparar automáticamente el stock físico con el registrado?
-14. ¿Qué beneficios esperaría obtener de un sistema que monitoree determinados productos mediante sensores IoT?
-15. ¿Qué condiciones deberían cumplirse para que considere pagar mensualmente por una plataforma como SmartStock?
+13. ¿Qué importancia tendría para usted saber en todo momento si existen diferencias entre lo que su sistema registra y lo que realmente tiene en tienda?
+14. ¿Qué le gustaría que una herramienta de inventario le resuelva o facilite, sin importar la tecnología que use?
+15. ¿Qué haría que usted decida invertir en una nueva herramienta para gestionar su negocio?
 
 #### Segundo Segmento Objetivo (Propietarios y administradores de bodegas de barrio)
 
@@ -196,6 +196,6 @@ Esta información permitirá complementar el monitoreo en tiempo real con datos 
 10. ¿Qué tan cómodo se siente utilizando aplicaciones o plataformas web para gestionar su negocio?
 11. ¿Qué información le gustaría ver en una pantalla para conocer rápidamente el estado de sus productos?
 12. ¿Qué tipo de alerta le sería útil cuando un producto está por agotarse?
-13. ¿Qué tan útil sería que el sistema detecte automáticamente cambios en la cantidad física de ciertos productos?
+13. ¿Qué tan importante sería para usted enterarse automáticamente cuando un producto está por agotarse, sin tener que revisarlo usted mismo?
 14. ¿Qué beneficio tendría que ofrecer una herramienta de inventario para que usted la use de manera frecuente?
-15. ¿Qué precio o modalidad de pago consideraría razonable para una solución que le ayude a controlar su inventario?
+15. ¿Qué haría que usted decida invertir en una nueva herramienta para gestionar su negocio?
