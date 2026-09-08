@@ -87,3 +87,115 @@ Permite identificar cómo funcionan las soluciones actuales de gestión de inven
 | **Debilidades** | • Dependencia de sensores físicos.<br>• Necesidad de instalación y calibración adecuada.<br>• No todos los tipos de productos pueden monitorearse fácilmente mediante peso.<br>• Menor experiencia y volumen de datos al ser una propuesta nueva. | • Dependencia de imágenes y condiciones adecuadas de captura.<br>• Puede resultar más compleja que lo requerido por una bodega pequeña.<br>• Su enfoque empresarial puede representar una barrera para pequeños negocios. | • Requiere infraestructura de cámaras y procesamiento de visión computacional.<br>• Está enfocada principalmente en operaciones de retail de mayor escala.<br>• La complejidad técnica puede dificultar su implementación en pequeños establecimientos. | • Dependencia de visión artificial y captura adecuada de imágenes.<br>• Propuesta dirigida principalmente a retailers y empresas CPG.<br>• Puede ofrecer más funcionalidades de las necesarias para pequeños comercios. |
 | **Oportunidades** | • Crecimiento de la digitalización de bodegas y minimarkets.<br>• Mayor disponibilidad y reducción de costos de dispositivos IoT.<br>• Necesidad de mejorar el control de inventarios en pequeños negocios.<br>• Alianzas con distribuidores y proveedores.<br>• Expansión futura hacia recomendaciones automáticas y análisis predictivo.<br>• Integración con nuevos tipos de sensores. | • Mayor adopción de IA en retail.<br>• Crecimiento de la demanda por información de disponibilidad en tiempo real.<br>• Expansión hacia nuevas cadenas y mercados. | • Crecimiento de tiendas inteligentes y retail autónomo.<br>• Mayor utilización de cámaras e IA para analizar operaciones.<br>• Integración con ecosistemas cloud y plataformas empresariales. | • Mayor interés por digitalizar los estantes físicos.<br>• Expansión de soluciones de IA para gestión de inventarios.<br>• Integración de Vision AI con dispositivos móviles y otras tecnologías de retail. |
 | **Amenazas** | • Aparición de nuevas soluciones de inventario IoT a bajo costo.<br>• Competidores consolidados con mayor capacidad tecnológica y financiera.<br>• Resistencia de pequeños comercios a invertir en dispositivos adicionales.<br>• Fallos o deterioro de sensores.<br>• Rápida evolución de tecnologías de visión artificial que podrían ofrecer alternativas sin sensores de peso. | • Aparición de tecnologías alternativas de monitoreo sin reconocimiento de imágenes.<br>• Competencia creciente en Computer Vision para retail.<br>• Cambios rápidos en tecnologías de inteligencia artificial. | • Alta competencia en automatización y visión computacional aplicada al retail.<br>• Costos y complejidad de implementaciones empresariales.<br>• Aparición de soluciones más simples y económicas para pequeños establecimientos. | • Crecimiento de competidores con funcionalidades similares mediante Vision AI.<br>• Rápida evolución de sistemas de monitoreo IoT y visión artificial.<br>• Dependencia de la capacidad de los retailers para adoptar e integrar nuevas tecnologías. |
+
+## 2.1.2. Estrategias y tácticas frente a competidores
+
+### 1. Diferenciación mediante sensores IoT y monitoreo del inventario físico en tiempo real
+
+A diferencia de soluciones como Trax Retail, Trigo Retail y Pensa Systems, que utilizan principalmente visión computacional e inteligencia artificial para analizar productos en tiendas, SmartStock propone el uso de sensores de peso IoT instalados en los espacios donde se almacenan o exhiben determinados productos, permitiendo:
+
+- Monitoreo continuo de las existencias físicas.
+- Detección de niveles bajos de stock.
+- Comparación entre el inventario físico y el inventario registrado.
+- Generación automática de alertas ante posibles faltantes.
+
+Esto permite ofrecer una solución orientada al control directo del inventario físico y adaptada a las necesidades de bodegas y minimarkets.
+
+### 2. Solución accesible y escalable para pequeños comercios
+
+Mientras que varios competidores están orientados principalmente a grandes cadenas de retail y requieren infraestructura de cámaras, procesamiento de imágenes o soluciones empresariales más complejas, SmartStock busca implementar un modelo progresivo y adaptable:
+
+- Implementación inicial con una cantidad reducida de sensores.
+- Incorporación gradual de nuevos productos y dispositivos IoT.
+- Escalabilidad según el tamaño y necesidades del establecimiento.
+- Modelo de suscripción adaptable a las funcionalidades utilizadas.
+
+Este enfoque busca reducir las barreras tecnológicas y económicas para la adopción de la solución en pequeños comercios.
+
+### 3. Coordinación eficiente del proceso de reposición
+
+SmartStock permitirá que los propietarios y administradores de minimarkets y bodegas de barrio utilicen la información de inventario para gestionar oportunamente sus necesidades de abastecimiento. La plataforma permitirá:
+
+- Identificar productos que requieren reposición.
+- Registrar necesidades de abastecimiento.
+- Generar alertas relacionadas con faltantes.
+- Utilizar la información del sistema para coordinar pedidos con proveedores externos.
+
+Esto permite mantener a los proveedores como actores del abastecimiento sin convertirlos en un segmento objetivo o usuario principal de la plataforma.
+
+### 4. Experiencia de usuario centrada en información inmediata
+
+La plataforma busca facilitar la toma de decisiones mediante una interfaz web sencilla e intuitiva que permita consultar rápidamente:
+
+- Productos con stock suficiente, bajo o agotado.
+- Alertas pendientes de reposición.
+- Diferencias entre el inventario físico y el registrado.
+- Estado de los dispositivos IoT.
+- Información relevante según el tipo de usuario.
+
+De esta manera, los propietarios y administradores de minimarkets y bodegas de barrio podrán acceder a la información necesaria sin realizar procesos complejos de consulta.
+
+### 5. Gestión preventiva del inventario mediante alertas
+
+SmartStock busca reemplazar un modelo reactivo de reposición por uno preventivo mediante la detección anticipada de niveles bajos de inventario. El sistema permitirá:
+
+- Configurar niveles mínimos de stock por producto.
+- Generar alertas cuando las existencias alcancen dichos niveles.
+- Identificar diferencias entre el inventario registrado y el físico.
+- Anticipar necesidades de reposición antes de que un producto se agote.
+
+Este enfoque puede contribuir a reducir quiebres de stock y mejorar la disponibilidad de productos en bodegas y minimarkets.
+
+### 6. Analítica de inventario y apoyo a la toma de decisiones
+
+SmartStock incorporará información histórica que permita a los administradores analizar el comportamiento de sus productos mediante:
+
+- Reportes de rotación de productos.
+- Registro de mermas.
+- Historial de alertas y movimientos.
+- Identificación de productos con mayor necesidad de reposición.
+- Seguimiento del comportamiento del inventario.
+
+Esta información permitirá complementar el monitoreo en tiempo real con datos que apoyen la planificación del abastecimiento y la toma de decisiones.
+
+---
+
+## 2.2. Entrevistas
+
+### 2.2.1. Diseño de entrevistas
+
+#### Primer Segmento Objetivo (Propietarios y administradores de minimarkets)
+
+1. ¿Cómo realiza actualmente el control del inventario de los productos de su minimarket?
+2. ¿Con qué frecuencia revisa físicamente las existencias disponibles?
+3. ¿Qué dificultades encuentra al mantener actualizado el inventario?
+4. ¿Con qué frecuencia encuentra diferencias entre el stock registrado y la cantidad física disponible?
+5. ¿Qué problemas se presentan cuando un producto se agota sin ser detectado a tiempo?
+6. ¿Cómo determina cuándo debe realizar una reposición de productos?
+7. ¿Qué productos o categorías son más difíciles de controlar por su rotación?
+8. ¿Cómo se comunica actualmente con sus proveedores para solicitar reposiciones?
+9. ¿Qué herramientas o sistemas utiliza actualmente para gestionar el inventario?
+10. ¿Qué limitaciones encuentra en esas herramientas o métodos?
+11. ¿Qué información considera más importante visualizar al revisar el inventario?
+12. ¿Qué tipo de alertas le resultarían útiles para detectar productos con bajo stock?
+13. ¿Qué tan útil sería comparar automáticamente el stock físico con el registrado?
+14. ¿Qué beneficios esperaría obtener de un sistema que monitoree determinados productos mediante sensores IoT?
+15. ¿Qué condiciones deberían cumplirse para que considere pagar mensualmente por una plataforma como SmartStock?
+
+#### Segundo Segmento Objetivo (Propietarios y administradores de bodegas de barrio)
+
+1. ¿Cómo controla actualmente los productos disponibles en su bodega?
+2. ¿Utiliza cuaderno, Excel, sistema digital u otro método para registrar su inventario?
+3. ¿Con qué frecuencia realiza conteos o revisiones manuales de sus productos?
+4. ¿Qué dificultades tiene para saber qué productos están por agotarse?
+5. ¿Le ha ocurrido que el stock registrado no coincida con la cantidad real disponible? ¿Con qué frecuencia?
+6. ¿Qué problemas genera en su negocio quedarse sin un producto de alta demanda?
+7. ¿Cómo decide qué productos debe reponer y en qué momento?
+8. ¿Cómo realiza actualmente sus pedidos a proveedores?
+9. ¿Qué parte del control de inventario le toma más tiempo o le resulta más complicada?
+10. ¿Qué tan cómodo se siente utilizando aplicaciones o plataformas web para gestionar su negocio?
+11. ¿Qué información le gustaría ver en una pantalla para conocer rápidamente el estado de sus productos?
+12. ¿Qué tipo de alerta le sería útil cuando un producto está por agotarse?
+13. ¿Qué tan útil sería que el sistema detecte automáticamente cambios en la cantidad física de ciertos productos?
+14. ¿Qué beneficio tendría que ofrecer una herramienta de inventario para que usted la use de manera frecuente?
+15. ¿Qué precio o modalidad de pago consideraría razonable para una solución que le ayude a controlar su inventario?
