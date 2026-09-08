@@ -77,8 +77,6 @@ Nombre del producto
 | --- | --- | --- | --- |
 | 1 | 06/09/2026 | |  |
 
-> **Nota:** Las siguientes versiones deberán agregarse conforme se realicen cambios reales en el informe y commits en GitHub.
-
 # Project Report Collaboration Insights
 
 **Repositorio de documentación del proyecto:**  
