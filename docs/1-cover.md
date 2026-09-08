@@ -194,7 +194,7 @@ Son personas responsables de gestionar las operaciones diarias de minimarkets, i
 Como contexto empresarial, PRODUCE reporta que en 2024 existían **2 331 173 Mipyme formales en el Perú**, equivalentes al **99,3 % de las empresas formales operativas**. Este dato permite dimensionar la importancia de las micro y pequeñas empresas dentro de la actividad empresarial nacional.
 
 **Fuente:**  
-https://drive.google.com/file/d/1cA56NNO19692vqOC5qiFTh7LyHq6A3dG/view?usp=sharing
+https://drive.google.com/file/d/1cA56NNQ19692vqOC5qiFTh7LyHq6A3dG/view?usp=sharing
 
 ### Propietarios y administradores de bodegas de barrio
 
@@ -203,4 +203,4 @@ Son personas responsables de gestionar las operaciones diarias de bodegas de bar
 Como contexto del sector comercial, el INEI señala que en Lima Metropolitana y Callao, durante el cuarto trimestre de 2024, el **42,6 % de las nuevas empresas registradas correspondió a comercio y reparación de vehículos**, lo que evidencia la relevancia de las actividades comerciales dentro de la dinámica empresarial.
 
 **Fuente:**  
-https://drive.google.com/file/d/1M2u4nSfxInVMUfGC-xIoSTZ1QhPbUEOc/view?usp=sharing
+https://drive.google.com/file/d/1M2u4nSfxlnVMUfGC-xIoS1Z1QhPbUEOc/view?usp=sharing
