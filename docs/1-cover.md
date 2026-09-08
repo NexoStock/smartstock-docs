@@ -182,12 +182,9 @@ De acuerdo con los supuestos definidos previamente, planteamos las siguientes hi
 
 <div align="center">
 
-<img src="../assets/images/others/leanuxcanvas.png" alt="Lean UX Canvas de SmartStock" width="900">
+<img src="../assets/images/figures/canvas.jpeg" alt="Lean UX Canvas de SmartStock" width="900">
 
 </div>
-
-**Link:**  
-https://drive.google.com/file/d/1k-sexdkuagXWX-K6l6zY4XcvEourtRF8/view?usp=sharing
 
 ## 1.3. Segmentos objetivo
 
