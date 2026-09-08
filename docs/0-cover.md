@@ -1,1 +1,221 @@
-placeholder
+<div align="center">
+
+<img src="../assets/images/upc-logo.png" alt="UPC Logo" width="150px">
+
+Universidad Peruana de Ciencias Aplicadas
+
+Facultad de Ingeniería
+
+Carrera de Ingeniería de Software
+
+**Ciclo: 5to**
+
+**1ASI0729**
+
+**Desarrollo de Aplicaciones Open Source**
+
+NRC
+
+**7729**
+
+Docente
+
+**Mori Paiva, Hugo Allan**
+
+# Informe de Trabajo Final
+
+Nombre del startup
+
+**NexoStock**
+
+Nombre del producto
+
+**SmartStock**
+
+**Integrantes**
+
+</div>
+
+<div align="center">
+
+<table>
+  <thead>
+    <tr>
+      <th>Código</th>
+      <th>Apellidos y Nombres</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>U20221G181</td>
+      <td>Crispin Valdivia, Angel Gabriel</td>
+    </tr>
+    <tr>
+      <td>U20241F946</td>
+      <td>Lopez Rimachi, Sebastian Leonardo</td>
+    </tr>
+    <tr>
+      <td>U202421125</td>
+      <td>Montañez Salinas, Lorena Ariana</td>
+    </tr>
+    <tr>
+      <td>U20251I477</td>
+      <td>Tuesta Girón, Kiara Lucia</td>
+    </tr>
+    <tr>
+      <td>U20241F205</td>
+      <td>Vizcarra Mamani, Candy Milagros</td>
+    </tr>
+  </tbody>
+</table>
+
+**Periodo 202620**
+
+**Setiembre 2026**
+
+</div>
+
+---
+
+# Registro de Versiones del Informe
+
+| Versión | Fecha | Autor | Descripción de modificación |
+| --- | --- | --- | --- |
+| 1 | 06/09/2026 | Crispin Valdivia, Angel Gabriel; Lopez Rimachi, Sebastian Leonardo; Montañez Salinas, Lorena Ariana; Tuesta Girón, Kiara Lucia; Vizcarra Mamani, Candy Milagros | Adición y desarrollo inicial de las secciones correspondientes al avance del informe: Capítulo I, análisis competitivo y diseño de entrevistas del Capítulo II. |
+
+> **Nota:** Las siguientes versiones deberán agregarse conforme se realicen cambios reales en el informe y commits en GitHub.
+
+# Project Report Collaboration Insights
+
+**Repositorio de documentación del proyecto:**  
+https://github.com/NexoStock/smartstock-docs
+
+En esta sección se presentan las evidencias de colaboración de los integrantes del equipo durante la elaboración y actualización del informe del proyecto. Las evidencias deberán guardar relación con los commits realizados en el repositorio y con el Registro de Versiones del Informe.
+
+## AV1
+
+**Report Insights AV1**
+
+<!-- Agregar aquí la captura de los Insights/commits de AV1 cuando corresponda. -->
+
+<!-- Ejemplo:
+![Report Insights AV1](../assets/images/report-insights-av1.png)
+-->
+
+# Tabla de contenidos
+
+**Registro de Versiones del Informe**
+
+**Project Report Collaboration Insights**
+
+**Tabla de contenidos**
+
+**Student Outcome**
+
+[**Capítulo I: Introducción**](10-chap-1.md)
+
+1.1. Startup Profile  
+1.1.1. Descripción de la Startup  
+1.1.2. Perfiles de integrantes del equipo  
+1.2. Solution Profile  
+1.2.1. Antecedentes y problemática  
+1.2.2. Lean UX Process  
+1.2.2.1. Lean UX Problem Statements  
+1.2.2.2. Lean UX Assumptions  
+1.2.2.3. Lean UX Hypothesis Statements  
+1.2.2.4. Lean UX Canvas  
+1.3. Segmentos objetivo  
+
+[**Capítulo II: Requirements Elicitation & Analysis**](20-chap-2.md)
+
+2.1. Competidores  
+2.1.1. Análisis competitivo  
+2.1.2. Estrategias y tácticas frente a competidores  
+2.2. Entrevistas  
+2.2.1. Diseño de entrevistas  
+2.2.2. Registro de entrevistas  
+2.2.3. Análisis de entrevistas  
+2.3. Needfinding  
+2.3.1. User Personas  
+2.3.2. User Task Matrix  
+2.3.3. User Journey Mapping  
+2.3.4. Empathy Mapping  
+2.4. Big Picture Event Storming  
+2.5. Ubiquitous Language  
+
+[**Capítulo III: Requirements Specification**](30-chap-3.md)
+
+3.1. User Stories  
+3.2. Impact Mapping  
+3.3. Product Backlog  
+
+[**Capítulo IV: Product Design**](40-chap-4.md)
+
+4.1. Style Guidelines  
+4.1.1. General Style Guidelines  
+4.1.2. Web Style Guidelines  
+4.2. Information Architecture  
+4.2.1. Organization Systems  
+4.2.2. Labeling Systems  
+4.2.3. SEO Tags and Meta Tags  
+4.2.4. Searching Systems  
+4.2.5. Navigation Systems  
+4.3. Landing Page UI Design  
+4.3.1. Landing Page Wireframe  
+4.3.2. Landing Page Mock-up  
+4.4. Web Applications UX/UI Design  
+4.4.1. Web Applications Wireframes  
+4.4.2. Web Applications Wireflow Diagrams  
+4.4.2. Web Applications Mock-ups  
+4.4.3. Web Applications User Flow Diagrams  
+4.5. Web Applications Prototyping  
+4.6. Domain-Driven Software Architecture  
+4.6.1. Design-Level Event Storming  
+4.6.2. Software Architecture Context Diagram  
+4.6.3. Software Architecture Container Diagrams  
+4.6.4. Software Architecture Components Diagrams  
+4.7. Software Object-Oriented Design  
+4.7.1. Class Diagrams  
+4.8. Database Design  
+4.8.1. Database Diagrams  
+
+[**Capítulo V: Product Implementation, Validation & Deployment**](50-chap-5.md)
+
+5.1. Software Configuration Management  
+5.1.1. Software Development Environment Configuration  
+5.1.2. Source Code Management  
+5.1.3. Source Code Style Guide & Conventions  
+5.1.4. Software Deployment Configuration  
+5.2. Landing Page, Services & Applications Implementation  
+
+[**5.2.1. Sprint 1**](51-sprint-1.md)
+
+5.2.1.1. Sprint Planning 1  
+5.2.1.2. Aspect Leaders and Collaborators  
+5.2.1.3. Sprint Backlog 1  
+5.2.1.4. Development Evidence for Sprint Review  
+5.2.1.5. Execution Evidence for Sprint Review  
+5.2.1.6. Services Documentation Evidence for Sprint Review  
+5.2.1.7. Software Deployment Evidence for Sprint Review  
+5.2.1.8. Team Collaboration Insights during Sprint  
+
+[**Conclusiones**](80-conclusions.md)  
+
+[**Bibliografía**](90-bibliography.md)  
+
+[**Anexos**](99-annexes.md)  
+
+# Student Outcome
+
+El curso contribuye al cumplimiento del Student Outcome ABET:
+
+**ABET – EAC - Student Outcome 3**
+
+**Criterio: Capacidad de comunicarse efectivamente con un rango de audiencias.**
+
+En el siguiente cuadro se describen las acciones realizadas y los enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 3.
+
+| Criterio específico | Acciones realizadas | Conclusiones |
+| --- | --- | --- |
+| **Comunica oralmente con efectividad a diferentes rangos de audiencia.** | **Crispin Valdivia, Angel Gabriel (U20221G181)**<br>**AV1:** Pendiente de completar con la actividad real realizada por el integrante.<br><br>**Lopez Rimachi, Sebastian Leonardo (U20241F946)**<br>**AV1:** Pendiente de completar con la actividad real realizada por el integrante.<br><br>**Montañez Salinas, Lorena Ariana (U202421125)**<br>**AV1:** Pendiente de completar con la actividad real realizada por la integrante.<br><br>**Tuesta Girón, Kiara Lucia (U20251I477)**<br>**AV1:** Pendiente de completar con la actividad real realizada por la integrante.<br><br>**Vizcarra Mamani, Candy Milagros (U20241F205)**<br>**AV1:** Pendiente de completar con la actividad real realizada por la integrante. | **AV1:** Pendiente de redactar la conclusión grupal en función de las actividades realmente realizadas. |
+| **Comunica por escrito con efectividad a diferentes rangos de audiencia.** | **Crispin Valdivia, Angel Gabriel (U20221G181)**<br>**AV1:** Pendiente de completar con la actividad real realizada por el integrante.<br><br>**Lopez Rimachi, Sebastian Leonardo (U20241F946)**<br>**AV1:** Pendiente de completar con la actividad real realizada por el integrante.<br><br>**Montañez Salinas, Lorena Ariana (U202421125)**<br>**AV1:** Pendiente de completar con la actividad real realizada por la integrante.<br><br>**Tuesta Girón, Kiara Lucia (U20251I477)**<br>**AV1:** Pendiente de completar con la actividad real realizada por la integrante.<br><br>**Vizcarra Mamani, Candy Milagros (U20241F205)**<br>**AV1:** Pendiente de completar con la actividad real realizada por la integrante. | **AV1:** Pendiente de redactar la conclusión grupal en función de las actividades realmente realizadas. |
