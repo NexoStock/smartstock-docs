@@ -27,3 +27,11 @@ A continuación, se presentan la misión, visión y valores que guían a nuestra
 | **Misión** | **Visión** | **Valores** |
 | --- | --- | --- |
 | Brindar soluciones tecnológicas que permitan a bodegas y minimarkets gestionar sus inventarios de manera eficiente mediante tecnologías web e IoT, facilitando el monitoreo de productos y la coordinación oportuna con sus proveedores. | Convertirnos en una startup referente en soluciones inteligentes para la gestión de inventarios en pequeños comercios, contribuyendo a su transformación digital, eficiencia operativa y crecimiento sostenible. | **Innovación:** buscamos mejorar continuamente nuestras soluciones tecnológicas.<br><br>**Confianza:** brindamos información clara y confiable para la toma de decisiones.<br><br>**Eficiencia:** promovemos una mejor gestión de recursos e inventarios.<br><br>**Responsabilidad:** desarrollamos soluciones orientadas a las necesidades reales de los usuarios.<br><br>**Colaboración:** fomentamos una mejor coordinación entre comercios y proveedores. |
+
+## 1.1.2. Perfiles de integrantes del equipo
+
+![Sebastian Leonardo Lopez Rimachi](../assets/images/team-photos/leonardo-photo.png)
+
+![Lorena Ariana Montañez Salinas](../assets/images/team-photos/lorena-photo.png)
+
+![Candy Milagros Vizcarra Mamani](../assets/images/team-photos/candy-photo.png)
