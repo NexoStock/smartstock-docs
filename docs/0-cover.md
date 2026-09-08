@@ -75,7 +75,7 @@ Nombre del producto
 
 | Versión | Fecha | Autor | Descripción de modificación |
 | --- | --- | --- | --- |
-| 1 | 06/09/2026 | Crispin Valdivia, Angel Gabriel; Lopez Rimachi, Sebastian Leonardo; Montañez Salinas, Lorena Ariana; Tuesta Girón, Kiara Lucia; Vizcarra Mamani, Candy Milagros | Adición y desarrollo inicial de las secciones correspondientes al avance del informe: Capítulo I, análisis competitivo y diseño de entrevistas del Capítulo II. |
+| 1 | 06/09/2026 | |  |
 
 > **Nota:** Las siguientes versiones deberán agregarse conforme se realicen cambios reales en el informe y commits en GitHub.
 
