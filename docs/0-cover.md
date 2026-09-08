@@ -83,9 +83,8 @@ Nombre del producto
 
 A continuación, se detallan las actividades realizadas en cada entrega, la participación de los miembros del equipo, y las evidencias correspondientes.
 
-## AV1
-
-**Report Insights AV1**
+AV1
+Report Insights AV1
 
 # Tabla de contenidos
 
