@@ -154,7 +154,7 @@ La falta de un control adecuado del inventario puede generar pérdidas por quieb
 
 ### 1.2.2. Lean UX Process
 
-#### 1.2.2.1. Lean UX Problem Statements
+### 1.2.2.1. Lean UX Problem Statements
 
 Actualmente, la gestión de inventarios en **minimarkets y bodegas de barrio** depende en gran medida de conteos manuales, registros realizados por los administradores y verificaciones periódicas de los productos disponibles. Esta forma de trabajo puede generar diferencias entre el inventario registrado y el inventario físico, dificultando la detección oportuna de productos con niveles bajos de stock o agotados.
 
@@ -162,7 +162,7 @@ Asimismo, los propietarios y administradores necesitan conocer constantemente qu
 
 Las soluciones tradicionales de gestión de inventarios se enfocan principalmente en registrar entradas y salidas de productos, pero no necesariamente permiten conocer de manera automática la cantidad física disponible. Además, algunas soluciones tecnológicas existentes están orientadas a operaciones de retail de mayor escala, lo que puede dificultar su adopción en pequeños establecimientos debido a su complejidad o costos de implementación.
 
-Nuestra solución, **SmartStock**, busca cubrir esta brecha mediante una plataforma web que integre sensores de peso conectados a dispositivos IoT para monitorear las existencias físicas de determinados productos, compararlas con el stock registrado y generar alertas ante niveles bajos o diferencias de inventario. La información obtenida también permitirá apoyar la planificación de la reposición y facilitar la coordinación con los proveedores encargados del abastecimiento.
+Nuestra solución, **SmartStock**, busca cubrir esta brecha mediante una plataforma web que integre sensores de peso conectados a dispositivos IoT para monitorear las existencias físicas de determinados productos, compararlas con el stock registrado y generar alertas ante niveles bajos o diferencias de inventario. La información obtenida también permitirá apoyar la planificación de la reposición mediante notificaciones automáticas que informen oportunamente a los usuarios sobre las necesidades de abastecimiento, facilitando así su coordinación posterior con los proveedores.
 
 Nuestro enfoque inicial estará dirigido a los **propietarios y administradores de minimarkets**, considerados como el segmento principal debido al mayor volumen de productos y movimientos de inventario que gestionan. Como segmento secundario, se consideran los **propietarios y administradores de bodegas de barrio**, quienes también requieren mejorar el control de sus existencias, aunque pueden presentar una menor capacidad de inversión y necesidades operativas diferentes.
 
@@ -170,7 +170,7 @@ Consideraremos que la solución es exitosa cuando los usuarios de ambos segmento
 
 De acuerdo con lo anterior, planteamos el siguiente Problem Statement:
 
-*¿De qué manera podríamos mejorar la gestión de inventarios en minimarkets y bodegas de barrio para que sus propietarios y administradores puedan conocer oportunamente los niveles reales de stock, detectar faltantes y diferencias de inventario, y gestionar la reposición de productos mediante una solución automatizada basada en tecnologías IoT?*
+> *¿De qué manera podríamos mejorar la gestión de inventarios en minimarkets y bodegas de barrio para que sus propietarios y administradores puedan conocer oportunamente los niveles reales de stock, detectar faltantes y diferencias de inventario, y gestionar la reposición de productos mediante una solución automatizada basada en tecnologías IoT?*
 
 ---
 
@@ -265,7 +265,7 @@ https://cdn.phototourl.com/free/2026-09-08-d660dc5a-3d44-49dd-b0be-72bf9878d110.
 
 Son personas responsables de gestionar las operaciones diarias de minimarkets, incluyendo el control del inventario, revisión de existencias, reposición de productos y coordinación del abastecimiento. Debido al mayor volumen de productos y movimientos que suelen manejar estos establecimientos, necesitan identificar con rapidez diferencias entre el stock registrado y las existencias físicas. Para el proyecto, este segmento se prioriza como principal por su volumen de operación y por una mayor capacidad de pago mensual esperada para adoptar una solución tecnológica de monitoreo de inventario. Buscan contar con información actualizada que facilite la reposición, reduzca los quiebres de stock y disminuya el tiempo dedicado a verificaciones manuales.
 
-Como contexto empresarial, PRODUCE reporta que en 2024 existían **2 331 173 Mipyme formales en el Perú**, equivalentes al **99,3 % de las empresas formales operativas**. Este dato permite dimensionar la importancia de las micro y pequeñas empresas dentro de la actividad empresarial nacional.
+Como contexto empresarial, PRODUCE reporta que en 2024 existían 2 331 173 Mipyme formales en el Perú, equivalentes al 99,3 % de las empresas formales operativas. Este dato permite dimensionar la importancia de las micro y pequeñas empresas dentro de la actividad empresarial nacional.
 
 **Fuente:**  
 https://drive.google.com/file/d/1cA56NNQ19692vqOC5qiFTh7LyHq6A3dG/view?usp=sharing
@@ -274,7 +274,7 @@ https://drive.google.com/file/d/1cA56NNQ19692vqOC5qiFTh7LyHq6A3dG/view?usp=shari
 
 Son personas responsables de gestionar las operaciones diarias de bodegas de barrio, incluyendo el control de productos, revisión de existencias y reposición. Este segmento se considera secundario debido a que, aunque representa un mercado amplio para la solución, se espera una menor capacidad de pago mensual y una mayor sensibilidad al costo de implementación. En muchos casos, el control de inventario depende de conteos manuales o registros simples, lo que puede generar diferencias entre el stock registrado y el real y dificultar la identificación oportuna de productos agotados. Buscan una solución sencilla que permita conocer el estado de sus productos y reducir el tiempo dedicado a verificaciones manuales.
 
-Como contexto del sector comercial, el INEI señala que en Lima Metropolitana y Callao, durante el cuarto trimestre de 2024, el **42,6 % de las nuevas empresas registradas correspondió a comercio y reparación de vehículos**, lo que evidencia la relevancia de las actividades comerciales dentro de la dinámica empresarial.
+Como contexto del sector comercial, el INEI señala que en Lima Metropolitana y Callao, durante el cuarto trimestre de 2024, el 42,6 % de las nuevas empresas registradas correspondió a comercio y reparación de vehículos, lo que evidencia la relevancia de las actividades comerciales dentro de la dinámica empresarial. 
 
 **Fuente:**  
-https://drive.google.com/file/d/1M2u4nSfxlnVMUfGC-xIoS1Z1QhPbUEOc/view?usp=sharing
+https://www.gob.pe/institucion/inei/informes-publicaciones/6550169-demografia-empresarial-en-el-peru-iv-trimestre-2024
