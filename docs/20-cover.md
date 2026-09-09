@@ -4,21 +4,15 @@
 
 ### Trax Retail
 
-Trax Retail es una solución tecnológica orientada al análisis y monitoreo de productos en tiendas mediante visión por computadora e inteligencia artificial. Su plataforma permite digitalizar los estantes, identificar productos, verificar su ubicación y analizar información relacionada con disponibilidad, cumplimiento y desempeño de los SKU. Además, genera métricas y reportes que ayudan a mejorar la gestión del inventario y las decisiones dentro del establecimiento.
-
-A diferencia de SmartStock, Trax se basa principalmente en reconocimiento de imágenes e inteligencia artificial, mientras que SmartStock propone utilizar sensores de peso IoT y enfocarse en bodegas y minimarkets.
+Trax Retail es una solución tecnológica orientada al análisis y monitoreo de productos en tiendas mediante visión por computadora e inteligencia artificial. Su plataforma permite digitalizar los estantes, identificar productos, verificar su ubicación y analizar información relacionada con disponibilidad, cumplimiento y desempeño de los SKU. Además, genera métricas y reportes que ayudan a mejorar la gestión del inventario y las decisiones dentro del establecimiento. A diferencia de SmartStock, Trax se basa principalmente en reconocimiento de imágenes e inteligencia artificial, mientras que SmartStock propone utilizar sensores de peso IoT y enfocarse en bodegas y minimarkets. 
 
 ### Trigo Retail
 
-Trigo Retail desarrolla soluciones basadas en visión por computadora e inteligencia artificial para modernizar las operaciones de tiendas físicas. Su tecnología permite obtener información en tiempo real sobre las actividades dentro del establecimiento y generar datos que apoyan la gestión operativa y la toma de decisiones.
-
-Trigo está orientado a soluciones avanzadas de retail y tiendas inteligentes, mientras que SmartStock busca una alternativa más sencilla para pequeños comercios mediante sensores IoT, alertas de inventario y coordinación con proveedores.
+Trigo Retail desarrolla soluciones basadas en visión por computadora e inteligencia artificial para modernizar las operaciones de tiendas físicas. Su tecnología permite obtener información en tiempo real sobre las actividades dentro del establecimiento y generar datos que apoyan la gestión operativa y la toma de decisiones. Trigo está orientado a soluciones avanzadas de retail y tiendas inteligentes, mientras que SmartStock busca una alternativa más sencilla para pequeños comercios mediante sensores IoT, alertas de inventario y coordinación con proveedores. 
 
 ### Pensa Systems
 
-Pensa Systems es una solución especializada en digitalizar el inventario disponible en los estantes mediante inteligencia artificial y visión computacional. Su tecnología permite identificar la disponibilidad real de productos, detectar productos agotados, conocer su ubicación y mejorar la precisión del inventario.
-
-Al igual que SmartStock, busca proporcionar mayor visibilidad sobre las existencias físicas; sin embargo, Pensa utiliza principalmente análisis visual mediante IA, mientras que SmartStock propone sensores de peso IoT y funcionalidades dirigidas específicamente a la relación entre bodegas, minimarkets y proveedores.
+Pensa Systems es una solución especializada en digitalizar el inventario disponible en los estantes mediante inteligencia artificial y visión computacional. Su tecnología permite identificar la disponibilidad real de productos, detectar productos agotados, conocer su ubicación y mejorar la precisión del inventario. Al igual que SmartStock, busca proporcionar mayor visibilidad sobre las existencias físicas; sin embargo, Pensa utiliza principalmente análisis visual mediante IA, mientras que SmartStock propone sensores de peso IoT y funcionalidades dirigidas específicamente a la relación entre bodegas, minimarkets y proveedores.
 
 ## 2.1.1. Análisis competitivo
 
@@ -62,7 +56,7 @@ Permite identificar cómo funcionan las soluciones actuales de gestión de inven
 | | **SmartStock** | **Trax Retail** | **Trigo Retail** | **Pensa Systems** |
 | --- | --- | --- | --- | --- |
 | **Overview** | SmartStock es una plataforma web orientada a bodegas y minimarkets que utiliza sensores de peso IoT para monitorear el inventario físico, compararlo con el stock registrado y generar alertas ante faltantes o niveles bajos. Además, incorpora funcionalidades para facilitar la coordinación con proveedores. | Trax Retail ofrece soluciones de reconocimiento de imágenes, visión computacional e inteligencia artificial para analizar productos en tiendas. Permite obtener información sobre disponibilidad en estantes, ubicación de productos, cumplimiento de planogramas, precios y promociones. | Trigo Retail desarrolla soluciones para tiendas físicas mediante Computer Vision AI. Su tecnología utiliza cámaras e infraestructura de visión computacional para reconocer productos y actividades dentro de la tienda y proporcionar información operacional en tiempo real. | Pensa Systems utiliza Vision AI para digitalizar los estantes de tiendas físicas. Su tecnología identifica productos, disponibilidad, ubicación, stockouts y condiciones del estante, convirtiendo esta información en acciones y análisis para retailers y marcas. |
-| **Ventaja competitiva ¿Qué valor ofrece a los clientes?** | • Monitoreo mediante sensores de peso IoT.<br>• Alertas de stock bajo.<br>• Comparación entre inventario físico y registrado.<br>• Gestión de reposición y coordinación con proveedores externos.<br>• Enfoque específico en bodegas y minimarkets. | • Reconocimiento de productos mediante IA.<br>• Información sobre disponibilidad, distribución, precios y promociones.<br>• Analítica avanzada para la ejecución comercial.<br>• Experiencia con grandes marcas y cadenas de retail. | • Computer Vision AI.<br>• Puede aprovechar infraestructura CCTV existente.<br>• Procesamiento en tiempo real.<br>• Alta escalabilidad y adaptación a operaciones de retail. | • Digitalización del estante físico.<br>• Detección de stockouts.<br>• Análisis de ubicación y surtido.<br>• Información accionable para corregir problemas de disponibilidad. |
+| **Ventaja competitiva ¿Qué valor ofrece a los clientes?** | • Monitoreo mediante sensores de peso IoT.<br>• Alertas de stock bajo.<br>• Comparación entre inventario físico y registrado.<br>• Gestión de reposición mediante alertas y notificaciones automáticas.<br>• Enfoque específico en bodegas y minimarkets. | • Reconocimiento de productos mediante IA.<br>• Información sobre disponibilidad, distribución, precios y promociones.<br>• Analítica avanzada para la ejecución comercial.<br>• Experiencia con grandes marcas y cadenas de retail. | • Computer Vision AI.<br>• Puede aprovechar infraestructura CCTV existente.<br>• Procesamiento en tiempo real.<br>• Alta escalabilidad y adaptación a operaciones de retail. | • Digitalización del estante físico.<br>• Detección de stockouts.<br>• Análisis de ubicación y surtido.<br>• Información accionable para corregir problemas de disponibilidad. |
 
 ### Perfil de marketing
 
@@ -83,7 +77,7 @@ Permite identificar cómo funcionan las soluciones actuales de gestión de inven
 
 | | **SmartStock** | **Trax Retail** | **Trigo Retail** | **Pensa Systems** |
 | --- | --- | --- | --- | --- |
-| **Fortalezas** | • Sensores IoT para monitorear directamente cambios en el inventario físico.<br>• Enfoque específico en bodegas y minimarkets.<br>• Alertas automáticas de stock bajo.<br>• Integración entre inventario físico y digital.<br>• Coordinación con proveedores durante el proceso de reposición.<br>• Plataforma web sencilla y accesible. | • Tecnología consolidada de visión computacional e IA.<br>• Reconocimiento detallado de SKU y condiciones de estante.<br>• Amplia variedad de indicadores y análisis.<br>• Experiencia con grandes marcas y empresas internacionales. | • Tecnología avanzada de Computer Vision AI.<br>• Procesamiento en tiempo real.<br>• Puede aprovechar infraestructura CCTV existente.<br>• Alta escalabilidad y adaptación a grandes operaciones de retail. | • Especialización en inteligencia de estantes.<br>• Detección de disponibilidad y stockouts.<br>• Información sobre ubicación y desempeño de productos.<br>• Automatización de tareas relacionadas con auditorías físicas. |
+| **Fortalezas** | • Sensores IoT para monitorear directamente cambios en el inventario físico.<br>• Enfoque específico en bodegas y minimarkets.<br>• Alertas automáticas de stock bajo.<br>• Integración entre inventario físico y digital.<br>• Coordinación con proveedores durante el proceso de reposición.<br>• Plataforma web sencilla y accesible. | • Tecnología consolidada de visión computacional e IA.<br>•Reconocimiento detallado de SKU y condiciones de estante.<br>• Amplia variedad de indicadores y análisis.<br>• Experiencia con grandes marcas y empresas internacionales. | • Tecnología avanzada de Computer Vision AI.<br>• Procesamiento en tiempo real.<br>• Puede aprovechar infraestructura CCTV existente.<br>• Alta escalabilidad y adaptación a grandes operaciones de retail. | • Especialización en inteligencia de estantes.<br>• Detección de disponibilidad y stockouts.<br>• Información sobre ubicación y desempeño de productos.<br>• Automatización de tareas relacionadas con auditorías físicas. |
 | **Debilidades** | • Dependencia de sensores físicos.<br>• Necesidad de instalación y calibración adecuada.<br>• No todos los tipos de productos pueden monitorearse fácilmente mediante peso.<br>• Menor experiencia y volumen de datos al ser una propuesta nueva. | • Dependencia de imágenes y condiciones adecuadas de captura.<br>• Puede resultar más compleja que lo requerido por una bodega pequeña.<br>• Su enfoque empresarial puede representar una barrera para pequeños negocios. | • Requiere infraestructura de cámaras y procesamiento de visión computacional.<br>• Está enfocada principalmente en operaciones de retail de mayor escala.<br>• La complejidad técnica puede dificultar su implementación en pequeños establecimientos. | • Dependencia de visión artificial y captura adecuada de imágenes.<br>• Propuesta dirigida principalmente a retailers y empresas CPG.<br>• Puede ofrecer más funcionalidades de las necesarias para pequeños comercios. |
 | **Oportunidades** | • Crecimiento de la digitalización de bodegas y minimarkets.<br>• Mayor disponibilidad y reducción de costos de dispositivos IoT.<br>• Necesidad de mejorar el control de inventarios en pequeños negocios.<br>• Alianzas con distribuidores y proveedores.<br>• Expansión futura hacia recomendaciones automáticas y análisis predictivo.<br>• Integración con nuevos tipos de sensores. | • Mayor adopción de IA en retail.<br>• Crecimiento de la demanda por información de disponibilidad en tiempo real.<br>• Expansión hacia nuevas cadenas y mercados. | • Crecimiento de tiendas inteligentes y retail autónomo.<br>• Mayor utilización de cámaras e IA para analizar operaciones.<br>• Integración con ecosistemas cloud y plataformas empresariales. | • Mayor interés por digitalizar los estantes físicos.<br>• Expansión de soluciones de IA para gestión de inventarios.<br>• Integración de Vision AI con dispositivos móviles y otras tecnologías de retail. |
 | **Amenazas** | • Aparición de nuevas soluciones de inventario IoT a bajo costo.<br>• Competidores consolidados con mayor capacidad tecnológica y financiera.<br>• Resistencia de pequeños comercios a invertir en dispositivos adicionales.<br>• Fallos o deterioro de sensores.<br>• Rápida evolución de tecnologías de visión artificial que podrían ofrecer alternativas sin sensores de peso. | • Aparición de tecnologías alternativas de monitoreo sin reconocimiento de imágenes.<br>• Competencia creciente en Computer Vision para retail.<br>• Cambios rápidos en tecnologías de inteligencia artificial. | • Alta competencia en automatización y visión computacional aplicada al retail.<br>• Costos y complejidad de implementaciones empresariales.<br>• Aparición de soluciones más simples y económicas para pequeños establecimientos. | • Crecimiento de competidores con funcionalidades similares mediante Vision AI.<br>• Rápida evolución de sistemas de monitoreo IoT y visión artificial.<br>• Dependencia de la capacidad de los retailers para adoptar e integrar nuevas tecnologías. |
@@ -112,16 +106,16 @@ Mientras que varios competidores están orientados principalmente a grandes cade
 
 Este enfoque busca reducir las barreras tecnológicas y económicas para la adopción de la solución en pequeños comercios.
 
-### 3. Coordinación eficiente del proceso de reposición
+### 3. Notificaciones oportunas para la gestión de la reposición
 
 SmartStock permitirá que los propietarios y administradores de minimarkets y bodegas de barrio utilicen la información de inventario para gestionar oportunamente sus necesidades de abastecimiento. La plataforma permitirá:
 
 - Identificar productos que requieren reposición.
 - Registrar necesidades de abastecimiento.
 - Generar alertas relacionadas con faltantes.
-- Utilizar la información del sistema para coordinar pedidos con proveedores externos.
+- Enviar notificaciones automáticas por correo electrónico o WhatsApp, mediante un servicio de terceros, cuando el stock de un producto alcance un nivel crítico.
 
-Esto permite mantener a los proveedores como actores del abastecimiento sin convertirlos en un segmento objetivo o usuario principal de la plataforma.
+De esta manera, la coordinación directa con los proveedores la sigue realizando el usuario fuera de la plataforma; SmartStock actúa como el sistema que le avisa oportunamente cuándo hacerlo, manteniendo a los proveedores como actores externos del abastecimiento sin convertirlos en un segmento objetivo o usuario de la plataforma.
 
 ### 4. Experiencia de usuario centrada en información inmediata
 
@@ -164,38 +158,114 @@ Esta información permitirá complementar el monitoreo en tiempo real con datos 
 
 ### 2.2.1. Diseño de entrevistas
 
-#### Primer Segmento Objetivo (Propietarios y administradores de minimarkets)
+Las guías de entrevista para ambos segmentos combinan preguntas demográficas con preguntas sobre gestión del  inventario y comportamiento del negocio, orientadas a sustentar la construcción de los User Persona.
 
-1. ¿Cómo realiza actualmente el control del inventario de los productos de su minimarket?
-2. ¿Con qué frecuencia revisa físicamente las existencias disponibles?
-3. ¿Qué dificultades encuentra al mantener actualizado el inventario?
-4. ¿Con qué frecuencia encuentra diferencias entre el stock registrado y la cantidad física disponible?
-5. ¿Qué problemas se presentan cuando un producto se agota sin ser detectado a tiempo?
-6. ¿Cómo determina cuándo debe realizar una reposición de productos?
-7. ¿Qué productos o categorías son más difíciles de controlar por su rotación?
-8. ¿Cómo se comunica actualmente con sus proveedores para solicitar reposiciones?
-9. ¿Qué herramientas o sistemas utiliza actualmente para gestionar el inventario?
-10. ¿Qué limitaciones encuentra en esas herramientas o métodos?
-11. ¿Qué información considera más importante visualizar al revisar el inventario?
-12. ¿Qué tipo de alertas le resultarían útiles para detectar productos con bajo stock?
-13. ¿Qué importancia tendría para usted saber en todo momento si existen diferencias entre lo que su sistema registra y lo que realmente tiene en tienda?
-14. ¿Qué le gustaría que una herramienta de inventario le resuelva o facilite, sin importar la tecnología que use?
-15. ¿Qué haría que usted decida invertir en una nueva herramienta para gestionar su negocio?
+# Primer Segmento Objetivo  
+## Propietarios y administradores de minimarkets
 
-#### Segundo Segmento Objetivo (Propietarios y administradores de bodegas de barrio)
+### Preguntas demográficas
 
-1. ¿Cómo controla actualmente los productos disponibles en su bodega?
-2. ¿Utiliza cuaderno, Excel, sistema digital u otro método para registrar su inventario?
-3. ¿Con qué frecuencia realiza conteos o revisiones manuales de sus productos?
-4. ¿Qué dificultades tiene para saber qué productos están por agotarse?
-5. ¿Le ha ocurrido que el stock registrado no coincida con la cantidad real disponible? ¿Con qué frecuencia?
-6. ¿Qué problemas genera en su negocio quedarse sin un producto de alta demanda?
-7. ¿Cómo decide qué productos debe reponer y en qué momento?
-8. ¿Cómo realiza actualmente sus pedidos a proveedores?
-9. ¿Qué parte del control de inventario le toma más tiempo o le resulta más complicada?
-10. ¿Qué tan cómodo se siente utilizando aplicaciones o plataformas web para gestionar su negocio?
-11. ¿Qué información le gustaría ver en una pantalla para conocer rápidamente el estado de sus productos?
-12. ¿Qué tipo de alerta le sería útil cuando un producto está por agotarse?
-13. ¿Qué tan importante sería para usted enterarse automáticamente cuando un producto está por agotarse, sin tener que revisarlo usted mismo?
-14. ¿Qué beneficio tendría que ofrecer una herramienta de inventario para que usted la use de manera frecuente?
-15. ¿Qué haría que usted decida invertir en una nueva herramienta para gestionar su negocio?
+1. ¿Cuál es su nombre completo?
+
+2. ¿Qué edad tiene?
+
+3. ¿En qué distrito reside?
+
+4. ¿Cuál es su estado civil?
+
+5. ¿A qué se dedica usted (ocupación) y qué rol cumple en el negocio (dueño, administrador, etc.)?
+
+6. ¿Hace cuánto tiempo tiene o administra el negocio?
+
+7. ¿Qué dispositivo usa con más frecuencia para temas del negocio (celular, laptop, computadora de escritorio)?
+
+8. ¿Qué aplicaciones o redes sociales usa habitualmente?
+
+---
+
+### Preguntas sobre gestión del inventario / comportamiento del negocio
+
+9. ¿Cómo realiza actualmente el control del inventario de los productos de su minimarket?
+
+10. ¿Con qué frecuencia revisa físicamente las existencias disponibles?
+
+11. ¿Qué dificultades encuentra al mantener actualizado el inventario?
+
+12. ¿Con qué frecuencia encuentra diferencias entre el stock registrado y la cantidad física disponible?
+
+13. ¿Qué problemas se presentan cuando un producto se agota sin ser detectado a tiempo?
+
+14. ¿Cómo determina cuándo debe realizar una reposición de productos?
+
+15. ¿Qué productos o categorías son más difíciles de controlar por su rotación?
+
+16. ¿Cómo se comunica actualmente con sus proveedores para solicitar reposiciones?
+
+17. ¿Qué herramientas o sistemas utiliza actualmente para gestionar el inventario?
+
+18. ¿Qué limitaciones encuentra en esas herramientas o métodos?
+
+19. ¿Qué información considera más importante visualizar al revisar el inventario?
+
+20. ¿Qué tipo de alertas le resultarían útiles para detectar productos con bajo stock?
+
+21. ¿Qué importancia tendría para usted saber en todo momento si existen diferencias entre lo que su sistema registra y lo que realmente tiene en tienda?
+
+22. ¿Qué le gustaría que una herramienta de inventario le resuelva o facilite, sin importar la tecnología que use?
+
+23. ¿Qué haría que usted decida invertir en una nueva herramienta para gestionar su negocio?
+
+# Segundo Segmento Objetivo  
+## Propietarios y administradores de bodegas de barrio
+
+### Preguntas demográficas
+
+1. ¿Cuál es su nombre completo?
+
+2. ¿Qué edad tiene?
+
+3. ¿En qué distrito reside?
+
+4. ¿Cuál es su estado civil?
+
+5. ¿A qué se dedica usted (ocupación) y qué rol cumple en el negocio (dueño, administrador, etc.)?
+
+6. ¿Hace cuánto tiempo tiene o administra el negocio?
+
+7. ¿Qué dispositivo usa con más frecuencia para temas del negocio (celular, laptop, computadora de escritorio)?
+
+8. ¿Qué aplicaciones o redes sociales usa habitualmente?
+
+---
+
+### Preguntas sobre gestión del inventario / comportamiento del negocio
+
+9. ¿Cómo controla actualmente los productos disponibles en su bodega?
+
+10. ¿Utiliza cuaderno, Excel, sistema digital u otro método para registrar su inventario?
+
+11. ¿Con qué frecuencia realiza conteos o revisiones manuales de sus productos?
+
+12. ¿Qué dificultades tiene para saber qué productos están por agotarse?
+
+13. ¿Le ha ocurrido que el stock registrado no coincida con la cantidad real disponible? ¿Con qué frecuencia?
+
+14. ¿Qué problemas genera en su negocio quedarse sin un producto de alta demanda?
+
+15. ¿Cómo decide qué productos debe reponer y en qué momento?
+
+16. ¿Cómo realiza actualmente sus pedidos a proveedores?
+
+17. ¿Qué parte del control de inventario le toma más tiempo o le resulta más complicada?
+
+18. ¿Qué tan cómodo se siente utilizando aplicaciones o plataformas web para gestionar su negocio?
+
+19. ¿Qué información le gustaría ver en una pantalla para conocer rápidamente el estado de sus productos?
+
+20. ¿Qué tipo de alerta le sería útil cuando un producto está por agotarse?
+
+21. ¿Qué tan importante sería para usted enterarse automáticamente cuando un producto está por agotarse, sin tener que revisarlo usted mismo?
+
+22. ¿Qué beneficio tendría que ofrecer una herramienta de inventario para que usted la use de manera frecuente?
+
+23. ¿Qué haría que usted decida invertir en una nueva herramienta para gestionar su negocio?
