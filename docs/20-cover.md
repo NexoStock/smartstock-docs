@@ -267,3 +267,97 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
 22. ¿Qué beneficio tendría que ofrecer una herramienta de inventario para que usted la use de manera frecuente?
 
 23. ¿Qué haría que usted decida invertir en una nueva herramienta para gestionar su negocio?
+
+## 2.2.2. Registro de entrevistas
+
+**Needfinding Interviews Link:** https://upcedupe-my.sharepoint.com/personal/u20241f205_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20241f205%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202620%2D1asi0729%2D7729%2Dnexostock%2D%20needfinding%2Dsprint%2D1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E15d230b6%2D7311%2D4af1%2D98c3%2D9e89f4a52af9
+
+![Entrevista 1](../assets/images/interviews/needfinding/entrevista-portada.png)
+
+---
+
+## Primer Segmento Objetivo (Propietarios y administradores de minimarkets)
+
+## Entrevista 1
+
+| Información | Detalle |
+| --- | --- |
+| **Screenshot:** | ![Entrevista 1](../assets/images/interviews/needfinding/entrevista1-1.png) |
+| **Inicia:** | 00:00 |
+| **Duración:** | 17:10 |
+| **Nombre completo:** | José Martín Montañez |
+| **Edad:** | 52 años |
+| **Distrito:** | Pueblo Libre |
+| **Resumen:** | José nos indica que está a cargo de la administración de un minimarket desde hace aproximadamente 1 año. Utiliza principalmente el celular y la laptop, y actualmente cuenta con un sistema de inventario adaptado a las necesidades de su negocio. Realiza revisiones físicas del stock semanalmente y también de manera aleatoria durante la semana para mantener un mayor control. Entre las principales dificultades menciona posibles fallas de hardware o software, problemas logísticos y diferencias entre el stock registrado y el stock físico, las cuales dependen de la rotación de los productos y del manejo del personal. Cuando se agota un producto de alta rotación, puede afectar las ventas y generar molestias en los clientes, especialmente cuando se trata de productos que generan venta cruzada. Para decidir las reposiciones utiliza reportes del sistema sobre consumos diarios, semanales y productos de alta rotación, contrastándolos con el stock físico. Los pedidos a proveedores se realizan principalmente mediante WhatsApp y llamadas. Los productos más difíciles de controlar son los pequeños, como caramelos y chocolates, debido a que están al alcance de los clientes. Considera importante visualizar el stock y los productos de alta rotación, además de contar con alertas de bajo stock y reportes de consumos máximos y mínimos. También considera muy importante detectar diferencias entre el stock registrado y el físico para evitar compras innecesarias. Finalmente, señala que una nueva herramienta debería ser amigable, eficiente, accesible desde diferentes plataformas, permitir consultar información y reportes en cualquier momento, facilitar la comunicación con proveedores y ayudar a controlar el stock de manera eficiente. |
+
+---
+
+## Entrevista 2
+
+| Información | Detalle |
+| --- | --- |
+| **Screenshot:** | ![Entrevista 2](../assets/images/interviews/needfinding/entrevista1-2.png) |
+| **Inicia:** | 17:16 |
+| **Duración:** | 06:25 |
+| **Nombre completo:** | Cristopher Benavides |
+| **Edad:** | 23 años |
+| **Distrito:** | Jesús María |
+| **Resumen:** | Cristopher nos indica que la gestión del inventario se realiza principalmente de manera manual, mediante revisiones físicas y anotaciones, complementándose con Excel, aunque este no siempre se encuentra actualizado. Señala que las principales dificultades aparecen cuando las ventas no se registran inmediatamente o se cometen errores al anotar las cantidades, generando diferencias entre el stock registrado y el físico, especialmente en productos de alta rotación. Las bebidas, snacks y productos de consumo son los más difíciles de controlar debido a su rápida salida. Para realizar reposiciones, se comunica con sus proveedores mediante WhatsApp y llamadas, enviándoles la lista de productos necesarios. Considera útil contar con alertas cuando un producto llegue a una cantidad mínima de stock y poder detectar diferencias entre el inventario registrado y el real. Finalmente, considera importante que una nueva herramienta sea fácil de usar, ahorre tiempo, tenga un precio accesible y ayude a evitar el agotamiento de productos. |
+
+---
+
+## Entrevista 3
+
+| Información | Detalle |
+| --- | --- |
+| **Screenshot:** | ![Entrevista 3](../assets/images/interviews/needfinding/entrevista1-3.png) |
+| **Inicia:** | 23:47 |
+| **Duración:** | 07:16 |
+| **Nombre completo:** | Yngrid Ruiz |
+| **Edad:** | 23 años |
+| **Distrito:** | Pueblo Libre |
+| **Resumen:** | Yngrid nos indica que es administradora de un minimarket y cuenta con aproximadamente 2 años de experiencia en el negocio. Actualmente controla el inventario comparando los productos disponibles en tienda con las ventas registradas en el sistema y realizando conteos manuales. Revisa físicamente el inventario una o dos veces por semana, dando mayor atención a los productos de mayor venta. Señala que la gran cantidad de productos y el movimiento diario pueden generar diferencias entre el inventario registrado y el físico, especialmente en productos de alta rotación. Las bebidas, snacks, productos de limpieza y alimentos básicos son los más difíciles de controlar. Para comunicarse con los proveedores utiliza principalmente WhatsApp y llamadas, mediante las cuales consulta precios, disponibilidad y realiza pedidos. Considera importante visualizar las unidades disponibles y los productos próximos a agotarse, además de recibir alertas cuando lleguen a una cantidad mínima. Finalmente, considera que una herramienta de inventario debería ayudar a ahorrar tiempo, reducir errores, detectar productos que necesitan reposición y mostrar información clara y ordenada. Estaría dispuesta a invertir si la herramienta permite reducir pérdidas, ahorrar tiempo y evitar quiebres de stock, siempre que tenga un precio razonable. |
+
+---
+
+## Segundo Segmento Objetivo (Propietarios y administradores de bodegas de barrio)
+
+## Entrevista 1
+
+| Información | Detalle |
+| --- | --- |
+| **Screenshot:** | ![Entrevista 4](../assets/images/interviews/needfinding/entrevista2-1.png) |
+| **Inicia:** | 31:08 |
+| **Duración:** | 06:39 |
+| **Nombre completo:** | Lincoln Bruno |
+| **Edad:** | 49 años |
+| **Distrito:** | Comas |
+| **Resumen:** | Lincoln nos indica que es dueño de una bodega y cuenta con 10 años de experiencia en el negocio. Actualmente utiliza un sistema de caja, pero mantiene gran parte del control del inventario de manera manual. Los productos de mayor venta son revisados casi todos los días, mientras que los demás se revisan durante la semana. Señala que pueden existir diferencias entre el stock registrado y la cantidad real debido a errores durante las ventas o al registrar los productos. Cuando un producto de alta demanda se agota, se pueden perder ventas y afectar la atención al cliente. Los pedidos a proveedores se realizan mediante WhatsApp o llamadas. Considera que lo que más tiempo requiere es contar y verificar los productos con lo registrado, especialmente cuando existe bastante movimiento. Le gustaría visualizar el stock disponible, los productos con bajo stock y aquellos que necesitan reposición, además de recibir alertas cuando un producto esté por agotarse. Finalmente, considera importante que una nueva herramienta sea fácil de usar, tenga un precio accesible, permita ahorrar tiempo y muestre información clara y sencilla. |
+
+---
+
+## Entrevista 2
+
+| Información | Detalle |
+| --- | --- |
+| **Screenshot:** | ![Entrevista 5](../assets/images/interviews/needfinding/entrevista2-2.png) |
+| **Inicia:** | 37:53 |
+| **Duración:** | 05:12 |
+| **Nombre completo:** | Ian San Martin |
+| **Edad:** | 20 años |
+| **Distrito:** | Santiago de Surco |
+| **Resumen:** | Ian nos indica que administra una bodega de barrio desde hace aproximadamente tres años y que actualmente controla el inventario mediante revisiones de los estantes y el almacén, utilizando principalmente un cuaderno y, en algunas ocasiones, Excel. Realiza revisiones rápidas todos los días y un conteo más completo una vez por semana; sin embargo, señala que existen diferencias entre el stock registrado y el real aproximadamente una o dos veces por semana debido a ventas no anotadas, productos dañados u otros inconvenientes. También menciona que una de las principales dificultades es revisar uno por uno los productos para identificar cuáles están por agotarse y controlar sus fechas de vencimiento. Considera que quedarse sin productos de alta demanda genera pérdida de ventas y puede afectar la confianza de los clientes. Por ello, le sería útil contar con una plataforma sencilla y rápida que muestre las cantidades disponibles, los productos próximos a agotarse o vencer y los más vendidos. Además, valora recibir notificaciones en su celular cuando el stock llegue a un nivel mínimo. Estaría dispuesto a invertir en una herramienta de inventario si tiene un precio accesible, es fácil de usar, mejora realmente el control del negocio y ofrece una prueba gratuita o soporte. |
+
+---
+
+## Entrevista 3
+
+| Información | Detalle |
+| --- | --- |
+| **Screenshot:** | ![Entrevista 6](../assets/images/interviews/needfinding/entrevista2-3.png) |
+| **Inicia:** | 43:10 |
+| **Duración:** | 05:15 |
+| **Nombre completo:** | Pablo Ludeña |
+| **Edad:** | 21 años |
+| **Distrito:** | Los Olivos |
+| **Resumen:** | Pablo nos indica que actualmente trabaja como asistente de ventas en un minimarket, donde el control de los productos se realiza de manera manual, utilizando principalmente papel y cálculos básicos, sin contar con un sistema digital de inventario. Señala que revisan los productos aproximadamente una vez por semana y que, al tratarse de un negocio minorista, suelen identificar visualmente qué productos están por agotarse. Sin embargo, reconoce que no tienen un registro exacto del stock real. También menciona que una herramienta digital sería de gran ayuda, especialmente para conocer qué productos faltan, sus fechas de vencimiento, cuándo deben reponerse y el estado de los ingresos y egresos. Considera muy útil recibir notificaciones en el celular cuando un producto esté por agotarse. Para que utilice frecuentemente una herramienta de inventario, esta tendría que ser cómoda, sencilla y fácil de usar. Además, estaría dispuesto a invertir en este tipo de sistema principalmente si el minimarket crece y aumenta la cantidad de productos, ya que el método de papel y lápiz dejaría de ser suficiente. |
