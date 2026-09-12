@@ -361,3 +361,98 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
 | **Edad:** | 21 años |
 | **Distrito:** | Los Olivos |
 | **Resumen:** | Pablo nos indica que actualmente trabaja como asistente de ventas en un minimarket, donde el control de los productos se realiza de manera manual, utilizando principalmente papel y cálculos básicos, sin contar con un sistema digital de inventario. Señala que revisan los productos aproximadamente una vez por semana y que, al tratarse de un negocio minorista, suelen identificar visualmente qué productos están por agotarse. Sin embargo, reconoce que no tienen un registro exacto del stock real. También menciona que una herramienta digital sería de gran ayuda, especialmente para conocer qué productos faltan, sus fechas de vencimiento, cuándo deben reponerse y el estado de los ingresos y egresos. Considera muy útil recibir notificaciones en el celular cuando un producto esté por agotarse. Para que utilice frecuentemente una herramienta de inventario, esta tendría que ser cómoda, sencilla y fácil de usar. Además, estaría dispuesto a invertir en este tipo de sistema principalmente si el minimarket crece y aumenta la cantidad de productos, ya que el método de papel y lápiz dejaría de ser suficiente. |
+
+### 2.2.3. Análisis de entrevistas
+
+#### Primer Segmento Objetivo (Propietarios y administradores de minimarkets)
+
+Este segmento está conformado por personas responsables de gestionar y supervisar el inventario de minimarkets. Las entrevistas realizadas muestran que el control de existencias combina sistemas digitales, Excel, conteos manuales y verificaciones físicas periódicas. A pesar de contar con algunas herramientas de apoyo, los entrevistados señalaron que todavía se presentan diferencias entre el inventario registrado y las existencias reales, principalmente por errores en el registro, alta rotación de productos y movimientos frecuentes de mercadería.
+
+Asimismo, se identificó que productos como bebidas, snacks, productos de consumo frecuente, productos de limpieza y alimentos básicos requieren mayor atención debido a su rápida rotación. Los entrevistados también indicaron que la comunicación con proveedores se realiza principalmente mediante WhatsApp y llamadas, y que disponer de información más actualizada facilitaría la reposición de productos.
+
+*¿Quiénes son?*
+
+Se trata de propietarios, administradores o responsables de minimarkets que participan directamente en el control del inventario, revisión de existencias y reposición de productos.
+
+- Utilizan una combinación de sistemas de inventario, Excel, anotaciones y verificaciones manuales.
+- Realizan conteos físicos periódicos para comprobar las existencias disponibles.
+- Gestionan establecimientos con una cantidad considerable de productos y movimientos diarios.
+- Se comunican con proveedores principalmente mediante WhatsApp y llamadas.
+- Necesitan revisar con mayor frecuencia los productos de alta rotación.
+
+*¿Qué les preocupa y anhelan?*
+
+- **Diferencias de inventario:** Les preocupa que el stock registrado no coincida con las existencias físicas reales.
+- **Productos agotados:** La falta de detección oportuna de productos con bajo stock puede ocasionar pérdida de ventas y molestias en los clientes.
+- **Alta rotación:** Determinadas categorías requieren revisiones constantes debido a su rápido movimiento.
+- **Tiempo dedicado al control:** Los conteos y verificaciones manuales demandan tiempo que podría utilizarse en otras actividades del negocio.
+- **Errores de registro:** Las ventas o movimientos que no se registran inmediatamente pueden afectar la precisión del inventario.
+- **Reposición tardía:** Buscan identificar con anticipación qué productos necesitan abastecimiento.
+- **Información clara:** Desean visualizar rápidamente las existencias disponibles, productos próximos a agotarse y diferencias de inventario.
+- **Facilidad de uso:** Esperan que una nueva herramienta sea amigable, accesible y sencilla de utilizar.
+- **Precio razonable:** La disposición a adoptar la solución depende de que su costo sea acorde con los beneficios obtenidos.
+
+*Requisitos del producto*
+
+A partir de los hallazgos obtenidos en las entrevistas, SmartStock debería considerar los siguientes requisitos:
+
+- Mostrar de manera clara el stock disponible de los productos.
+- Detectar diferencias entre el inventario físico y el inventario registrado.
+- Generar alertas cuando un producto alcance un nivel mínimo de stock.
+- Permitir configurar niveles mínimos según cada producto.
+- Facilitar la identificación de productos de alta rotación.
+- Mostrar reportes relacionados con consumo, rotación y movimientos del inventario.
+- Facilitar la identificación de productos que necesitan reposición.
+- Permitir consultar información desde diferentes dispositivos.
+- Presentar una interfaz sencilla, ordenada y fácil de aprender.
+- Apoyar la coordinación de pedidos y reposiciones con proveedores.
+- Reducir el tiempo empleado en verificaciones y conteos manuales.
+
+---
+
+#### Segundo Segmento Objetivo (Propietarios y administradores de bodegas de barrio)
+
+Este segmento comprende a personas que administran pequeños establecimientos y que participan directamente en el control de productos, revisión de existencias y reposición. Las entrevistas muestran una mayor dependencia de procedimientos manuales, sistemas básicos de caja, cuadernos, anotaciones y, en algunos casos, Excel. El control suele realizarse mediante observación directa de estantes y almacenes, complementado con conteos periódicos.
+
+Los entrevistados señalaron que uno de los principales problemas es identificar oportunamente qué productos están por agotarse, especialmente cuando existe mucho movimiento de mercadería. También mencionaron dificultades para mantener un registro exacto del stock, controlar fechas de vencimiento y detectar productos faltantes o dañados. La reposición se coordina principalmente mediante WhatsApp o llamadas con los proveedores.
+
+*¿Quiénes son?*
+
+Se trata de propietarios, administradores o trabajadores que participan directamente en las actividades de control y reposición de productos de pequeños comercios.
+
+- Realizan gran parte del control de inventario de manera manual.
+- Revisan físicamente estantes y zonas de almacenamiento.
+- Utilizan sistemas de caja, cuadernos, anotaciones o Excel como apoyo.
+- Realizan conteos periódicos para verificar productos disponibles.
+- Se comunican con proveedores mediante WhatsApp o llamadas.
+- Tienen distintos niveles de familiaridad con herramientas digitales.
+
+*¿Qué les preocupa y anhelan?*
+
+- **Control manual:** El conteo y revisión física de productos puede tomar bastante tiempo.
+- **Diferencias de stock:** Pueden existir diferencias entre el registro disponible y las cantidades físicas.
+- **Productos próximos a agotarse:** Necesitan conocer con anticipación cuáles requieren reposición.
+- **Productos de alta demanda:** Quedarse sin productos de alta rotación puede ocasionar pérdidas de ventas y afectar la atención al cliente.
+- **Fechas de vencimiento:** Algunos entrevistados manifestaron la necesidad de controlar productos próximos a vencer.
+- **Productos dañados o faltantes:** Requieren mayor visibilidad sobre estas situaciones.
+- **Facilidad de uso:** Buscan herramientas sencillas, rápidas y comprensibles.
+- **Accesibilidad económica:** El precio es un factor importante para decidir si adoptarían una solución tecnológica.
+- **Notificaciones:** Existe interés en recibir alertas en el celular cuando el stock alcance niveles bajos.
+- **Información visual:** Desean identificar rápidamente cantidades disponibles, productos próximos a agotarse y artículos de mayor venta.
+
+*Requisitos del producto*
+
+De acuerdo con los hallazgos de este segmento, SmartStock debería:
+
+- Mostrar de manera sencilla las cantidades disponibles de los productos.
+- Identificar productos con niveles bajos de stock.
+- Generar alertas cuando un producto esté próximo a agotarse.
+- Enviar notificaciones relacionadas con necesidades de reposición.
+- Facilitar la comparación entre el stock registrado y las existencias reales.
+- Permitir conocer qué productos necesitan ser repuestos.
+- Mostrar información sobre los productos de mayor movimiento.
+- Facilitar el seguimiento de fechas de vencimiento cuando corresponda.
+- Presentar una interfaz simple y fácil de utilizar para usuarios con distintos niveles de experiencia tecnológica.
+- Reducir el tiempo destinado a conteos y verificaciones manuales.
+- Ser accesible económicamente para pequeños comercios.
+- Facilitar la coordinación de pedidos con proveedores.
