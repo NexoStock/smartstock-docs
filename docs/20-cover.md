@@ -362,9 +362,9 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
 | **Distrito:** | Los Olivos |
 | **Resumen:** | Pablo nos indica que actualmente trabaja como asistente de ventas en un minimarket, donde el control de los productos se realiza de manera manual, utilizando principalmente papel y cálculos básicos, sin contar con un sistema digital de inventario. Señala que revisan los productos aproximadamente una vez por semana y que, al tratarse de un negocio minorista, suelen identificar visualmente qué productos están por agotarse. Sin embargo, reconoce que no tienen un registro exacto del stock real. También menciona que una herramienta digital sería de gran ayuda, especialmente para conocer qué productos faltan, sus fechas de vencimiento, cuándo deben reponerse y el estado de los ingresos y egresos. Considera muy útil recibir notificaciones en el celular cuando un producto esté por agotarse. Para que utilice frecuentemente una herramienta de inventario, esta tendría que ser cómoda, sencilla y fácil de usar. Además, estaría dispuesto a invertir en este tipo de sistema principalmente si el minimarket crece y aumenta la cantidad de productos, ya que el método de papel y lápiz dejaría de ser suficiente. |
 
-### 2.2.3. Análisis de entrevistas
+## 2.2.3. Análisis de entrevistas
 
-#### Primer Segmento Objetivo (Propietarios y administradores de minimarkets)
+### Primer Segmento Objetivo (Propietarios y administradores de minimarkets)
 
 Este segmento está conformado por personas responsables de gestionar y supervisar el inventario de minimarkets. Las entrevistas realizadas muestran que el control de existencias combina sistemas digitales, Excel, conteos manuales y verificaciones físicas periódicas. A pesar de contar con algunas herramientas de apoyo, los entrevistados señalaron que todavía se presentan diferencias entre el inventario registrado y las existencias reales, principalmente por errores en el registro, alta rotación de productos y movimientos frecuentes de mercadería.
 
@@ -410,7 +410,7 @@ A partir de los hallazgos obtenidos en las entrevistas, SmartStock debería cons
 
 ---
 
-#### Segundo Segmento Objetivo (Propietarios y administradores de bodegas de barrio)
+### Segundo Segmento Objetivo (Propietarios y administradores de bodegas de barrio)
 
 Este segmento comprende a personas que administran pequeños establecimientos y que participan directamente en el control de productos, revisión de existencias y reposición. Las entrevistas muestran una mayor dependencia de procedimientos manuales, sistemas básicos de caja, cuadernos, anotaciones y, en algunos casos, Excel. El control suele realizarse mediante observación directa de estantes y almacenes, complementado con conteos periódicos.
 
