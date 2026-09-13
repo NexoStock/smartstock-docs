@@ -1413,3 +1413,125 @@ _Pendiente de definir y documentar. Debe especificar los pasos necesarios para q
 **Web Services**
 
 _Pendiente de definir y documentar. Debe especificar los pasos necesarios para que, a partir del repositorio de código fuente, se logre la construcción del artefacto de la aplicación Spring Boot, su despliegue en el proveedor seleccionado, la configuración de las variables de entorno y de la conexión a la base de datos, y la publicación de la documentación OpenAPI mediante Swagger._
+
+<a id="52-landing-page-services-applications-implementation"></a>
+
+## 5.2. Landing Page, Services & Applications Implementation
+
+En esta sección se explica y evidencia el proceso de implementación, pruebas, documentación y despliegue del Landing Page, los Web Services y la Frontend Web Application, organizado por sprints.
+
+<a id="521-sprint-1"></a>
+
+### 5.2.1. Sprint 1
+
+<a id="5211-sprint-planning-1"></a>
+
+#### 5.2.1.1. Sprint Planning 1
+
+_Pendiente de elaborar. Debe incluir el cuadro de resumen del Sprint Planning Meeting con la estructura indicada en el enunciado._
+
+| Sprint # | Sprint 1 |
+|:---------|:---------|
+| **Sprint Planning Background** | |
+| Date | _Pendiente_ |
+| Time | _Pendiente_ |
+| Location | _Pendiente_ |
+| Prepared By | _Pendiente_ |
+| Attendees (to planning meeting) | Crispin Valdivia, Angel Gabriel / Lopez Rimachi, Sebastian Leonardo / Montañez Salinas, Lorena Ariana / Tuesta Girón, Kiara Lucia / Vizcarra Mamani, Candy Milagros |
+| Sprint n – 1 Review Summary | No aplica. Sprint 1 es la primera iteración del proyecto. |
+| Sprint n – 1 Retrospective Summary | No aplica. Sprint 1 es la primera iteración del proyecto. |
+| **Sprint Goal & User Stories** | |
+| Sprint 1 Goal | _Pendiente de definir por el equipo, aplicando la estructura: Our focus is on `<Outcome>`. We believe it delivers `<Impact>` to `<Customer(s)>`. This will be confirmed when `<Event happens>`._ |
+| Sprint 1 Velocity | _Pendiente_ |
+| Sum of Story Points | _Pendiente_ |
+
+<a id="5212-aspect-leaders-and-collaborators"></a>
+
+#### 5.2.1.2. Aspect Leaders and Collaborators
+
+_Pendiente de elaborar. Debe incluir la Leadership-and-Collaboration Matrix (LACX), indicando por cada aspecto dentro del alcance del Sprint quién es el líder (L) y quiénes son colaboradores (C), junto con una introducción que explique cuáles son los principales aspectos considerados en el Sprint. La organización de líderes y colaboradores debe tener relación con la posterior selección de tasks._
+
+| Team Member (Last Name, First Name) | GitHub Username | _Aspecto 1_ | _Aspecto 2_ | _Aspecto n_ |
+|:------------------------------------|:----------------|:------------|:------------|:------------|
+| Crispin Valdivia, Angel Gabriel | FaureGalliard | _Pendiente_ | _Pendiente_ | _Pendiente_ |
+| Lopez Rimachi, Sebastian Leonardo | _Pendiente_ | _Pendiente_ | _Pendiente_ | _Pendiente_ |
+| Montañez Salinas, Lorena Ariana | _Pendiente_ | _Pendiente_ | _Pendiente_ | _Pendiente_ |
+| Tuesta Girón, Kiara Lucia | _Pendiente_ | _Pendiente_ | _Pendiente_ | _Pendiente_ |
+| Vizcarra Mamani, Candy Milagros | _Pendiente_ | _Pendiente_ | _Pendiente_ | _Pendiente_ |
+
+<a id="5213-sprint-backlog-1"></a>
+
+#### 5.2.1.3. Sprint Backlog 1
+
+_Pendiente de elaborar. La sección debe iniciar con una introducción que resuma el objetivo principal del Sprint, presentar el screenshot del board del Sprint en Trello junto con su URL público, e incluir la tabla de control de estado con la estructura siguiente._
+
+| Sprint # | Sprint 1 | | | | | | |
+|:---|:---|:---|:---|:---|:---|:---|:---|
+| **Story Id** | **Story Title** | **Task Id** | **Task Title** | **Task Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| _Pendiente_ | _Pendiente_ | _Pendiente_ | _Pendiente_ | _Pendiente_ | _Pendiente_ | _Pendiente_ | _Pendiente_ |
+
+<a id="5214-development-evidence-for-sprint-review"></a>
+
+#### 5.2.1.4. Development Evidence for Sprint Review
+
+_Pendiente de elaborar. La sección inicia con una introducción que resume los principales avances en la implementación, seguida de la tabla de commits relacionados con el alcance del Sprint._
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|:-----------|:-------|:----------|:---------------|:--------------------|:-------------------|
+| _Pendiente_ | _Pendiente_ | _Pendiente_ | _Pendiente_ | _Pendiente_ | _Pendiente_ |
+
+<a id="5215-execution-evidence-for-sprint-review"></a>
+
+#### 5.2.1.5. Execution Evidence for Sprint Review
+
+_Pendiente de elaborar. Debe iniciar con un resumen de lo alcanzado en el Sprint y presentar los screenshots de las principales vistas implementadas, junto con el enlace al video que ilustra y explica la visualización y navegación logradas._
+
+<a id="5216-services-documentation-evidence-for-sprint-review"></a>
+
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+_No aplica para el Sprint 1. El alcance de esta iteración corresponde al Landing Page, que es un sitio web estático y no expone Web Services. La documentación de endpoints con OpenAPI se incorpora a partir del Sprint en el que se inicia la implementación del RESTful API._
+
+<a id="5217-software-deployment-evidence-for-sprint-review"></a>
+
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+_Pendiente de elaborar. Debe resumir los procesos realizados en relación con el despliegue durante el Sprint, incluyendo la creación de cuentas, la configuración de los recursos y la publicación del Landing Page, acompañado de capturas de imagen y de la explicación de cada paso._
+
+<a id="5218-team-collaboration-insights-during-sprint"></a>
+
+#### 5.2.1.8. Team Collaboration Insights during Sprint
+
+_Pendiente de elaborar. Debe explicar cómo se desarrollaron las actividades de implementación y presentar las capturas de imagen de los analíticos de colaboración y commits de GitHub realizados por los miembros del equipo durante el Sprint._
+
+<a id="53-validation-interviews"></a>
+
+## 5.3. Validation Interviews
+
+_Esta sección corresponde a la entrega AV2. En ella el equipo registra y explica las actividades de entrevistas de validación, en las que usuarios de los segmentos objetivo interactúan con el Landing Page y con las aplicaciones._
+
+<a id="531-diseno-de-entrevistas"></a>
+
+### 5.3.1. Diseño de Entrevistas
+
+_Pendiente. Corresponde a la entrega AV2._
+
+<a id="532-registro-de-entrevistas"></a>
+
+### 5.3.2. Registro de Entrevistas
+
+_Pendiente. Corresponde a la entrega AV2._
+
+<a id="533-evaluaciones-segun-heuristicas"></a>
+
+### 5.3.3. Evaluaciones según heurísticas
+
+_Pendiente. Corresponde a la entrega AV2. Debe seguir el formato de evaluación de User Experience según heurísticas indicado en el Anexo D del enunciado del trabajo final, cubriendo heurísticas de usabilidad, arquitectura de información y diseño inclusivo._
+
+<a id="54-video-about-the-product"></a>
+
+## 5.4. Video About-the-Product
+
+_Pendiente. Corresponde a la entrega AV2._
+
+<hr>
