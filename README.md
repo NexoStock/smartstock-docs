@@ -969,3 +969,51 @@ De acuerdo con los hallazgos de este segmento, SmartStock debería:
 - Reducir el tiempo destinado a conteos y verificaciones manuales.
 - Ser accesible económicamente para pequeños comercios.
 - Facilitar la coordinación de pedidos con proveedores.
+
+<a id="23-needfinding"></a>
+
+## 2.3. Needfinding
+
+_Pendiente de elaborar. En esta sección el equipo explica y presenta los artefactos resultantes del proceso de análisis de la información recolectada en las entrevistas, incluyendo los User Personas, el User Task Matrix, los User Journey Maps y los Empathy Maps._
+
+<a id="231-user-personas"></a>
+
+### 2.3.1. User Personas
+
+_Pendiente de elaborar en UXPressia. La sección inicia con una introducción que explica la relación entre los artefactos presentados y las principales características consideradas a partir del análisis de entrevistas y del análisis competitivo. Se elabora una ficha de User Persona por cada segmento objetivo: propietarios y administradores de minimarkets, y propietarios y administradores de bodegas de barrio._
+
+<a id="232-user-task-matrix"></a>
+
+### 2.3.2. User Task Matrix
+
+_Pendiente de elaborar. La sección inicia con una introducción que establece los segmentos considerados. El cuadro debe incluir como columna cada User Persona y, para cada una, como sub-columnas la Frecuencia y la Importancia de cada tarea. Como filas se colocan las tareas identificadas, entendidas como actividades que los segmentos realizan independientemente de la existencia de la solución de software. Luego del cuadro se explica cuáles son las tareas con mayor frecuencia e importancia, y las principales diferencias y coincidencias entre los User Personas._
+
+<a id="233-user-journey-mapping"></a>
+
+### 2.3.3. User Journey Mapping
+
+_Pendiente de elaborar en UXPressia. La sección inicia con una introducción que resume el end-to-end journey que se pretende ilustrar. Se elabora un User Journey Map por cada User Persona, en su versión As-Is, es decir, el journey de cada segmento en la situación actual, sin que exista la solución. Cada User Journey Map debe vincularse con el User Persona correspondiente._
+
+<a id="234-empathy-mapping"></a>
+
+### 2.3.4. Empathy Mapping
+
+_Pendiente de elaborar en UXPressia. La sección debe resumir el proceso de elaboración y presentar las capturas de los Empathy Maps de cada User Persona, respondiendo a las preguntas sobre con quién se está empatizando, qué necesita hacer, qué está diciendo, qué está viendo, qué está haciendo, qué está escuchando, y cómo se siente y qué piensa, e identificando los Pains y Gains correspondientes._
+
+<a id="24-big-picture-event-storming"></a>
+
+## 2.4. Big Picture Event Storming
+
+_Pendiente de elaborar en Miro. La sección debe introducir y resumir el proceso realizado por el equipo y presentar las capturas y explicaciones de cada etapa del Big Picture Event Storming, en el que el equipo se enfoca en entender el dominio del negocio en general, plasmando los eventos significativos y sus relaciones, identificando los procesos clave y exponiendo potenciales problemas u oportunidades._
+
+<a id="25-ubiquitous-language"></a>
+
+## 2.5. Ubiquitous Language
+
+_Pendiente de elaborar. La sección debe contener el glosario de términos y conceptos del business domain de SmartStock, con definiciones sin ambigüedad. Los términos deben estar en inglés, pudiendo incluirse el equivalente en español entre paréntesis, y la definición puede estar en español. Solo deben incluirse términos del dominio del control de inventarios en bodegas y minimarkets, y no términos técnicos del área de ingeniería de software._
+
+| Término | Definición |
+|:--------|:-----------|
+| _Pendiente_ | _Pendiente_ |
+
+<hr>
