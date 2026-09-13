@@ -1535,3 +1535,75 @@ _Pendiente. Corresponde a la entrega AV2. Debe seguir el formato de evaluación 
 _Pendiente. Corresponde a la entrega AV2._
 
 <hr>
+
+<a id="conclusiones"></a>
+
+# Conclusiones
+
+<a id="conclusiones-y-recomendaciones"></a>
+
+## Conclusiones y recomendaciones
+
+_Pendiente de elaborar. La sección debe enunciar las conclusiones del equipo sobre el trabajo, incluyendo los resultados alcanzados en relación con el Problem Statement especificado, los assumptions realizados frente al comportamiento real de los segmentos, los Hypothesis Statements establecidos y los criterios de éxito definidos en el Lean UX Process, contrastados con los resultados obtenidos de las validaciones. Debe incluir además las recomendaciones sobre los siguientes pasos en relación con el roadmap de los productos digitales que forman parte del alcance del modelo de negocio digital._
+
+<a id="video-about-the-team"></a>
+
+## Video About-the-Team
+
+_Pendiente. Corresponde a la entrega AV2. La sección debe incluir el resumen de los aspectos más relevantes del video, la pauta de secuencias de contenido con el timing de inicio de cada sección, un cuadro de video representativo, y el URL de la versión publicada en Microsoft Stream junto con el de la versión publicada en YouTube utilizada para incrustarse en el Landing Page._
+
+<hr>
+
+<a id="bibliografia"></a>
+
+# Bibliografía
+
+Brown, S. (2026). *The C4 model: Visualizing software architecture*.
+
+Driessen, V. (2010). *A successful Git branching model*. https://nvie.com/posts/a-successful-git-branching-model/
+
+Evans, E. (2003). *Domain-driven design: Tackling complexity in the heart of software*. Addison-Wesley.
+
+Gothelf, J., & Seiden, J. (2021). *Lean UX: Designing great products with agile teams* (3rd ed.). O'Reilly Media.
+
+Google. (s.f.). *Google HTML/CSS style guide*. https://google.github.io/styleguide/htmlcssguide.html
+
+Google. (s.f.). *Google Java style guide*. https://google.github.io/styleguide/javaguide.html
+
+Google. (s.f.). *Google TypeScript style guide*. https://google.github.io/styleguide/tsguide.html
+
+Lauret, A. (2025). *The design of web APIs* (2nd ed.). Simon and Schuster.
+
+Nielsen Norman Group. (2018). *Empathy mapping: The first step in design thinking*. https://www.nngroup.com/articles/empathy-mapping/
+
+Preston-Werner, T. (s.f.). *Semantic Versioning 2.0.0*. https://semver.org/
+
+Xesquevixos, W., Karanam, R. R., Larsson, M., & Turnquist, G. L. (2026). *Learning Spring Boot 4: Simplify the development of production-grade applications using Java and Spring*. Packt Publishing.
+
+_Pendiente: completar la bibliografía en formato APA con todas las referencias utilizadas como base para el desarrollo del trabajo o citadas en las secciones del informe, incluyendo las fuentes estadísticas empleadas en la sección 1.2.1 Antecedentes y problemática._
+
+<hr>
+
+<a id="anexos"></a>
+
+# Anexos
+
+## Anexo A. Videos de Exposiciones
+
+| Entrega | Título del video | Enlace |
+|:--------|:-----------------|:-------|
+| AV1 | _Pendiente_ | _Pendiente_ |
+
+_Esta relación de títulos y videos se expande con cada entrega del proyecto._
+
+## Anexo B. Enlaces de los artefactos elaborados
+
+| Artefacto | Herramienta | Enlace |
+|:----------|:------------|:-------|
+| User Personas, Empathy Maps, User Journey Maps e Impact Map | UXPressia | _Pendiente_ |
+| Wireframes, Mock-ups y Prototipos | Figma | _Pendiente_ |
+| Wireflow Diagrams y User Flow Diagrams | FigJam | _Pendiente_ |
+| Big Picture Event Storming y Design-Level Event Storming | Miro | _Pendiente_ |
+| Diagramas de C4 Model | Structurizr | _Pendiente_ |
+| Class Diagrams y Database Diagrams | LucidChart | _Pendiente_ |
+| Product Backlog y Sprint Backlogs | Trello | _Pendiente_ |
