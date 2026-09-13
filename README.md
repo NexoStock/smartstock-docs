@@ -1259,3 +1259,157 @@ _Pendiente de elaborar. La sección incluye una introducción que resume las pri
 _Pendiente de elaborar en ERDPlus, LucidChart, MySQL Workbench, DataGrip o Hackolade. Debe presentar el Database Diagram con los objetos que permiten la persistencia de la información de cada bounded context, especificando tablas, columnas, constraints (primary key, foreign key) y las relaciones entre tablas._
 
 <hr>
+
+<a id="capitulo-v-product-implementation-validation-deployment"></a>
+
+# Capítulo V: Product Implementation, Validation & Deployment
+
+En este capítulo se explica y evidencia el proceso de implementar, comprobar, desplegar y validar la solución de SmartStock, compuesta por el Landing Page, los RESTful Web Services y la Frontend Web Application, todos ellos con diseño web responsive. El Landing Page presenta el modelo de negocio y da acceso a la aplicación web. Los procesos del negocio digital, tanto los procesos core como los de soporte (autenticación y autorización, suscripciones, entre otros), están soportados por la Frontend Web Application y los RESTful Web Services.
+
+<a id="51-software-configuration-management"></a>
+
+## 5.1. Software Configuration Management
+
+En esta sección se establecen las decisiones y convenciones que permiten mantener la consistencia del producto durante todo su ciclo de vida, abarcando la configuración del ambiente de desarrollo, la gestión del código fuente, las convenciones de estilo de código y la configuración del despliegue.
+
+<a id="511-software-development-environment-configuration"></a>
+
+### 5.1.1. Software Development Environment Configuration
+
+A continuación se detallan los productos de software que utilizan los miembros del equipo para colaborar en el ciclo de vida del producto digital, agrupados por tipo de actividad, indicando el propósito de uso en el proyecto y la ruta de referencia o de descarga según corresponda.
+
+**Project Management**
+
+| Producto | Propósito de uso en el proyecto | Ruta |
+|:---------|:--------------------------------|:-----|
+| Trello | Gestión del Product Backlog y de los Sprint Backlogs mediante tableros por sprint, con el registro de los work-items y su estado. | [https://trello.com](https://trello.com) |
+| Microsoft Teams | Realización de las sesiones síncronas del equipo, incluyendo Sprint Planning, Sprint Review y Retrospective. | [https://www.microsoft.com/microsoft-teams](https://www.microsoft.com/microsoft-teams) |
+
+**Requirements Management**
+
+| Producto | Propósito de uso en el proyecto | Ruta |
+|:---------|:--------------------------------|:-----|
+| UXPressia | Elaboración de los User Personas, Empathy Maps, User Journey Maps e Impact Maps de los segmentos objetivo. | [https://uxpressia.com](https://uxpressia.com) |
+| Miro | Realización de las sesiones de Big Picture Event Storming y Design-Level Event Storming. | [https://miro.com](https://miro.com) |
+
+**Product UX/UI Design**
+
+| Producto | Propósito de uso en el proyecto | Ruta |
+|:---------|:--------------------------------|:-----|
+| Figma | Elaboración de los wireframes, mock-ups y prototipos del Landing Page y de la Web Application, en sus versiones para Desktop y Mobile Web Browser. | [https://www.figma.com](https://www.figma.com) |
+| FigJam | Elaboración de los Wireflow Diagrams y de los User Flow Diagrams de la Web Application. | [https://www.figma.com/figjam](https://www.figma.com/figjam) |
+| LucidChart | Elaboración de los Class Diagrams de UML y de los Database Diagrams de cada bounded context. | [https://www.lucidchart.com](https://www.lucidchart.com) |
+| Structurizr | Elaboración de los diagramas de C4 Model en sus niveles de Context, Container y Component. | [https://structurizr.com](https://structurizr.com) |
+
+**Software Development**
+
+| Producto | Propósito de uso en el proyecto | Ruta |
+|:---------|:--------------------------------|:-----|
+| IntelliJ IDEA Ultimate | Entorno de desarrollo integrado para la implementación de los Web Services en Java con Spring Boot. Disponible mediante la JetBrains Educational License. | [https://www.jetbrains.com/idea/download](https://www.jetbrains.com/idea/download) |
+| WebStorm | Entorno de desarrollo integrado para la implementación de la Frontend Web Application en Angular y del Landing Page. Disponible mediante la JetBrains Educational License. | [https://www.jetbrains.com/webstorm/download](https://www.jetbrains.com/webstorm/download) |
+| Java Development Kit (JDK) 21 LTS | Kit de desarrollo del lenguaje Java utilizado para la implementación de los Web Services. | [https://adoptium.net/temurin/releases](https://adoptium.net/temurin/releases) |
+| Spring Boot | Framework open source utilizado para la implementación del RESTful API, junto con Spring Data JPA para la persistencia. | [https://start.spring.io](https://start.spring.io) |
+| Node.js y npm | Entorno de ejecución y gestor de paquetes requeridos por Angular CLI. | [https://nodejs.org/en/download](https://nodejs.org/en/download) |
+| Angular CLI | Herramienta de línea de comandos para la creación, ejecución y construcción de la Frontend Web Application. | [https://angular.dev/tools/cli](https://angular.dev/tools/cli) |
+| Angular Material | Biblioteca de componentes de interfaz de usuario basada en Material Design, utilizada en la Web Application. | [https://material.angular.io](https://material.angular.io) |
+| MySQL Community Server | Sistema de gestión de base de datos relacional utilizado para la persistencia de los Web Services. | [https://dev.mysql.com/downloads/mysql](https://dev.mysql.com/downloads/mysql) |
+| Postman | Verificación manual de las solicitudes y respuestas de los endpoints del RESTful API durante el desarrollo. | [https://www.postman.com/downloads](https://www.postman.com/downloads) |
+
+**Software Documentation**
+
+| Producto | Propósito de uso en el proyecto | Ruta |
+|:---------|:--------------------------------|:-----|
+| Swagger UI (springdoc-openapi) | Generación y publicación de la documentación del RESTful API bajo la especificación OpenAPI. | [https://springdoc.org](https://springdoc.org) |
+| GitHub | Alojamiento del informe del proyecto en formato Markdown y de la documentación de cada repositorio. | [https://github.com/NexoStock](https://github.com/NexoStock) |
+
+**Software Deployment**
+
+| Producto | Propósito de uso en el proyecto | Ruta |
+|:---------|:--------------------------------|:-----|
+| GitHub Pages | Publicación del sitio web estático correspondiente al Landing Page. | [https://pages.github.com](https://pages.github.com) |
+| Git | Sistema de control de versiones utilizado localmente por cada miembro del equipo. | [https://git-scm.com/downloads](https://git-scm.com/downloads) |
+
+_Pendiente: confirmar el proveedor de despliegue de la Frontend Web Application y de los Web Services antes de la entrega en la que cada producto debe estar desplegado, y agregarlo a este cuadro._
+
+<a id="512-source-code-management"></a>
+
+### 5.1.2. Source Code Management
+
+El equipo utiliza GitHub como plataforma de alojamiento y Git como sistema de control de versiones. Los repositorios del proyecto pertenecen a la organización pública [NexoStock](https://github.com/NexoStock) y se organizan en un repositorio por producto, además del repositorio de documentación del informe.
+
+| Producto | Repositorio |
+|:---------|:------------|
+| Project Report | [https://github.com/NexoStock/smartstock-docs](https://github.com/NexoStock/smartstock-docs) |
+| Landing Page | _Pendiente de creación._ |
+| Frontend Web Application | _Pendiente de creación._ |
+| Web Services | _Pendiente de creación._ En este repositorio se incluye el proyecto junto con los archivos de pruebas, tanto unitarias como de integración y aceptación. |
+
+**GitFlow como workflow de control de versiones**
+
+El equipo aplica GitFlow, siguiendo el modelo de ramificación descrito por Vincent Driessen. Cada repositorio mantiene las siguientes ramas:
+
+| Rama | Propósito | Convención de nombre |
+|:-----|:----------|:---------------------|
+| `main` | Rama principal. Contiene únicamente las versiones entregadas y estables del producto. Cada integración a esta rama corresponde a un release etiquetado. | `main` |
+| `develop` | Rama de integración. Concentra el avance acumulado de las features completadas que aún no forman parte de un release. | `develop` |
+| Feature branches | Una rama por cada feature o sección en desarrollo. Nace de `develop` y se integra a `develop` mediante Pull Request. | `feature/<nombre-en-kebab-case>`, por ejemplo `feature/user-stories` o `feature/sensor-linking` |
+| Release branches | Rama de preparación de una versión a entregar. Nace de `develop` y se integra tanto a `main` como a `develop`. | `release/<major>.<minor>.<patch>`, por ejemplo `release/1.0.0` |
+| Hotfix branches | Rama de corrección urgente sobre una versión ya publicada. Nace de `main` y se integra tanto a `main` como a `develop`. | `hotfix/<nombre-en-kebab-case>`, por ejemplo `hotfix/broken-toc-links` |
+
+**Semantic Versioning**
+
+Los releases se nombran aplicando Semantic Versioning 2.0.0, bajo el formato `MAJOR.MINOR.PATCH`. Se incrementa la versión MAJOR ante cambios incompatibles con versiones previas, la versión MINOR ante la incorporación de funcionalidad compatible con versiones previas, y la versión PATCH ante correcciones compatibles con versiones previas. Cada release se registra como un tag de Git sobre `main`, bajo el formato `vMAJOR.MINOR.PATCH`.
+
+**Conventional Commits**
+
+Los mensajes de commit siguen la especificación de Conventional Commits, bajo la estructura `<type>(<scope>): <description>`. Los tipos utilizados por el equipo son los siguientes:
+
+| Tipo | Uso |
+|:-----|:----|
+| `feat` | Incorporación de una nueva funcionalidad al producto o de una nueva sección al informe. |
+| `fix` | Corrección de un defecto en el producto o de un error en el informe. |
+| `docs` | Cambios que afectan únicamente a la documentación. |
+| `style` | Cambios que no alteran el significado del código, como formato o espaciado. |
+| `refactor` | Cambios en el código que no corrigen defectos ni agregan funcionalidad. |
+| `test` | Incorporación o corrección de pruebas. |
+| `chore` | Cambios en la configuración del proyecto o en las herramientas de soporte. |
+
+La descripción se redacta en inglés, en modo imperativo y en minúsculas, sin punto final. El scope identifica la sección del informe o el módulo del producto afectado.
+
+<a id="513-source-code-style-guide-conventions"></a>
+
+### 5.1.3. Source Code Style Guide & Conventions
+
+El equipo adopta la nomenclatura en inglés para todos los lenguajes utilizados en la solución, así como las siguientes convenciones estándar de codificación:
+
+| Lenguaje o tecnología | Convención adoptada | Referencia |
+|:----------------------|:--------------------|:-----------|
+| HTML5 | HTML Style Guide and Coding Conventions y Google HTML/CSS Style Guide. Elementos y atributos en minúsculas, comillas dobles en los valores de atributo, indentación de dos espacios y atributo `alt` obligatorio en las imágenes. | [W3Schools](https://www.w3schools.com/html/html5_syntax.asp) · [Google](https://google.github.io/styleguide/htmlcssguide.html) |
+| CSS3 | Google HTML/CSS Style Guide. Nombres de clase en kebab-case, una declaración por línea, indentación de dos espacios y uso de propiedades personalizadas para los tokens del design system. | [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html) |
+| JavaScript | Nomenclatura en inglés, camelCase para variables y funciones, PascalCase para clases y UPPER_SNAKE_CASE para constantes. | [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html) |
+| TypeScript | Google TypeScript Style Guide y Angular coding style guide. Un elemento por archivo, nombres de archivo en kebab-case con sufijo de tipo, camelCase para propiedades y métodos, y PascalCase para clases e interfaces. | [Google](https://google.github.io/styleguide/tsguide.html) · [Angular](https://angular.dev/style-guide) |
+| Java | Google Java Style Guide y las convenciones de Spring Boot Features. PascalCase para clases, camelCase para métodos y variables, UPPER_SNAKE_CASE para constantes, y paquetes en minúsculas organizados por bounded context. | [Google](https://google.github.io/styleguide/javaguide.html) · [Spring Boot](https://docs.spring.io/spring-boot/reference/features/index.html) |
+| Gherkin | Gherkin Conventions for Readable Specifications. Criterios de aceptación redactados en tiempo presente, tercera persona, bajo la estructura Given-When-Then y sin referencias a elementos de la interfaz de usuario. | [SpecFlow](https://specflow.org/gherkin/gherkin-conventions-for-readable-specifications/) |
+
+<a id="514-software-deployment-configuration"></a>
+
+### 5.1.4. Software Deployment Configuration
+
+**Landing Page**
+
+El Landing Page se publica como sitio web estático en GitHub Pages, a partir del repositorio correspondiente de la organización NexoStock. Los pasos de configuración son los siguientes:
+
+1. Integrar a la rama `main` del repositorio del Landing Page la versión a publicar, mediante una release branch.
+2. En la configuración del repositorio, acceder a la sección Pages y seleccionar como fuente la rama `main` y el directorio raíz.
+3. Confirmar la publicación y verificar el sitio en el URL asignado por GitHub Pages.
+4. Verificar el correcto funcionamiento de los call-to-action que redirigen a la Web Application, del selector de idioma y del enlace a los términos y condiciones del footer.
+
+_Pendiente: incorporar las capturas de imagen de cada paso y el URL del sitio publicado una vez realizado el despliegue._
+
+**Frontend Web Application**
+
+_Pendiente de definir y documentar. Debe especificar los pasos necesarios para que, a partir del repositorio de código fuente, se logre la construcción de producción de la aplicación Angular y su publicación en el proveedor seleccionado, incluyendo la configuración del URL base del RESTful API por ambiente._
+
+**Web Services**
+
+_Pendiente de definir y documentar. Debe especificar los pasos necesarios para que, a partir del repositorio de código fuente, se logre la construcción del artefacto de la aplicación Spring Boot, su despliegue en el proveedor seleccionado, la configuración de las variables de entorno y de la conexión a la base de datos, y la publicación de la documentación OpenAPI mediante Swagger._
