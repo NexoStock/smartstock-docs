@@ -1087,3 +1087,175 @@ _Pendiente de elaborar en UXPressia. La sección debe incluir las capturas del I
 _Pendiente de elaborar. La sección debe incluir la tabla de Product Backlog con la estructura `# Orden | User Story Id | Título | Descripción | Story Points (1/2/3/5/8)`, ordenada según el valor para el negocio, junto con la captura de imagen y el URL público del board en la herramienta de control de proyectos. Los User Stories del sitio web estático (US16 a US24) deben considerarse desde el primer sprint._
 
 <hr>
+
+<a id="capitulo-iv-product-design"></a>
+
+# Capítulo IV: Product Design
+
+En este capítulo se presenta la propuesta de Software Architecture & Design de SmartStock, incluyendo el diseño UX/UI de la experiencia web, la arquitectura de software dirigida por el dominio, el diseño orientado a objetos y el diseño de la base de datos. La propuesta toma como base el conjunto de User Stories especificados en el Capítulo III y el Impact Map del modelo de negocio.
+
+<a id="41-style-guidelines"></a>
+
+## 4.1. Style Guidelines
+
+_Pendiente de elaborar. La sección debe sentar las bases del repositorio central de assets, fuentes y componentes de uso común para todo el equipo, con el fin de mantener una presentación consistente entre el Landing Page y la Web Application._
+
+<a id="411-general-style-guidelines"></a>
+
+### 4.1.1. General Style Guidelines
+
+_Pendiente de elaborar. Debe explicar las decisiones y referencias visuales sobre Branding, Typography, Colors y Spacing, así como las dimensiones adoptadas para el tono de comunicación y el lenguaje aplicado (Divertido/Serio, Formal/Casual, Respetuoso/Irreverente, Entusiasta/Sereno). El lenguaje de diseño del proyecto es Material Design. Debe incluirse el sustento de los principios y elementos de diseño considerados para cada decisión._
+
+<a id="412-web-style-guidelines"></a>
+
+### 4.1.2. Web Style Guidelines
+
+_Pendiente de elaborar. Debe explicar e ilustrar las decisiones sobre los estándares visuales y de interacción para las interfaces web responsive, considerando Angular Material como biblioteca de componentes de la Web Application y su correspondencia visual con el Landing Page._
+
+<a id="42-information-architecture"></a>
+
+## 4.2. Information Architecture
+
+_Pendiente de elaborar. La sección debe plantear las decisiones y el sustento que dirigen la organización del contenido en el Landing Page y en la Web Application, orientadas a que visitantes y usuarios encuentren lo que necesitan sin esfuerzo._
+
+<a id="421-organization-systems"></a>
+
+### 4.2.1. Organization Systems
+
+_Pendiente de elaborar. Debe explicar en qué grupos de información se aplicará organización jerárquica (visual hierarchy), secuencial (step-by-step) o matricial, y qué esquemas de categorización de contenido se usarán en cada caso: alfabético, cronológico, por tópicos o según audiencia._
+
+<a id="422-labeling-systems"></a>
+
+### 4.2.2. Labeling Systems
+
+_Pendiente de elaborar. Debe especificar las etiquetas, con el mínimo número de palabras, que representan los conjuntos de información del producto y las asociaciones que generan en la mente del visitante y del usuario._
+
+<a id="423-seo-tags-and-meta-tags"></a>
+
+### 4.2.3. SEO Tags and Meta Tags
+
+_Pendiente de elaborar. Debe incluir, como mínimo, los valores de Title y de los Meta Tags Description, Keywords y Author para las principales páginas del Landing Page y de la Web Application._
+
+<a id="424-searching-systems"></a>
+
+### 4.2.4. Searching Systems
+
+_Pendiente de elaborar. Debe explicar qué opciones de búsqueda ofrecerá la Web Application, con qué filtros contará el usuario en cada caso y cómo lucirán los datos después de la búsqueda._
+
+<a id="425-navigation-systems"></a>
+
+### 4.2.5. Navigation Systems
+
+_Pendiente de elaborar. Debe explicar las acciones y técnicas que guiarán a los usuarios a través del Landing Page y de la Web Application, y de qué maneras irán recorriendo el contenido._
+
+<a id="43-landing-page-ui-design"></a>
+
+## 4.3. Landing Page UI Design
+
+_Pendiente de elaborar. La sección inicia con una introducción en la que el equipo explica cómo traduce las decisiones de diseño y de arquitectura de información a la propuesta de interfaz del Landing Page._
+
+<a id="431-landing-page-wireframe"></a>
+
+### 4.3.1. Landing Page Wireframe
+
+_Pendiente de elaborar en Figma. Debe presentar y explicar los wireframes del Landing Page en su versión para Desktop Web Browser y para Mobile Web Browser, evidenciando la aplicación de los principios y elementos de diseño, del diseño inclusivo y de la arquitectura de información._
+
+<a id="432-landing-page-mock-up"></a>
+
+### 4.3.2. Landing Page Mock-up
+
+_Pendiente de elaborar en Figma. Debe presentar y explicar los mock-ups del Landing Page en su versión para Desktop Web Browser y para Mobile Web Browser, evidenciando además la aplicación del Design System establecido para los productos digitales._
+
+<a id="44-web-applications-ux-ui-design"></a>
+
+## 4.4. Web Applications UX/UI Design
+
+_Pendiente de elaborar. La sección presenta y explica la propuesta visual y de interacción de la Web Application de SmartStock._
+
+<a id="441-web-applications-wireframes"></a>
+
+### 4.4.1. Web Applications Wireframes
+
+_Pendiente de elaborar en Figma. Debe presentar y explicar los wireframes de la Web Application, evidenciando la aplicación de los principios y elementos de diseño, del diseño inclusivo y de la arquitectura de información._
+
+<a id="442-web-applications-wireflow-diagrams"></a>
+
+### 4.4.2. Web Applications Wireflow Diagrams
+
+_Pendiente de elaborar en FigJam, LucidChart u Overflow. Debe considerarse un Wireflow por cada User goal de los User Persona identificados. Cada Wireflow requiere que se redacte el User goal y se complemente con una explicación del flujo. Los cambios de estado de una vista se representan agregando un paso con el wireframe del nuevo estado._
+
+<a id="443-web-applications-mock-ups"></a>
+
+### 4.4.3. Web Applications Mock-ups
+
+_Pendiente de elaborar en Figma. Debe presentar y explicar los mock-ups de la Web Application, evidenciando la aplicación del Design System establecido para los productos digitales._
+
+<a id="444-web-applications-user-flow-diagrams"></a>
+
+### 4.4.4. Web Applications User Flow Diagrams
+
+_Pendiente de elaborar en FigJam, LucidChart u Overflow. Debe considerarse un User Flow por cada User goal, consistente con el Wireflow del que se deriva, incluyendo los mock-ups de las vistas, la ruta esperada (happy path) y las rutas alternativas (unhappy paths), junto con el User goal redactado y la explicación de los flujos y condiciones._
+
+> **Nota sobre la numeración.** El enunciado del trabajo final numera dos secciones consecutivas como 4.4.2 (Wireflow Diagrams y Mock-ups) y la siguiente como 4.4.3. En este informe se corrige la secuencia a 4.4.1 a 4.4.4 para evitar identificadores duplicados en la tabla de contenidos, conservando el orden y los títulos originales.
+
+<a id="45-web-applications-prototyping"></a>
+
+## 4.5. Web Applications Prototyping
+
+_Pendiente de elaborar en Figma. La sección inicia con una introducción que explica los principales criterios de las decisiones de interacción y su relación con las decisiones de arquitectura de información, en particular sobre el sistema de navegación. Debe incluir prototipos de UI para Desktop y Mobile Web Browser con simulación de interacción y navegación, acordes con los paths de los User Flow Diagrams, junto con un screenshot del video y el enlace al video publicado en Microsoft Stream._
+
+<a id="46-domain-driven-software-architecture"></a>
+
+## 4.6. Domain-Driven Software Architecture
+
+_Pendiente de elaborar. La sección parte de los resultados del Big Picture Event Storming de la sección 2.4 y profundiza en el modelado del dominio desde la perspectiva de Domain-Driven Design, hasta llegar a la representación de la arquitectura de software mediante C4 Model._
+
+<a id="461-design-level-event-storming"></a>
+
+### 4.6.1. Design-Level Event Storming
+
+_Pendiente de elaborar en FigJam, LucidChart o Miro. Debe explicar y evidenciar el proceso de Design-Level Event Storming, con la identificación de Bounded Contexts, Aggregates, Events, Commands y Queries. Se recomienda organizar la sesión con una duración de entre 1 y 2 horas. Al refinar los bounded contexts deben considerarse los sub-dominios típicos de una plataforma SaaS orientada a negocios de servicio, con los nombres que correspondan al Ubiquitous Language del dominio: Subscriptions and Payment Management, Identity and Access Management, Profiles and Preferences Management, Service Design and Planning, Resource and Asset Management, Service Execution and Monitoring, Dashboard and Analytics, y Loyalty and Engagement._
+
+<a id="462-software-architecture-context-diagram"></a>
+
+### 4.6.2. Software Architecture Context Diagram
+
+_Pendiente de elaborar en Structurizr. Debe presentar el Context Diagram de C4 Model, con el sistema como un recuadro central rodeado por sus usuarios y por los otros sistemas con los que interactúa, junto con su explicación._
+
+<a id="463-software-architecture-container-diagrams"></a>
+
+### 4.6.3. Software Architecture Container Diagrams
+
+_Pendiente de elaborar en Structurizr. Debe presentar el Container Diagram con los elementos de alto nivel de la arquitectura, la distribución de responsabilidades entre ellos, las principales decisiones de tecnología y la forma en que los containers se comunican entre sí. Cada container representa una unidad de despliegue independiente._
+
+<a id="464-software-architecture-components-diagrams"></a>
+
+### 4.6.4. Software Architecture Components Diagrams
+
+_Pendiente de elaborar en Structurizr. Debe presentar un Component Diagram por cada Container considerado, mostrando los bloques estructurales que lo conforman, sus responsabilidades y los detalles de implementación y tecnología._
+
+<a id="47-software-object-oriented-design"></a>
+
+## 4.7. Software Object-Oriented Design
+
+_Pendiente de elaborar. La sección incluye una introducción que resume las principales características consideradas en los diagramas de detalle de implementación de los componentes de cada bounded context._
+
+<a id="471-class-diagrams"></a>
+
+### 4.7.1. Class Diagrams
+
+_Pendiente de elaborar en LucidChart. Debe presentar el Class Diagram de UML para cada producto de software y, cuando sea aplicable, para cada bounded context. El nivel de detalle debe incluir clases, interfaces, enumeraciones y sus relaciones, junto con los miembros de cada clase (atributos y métodos) y el scope en cada caso (private, public, protected). Las relaciones deben incluir su calificación con nombres, la dirección cuando aplique y la multiplicidad._
+
+<a id="48-database-design"></a>
+
+## 4.8. Database Design
+
+_Pendiente de elaborar. La sección incluye una introducción que resume las principales características consideradas en los diagramas de base de datos de cada bounded context._
+
+<a id="481-database-diagrams"></a>
+
+### 4.8.1. Database Diagrams
+
+_Pendiente de elaborar en ERDPlus, LucidChart, MySQL Workbench, DataGrip o Hackolade. Debe presentar el Database Diagram con los objetos que permiten la persistencia de la información de cada bounded context, especificando tablas, columnas, constraints (primary key, foreign key) y las relaciones entre tablas._
+
+<hr>
