@@ -45,6 +45,7 @@
 | 1.8 | 2026-09-12 | • Crispin Valdivia, Angel Gabriel | Incorporación de la estructura de los Capítulos IV y V, de las secciones de Conclusiones, Bibliografía y Anexos, y de la sección de Anexo de Videos de Exposiciones. |
 | 1.9 | 2026-09-14 | • Crispin Valdivia, Angel Gabriel | Incorporación del URL del repositorio del Landing Page en la sección 5.1.2, del URL del sitio desplegado en GitHub Pages en la sección 5.1.4, de la evidencia de despliegue del Sprint 1 en la sección 5.2.1.7 y del enlace correspondiente en el Anexo B. |
 | 1.10 | 2026-09-14 | • Crispin Valdivia, Angel Gabriel | Redacción de las secciones 4.1 Style Guidelines, con el branding, el tono de comunicación, la paleta de colores con sus relaciones de contraste, la tipografía y el espaciado, y 4.2 Information Architecture, con los sistemas de organización, etiquetado, SEO, búsqueda y navegación. Incorporación de las capturas de las vistas implementadas en la sección 5.2.1.5 y de la configuración de despliegue en la sección 5.2.1.7. |
+| 1.11 | 2026-09-14 | • Crispin Valdivia, Angel Gabriel | Incorporación en la sección 5.2.1.5 de la evidencia de internacionalización del Landing Page, con la captura de la experiencia conmutada a español latinoamericano. |
 
 <hr>
 
@@ -1780,7 +1781,13 @@ El formulario valida los campos obligatorios al abandonar cada campo y expone lo
 
 ![Formulario de solicitud de demostración](assets/images/execution/landing-form.png)
 
-_Pendiente: incorporar el enlace al video que ilustra y explica la visualización y navegación logradas en este Sprint, junto con capturas de la experiencia en navegador móvil y del sitio con el idioma cambiado a español._
+**Internacionalización de la experiencia (en_US / es_419)**
+
+El idioma por defecto del sitio es el inglés, conforme a lo establecido en el enunciado. El selector de idioma de la barra superior conmuta toda la experiencia al español latinoamericano, incluyendo el título del documento, los textos de la interfaz y los mensajes de validación del formulario. La preferencia queda registrada en el navegador y el atributo `lang` del documento se actualiza, de modo que un lector de pantalla emplee la pronunciación correcta.
+
+![Landing Page de SmartStock con el idioma conmutado a español latinoamericano](assets/images/execution/landing-i18n.png)
+
+_Pendiente: incorporar el enlace al video que ilustra y explica la visualización y navegación logradas en este Sprint, junto con capturas de la experiencia en navegador móvil._
 
 <a id="5216-services-documentation-evidence-for-sprint-review"></a>
 
