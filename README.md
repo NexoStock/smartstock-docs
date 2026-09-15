@@ -43,6 +43,7 @@
 | 1.6 | 2026-09-12 | • Crispin Valdivia, Angel Gabriel | Consolidación del informe en un único archivo README.md, corrección de los enlaces de la tabla de contenidos que no resolvían y normalización de los niveles de esquema de los capítulos. |
 | 1.7 | 2026-09-12 | • Crispin Valdivia, Angel Gabriel | Redacción de la sección 5.1 Software Configuration Management, con la configuración del ambiente de desarrollo, la gestión del código fuente bajo GitFlow, las convenciones de estilo de código y la configuración de despliegue. |
 | 1.8 | 2026-09-12 | • Crispin Valdivia, Angel Gabriel | Incorporación de la estructura de los Capítulos IV y V, de las secciones de Conclusiones, Bibliografía y Anexos, y de la sección de Anexo de Videos de Exposiciones. |
+| 1.9 | 2026-09-14 | • Crispin Valdivia, Angel Gabriel | Incorporación del URL del repositorio del Landing Page en la sección 5.1.2, del URL del sitio desplegado en GitHub Pages en la sección 5.1.4, de la evidencia de despliegue del Sprint 1 en la sección 5.2.1.7 y del enlace correspondiente en el Anexo B. |
 
 <hr>
 
@@ -1340,7 +1341,7 @@ El equipo utiliza GitHub como plataforma de alojamiento y Git como sistema de co
 | Producto | Repositorio |
 |:---------|:------------|
 | Project Report | [https://github.com/NexoStock/smartstock-docs](https://github.com/NexoStock/smartstock-docs) |
-| Landing Page | _Pendiente de creación._ |
+| Landing Page | [https://github.com/NexoStock/smartstock-landing-page](https://github.com/NexoStock/smartstock-landing-page) |
 | Frontend Web Application | _Pendiente de creación._ |
 | Web Services | _Pendiente de creación._ En este repositorio se incluye el proyecto junto con los archivos de pruebas, tanto unitarias como de integración y aceptación. |
 
@@ -1404,7 +1405,13 @@ El Landing Page se publica como sitio web estático en GitHub Pages, a partir de
 3. Confirmar la publicación y verificar el sitio en el URL asignado por GitHub Pages.
 4. Verificar el correcto funcionamiento de los call-to-action que redirigen a la Web Application, del selector de idioma y del enlace a los términos y condiciones del footer.
 
-_Pendiente: incorporar las capturas de imagen de cada paso y el URL del sitio publicado una vez realizado el despliegue._
+El Landing Page se encuentra desplegado y accesible públicamente en el siguiente URL:
+
+**[https://nexostock.github.io/smartstock-landing-page/](https://nexostock.github.io/smartstock-landing-page/)**
+
+Al no requerir el sitio un proceso de construcción, GitHub Pages publica directamente el contenido de la rama `main`, de modo que cada integración de una release branch a dicha rama genera una nueva versión publicada sin pasos adicionales.
+
+_Pendiente: incorporar las capturas de imagen de cada uno de los pasos de configuración realizados._
 
 **Frontend Web Application**
 
@@ -1496,7 +1503,17 @@ _No aplica para el Sprint 1. El alcance de esta iteración corresponde al Landin
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
-_Pendiente de elaborar. Debe resumir los procesos realizados en relación con el despliegue durante el Sprint, incluyendo la creación de cuentas, la configuración de los recursos y la publicación del Landing Page, acompañado de capturas de imagen y de la explicación de cada paso._
+Durante el Sprint 1, el alcance de despliegue correspondió al Landing Page. El equipo creó el repositorio `smartstock-landing-page` dentro de la organización NexoStock, aplicó sobre él el flujo de trabajo GitFlow e integró la versión 1.0.0 a la rama `main` mediante una release branch. A continuación, habilitó GitHub Pages tomando como fuente dicha rama y el directorio raíz del repositorio.
+
+| Producto | Repositorio | URL desplegado | Estado |
+|:---------|:------------|:---------------|:-------|
+| Landing Page | [https://github.com/NexoStock/smartstock-landing-page](https://github.com/NexoStock/smartstock-landing-page) | [https://nexostock.github.io/smartstock-landing-page/](https://nexostock.github.io/smartstock-landing-page/) | Desplegado |
+| Frontend Web Application | _Pendiente de despliegue._ | — | Fuera del alcance del Sprint 1 |
+| Web Services | _Pendiente de despliegue._ | — | Fuera del alcance del Sprint 1 |
+
+Se verificó que el sitio publicado responde correctamente tanto en la página de inicio como en la página de términos y condiciones, y que la hoja de estilos y el archivo de comportamiento se sirven sin errores.
+
+_Pendiente: incorporar las capturas de imagen de la configuración de GitHub Pages y del sitio publicado en navegador de escritorio y móvil._
 
 <a id="5218-team-collaboration-insights-during-sprint"></a>
 
@@ -1607,3 +1624,4 @@ _Esta relación de títulos y videos se expande con cada entrega del proyecto._
 | Diagramas de C4 Model | Structurizr | _Pendiente_ |
 | Class Diagrams y Database Diagrams | LucidChart | _Pendiente_ |
 | Product Backlog y Sprint Backlogs | Trello | _Pendiente_ |
+| Landing Page desplegado | GitHub Pages | [https://nexostock.github.io/smartstock-landing-page/](https://nexostock.github.io/smartstock-landing-page/) |
