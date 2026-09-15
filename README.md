@@ -44,6 +44,7 @@
 | 1.7 | 2026-09-12 | • Crispin Valdivia, Angel Gabriel | Redacción de la sección 5.1 Software Configuration Management, con la configuración del ambiente de desarrollo, la gestión del código fuente bajo GitFlow, las convenciones de estilo de código y la configuración de despliegue. |
 | 1.8 | 2026-09-12 | • Crispin Valdivia, Angel Gabriel | Incorporación de la estructura de los Capítulos IV y V, de las secciones de Conclusiones, Bibliografía y Anexos, y de la sección de Anexo de Videos de Exposiciones. |
 | 1.9 | 2026-09-14 | • Crispin Valdivia, Angel Gabriel | Incorporación del URL del repositorio del Landing Page en la sección 5.1.2, del URL del sitio desplegado en GitHub Pages en la sección 5.1.4, de la evidencia de despliegue del Sprint 1 en la sección 5.2.1.7 y del enlace correspondiente en el Anexo B. |
+| 1.10 | 2026-09-14 | • Crispin Valdivia, Angel Gabriel | Redacción de las secciones 4.1 Style Guidelines, con el branding, el tono de comunicación, la paleta de colores con sus relaciones de contraste, la tipografía y el espaciado, y 4.2 Information Architecture, con los sistemas de organización, etiquetado, SEO, búsqueda y navegación. Incorporación de las capturas de las vistas implementadas en la sección 5.2.1.5 y de la configuración de despliegue en la sección 5.2.1.7. |
 
 <hr>
 
@@ -1099,55 +1100,315 @@ En este capítulo se presenta la propuesta de Software Architecture & Design de 
 
 ## 4.1. Style Guidelines
 
-_Pendiente de elaborar. La sección debe sentar las bases del repositorio central de assets, fuentes y componentes de uso común para todo el equipo, con el fin de mantener una presentación consistente entre el Landing Page y la Web Application._
+En esta sección se establecen las bases visuales y de comunicación compartidas por los productos digitales de SmartStock. El objetivo es contar con un repositorio central y organizado de decisiones de uso común para todo el equipo, de modo que el Landing Page y la Web Application se lean como una sola experiencia y no como dos productos distintos.
+
+Las decisiones se expresan como variables CSS declaradas en un único archivo de estilos del Landing Page, lo que permite que cualquier ajuste de marca se realice en un solo lugar y se propague a toda la experiencia. El lenguaje de diseño adoptado es Material Design, y en la Web Application se materializa mediante Angular Material.
 
 <a id="411-general-style-guidelines"></a>
 
 ### 4.1.1. General Style Guidelines
 
-_Pendiente de elaborar. Debe explicar las decisiones y referencias visuales sobre Branding, Typography, Colors y Spacing, así como las dimensiones adoptadas para el tono de comunicación y el lenguaje aplicado (Divertido/Serio, Formal/Casual, Respetuoso/Irreverente, Entusiasta/Sereno). El lenguaje de diseño del proyecto es Material Design. Debe incluirse el sustento de los principios y elementos de diseño considerados para cada decisión._
+**Branding**
+
+SmartStock es el producto de la startup NexoStock. La marca se apoya en el azul marino, asociado a la confiabilidad y a la lectura de datos de instrumentación, y en una comunicación directa centrada en el control del inventario físico. El isotipo representa un estante contenido dentro de una forma hexagonal, acompañado del símbolo de conectividad inalámbrica, que sintetiza los dos elementos del producto: el inventario en el estante y el sensor que lo reporta.
+
+El principio visual que gobierna toda la experiencia es que **el blanco predomina**. El color de marca no se usa como fondo de grandes superficies, sino reservado para titulares, acciones y enlaces. De esta manera el contenido —que en el caso de este producto es información de inventario— conserva siempre la mayor jerarquía visual.
+
+**Tono de comunicación**
+
+El equipo definió las siguientes dimensiones para el lenguaje aplicado en toda la experiencia:
+
+| Dimensión | Decisión | Sustento |
+| :-------- | :------- | :------- |
+| Divertido / Serio | Serio | El usuario consulta la plataforma cuando un producto puede estar agotándose; el contenido informa, no entretiene. |
+| Formal / Casual | Casual moderado | Los segmentos son dueños de bodega y administradores de minimarket, para quienes un lenguaje excesivamente formal genera distancia. |
+| Respetuoso / Irreverente | Respetuoso | El producto se dirige a personas que conocen su negocio mejor que nosotros; el lenguaje las trata como pares y no como aprendices. |
+| Entusiasta / Sereno | Sereno | Una alerta de stock bajo debe leerse con calma para no amplificar la urgencia de la operación diaria. |
+
+Una consecuencia concreta de este tono es que la comunicación no exagera la precisión del producto. La lectura del sensor es un peso, y su conversión a unidades es una estimación; los textos lo declaran así en lugar de prometer un conteo exacto.
+
+**Colores**
+
+La paleta se organiza en una rampa de marca de azul marino con dos peldaños, separados por contraste y no por matiz. Ambos son legibles como texto sobre fondo blanco, lo que permite emplear el peldaño oscuro en titulares y el medio en enlaces y acciones secundarias sin recurrir a un tercer valor.
+
+| Muestra | Token | Valor | Contraste sobre blanco | Rol |
+| :------ | :---- | :---- | :--------------------- | :-- |
+| <div style="width:48px;height:24px;border-radius:4px;background-color:#0a2342;border:1px solid #e2e6ec;"></div> | `--navy` | `#0a2342` | 15.77:1 (AAA) | Color de marca. Titulares, fondo de botones primarios y logotipo. |
+| <div style="width:48px;height:24px;border-radius:4px;background-color:#1b4f8f;border:1px solid #e2e6ec;"></div> | `--blue` | `#1b4f8f` | 8.20:1 (AAA) | Enlaces, estado de hover de los botones y acentos de etiqueta. |
+
+Las superficies y los colores de texto se resuelven con cuatro valores. La superficie apagada se pinta con un color opaco y no con una capa translúcida, de modo que no herede lo que tenga detrás al alternar secciones.
+
+| Muestra | Token | Valor | Contraste sobre blanco | Rol |
+| :------ | :---- | :---- | :--------------------- | :-- |
+| <div style="width:48px;height:24px;border-radius:4px;background-color:#ffffff;border:1px solid #e2e6ec;"></div> | — | `#ffffff` | — | Fondo de la página y de las tarjetas. Es el fondo predominante. |
+| <div style="width:48px;height:24px;border-radius:4px;background-color:#f7f9fb;border:1px solid #e2e6ec;"></div> | `--soft` | `#f7f9fb` | — | Superficie en segundo plano, únicamente para alternar secciones. |
+| <div style="width:48px;height:24px;border-radius:4px;background-color:#1c2430;border:1px solid #e2e6ec;"></div> | `--ink` | `#1c2430` | 15.62:1 (AAA) | Color de texto general, en reemplazo del negro puro. |
+| <div style="width:48px;height:24px;border-radius:4px;background-color:#5b6673;border:1px solid #e2e6ec;"></div> | `--muted` | `#5b6673` | 5.84:1 (AA) | Texto secundario: párrafos de apoyo y descripciones de tarjeta. |
+
+Los neutros se reducen a un único rol de línea. A diferencia de una aplicación, donde conviene distinguir el borde de una tarjeta clicable del divisor interno de una lista, el sitio web estático no presenta esa variedad de elementos interactivos, por lo que multiplicar los valores de línea habría agregado tokens sin uso real.
+
+| Muestra | Token | Valor | Rol |
+| :------ | :---- | :---- | :-- |
+| <div style="width:48px;height:24px;border-radius:4px;background-color:#e2e6ec;border:1px solid #e2e6ec;"></div> | `--border` | `#e2e6ec` | Borde de tarjetas, campos de formulario, tablas y separadores. |
+
+Los estados de retroalimentación del formulario emplean dos colores, ambos con contraste suficiente para texto sobre fondo blanco:
+
+| Muestra | Valor | Contraste sobre blanco | Uso en SmartStock |
+| :------ | :---- | :--------------------- | :---------------- |
+| <div style="width:48px;height:24px;border-radius:4px;background-color:#c0392b;border:1px solid #e2e6ec;"></div> | `#c0392b` | 5.44:1 (AA) | Mensaje de error de validación y borde del campo inválido. |
+| <div style="width:48px;height:24px;border-radius:4px;background-color:#1e7e46;border:1px solid #e2e6ec;"></div> | `#1e7e46` | 5.09:1 (AA) | Confirmación de envío de la solicitud de demostración. |
+
+Una decisión relevante es que el color de marca **no** se utiliza para comunicar estado. Siendo el azul marino el color de todas las acciones del sitio, un aviso azul dejaría de leerse como señal y se confundiría con un elemento de marca.
+
+**Tipografía**
+
+La familia tipográfica es Manrope, con una pila de respaldo de tipografías de sistema para el caso en que la fuente remota no cargue. La escala parte de una base de 16 píxeles y se expresa en `rem`, de modo que la preferencia de tamaño de texto configurada en el navegador escale la página completa y no solo algunas partes.
+
+| Muestra | Tamaño | Peso | Uso |
+| :------ | :----- | :--- | :-- |
+| <span style="font-size:44px;font-weight:700;color:#0a2342;line-height:1.2;">Aa</span> | 2.75 rem · 44 px | 700 | Titular principal del Landing Page. |
+| <span style="font-size:30px;font-weight:700;color:#0a2342;line-height:1.2;">Aa</span> | 1.875 rem · 30 px | 700 | Título de sección. |
+| <span style="font-size:18px;font-weight:700;color:#0a2342;line-height:1.2;">Aa</span> | 1.125 rem · 18 px | 700 | Título de tarjeta y párrafo de entrada de sección. |
+| <span style="font-size:16px;font-weight:400;color:#1c2430;line-height:1.2;">Aa</span> | 1 rem · 16 px | 400 | Cuerpo de texto por defecto. |
+| <span style="font-size:15px;font-weight:400;color:#1c2430;line-height:1.2;">Aa</span> | 0.9375 rem · 15 px | 400 / 600 | Texto de tarjeta, botones y campos de formulario. |
+| <span style="font-size:14px;font-weight:600;color:#1c2430;line-height:1.2;">Aa</span> | 0.875 rem · 14 px | 600 | Etiquetas de formulario, pie de página y nota de apoyo. |
+| <span style="font-size:12px;font-weight:600;color:#1b4f8f;line-height:1.2;">Aa</span> | 0.75 rem · 12 px | 600 | Etiquetas de segmento y encabezados de tabla. |
+
+Los pesos se limitan a tres valores (400, 600 y 700) y la altura de línea a dos: 1.25 para titulares y 1.6 para cuerpo de texto. En pantallas menores a 900 píxeles el titular principal desciende a 2.125 rem y el título de sección a 1.5 rem, para que un titular largo no ocupe la pantalla completa en un teléfono.
+
+**Espaciado**
+
+El sistema de espaciado utiliza una base de 4 píxeles expresada en `rem`. Toda separación entre elementos consume un valor de esta escala, lo que sostiene el ritmo vertical de las vistas y evita valores arbitrarios elegidos a ojo.
+
+| Muestra | Valor | Uso habitual |
+| :------ | :---- | :----------- |
+| <div style="width:6px;height:12px;border-radius:2px;background-color:#1b4f8f;"></div> | 0.375 rem · 6 px | Separación entre una etiqueta y su campo. |
+| <div style="width:10px;height:12px;border-radius:2px;background-color:#1b4f8f;"></div> | 0.625 rem · 10 px | Separación entre el título de una tarjeta y su texto. |
+| <div style="width:12px;height:12px;border-radius:2px;background-color:#1b4f8f;"></div> | 0.75 rem · 12 px | Relleno vertical de botones y separación entre acciones. |
+| <div style="width:16px;height:12px;border-radius:2px;background-color:#1b4f8f;"></div> | 1 rem · 16 px | Separación entre elementos de una lista de características. |
+| <div style="width:24px;height:12px;border-radius:2px;background-color:#1b4f8f;"></div> | 1.5 rem · 24 px | Separación entre tarjetas de una rejilla y márgenes laterales del contenedor. |
+| <div style="width:28px;height:12px;border-radius:2px;background-color:#1b4f8f;"></div> | 1.75 rem · 28 px | Relleno interno de una tarjeta y del formulario. |
+| <div style="width:40px;height:12px;border-radius:2px;background-color:#1b4f8f;"></div> | 2.5 rem · 40 px | Separación entre el encabezado de sección y su contenido. |
+| <div style="width:48px;height:12px;border-radius:2px;background-color:#1b4f8f;"></div> | 3 rem · 48 px | Relleno vertical de sección en vista móvil. |
+| <div style="width:72px;height:12px;border-radius:2px;background-color:#1b4f8f;"></div> | 4.5 rem · 72 px | Relleno vertical de sección en vista de escritorio. |
+| <div style="width:88px;height:12px;border-radius:2px;background-color:#1b4f8f;"></div> | 5.5 rem · 88 px | Espacio superior del encabezado principal. |
+
+El radio de esquina es único, de 8 píxeles, y se aplica a botones, tarjetas, campos de formulario y contenedores de tabla. Un solo radio evita la mezcla de formas que ocurre cuando cada componente elige el suyo.
+
+**Principios y elementos de diseño considerados**
+
+| Principio o elemento | Aplicación en SmartStock |
+| :------------------- | :----------------------- |
+| Jerarquía | El tamaño y el peso tipográfico, y no el color, establecen el orden de lectura. El azul marino se reserva para lo accionable. |
+| Contraste | Todos los colores de texto superan la relación 4.5:1 sobre blanco exigida por WCAG para texto normal; los titulares alcanzan nivel AAA. |
+| Espacio en blanco | El blanco predomina y las secciones respiran con 72 píxeles de relleno vertical, de modo que cada bloque de contenido se lea de forma independiente. |
+| Repetición | Un solo radio de esquina, un solo color de borde y una sola familia tipográfica se repiten en toda la experiencia. |
+| Alineación | Todo el contenido se alinea dentro de un contenedor de 1040 píxeles de ancho máximo, centrado en la ventana. |
+| Diseño inclusivo | El color nunca es el único portador de significado, el foco del teclado es siempre visible y la experiencia respeta las preferencias de tamaño de texto y de movimiento reducido del sistema operativo. |
 
 <a id="412-web-style-guidelines"></a>
 
 ### 4.1.2. Web Style Guidelines
 
-_Pendiente de elaborar. Debe explicar e ilustrar las decisiones sobre los estándares visuales y de interacción para las interfaces web responsive, considerando Angular Material como biblioteca de componentes de la Web Application y su correspondencia visual con el Landing Page._
+En esta sección se explican los estándares visuales y de interacción aplicados a las interfaces web responsive de la solución.
+
+**Rejilla y puntos de quiebre**
+
+El contenido se organiza en un contenedor de 1040 píxeles de ancho máximo con 24 píxeles de margen lateral. Se definen dos puntos de quiebre, elegidos por el comportamiento del contenido y no por el modelo de un dispositivo concreto:
+
+| Punto de quiebre | Comportamiento |
+| :--------------- | :------------- |
+| Mayor a 900 px | Rejillas de tres columnas para tarjetas de problema, planes y testimonios; de dos columnas para los casos de uso por segmento. |
+| 900 px o menos | Todas las rejillas colapsan a una sola columna y la escala tipográfica de titulares se reduce. |
+| 720 px o menos | La navegación se oculta tras un botón de menú, el relleno vertical de sección se reduce de 72 a 48 píxeles y los enlaces de navegación pasan a ocupar el ancho completo. |
+
+**Componentes**
+
+| Componente | Estándar adoptado |
+| :--------- | :---------------- |
+| Botón primario | Fondo azul marino, texto blanco, radio de 8 px, relleno de 12 px por 24 px. En hover cambia al azul medio. |
+| Botón secundario | Fondo transparente, texto azul marino y borde gris. En hover adopta la superficie apagada y el borde azul marino. |
+| Tarjeta | Fondo blanco, borde de 1 px y radio de 8 px. Sin sombra: la separación se comunica con el borde y con el espacio, no con elevación. |
+| Tabla | Encabezado sin relleno de color, en versal con espaciado de letra aumentado; filas separadas por una línea inferior. En pantallas estrechas la tabla conserva su ancho mínimo dentro de un contenedor con desplazamiento horizontal propio. |
+| Acordeón | El encabezado es un botón de ancho completo con un indicador `+` que cambia a `−` al expandirse. |
+| Campo de formulario | Borde gris de 1 px y radio de 8 px. El campo inválido adopta el borde rojo y expone su mensaje de error inmediatamente debajo. |
+
+**Interacción**
+
+La validación de los campos del formulario se dispara al abandonar el campo y no mientras se escribe. Corregir a una persona a mitad de su correo electrónico marca cada dirección como inválida hasta la última letra, lo que se lee como un fallo del producto y no como una ayuda.
+
+Al enviar el formulario con errores, el foco se traslada automáticamente al primer campo inválido, de modo que quien navega con teclado o con lector de pantalla llegue directamente al problema.
+
+Todas las transiciones son breves y se anulan por completo cuando el sistema operativo declara la preferencia de movimiento reducido.
+
+**Accesibilidad**
+
+| Criterio | Implementación |
+| :------- | :------------- |
+| Navegación por teclado | Un enlace de salto al contenido es el primer elemento enfocable de la página. Todo elemento interactivo expone un anillo de foco visible mediante `:focus-visible`. |
+| Atributos ARIA | El acordeón emplea `aria-expanded` y `aria-controls`; los mensajes de error usan `role="alert"`; el estado del envío usa `role="status"` con `aria-live="polite"`; el menú expone `aria-expanded` y el selector de idioma `aria-pressed`. |
+| Texto alternativo | El logotipo es decorativo y se expone con texto alternativo vacío, ya que el nombre del producto lo acompaña como texto. |
+| Color y significado | Ningún estado se comunica únicamente por color: el error va acompañado de su mensaje y la comparación de la tabla emplea las palabras «Sí» y «No» en lugar de símbolos. |
+| Tamaño de texto | Toda la hoja de estilos está expresada en `rem`, de modo que la página escala de forma proporcionada al aumentar el tamaño de texto del navegador, sin recortar el contenido de los controles. |
+| Idioma | El atributo `lang` del documento se actualiza al cambiar de idioma, para que el lector de pantalla emplee la pronunciación correcta. |
 
 <a id="42-information-architecture"></a>
 
 ## 4.2. Information Architecture
 
-_Pendiente de elaborar. La sección debe plantear las decisiones y el sustento que dirigen la organización del contenido en el Landing Page y en la Web Application, orientadas a que visitantes y usuarios encuentren lo que necesitan sin esfuerzo._
+En esta sección se plantean las decisiones que dirigen la manera como se organiza el contenido en el Landing Page y en la Web Application, junto con su sustento. Las decisiones buscan que el visitante y el usuario se adapten con facilidad a cada producto y encuentren lo que necesitan sin esfuerzo.
+
+La distinción que gobierna toda la arquitectura es que los dos productos atienden momentos distintos. El Landing Page recibe a alguien que todavía está evaluando si SmartStock le sirve, por lo que su contenido se ordena para **persuadir**. La Web Application recibe a alguien que ya decidió y necesita saber el estado de su inventario, por lo que su contenido se ordena para **operar**. Una misma organización para ambos habría obligado a que uno de los dos leyera contenido que no le corresponde.
 
 <a id="421-organization-systems"></a>
 
 ### 4.2.1. Organization Systems
 
-_Pendiente de elaborar. Debe explicar en qué grupos de información se aplicará organización jerárquica (visual hierarchy), secuencial (step-by-step) o matricial, y qué esquemas de categorización de contenido se usarán en cada caso: alfabético, cronológico, por tópicos o según audiencia._
+**Organización visual del contenido**
+
+| Grupo de información | Esquema aplicado | Sustento |
+| :------------------- | :--------------- | :------- |
+| Página de inicio del Landing Page | Jerárquica (visual hierarchy) | El visitante llega sin conocer el producto. El titular principal, la descripción y las acciones se ordenan de mayor a menor peso visual para que la propuesta de valor se comprenda antes de cualquier desplazamiento. |
+| Secciones del Landing Page | Secuencial (step-by-step) | El recorrido sigue el orden de una decisión de compra: qué es el producto, qué problema resuelve, si aplica a mi tipo de negocio, cómo se compara, cuánto cuesta, qué dicen otros, qué dudas quedan y cómo solicitar una demostración. |
+| Comparación frente a otras soluciones | Matricial | Cada fila es una capacidad y cada columna una alternativa del mercado. La matriz permite comparar en dos ejes sin que el visitante deba recordar lo leído en un bloque anterior. |
+| Planes y precios | Matricial | Tres planes comparados sobre el mismo conjunto de características, ordenados de menor a mayor capacidad. |
+| Preguntas frecuentes | Secuencial con revelación progresiva | Las preguntas se listan en orden de aparición durante la instalación, y cada respuesta permanece oculta hasta que el visitante la solicita, para que la lista completa sea abarcable de una sola mirada. |
+| Panel de monitoreo de la Web Application | Jerárquica y matricial | El resumen del estado del inventario encabeza la vista y, bajo él, el listado de productos se organiza como matriz de producto por atributo: nivel de stock, estado del sensor y umbral configurado. |
+| Configuración de sensores | Secuencial | La vinculación de un sensor a un producto es un procedimiento de pasos sucesivos: seleccionar el sensor, seleccionar el producto, confirmar el peso de referencia. |
+
+**Esquemas de categorización del contenido**
+
+| Esquema | Dónde se aplica | Sustento |
+| :------ | :-------------- | :------- |
+| Según audiencia | Sección de casos de uso del Landing Page, dividida en bodegas de barrio y minimarkets | Los dos segmentos objetivo tienen necesidades distintas de volumen y de personal. Separar el contenido permite que cada visitante se reconozca sin leer lo que corresponde al otro segmento. |
+| Por tópicos | Navegación principal del Landing Page y agrupación de las preguntas frecuentes | El visitante busca un tema concreto —planes, comparación, instalación— y no un elemento identificable por nombre. |
+| Cronológico | Historial de lecturas de un sensor y registro de alertas en la Web Application | Una lectura solo tiene sentido en relación con el momento en que se tomó; el orden inverso por fecha coloca primero la información vigente. |
+| Alfabético | Catálogo de productos de la Web Application, como ordenamiento por defecto | Cuando el usuario ya sabe qué producto busca, el orden alfabético es el único que permite ubicarlo sin leer la lista completa. |
 
 <a id="422-labeling-systems"></a>
 
 ### 4.2.2. Labeling Systems
 
-_Pendiente de elaborar. Debe especificar las etiquetas, con el mínimo número de palabras, que representan los conjuntos de información del producto y las asociaciones que generan en la mente del visitante y del usuario._
+Las etiquetas se redactan con el mínimo número de palabras necesario y emplean los términos del Ubiquitous Language del dominio, de manera que la palabra que el usuario ve en pantalla sea la misma que usa en su negocio. El idioma por defecto de todas las etiquetas es el inglés, con su equivalente en español latinoamericano disponible mediante el selector de idioma.
+
+**Etiquetas de navegación del Landing Page**
+
+| Etiqueta (en_US) | Etiqueta (es_419) | Asociación que genera en el visitante |
+| :--------------- | :---------------- | :------------------------------------ |
+| Use cases | Casos de uso | Encontrará ejemplos aplicados a un tipo de negocio parecido al suyo. |
+| Comparison | Comparación | Encontrará a SmartStock contrastado con otras alternativas del mercado. |
+| Plans | Planes | Encontrará precios y el detalle de lo que incluye cada nivel de servicio. |
+| FAQ | Preguntas | Encontrará respuestas a dudas concretas, sin tener que escribir a nadie. |
+| Sign up | Crear cuenta | Iniciará el registro; es una acción, no un destino informativo. |
+| Request a demo | Solicitar demostración | Contactará al equipo sin comprometerse a contratar. |
+| Terms and conditions | Términos y condiciones | Encontrará las condiciones del servicio, el tratamiento de sus datos y la política de cancelación. |
+
+**Etiquetas de estado del inventario**
+
+Estas etiquetas son las de mayor consecuencia del producto, porque son las que el usuario lee para decidir si debe reponer. Se resolvieron con una sola palabra cada una y nunca se comunican solo por color.
+
+| Etiqueta (en_US) | Etiqueta (es_419) | Significado |
+| :--------------- | :---------------- | :---------- |
+| Low | Bajo | El nivel de stock es igual o menor al umbral mínimo configurado para el producto. |
+| Normal | Normal | El nivel de stock se encuentra por encima del umbral mínimo. |
+| No sensor | Sin sensor | El producto está registrado en el catálogo pero no tiene un sensor vinculado, por lo que no se monitorea. |
+| Online | En línea | El sensor reportó una lectura en los últimos cinco minutos. |
+| Disconnected | Desconectado | El sensor no reporta lecturas desde hace más de cinco minutos. |
+
+Se descartó la etiqueta «Agotado» para el nivel más bajo, porque el sensor no puede distinguir entre un producto agotado y un producto retirado temporalmente del estante. Declarar un agotamiento que el instrumento no puede confirmar habría sido una afirmación que el producto no sostiene.
+
+**Etiquetas de los campos de formulario**
+
+Los campos se etiquetan por el dato que piden y no por su formato: `Full name`, `Business name`, `Email address` y `Type of business`. Los mensajes de error indican qué hacer y no solo qué está mal: «Enter a valid email address» en lugar de «Formato inválido».
 
 <a id="423-seo-tags-and-meta-tags"></a>
 
 ### 4.2.3. SEO Tags and Meta Tags
 
-_Pendiente de elaborar. Debe incluir, como mínimo, los valores de Title y de los Meta Tags Description, Keywords y Author para las principales páginas del Landing Page y de la Web Application._
+A continuación se especifican los valores asignados en las principales páginas de la experiencia. Los correspondientes al Landing Page se encuentran implementados en la versión desplegada; los de la Web Application constituyen la propuesta a implementar.
+
+**Landing Page — Página de inicio**
+
+| Etiqueta | Valor |
+| :------- | :---- |
+| `title` | SmartStock — IoT inventory monitoring for minimarkets and corner stores |
+| `meta description` | SmartStock monitors your physical inventory with IoT weight sensors, compares it against your recorded stock and alerts you before a product runs out. |
+| `meta keywords` | inventory management, IoT sensors, stock monitoring, minimarket, corner store, SmartStock, NexoStock |
+| `meta author` | NexoStock |
+| `lang` | `en-US`, actualizado dinámicamente a `es-419` al cambiar de idioma |
+
+**Landing Page — Términos y condiciones**
+
+| Etiqueta | Valor |
+| :------- | :---- |
+| `title` | Terms and conditions — SmartStock |
+| `meta description` | Terms and conditions of service of SmartStock, the IoT inventory monitoring platform by NexoStock. |
+| `meta keywords` | terms and conditions, SmartStock, NexoStock |
+| `meta author` | NexoStock |
+
+**Web Application — Propuesta**
+
+| Vista | `title` | `meta description` |
+| :---- | :------ | :----------------- |
+| Inicio de sesión | Sign in — SmartStock | Sign in to SmartStock to monitor the physical inventory of your store in real time. |
+| Registro | Create your account — SmartStock | Create a SmartStock account and start monitoring your shelves with IoT weight sensors. |
+| Panel de monitoreo | Dashboard — SmartStock | Summary of your products by stock level, with the sensors that need attention. |
+| Catálogo de productos | Products — SmartStock | Manage the catalogue of products monitored by SmartStock and their minimum thresholds. |
+| Sensores | Sensors — SmartStock | Link, configure and check the connection status of your IoT weight sensors. |
+
+En todas las vistas de la Web Application se mantiene `meta author` con el valor `NexoStock`. Las vistas que requieren autenticación se marcan con `meta robots` en `noindex, nofollow`, dado que su contenido es privado de cada negocio y no debe aparecer en resultados de búsqueda.
 
 <a id="424-searching-systems"></a>
 
 ### 4.2.4. Searching Systems
 
-_Pendiente de elaborar. Debe explicar qué opciones de búsqueda ofrecerá la Web Application, con qué filtros contará el usuario en cada caso y cómo lucirán los datos después de la búsqueda._
+**Landing Page**
+
+El sitio web estático no incorpora un sistema de búsqueda. La decisión es deliberada: el contenido cabe en una sola página, la navegación superior permite alcanzar cualquier sección en un clic y el volumen de información no alcanza el umbral a partir del cual un visitante se siente perdido. Un buscador en este contexto habría agregado un control que nadie usaría.
+
+**Web Application — Propuesta**
+
+El volumen sí lo justifica en la aplicación, donde un minimarket puede tener más de cien productos monitoreados. Se proponen los siguientes medios de ayuda:
+
+| Vista | Búsqueda | Filtros | Presentación de los resultados |
+| :---- | :------- | :------ | :----------------------------- |
+| Catálogo de productos | Campo de búsqueda por nombre del producto, con coincidencia parcial y resultados actualizados conforme se escribe | Categoría del producto · Nivel de stock (bajo, normal, sin datos) · Con o sin sensor vinculado | Listado con el nombre, la categoría, el nivel de stock y el estado del sensor. El término buscado se resalta dentro del nombre. |
+| Sensores | Campo de búsqueda por identificador del sensor o por producto vinculado | Estado de conexión (en línea, desconectado) · Vinculado o disponible | Listado con el identificador, el producto vinculado, el estado de conexión y la fecha de la última lectura. |
+| Historial de lecturas | — | Rango de fechas · Producto | Listado en orden cronológico inverso, agrupado por día. |
+
+Tres decisiones acompañan a esta propuesta. Los filtros aplicados permanecen visibles como etiquetas removibles sobre el listado, de manera que el usuario nunca vea un listado incompleto sin saber por qué. Una búsqueda sin coincidencias no devuelve una pantalla vacía, sino el término buscado junto con la acción de limpiar los filtros. Y el estado de la búsqueda se conserva al volver desde el detalle de un producto, para no obligar a repetir el filtrado.
 
 <a id="425-navigation-systems"></a>
 
 ### 4.2.5. Navigation Systems
 
-_Pendiente de elaborar. Debe explicar las acciones y técnicas que guiarán a los usuarios a través del Landing Page y de la Web Application, y de qué maneras irán recorriendo el contenido._
+**Landing Page**
+
+La navegación principal es una barra superior fija que acompaña al visitante durante todo el desplazamiento. Contiene cuatro destinos —casos de uso, comparación, planes y preguntas frecuentes— y dos controles permanentes: el selector de idioma y la acción de crear cuenta.
+
+Que la acción de registro esté presente en todo momento responde a un requisito explícito del producto: el visitante debe poder crear su cuenta desde cualquier sección, sin tener que buscarla. En pantallas de 720 píxeles o menos, los destinos se repliegan tras un botón de menú, mientras que el selector de idioma y la acción de registro permanecen visibles, por ser los dos controles que no deben depender de que el visitante abra un menú.
+
+El recorrido del contenido es de desplazamiento vertical continuo, con secciones que alternan fondo blanco y superficie apagada para marcar el límite entre una y otra sin necesidad de líneas divisorias. Los enlaces de la navegación operan como anclas dentro de la misma página, lo que evita recargas y conserva el contexto del visitante.
+
+El pie de página cierra el recorrido con los dos destinos que no forman parte del proceso de decisión pero deben estar siempre disponibles: los términos y condiciones, y el repositorio público de la organización.
+
+**Puentes hacia la Web Application**
+
+Cada llamado a la acción del Landing Page conduce a la vista correspondiente de la Web Application, y lo hace transportando el contexto desde el que se originó:
+
+| Origen en el Landing Page | Destino en la Web Application |
+| :------------------------ | :---------------------------- |
+| Acción de registro de la barra superior y del encabezado principal | `/sign-up` |
+| Caso de uso de bodegas de barrio | `/sign-up?segment=corner-store` |
+| Caso de uso de minimarkets | `/sign-up?segment=minimarket` |
+| Plan Inicial | `/sign-up?plan=starter` |
+| Plan Crecimiento | `/sign-up?plan=growth` |
+
+De esta manera, el segmento o el plan que el visitante estaba evaluando llega al formulario de registro ya seleccionado, y la experiencia se percibe continua entre los dos productos en lugar de reiniciarse al cambiar de sitio.
+
+**Web Application — Propuesta**
+
+La navegación se resuelve con una barra lateral persistente que agrupa los destinos principales —panel de monitoreo, productos, sensores y alertas— y una barra superior que conserva la identidad del negocio, el selector de idioma y el acceso a la cuenta. Se incorpora además una ruta de navegación (breadcrumb) en las vistas de detalle, para que el usuario sepa en todo momento de qué listado proviene y pueda regresar a él sin usar el botón del navegador.
 
 <a id="43-landing-page-ui-design"></a>
 
@@ -1491,7 +1752,35 @@ _Pendiente de elaborar. La sección inicia con una introducción que resume los 
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
-_Pendiente de elaborar. Debe iniciar con un resumen de lo alcanzado en el Sprint y presentar los screenshots de las principales vistas implementadas, junto con el enlace al video que ilustra y explica la visualización y navegación logradas._
+Durante el Sprint 1 se implementó y desplegó la primera versión del Landing Page, que cubre las User Stories del sitio web estático especificadas en la sección 3.1. El sitio se encuentra accesible en [https://nexostock.github.io/smartstock-landing-page/](https://nexostock.github.io/smartstock-landing-page/).
+
+A continuación se presentan las principales vistas implementadas.
+
+**Encabezado principal y propuesta de valor (US16, US24)**
+
+El encabezado principal presenta qué es SmartStock y qué problema resuelve. La barra superior mantiene visibles de forma permanente el selector de idioma y la acción de crear cuenta, en cumplimiento de la regla de negocio de la US24.
+
+![Encabezado principal del Landing Page de SmartStock](assets/images/execution/landing-hero.png)
+
+**Casos de uso por segmento objetivo (US17, US18)**
+
+La sección de casos de uso separa el contenido dirigido a bodegas de barrio del dirigido a minimarkets. Cada bloque cierra con un call-to-action que redirige a la vista de registro de la Web Application transportando el segmento correspondiente.
+
+![Sección de casos de uso por segmento objetivo](assets/images/execution/landing-use-cases.png)
+
+**Planes y precios (US19)**
+
+Los tres planes se presentan sobre el mismo conjunto de características, ordenados de menor a mayor capacidad. Cada plan conduce al registro con el plan preseleccionado.
+
+![Sección de planes y precios](assets/images/execution/landing-plans.png)
+
+**Formulario de solicitud de demostración (US20)**
+
+El formulario valida los campos obligatorios al abandonar cada campo y expone los mensajes de error mediante `role="alert"`, de modo que un lector de pantalla los anuncie.
+
+![Formulario de solicitud de demostración](assets/images/execution/landing-form.png)
+
+_Pendiente: incorporar el enlace al video que ilustra y explica la visualización y navegación logradas en este Sprint, junto con capturas de la experiencia en navegador móvil y del sitio con el idioma cambiado a español._
 
 <a id="5216-services-documentation-evidence-for-sprint-review"></a>
 
@@ -1511,9 +1800,13 @@ Durante el Sprint 1, el alcance de despliegue correspondió al Landing Page. El 
 | Frontend Web Application | _Pendiente de despliegue._ | — | Fuera del alcance del Sprint 1 |
 | Web Services | _Pendiente de despliegue._ | — | Fuera del alcance del Sprint 1 |
 
+La configuración aplicada en el repositorio se muestra a continuación. La fuente de publicación es la rama `main` y el directorio raíz, y GitHub confirma la publicación del sitio. En el selector de ramas se aprecian además las ramas `main` y `develop`, que evidencian la aplicación de GitFlow sobre el repositorio.
+
+![Configuración de GitHub Pages en el repositorio del Landing Page](assets/images/deployment/github-pages-configuration.png)
+
 Se verificó que el sitio publicado responde correctamente tanto en la página de inicio como en la página de términos y condiciones, y que la hoja de estilos y el archivo de comportamiento se sirven sin errores.
 
-_Pendiente: incorporar las capturas de imagen de la configuración de GitHub Pages y del sitio publicado en navegador de escritorio y móvil._
+_Pendiente: incorporar la captura del sitio publicado en navegador móvil._
 
 <a id="5218-team-collaboration-insights-during-sprint"></a>
 
