@@ -46,6 +46,7 @@
 | 1.9 | 2026-09-14 | • Crispin Valdivia, Angel Gabriel | Incorporación del URL del repositorio del Landing Page en la sección 5.1.2, del URL del sitio desplegado en GitHub Pages en la sección 5.1.4, de la evidencia de despliegue del Sprint 1 en la sección 5.2.1.7 y del enlace correspondiente en el Anexo B. |
 | 1.10 | 2026-09-14 | • Crispin Valdivia, Angel Gabriel | Redacción de las secciones 4.1 Style Guidelines, con el branding, el tono de comunicación, la paleta de colores con sus relaciones de contraste, la tipografía y el espaciado, y 4.2 Information Architecture, con los sistemas de organización, etiquetado, SEO, búsqueda y navegación. Incorporación de las capturas de las vistas implementadas en la sección 5.2.1.5 y de la configuración de despliegue en la sección 5.2.1.7. |
 | 1.11 | 2026-09-14 | • Crispin Valdivia, Angel Gabriel | Incorporación en la sección 5.2.1.5 de la evidencia de internacionalización del Landing Page, con la captura de la experiencia conmutada a español latinoamericano. |
+| 1.12 | 2026-09-14 | • Crispin Valdivia, Angel Gabriel | Incorporación en la sección 5.2.1.5 de la evidencia de diseño web adaptable, con la captura del Landing Page en navegador móvil tras la corrección de la barra de navegación. |
 
 <hr>
 
@@ -1787,7 +1788,15 @@ El idioma por defecto del sitio es el inglés, conforme a lo establecido en el e
 
 ![Landing Page de SmartStock con el idioma conmutado a español latinoamericano](assets/images/execution/landing-i18n.png)
 
-_Pendiente: incorporar el enlace al video que ilustra y explica la visualización y navegación logradas en este Sprint, junto con capturas de la experiencia en navegador móvil._
+**Diseño web adaptable (responsive web design)**
+
+La experiencia se adapta a las dimensiones del dispositivo cliente. En navegador móvil, las rejillas de tarjetas colapsan a una sola columna, la escala tipográfica de los titulares se reduce y la navegación se repliega tras un botón de menú.
+
+La barra superior conserva en pantallas estrechas únicamente la marca, el selector de idioma y el botón de menú. La acción de crear cuenta se traslada al interior del menú desplegable, de modo que la barra no compita por el ancho disponible y se mantenga el cumplimiento de la regla de negocio de la US24, que establece que la opción de registro está disponible de forma permanente en todas las secciones del sitio web estático.
+
+![Landing Page de SmartStock en navegador móvil](assets/images/execution/landing-mobile.png)
+
+_Pendiente: incorporar el enlace al video que ilustra y explica la visualización y navegación logradas en este Sprint._
 
 <a id="5216-services-documentation-evidence-for-sprint-review"></a>
 
