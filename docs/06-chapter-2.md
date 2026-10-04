@@ -108,7 +108,7 @@ Permite identificar cómo funcionan las soluciones actuales de gestión de inven
 
 ### 2.2.1. Interview Design
 
-Las guías de entrevista para ambos segmentos combinan preguntas demográficas con preguntas sobre gestión del inventario y comportamiento del negocio, orientadas a sustentar la construcción de los User Persona.
+Las guías de entrevista para ambos segmentos combinan preguntas demográficas con preguntas sobre gestión del inventario y comportamiento del negocio, orientadas a sustentar la construcción de los User Persona. Las preguntas son abiertas y se apoyan en experiencias concretas y recientes del entrevistado, de modo que no sugieren una respuesta ni presentan la solución propuesta. La guía del segundo segmento se adapta a la rutina de la bodega, donde el propietario atiende a los clientes y repone la mercadería con el distribuidor o el mayorista.
 
 #### Primer Segmento Objetivo (Propietarios y administradores de minimarkets)
 
@@ -128,18 +128,18 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
 9. ¿Cómo realiza actualmente el control del inventario de los productos de su minimarket?
 10. ¿Con qué frecuencia revisa físicamente las existencias disponibles?
 11. ¿Qué dificultades encuentra al mantener actualizado el inventario?
-12. ¿Con qué frecuencia encuentra diferencias entre el stock registrado y la cantidad física disponible?
-13. ¿Qué problemas se presentan cuando un producto se agota sin ser detectado a tiempo?
+12. Cuénteme la última vez que el stock registrado no coincidió con la cantidad física disponible. ¿Cómo se dio cuenta?
+13. ¿Qué ocurrió la última vez que un producto se agotó sin que lo detectara a tiempo?
 14. ¿Cómo determina cuándo debe realizar una reposición de productos?
 15. ¿Qué productos o categorías son más difíciles de controlar por su rotación?
 16. ¿Cómo se comunica actualmente con sus proveedores para solicitar reposiciones?
 17. ¿Qué herramientas o sistemas utiliza actualmente para gestionar el inventario?
 18. ¿Qué limitaciones encuentra en esas herramientas o métodos?
-19. ¿Qué información considera más importante visualizar al revisar el inventario?
-20. ¿Qué tipo de alertas le resultarían útiles para detectar productos con bajo stock?
-21. ¿Qué importancia tendría para usted saber en todo momento si existen diferencias entre lo que su sistema registra y lo que realmente tiene en tienda?
-22. ¿Qué le gustaría que una herramienta de inventario le resuelva o facilite, sin importar la tecnología que use?
-23. ¿Qué haría que usted decida invertir en una nueva herramienta para gestionar su negocio?
+19. Cuando revisa el inventario, ¿qué información busca primero y por qué?
+20. ¿Cómo se entera hoy de que un producto está por agotarse? ¿Qué le funciona y qué no?
+21. Cuando detecta que lo registrado no coincide con lo que tiene en tienda, ¿qué hace y qué consecuencias tiene para su negocio?
+22. ¿Qué tarea del control de inventario le gustaría dejar de hacer o hacer de otra manera?
+23. ¿Ha invertido antes en alguna herramienta para su negocio? ¿Qué lo llevó a hacerlo o a descartarla?
 
 #### Segundo Segmento Objetivo (Propietarios y administradores de bodegas de barrio)
 
@@ -150,27 +150,27 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
 3. ¿En qué distrito reside?
 4. ¿Cuál es su estado civil?
 5. ¿A qué se dedica usted (ocupación) y qué rol cumple en el negocio (dueño, administrador, etc.)?
-6. ¿Hace cuánto tiempo tiene o administra el negocio?
-7. ¿Qué dispositivo usa con más frecuencia para temas del negocio (celular, laptop, computadora de escritorio)?
+6. ¿Hace cuánto tiempo tiene o administra la bodega?
+7. ¿Qué dispositivo usa con más frecuencia para temas de la bodega (celular, laptop, computadora de escritorio)?
 8. ¿Qué aplicaciones o redes sociales usa habitualmente?
 
 **Preguntas sobre gestión del inventario / comportamiento del negocio**
 
-9. ¿Cómo controla actualmente los productos disponibles en su bodega?
-10. ¿Utiliza cuaderno, Excel, sistema digital u otro método para registrar su inventario?
-11. ¿Con qué frecuencia realiza conteos o revisiones manuales de sus productos?
+9. ¿Cómo controla actualmente los productos disponibles en su bodega mientras atiende a los clientes?
+10. ¿Dónde y cómo anota los productos que entran y salen de su bodega?
+11. ¿Cada cuánto revisa o cuenta sus productos y cómo lo hace?
 12. ¿Qué dificultades tiene para saber qué productos están por agotarse?
-13. ¿Le ha ocurrido que el stock registrado no coincida con la cantidad real disponible? ¿Con qué frecuencia?
-14. ¿Qué problemas genera en su negocio quedarse sin un producto de alta demanda?
-15. ¿Cómo decide qué productos debe reponer y en qué momento?
-16. ¿Cómo realiza actualmente sus pedidos a proveedores?
-17. ¿Qué parte del control de inventario le toma más tiempo o le resulta más complicada?
-18. ¿Qué tan cómodo se siente utilizando aplicaciones o plataformas web para gestionar su negocio?
-19. ¿Qué información le gustaría ver en una pantalla para conocer rápidamente el estado de sus productos?
-20. ¿Qué tipo de alerta le sería útil cuando un producto está por agotarse?
-21. ¿Qué tan importante sería para usted enterarse automáticamente cuando un producto está por agotarse, sin tener que revisarlo usted mismo?
-22. ¿Qué beneficio tendría que ofrecer una herramienta de inventario para que usted la use de manera frecuente?
-23. ¿Qué haría que usted decida invertir en una nueva herramienta para gestionar su negocio?
+13. Cuénteme la última vez que lo que tenía anotado no coincidió con lo que había en el estante. ¿Cómo se dio cuenta?
+14. ¿Qué ocurrió la última vez que se quedó sin un producto de alta demanda?
+15. ¿Cómo decide qué productos debe reponer y en qué momento (por ejemplo, cuando pasa el distribuidor o cuando va a comprar al mayorista)?
+16. Cuénteme cómo consigue la mercadería cuando necesita reponer.
+17. ¿Qué parte del control de sus productos le toma más tiempo o le resulta más complicada?
+18. ¿Qué aplicaciones usa hoy para su bodega (cobros, pedidos, mensajes) y qué le resulta fácil o difícil de ellas?
+19. Cuando quiere saber cómo están sus productos, ¿qué datos necesita conocer primero?
+20. ¿Cómo se entera hoy de que un producto está por agotarse?
+21. ¿Qué hace cuando un cliente le pide un producto que ya no tiene? ¿Cada cuánto le ocurre?
+22. ¿Qué tendría que ofrecerle una herramienta para que la use todos los días en su bodega?
+23. ¿Ha invertido antes en alguna herramienta para su bodega? ¿Qué lo llevó a hacerlo o a descartarla?
 
 ### 2.2.2. Interview Recording
 
