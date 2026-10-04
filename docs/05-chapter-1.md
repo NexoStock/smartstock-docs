@@ -243,11 +243,10 @@ De acuerdo con los supuestos definidos previamente, planteamos las siguientes hi
 
 #### 1.2.2.4. Lean UX Canvas
 
-Link:
+**Link:**  
+[https://drive.google.com/file/d/1i2XQWFPxIGg8gTD2oAxxuiqZ7nckHCu0/view?usp=sharing](https://drive.google.com/file/d/1i2XQWFPxIGg8gTD2oAxxuiqZ7nckHCu0/view?usp=sharing)
 
-https://cdn.phototourl.com/free/2026-09-15-056c060c-fcb7-4cd2-a33f-b1f7f6f16830.jpg
-
-![Lean UX Canvas de SmartStock](../assets/chapter-1/leannuxcanva.jpg)
+![Lean UX Canvas de SmartStock](../assets/chapter-1/leanuxcanva.png)
 
 *Figura 1. Lean UX Canvas.*
 
