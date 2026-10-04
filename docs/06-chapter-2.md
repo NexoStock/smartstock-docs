@@ -1,4 +1,4 @@
-# Chapter II: Requirements Elicitation & Analysis
+# Capítulo II: Requirements Elicitation & Analysis
 
 ## 2.1. Competidores
 
@@ -30,7 +30,7 @@ El análisis competitivo permite identificar las principales alternativas que ac
 
 | **SmartStock** | **Alegra POS** | **Vendty** | **Excel y registros manuales** | **Trax Retail** |
 |---|---|---|---|---|
-| ![SmartStock](../assets/chapter-2/smartstocklogo.png) | ![Alegra POS](../assets/chapter-2/alegraposlogo.png) | ![Vendty](../assets/chapter-2/vendtylogo.png) | ![Excel y registros manuales](../assets/chapter-2/excellogo.png) | ![Trax Retail](../assets/chapter-2/traxlogo.png) |
+| <img src="../assets/chapter-2/smartstocklogo.png" width="140" height="140" style="object-fit: contain;"> | <img src="../assets/chapter-2/alegraposlogo.png" width="140" height="140" style="object-fit: contain;"> | <img src="../assets/chapter-2/vendtylogo.png" width="140" height="140" style="object-fit: contain;"> | <img src="../assets/chapter-2/excellogo.png" width="140" height="140" style="object-fit: contain;"> | <img src="../assets/chapter-2/traxlogo.png" width="140" height="140" style="object-fit: contain;"> |
 
 #### Perfil
 
