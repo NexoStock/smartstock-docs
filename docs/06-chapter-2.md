@@ -386,11 +386,15 @@ En las bodegas el control depende de la revisión visual y del cuaderno, y se ha
 
 *Figura 4. User Journey Map del propietario o administrador de minimarket.*
 
+El recorrido de Yngrid parte con serenidad al revisar las existencias, pero cae a la molestia al comparar el inventario con las ventas y al realizar el conteo físico, porque ahí aparecen las diferencias y se pierde más tiempo. La experiencia mejora cuando identifica qué reponer y concreta el pedido con sus proveedores. El punto más bajo, el conteo manual, es la oportunidad que atiende SmartStock con la lectura continua de los sensores de peso.
+
 #### Segundo Segmento Objetivo (Propietarios y administradores de bodegas de barrio)
 
 ![User Journey Map del propietario o administrador de bodega de barrio](../assets/chapter-2/userjourneymap2.png)
 
 *Figura 5. User Journey Map del propietario o administrador de bodega de barrio.*
+
+En el caso de Lincoln, la molestia llega antes: contar el inventario a mano es la etapa más pesada de su rutina, y detectar el bajo stock le genera inquietud porque puede perder ventas de productos de alta demanda. Su experiencia mejora al decidir la reposición y hacer el pedido. SmartStock busca eliminar el conteo manual y adelantar la detección del bajo stock mediante alertas.
 
 ### 2.3.4. Empathy Mapping
 
@@ -398,9 +402,13 @@ En las bodegas el control depende de la revisión visual y del cuaderno, y se ha
 
 *Figura 6. Empathy Map del propietario o administrador de minimarket.*
 
+El mapa muestra a una administradora que trabaja con alto volumen de productos y poco tiempo. Le frustra que el stock registrado no coincida con el físico y le preocupa no detectar a tiempo los productos de alta rotación. Lo que más valora es ahorrar tiempo, reducir errores y ver la información clara y ordenada.
+
 ![Empathy Map del propietario o administrador de bodega de barrio](../assets/chapter-2/empathymapping2.png)
 
 *Figura 7. Empathy Map del propietario o administrador de bodega de barrio.*
+
+El mapa muestra a un dueño de bodega que, aunque usa un sistema de caja, sigue controlando su inventario de forma manual. Le cansa contar y verificar productos, y le preocupa que una diferencia no detectada afecte la atención al cliente. Busca una herramienta fácil de usar y de precio accesible que le avise antes de que un producto se agote.
 
 ## 2.4. Big Picture Event Storming
 
