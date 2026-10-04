@@ -340,17 +340,43 @@ Este segmento es relevante debido a que los propietarios y administradores de bo
 
 ### 2.3.2. User Task Matrix
 
+La matriz consolida las tareas que mencionaron los tres entrevistados de cada segmento. La frecuencia indica cada cuánto realizan la tarea y la importancia, cuánto afecta al negocio si no se hace o se hace mal.
+
 #### Primer Segmento Objetivo (Propietarios y administradores de minimarkets)
 
-![Figura 4 (User Task Matrix 1)](../assets/chapter-2/usertaskmatrix1.png)
+| Tarea | Frecuencia | Importancia | Mencionada por |
+|---|---|---|---|
+| Revisar físicamente las existencias en tienda | Alta | Alta | José, Cristopher, Yngrid |
+| Registrar ventas y movimientos en el sistema o en Excel | Alta | Alta | José, Cristopher, Yngrid |
+| Identificar productos con bajo stock | Alta | Alta | José, Cristopher, Yngrid |
+| Supervisar productos de alta rotación (bebidas, snacks, golosinas) | Alta | Alta | José, Cristopher, Yngrid |
+| Comparar el stock registrado con el físico | Media | Alta | José, Cristopher, Yngrid |
+| Consultar reportes de consumo para decidir la reposición | Media | Alta | José |
+| Realizar pedidos a proveedores por WhatsApp o llamadas | Media | Alta | José, Cristopher, Yngrid |
+| Consultar precios y disponibilidad con proveedores | Media | Media | Yngrid |
+| Controlar productos pequeños al alcance de los clientes | Media | Media | José |
 
-*Figura 4 (User Task Matrix 1)*
+*Tabla 1. User Task Matrix de propietarios y administradores de minimarkets.*
+
+En este segmento las tareas más frecuentes e importantes son revisar existencias, registrar movimientos e identificar productos con bajo stock. Aunque cuentan con sistemas o Excel, siguen contrastando manualmente lo registrado con lo físico.
 
 #### Segundo Segmento Objetivo (Propietarios y administradores de bodegas de barrio)
 
-![Figura 5 (User Task Matrix 2)](../assets/chapter-2/usertaskmatrix2.png)
+| Tarea | Frecuencia | Importancia | Mencionada por |
+|---|---|---|---|
+| Revisar visualmente los estantes y el almacén | Alta | Alta | Lincoln, Ian, Pablo |
+| Anotar ventas y productos en cuaderno, papel o sistema de caja | Alta | Media | Lincoln, Ian, Pablo |
+| Identificar productos que están por agotarse | Alta | Alta | Lincoln, Ian, Pablo |
+| Verificar la disponibilidad de un producto que pide un cliente | Alta | Alta | Lincoln |
+| Decidir qué productos reponer y cuándo | Alta | Alta | Lincoln, Ian, Pablo |
+| Contar manualmente todos los productos | Media | Alta | Lincoln, Ian, Pablo |
+| Verificar diferencias entre el stock real y lo anotado | Media | Alta | Lincoln, Ian |
+| Realizar pedidos a proveedores por WhatsApp o llamadas | Media | Alta | Lincoln |
+| Controlar fechas de vencimiento | Media | Media | Ian, Pablo |
 
-*Figura 5 (User Task Matrix 2)*
+*Tabla 2. User Task Matrix de propietarios y administradores de bodegas de barrio.*
+
+En las bodegas el control depende de la revisión visual y del cuaderno, y se hace mientras se atiende a los clientes. Por eso identificar a tiempo qué producto está por agotarse es la tarea que más pesa en su rutina.
 
 ### 2.3.3. User Journey Mapping
 
