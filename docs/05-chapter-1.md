@@ -135,7 +135,7 @@ Ocurre debido a la dependencia de conteos manuales, errores durante el registro 
 
 #### 6. How – ¿Cómo se puede solucionar?
 
-La solución propuesta, SmartStock, plantea utilizar sensores de peso conectados a dispositivos IoT para monitorear las existencias físicas de determinados productos. La plataforma web procesa estos datos para compararlos con el inventario registrado, detectar niveles bajos de stock, generar alertas y facilitar la coordinación de reposición.
+La solución propuesta, SmartStock, plantea integrar el registro de compras y ventas con el control del inventario y el monitoreo físico mediante sensores de peso conectados a dispositivos IoT. La plataforma web procesará esta información para comparar el inventario registrado con las existencias físicas, detectar niveles bajos o diferencias de stock, generar alertas y facilitar la planificación de la reposición. 
 
 #### 7. How much – ¿Cuánto impacto genera / cuánto cuesta la solución?
 
@@ -145,6 +145,29 @@ La falta de un control adecuado del inventario puede generar pérdidas por quieb
 
 *Gráfico 5. Equipo InventaStock. The 5 W's y 2H's sobre la problemática de la gestión de inventarios en bodegas y minimarkets. (2026). Elaboración propia.*
 
+#### Alcance del proyecto
+
+SmartStock comprende el desarrollo de una plataforma web orientada a propietarios y administradores de bodegas y minimarkets, cuyo propósito es mejorar el control del inventario mediante la integración de información registrada en el sistema con datos obtenidos del inventario físico.
+
+Dentro del alcance de la solución se considera la gestión de usuarios y accesos, el catálogo de productos, el registro de compras y ventas, el control del inventario, la administración de dispositivos IoT, la configuración de niveles mínimos de stock, la generación de alertas de reposición y la consulta de información histórica mediante reportes y herramientas de análisis.
+
+El registro de compras permitirá incrementar las existencias registradas de los productos, mientras que el registro de ventas permitirá reflejar sus respectivas salidas. Paralelamente, los sensores de peso IoT permitirán obtener información del inventario físico de determinados productos, con el objetivo de contrastarla con el stock registrado e identificar posibles diferencias o niveles bajos de existencia.
+
+Asimismo, SmartStock permitirá generar alertas cuando un producto alcance los niveles mínimos configurados, facilitando que el propietario o administrador identifique oportunamente las necesidades de reposición. La coordinación y adquisición de productos con los proveedores continuará realizándose externamente por el usuario, por lo que los proveedores no forman parte de los usuarios directos de la plataforma.
+
+La solución también contempla un dashboard con información relevante sobre el estado del inventario, historial de movimientos, compras, ventas, alertas y reportes que apoyen la toma de decisiones de los responsables del establecimiento.
+
+Quedan fuera del alcance del proyecto la realización automática de pedidos a proveedores, la gestión de proveedores como usuarios de la plataforma, los procesos de contabilidad y facturación electrónica, la gestión de comercio electrónico y el monitoreo mediante sensores de todos los tipos de productos. Los sensores IoT serán aplicables principalmente a productos cuyas características permitan estimar adecuadamente sus existencias mediante el peso.
+
+#### Diferenciación frente a la competencia
+
+La principal diferenciación de SmartStock consiste en complementar la gestión digital de compras, ventas e inventario con el monitoreo del stock físico mediante sensores de peso IoT. Mientras que soluciones de punto de venta e inventario como Alegra POS y Vendty se orientan principalmente al registro de las operaciones realizadas en el sistema, SmartStock busca contrastar dicha información con las existencias físicas de determinados productos.
+
+Esta integración permite que la solución no se limite a indicar cuánto inventario debería existir según los registros de compras y ventas, sino que también pueda detectar posibles diferencias entre el stock registrado y el inventario físico. A partir de esta información, SmartStock puede generar alertas relacionadas con niveles bajos de stock y apoyar una gestión preventiva de la reposición.
+
+Frente al uso de hojas de cálculo, cuadernos y otros registros manuales, SmartStock incorpora una mayor automatización, centralización de la información, historial de movimientos y generación de alertas. Asimismo, a diferencia de soluciones tecnológicas de retail de mayor escala como Trax Retail, basadas principalmente en visión computacional e inteligencia artificial, SmartStock propone una alternativa enfocada específicamente en bodegas y minimarkets mediante sensores IoT y una implementación progresiva de acuerdo con las necesidades del establecimiento.
+
+De esta manera, la propuesta de valor de SmartStock se basa en integrar **compras, ventas, inventario digital y monitoreo físico IoT** dentro de una misma solución orientada a pequeños comercios.
 
 ### 1.2.2. Lean UX Process
 
@@ -244,7 +267,7 @@ De acuerdo con los supuestos definidos previamente, planteamos las siguientes hi
 #### 1.2.2.4. Lean UX Canvas
 
 **Link:**  
-[https://drive.google.com/file/d/1i2XQWFPxIGg8gTD2oAxxuiqZ7nckHCu0/view?usp=sharing](https://drive.google.com/file/d/1i2XQWFPxIGg8gTD2oAxxuiqZ7nckHCu0/view?usp=sharing)
+[https://drive.google.com/file/d/1i2XQWFPxlGg8gTD2oAxxuiqZ7nckHCu0/view?usp=sharing](https://drive.google.com/file/d/1i2XQWFPxlGg8gTD2oAxxuiqZ7nckHCu0/view?usp=sharing)
 
 ![Lean UX Canvas de SmartStock](../assets/chapter-1/leanuxcanva.png)
 
