@@ -203,7 +203,7 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
 | **Edad** | 23 años |
 | **Distrito** | Jesus Maria |
 | **Resumen** | Cristopher nos indica que la gestión del inventario se realiza principalmente de manera manual, mediante revisiones físicas y anotaciones, complementandose con Excel, aunque este no siempre se encuentra actualizado. Señala que las principales dificultades aparecen cuando las ventas no se registran inmediatamente o se cometen errores al anotar las cantidades, generando diferencias entre el stock registrado y el físico, especialmente en productos de alta rotación. Las bebidas, snacks y productos de consumo son los más difíciles de controlar debido a su rápida salida. Para realizar reposiciones, se comunica con sus proveedores mediante WhatsApp y llamadas, enviándoles la lista de productos necesarios. Considera útil contar con alertas cuando un producto llegue a una cantidad mínima de stock y poder detectar diferencias entre el inventario registrado y el real. Finalmente, considera importante que una nueva herramienta sea fácil de usar, ahorre tiempo, tenga un precio accesible y ayude a evitar el agotamiento de productos. |
-a
+
 **Entrevista 3**
 
 | Campo | Detalle |
@@ -328,15 +328,15 @@ Este segmento es relevante debido a que los propietarios y administradores de bo
 
 #### Primer Segmento Objetivo (Propietarios y administradores de minimarkets)
 
-![Figura 2 (User Persona 1)](../assets/chapter-2/userpersona1.png)
+![User Persona del propietario o administrador de minimarket](../assets/chapter-2/userpersona1.png)
 
-*Figura 2 (User Persona 1)*
+*Figura 2. User Persona del propietario o administrador de minimarket.*
 
 #### Segundo Segmento Objetivo (Propietarios y administradores de bodegas de barrio)
 
-![Figura 3 (User Persona 2)](../assets/chapter-2/userpersona2.png)
+![User Persona del propietario o administrador de bodega de barrio](../assets/chapter-2/userpersona2.png)
 
-*Figura 3 (User Persona 2)*
+*Figura 3. User Persona del propietario o administrador de bodega de barrio.*
 
 ### 2.3.2. User Task Matrix
 
@@ -382,21 +382,25 @@ En las bodegas el control depende de la revisión visual y del cuaderno, y se ha
 
 #### Primer Segmento Objetivo (Propietarios y administradores de minimarkets)
 
-![Figura 6 (User Journey Map 1)](../assets/chapter-2/userjourneymap1.png)
+![User Journey Map del propietario o administrador de minimarket](../assets/chapter-2/userjourneymap1.png)
 
-*Figura 6 (User Journey Map 1)*
+*Figura 4. User Journey Map del propietario o administrador de minimarket.*
 
 #### Segundo Segmento Objetivo (Propietarios y administradores de bodegas de barrio)
 
-![Figura 7 (User Journey Map 2)](../assets/chapter-2/userjourneymap2.png)
+![User Journey Map del propietario o administrador de bodega de barrio](../assets/chapter-2/userjourneymap2.png)
 
-*Figura 7 (User Journey Map 2)*
+*Figura 5. User Journey Map del propietario o administrador de bodega de barrio.*
 
 ### 2.3.4. Empathy Mapping
 
-![Empathy Map 1](../assets/chapter-2/empathymapping1.png)
+![Empathy Map del propietario o administrador de minimarket](../assets/chapter-2/empathymapping1.png)
 
-![Empathy Map 2](../assets/chapter-2/empathymapping2.png)
+*Figura 6. Empathy Map del propietario o administrador de minimarket.*
+
+![Empathy Map del propietario o administrador de bodega de barrio](../assets/chapter-2/empathymapping2.png)
+
+*Figura 7. Empathy Map del propietario o administrador de bodega de barrio.*
 
 ## 2.4. Big Picture Event Storming
 
@@ -410,7 +414,7 @@ Enlace al tablero de Miro: <https://miro.com/welcomeonboard/UHk1SzhpUVZrN1hGMDFl
 
 ![Big Picture Event Storming](../assets/chapter-2/bigpictureeventstorming.png)
 
-*Big Picture Event Storming.*
+*Figura 8. Big Picture Event Storming de SmartStock.*
 
 ## 2.5. Ubiquitous Language
 
