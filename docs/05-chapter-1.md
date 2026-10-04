@@ -1,4 +1,4 @@
-# Chapter I: Introduction
+# Capítulo I: Introducción
 
 ## 1.1. Startup Profile
 
@@ -12,7 +12,7 @@ Como parte de esta propuesta, desarrollamos **SmartStock**, una plataforma web q
 
 Además, SmartStock busca mejorar el proceso de reposición mediante alertas automáticas y notificaciones. A partir de las alertas generadas por la plataforma, los propietarios y administradores podrán identificar los productos que requieren abastecimiento y recibir un aviso oportuno (por correo o WhatsApp) para coordinar externamente la reposición con sus proveedores.
 
-### 1.1.1. Startup Description
+### 1.1.1. Descripción de la Startup
 
 **NexoStock** es una startup tecnológica orientada al desarrollo de soluciones digitales para mejorar la gestión de inventarios en bodegas y minimarkets. Nuestra propuesta integra tecnologías web e Internet de las Cosas (IoT) para conectar la información registrada en el sistema con la cantidad física de productos disponible en los establecimientos.
 
@@ -28,7 +28,7 @@ A continuación, se presentan la misión, visión y valores que guían a nuestra
 |---|---|---|
 | Brindar soluciones tecnológicas que permitan a bodegas y minimarkets gestionar sus inventarios de manera eficiente mediante tecnologías web e IoT, facilitando el monitoreo de productos y el envío de alertas oportunas para su reposición. | Convertirnos en una startup referente en soluciones inteligentes para la gestión de inventarios en pequeños comercios, contribuyendo a su transformación digital, eficiencia operativa y crecimiento sostenible. | **Innovación:** buscamos mejorar continuamente nuestras soluciones tecnológicas.<br><br>**Confianza:** brindamos información clara y confiable para la toma de decisiones.<br><br>**Eficiencia:** promovemos una mejor gestión de recursos e inventarios.<br><br>**Responsabilidad:** desarrollamos soluciones orientadas a las necesidades reales de los usuarios.<br><br>**Colaboración:** fomentamos una mejor comunicación entre los comercios y sus proveedores mediante información oportuna. |
 
-### 1.1.2. Team Member Profiles
+### 1.1.2. Perfiles de integrantes del equipo
 
 ![Perfil de Angel Gabriel Crispin Valdivia](../assets/chapter-1/angelphoto.png)
 
@@ -51,7 +51,7 @@ Además, la plataforma incorpora funcionalidades orientadas a la gestión de la 
 
 El principal valor diferencial de **SmartStock** radica en integrar el monitoreo del inventario físico mediante dispositivos IoT con una plataforma web que centraliza la información y facilita su consulta. A diferencia de los métodos tradicionales basados principalmente en revisiones manuales o registros que pueden no reflejar inmediatamente la cantidad física disponible, SmartStock busca proporcionar información actualizada que contribuya a reducir pérdidas económicas, mejorar la disponibilidad de productos y facilitar una gestión de inventarios más eficiente.
 
-### 1.2.1. Background and Problem Statement
+### 1.2.1. Antecedentes y problemática
 
 En el contexto de las bodegas y minimarkets, el control de inventarios constituye una actividad crítica para garantizar la disponibilidad de productos, reducir pérdidas y coordinar de manera oportuna el abastecimiento. Sin embargo, en muchos pequeños comercios el seguimiento del stock todavía depende de conteos manuales, registros parciales o verificaciones periódicas que no siempre reflejan con precisión la cantidad física disponible en los estantes o zonas de almacenamiento.
 
@@ -274,7 +274,7 @@ De acuerdo con los supuestos definidos previamente, planteamos las siguientes hi
 *Figura 1. Lean UX Canvas.*
 
 
-## 1.3. Target Segments
+## 1.3. Segmentos objetivo
 
 - **Propietarios y administradores de minimarkets**
 
