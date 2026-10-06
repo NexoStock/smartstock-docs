@@ -877,27 +877,33 @@ https://miro.com/welcomeonboard/WXlEQy9hRngvZnRPQkVlR3pJMDN5M25TTmpLSUY1Rk1kckJO
 
 ![Bounded Context 1](../assets/chapter-4/boundedcontext1.png)
 
-**Figura 76. Bounded Context 1.**
+**Figura 76**
+*Diagrama de clases del IAM Bounded Context*
 
 ![Bounded Context 2](../assets/chapter-4/boundedcontext2.png)
 
-**Figura 77. Bounded Context 2.**
+**Figura 77**
+*Diagrama de clases del Product Catalog Management Bounded Context*
 
 ![Bounded Context 3](../assets/chapter-4/boundedcontext3.png)
 
-**Figura 78. Bounded Context 3.**
+**Figura 78**
+*Diagrama de clases del IoT Device Management Bounded Context*
 
 ![Bounded Context 4](../assets/chapter-4/boundedcontext4.png)
 
-**Figura 79. Bounded Context 4.**
+**Figura 79**
+*Diagrama de clases del Inventory Monitoring Bounded Context*
 
 ![Bounded Context 5](../assets/chapter-4/boundedcontext5.png)
 
-**Figura 80. Bounded Context 5.**
+**Figura 80**
+*Diagrama de clases del Alerts & Restocking Bounded Context*
 
 ![Bounded Context 6](../assets/chapter-4/boundedcontext6.png)
 
-**Figura 81. Bounded Context 6.**
+**Figura 81**
+*Diagrama de clases del Analytics & Reporting Bounded Context*
 
 ## 4.8. Database Design
 
