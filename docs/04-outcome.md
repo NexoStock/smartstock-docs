@@ -4,7 +4,8 @@
 
 **Criterio:** Capacidad de comunicarse efectivamente con un rango de audiencias.
 
-Durante el desarrollo de SmartStock, los integrantes de NexoStock fortalecieron su comunicación oral y escrita al interactuar con usuarios, compañeros de equipo, el docente y el público evaluador. En el AV1, esto se evidenció en las entrevistas de needfinding, la presentación de artefactos y la elaboración colaborativa del informe. En el TB1, se reforzó mediante la coordinación técnica del Sprint 2, la explicación de la arquitectura y de las funcionalidades implementadas, así como el uso de Markdown, GitHub, Pull Requests y Conventional Commits para comunicar y registrar los avances del proyecto.
+Durante el desarrollo de SmartStock, los integrantes del equipo NexoStock fortalecieron su capacidad de comunicación oral y escrita al interactuar con diferentes tipos de audiencia, entre ellas usuarios de los segmentos objetivo, compañeros del equipo de desarrollo, docente y público evaluador. En el AV1, estas competencias se evidenciaron principalmente durante las entrevistas de needfinding, la sustentación de los artefactos de análisis y diseño, y la elaboración colaborativa del informe. En el TB1, la comunicación se amplió hacia la coordinación técnica del Sprint 2, la explicación de la arquitectura y de las funcionalidades implementadas en el Frontend Web Application, incluyendo los procesos de **Compras, Ventas, Product Catalog, Inventory Monitoring, IoT Device, Alerts & Restocking, IAM y Analytics & Reporting**. Asimismo, el uso de documentación en Markdown, GitHub, Pull Requests, Conventional Commits y evidencias del Sprint permitió comunicar de manera trazable las decisiones, avances y resultados del proyecto tanto a una audiencia técnica como académica.
+
 <table>
 <tr>
 <th>Criterio específico</th>
