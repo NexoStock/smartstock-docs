@@ -1,237 +1,108 @@
 # Chapter II: Requirements Elicitation & Analysis
 
-## 2.1. Competidores
+## 2.1. Competitors
 
-Para el análisis competitivo de SmartStock se consideran soluciones digitales que permiten gestionar ventas e inventarios en pequeños comercios, así como alternativas tradicionales utilizadas actualmente por bodegas y minimarkets. También se incluye una solución tecnológica de retail como referencia indirecta, con el propósito de identificar diferencias en el nivel de automatización, monitoreo del inventario físico y costos de adopción.
+- **Trax Retail:** Trax Retail es una solución tecnológica orientada al análisis y monitoreo de productos en tiendas mediante visión por computadora e inteligencia artificial. Su plataforma permite digitalizar los estantes, identificar productos, verificar su ubicación y analizar información relacionada con disponibilidad, cumplimiento y desempeño de los SKU. Además, genera métricas y reportes que ayudan a mejorar la gestión del inventario y las decisiones dentro del establecimiento. A diferencia de SmartStock, Trax se basa principalmente en reconocimiento de imágenes e inteligencia artificial, mientras que SmartStock propone utilizar sensores de peso IoT y enfocarse en bodegas y minimarkets.
 
-Los competidores y alternativas analizados son **Alegra POS**, **Vendty**, **Microsoft Excel y registros manuales**, y **Trax Retail**.
+- **Trigo Retail:** Trigo Retail desarrolla soluciones basadas en visión por computadora e inteligencia artificial para modernizar las operaciones de tiendas físicas. Su tecnología permite obtener información en tiempo real sobre las actividades dentro del establecimiento y generar datos que apoyan la gestión operativa y la toma de decisiones. Trigo está orientado a soluciones avanzadas de retail y tiendas inteligentes, mientras que SmartStock busca una alternativa más sencilla para pequeños comercios mediante sensores IoT, alertas de inventario y coordinación con proveedores.
 
-### Alegra POS
-
-Alegra POS es una solución orientada a pequeños negocios que permite registrar ventas, administrar productos, gestionar bodegas de inventario y consultar reportes desde una plataforma digital. Su propuesta facilita la digitalización de las operaciones comerciales y el control del stock.
-
-En Perú, Alegra publica los siguientes planes mensuales para su solución de punto de venta:
-
-- **Emprendedor:** S/ 81.00 al mes.
-- **PYME:** S/ 93.00 al mes.
-- **PRO:** S/ 164.00 al mes.
-- **PLUS:** S/ 258.00 al mes.
-
-Los precios incluyen IGV. Además, Alegra ofrece un descuento de 10 % cuando se selecciona el pago anual. :chatgpt-content-reference{index="0"}
-
-A diferencia de SmartStock, Alegra se concentra principalmente en el registro digital de ventas e inventario. SmartStock busca complementar este enfoque mediante sensores de peso IoT que permitan contrastar el inventario registrado con las existencias físicas y detectar diferencias de stock.
-
-- **Precio de referencia:** desde S/ 81.00 al mes.
-- **Moneda:** Sol peruano (PEN).
-- **Modalidad:** suscripción mensual o anual.
-- **Fecha de consulta:** 06/10/2026.
-- **Fuente:** Alegra Perú.
-- **URL de costos:** [Planes de Alegra Punto de Venta](https://www.alegra.com/peru/punto-venta/precios/)
-
-### Vendty
-
-Vendty es una plataforma de punto de venta que incorpora funcionalidades relacionadas con ventas, productos, inventarios, compras y gestión comercial.
-
-En su página oficial de precios se muestran diferentes planes. El plan **Emprendedor** se ofrece mediante pago mensual, mientras que los planes superiores incorporan modalidades de pago anual y mayores capacidades operativas. :chatgpt-content-reference{index="1"}
-
-Vendty se enfoca principalmente en el registro transaccional y la gestión del punto de venta. SmartStock se diferencia por incorporar sensores de peso IoT para complementar el inventario registrado con información de las existencias físicas.
-
-- **Precio de referencia:** consultar planes publicados por Vendty.
-- **Moneda:** moneda indicada por el proveedor según el mercado.
-- **Modalidad:** suscripción mensual o anual según el plan.
-- **Fecha de consulta:** 06/10/2026.
-- **Fuente:** Vendty.
-- **URL de costos:** [Planes de Vendty](https://www.vendty.com/precios)
-
-### Microsoft Excel y registros manuales
-
-El uso de hojas de cálculo, cuadernos y otros registros manuales representa una alternativa frecuente en pequeños comercios para llevar el control de compras, ventas e inventario.
-
-Su principal ventaja es la facilidad de implementación. Sin embargo, depende de que los usuarios actualicen constantemente la información y puede estar expuesto a errores, omisiones o diferencias entre el inventario registrado y las existencias reales.
-
-Como referencia de costo para el uso formal de Excel mediante Microsoft 365, el plan **Microsoft 365 Personal** presenta un precio de **S/ 30.99 mensuales** o **S/ 308.99 anuales** en Perú. :chatgpt-content-reference{index="2"}
-
-En el caso de cuadernos o formatos manuales, no existe un costo directo de software, aunque sí pueden existir costos indirectos relacionados con el tiempo invertido en conteos, actualización de registros y corrección de errores.
-
-SmartStock busca reducir estas limitaciones mediante el registro digital de movimientos, alertas de stock y monitoreo físico mediante sensores IoT.
-
-- **Precio de referencia de Excel:** S/ 30.99 al mes o S/ 308.99 al año.
-- **Moneda:** Sol peruano (PEN).
-- **Modalidad:** suscripción mensual o anual.
-- **Registros manuales:** sin costo directo de software.
-- **Fecha de consulta:** 06/10/2026.
-- **Fuente:** Microsoft Perú.
-- **URL de costos:** [Microsoft 365 Personal](https://www.microsoft.com/es-pe/microsoft-365/buy/microsoft-365-family)
-
-### Trax Retail
-
-Trax Retail es una solución tecnológica orientada al análisis de productos en establecimientos comerciales mediante visión computacional, reconocimiento de imágenes e inteligencia artificial.
-
-Su plataforma se utiliza como referencia tecnológica indirecta debido a que trabaja con monitoreo y análisis físico del retail, aunque está orientada a operaciones de mayor escala y utiliza tecnologías diferentes a SmartStock.
-
-Trax Retail no publica una tarifa estándar para sus soluciones empresariales en su página de contacto. Para obtener información comercial, la empresa solicita completar un formulario y coordinar una reunión con su equipo. :chatgpt-content-reference{index="3"}
-
-Mientras Trax emplea principalmente visión computacional e inteligencia artificial, SmartStock propone sensores de peso IoT dirigidos específicamente a bodegas y minimarkets.
-
-- **Precio público:** no disponible.
-- **Modelo de precios:** cotización personalizada.
-- **Moneda:** no especificada públicamente.
-- **Modalidad:** contratación empresarial.
-- **Fecha de consulta:** 06/10/2026.
-- **Fuente:** Trax Retail.
-- **URL de costos / contacto:** [Trax Retail - Contacto](https://traxretail.com/es/get-in-touch/)
-
-### Benchmark de precios
-
-| Solución | Precio de referencia | Moneda | Modalidad | Fecha de consulta | Fuente / URL |
-| --- | --- | --- | --- | --- | --- |
-| **Alegra POS** | Desde S/ 81.00/mes | PEN | Suscripción mensual o anual | 06/10/2026 | [Alegra Perú](https://www.alegra.com/peru/punto-venta/precios/) |
-| **Vendty** | Según plan publicado | Según mercado | Suscripción mensual o anual | 06/10/2026 | [Vendty](https://www.vendty.com/precios) |
-| **Microsoft 365 Personal / Excel** | S/ 30.99/mes o S/ 308.99/año | PEN | Suscripción | 06/10/2026 | [Microsoft Perú](https://www.microsoft.com/es-pe/microsoft-365/buy/microsoft-365-family) |
-| **Registros manuales** | Sin costo directo de software | — | Manual | 06/10/2026 | Alternativa tradicional |
-| **Trax Retail** | No publicado | — | Cotización personalizada | 06/10/2026 | [Trax Retail](https://traxretail.com/es/get-in-touch/) |
-
-A partir del benchmark se observa que las soluciones dirigidas a pequeños negocios utilizan principalmente modelos de suscripción, mientras que las soluciones empresariales como Trax Retail requieren cotización personalizada. SmartStock busca diferenciarse al integrar la gestión digital del inventario con el monitoreo físico mediante sensores IoT, orientándose específicamente a bodegas y minimarkets.
+- **Pensa Systems:** Pensa Systems es una solución especializada en digitalizar el inventario disponible en los estantes mediante inteligencia artificial y visión computacional. Su tecnología permite identificar la disponibilidad real de productos, detectar productos agotados, conocer su ubicación y mejorar la precisión del inventario. Al igual que SmartStock, busca proporcionar mayor visibilidad sobre las existencias físicas; sin embargo, Pensa utiliza principalmente análisis visual mediante IA, mientras que SmartStock propone sensores de peso IoT y funcionalidades dirigidas específicamente a la relación entre bodegas, minimarkets y proveedores.
 
 ### 2.1.1. Competitive Analysis
 
 #### Competitive Analysis Landscape
 
 **¿Por qué llevar a cabo este análisis?**
-
-El análisis competitivo permite identificar las principales alternativas que actualmente pueden utilizar las bodegas y minimarkets para gestionar sus ventas e inventarios, evaluar sus fortalezas y limitaciones, y determinar los elementos que diferencian a SmartStock. Para ello se consideran sistemas digitales de punto de venta e inventario, métodos tradicionales de registro y una solución tecnológica de retail como referencia indirecta. El análisis permitirá contrastar aspectos como mercado objetivo, funcionalidades, costos, canales de distribución y nivel de automatización del control de inventario.
+Permite identificar cómo funcionan las soluciones actuales de gestión de inventarios, reconocer sus limitaciones y diferenciar a SmartStock mediante el monitoreo con sensores IoT, alertas de stock y una mejor coordinación con proveedores.
 
 **Logos**
 
-| SmartStock | Alegra POS | Vendty | Excel y registros manuales | Trax Retail |
-|---|---|---|---|---|
-| ![Logo SmartStock](../assets/chapter-2/smartstocklogo.png) | ![Logo Alegra POS](../assets/chapter-2/alegraposlogo.png) | ![Logo Vendty](../assets/chapter-2/vendtylogo.png) | ![Logo Excel](../assets/chapter-2/excellogo.png) | ![Logo Trax Retail](../assets/chapter-2/traxlogo.png) |
+| SmartStock | Trax Retail | Trigo Retail | Pensa Systems |
+|---|---|---|---|
+| ![Logo SmartStock](../assets/chapter-2/smartstocklogo.png) | ![Logo Trax Retail](../assets/chapter-2/traxlogo.png) | ![Logo Trigo Retail](../assets/chapter-2/trigologo.png) | ![Logo Pensa Systems](../assets/chapter-2/pensalogo.png) |
 
 **Perfil**
 
-| | SmartStock | Alegra POS | Vendty | Excel y registros manuales | Trax Retail |
-|---|---|---|---|---|---|
-| **Overview** | SmartStock es una plataforma web orientada a bodegas y minimarkets que integra la gestión de productos, compras, ventas e inventario mediante sensores IoT. El sistema permite contrastar las existencias físicas con el stock registrado y generar alertas ante niveles bajos o posibles diferencias de inventario. | Solución de punto de venta orientada a pequeños negocios que permite registrar ventas, gestionar productos y controlar inventarios mediante una plataforma digital. | Plataforma de punto de venta y gestión comercial que centraliza operaciones relacionadas con ventas, productos e inventarios. | Alternativa basada en hojas de cálculo, cuadernos u otros registros que permiten llevar manualmente el control de compras, ventas y existencias. | Solución de retail basada en reconocimiento de imágenes, visión computacional e inteligencia artificial para analizar productos y condiciones de estantes. |
-| **Ventaja competitiva (¿Qué valor ofrece a los clientes?)** | • Monitoreo del inventario físico mediante sensores IoT.<br>• Comparación entre stock físico y registrado.<br>• Alertas automáticas de stock bajo.<br>• Integración entre compras, ventas e inventario.<br>• Enfoque específico en bodegas y minimarkets. | • Digitalización de ventas e inventario.<br>• Plataforma consolidada.<br>• Facilidad de acceso mediante la nube.<br>• Funciones administrativas integradas. | • Centralización de operaciones comerciales.<br>• Gestión de productos, ventas e inventarios desde una plataforma digital.<br>• Orientación a operaciones comerciales.<br>• Digitalización del punto de venta. | • Bajo costo.<br>• Facilidad de uso.<br>• Disponibilidad inmediata.<br>• No requiere infraestructura especializada. | • Automatización del análisis de estanterías mediante IA.<br>• Reconocimiento de SKU.<br>• Información sobre disponibilidad, ubicación y ejecución comercial. |
+| | SmartStock | Trax Retail | Trigo Retail | Pensa Systems |
+|---|---|---|---|---|
+| **Overview** | SmartStock es una plataforma web orientada a bodegas y minimarkets que utiliza sensores de peso IoT para monitorear el inventario físico, compararlo con el stock registrado y generar alertas ante faltantes o niveles bajos. Además, incorpora funcionalidades para facilitar la coordinación con proveedores. | Trax Retail ofrece soluciones de reconocimiento de imágenes, visión computacional e inteligencia artificial para analizar productos en tiendas. Permite obtener información sobre disponibilidad en estantes, ubicación de productos, cumplimiento de planogramas, precios y promociones. | Trigo Retail desarrolla soluciones para tiendas físicas mediante Computer Vision AI. Su tecnología utiliza cámaras e infraestructura de visión computacional para reconocer productos y actividades dentro de la tienda y proporcionar información operacional en tiempo real. | Pensa Systems utiliza Vision AI para digitalizar los estantes de tiendas físicas. Su tecnología identifica productos, disponibilidad, ubicación, stockouts y condiciones del estante, convirtiendo esta información en acciones y análisis para retailers y marcas. |
+| **Ventaja competitiva (¿Qué valor ofrece a los clientes?)** | • Monitoreo mediante sensores de peso IoT.<br>• Alertas de stock bajo.<br>• Comparación entre inventario físico y registrado.<br>• Gestión de reposición mediante alertas y notificaciones automáticas.<br>• Enfoque específico en bodegas y minimarkets. | • Reconocimiento de productos mediante IA.<br>• Información sobre disponibilidad, distribución, precios y promociones.<br>• Analítica avanzada para la ejecución comercial.<br>• Experiencia con grandes marcas y cadenas de retail. | • Computer Vision AI.<br>• Puede aprovechar infraestructura CCTV existente.<br>• Procesamiento en tiempo real.<br>• Alta escalabilidad y adaptación a operaciones de retail. | • Digitalización del estante físico.<br>• Detección de stockouts.<br>• Análisis de ubicación y surtido.<br>• Información accionable para corregir problemas de disponibilidad. |
 
 **Perfil de marketing**
 
-| | SmartStock | Alegra POS | Vendty | Excel y registros manuales | Trax Retail |
-|---|---|---|---|---|---|
-| **Mercado objetivo** | Propietarios y administradores de bodegas y minimarkets que requieren mejorar el control de inventario, compras y ventas. | Emprendedores, pequeñas empresas y comercios que requieren digitalizar ventas e inventarios. | Pequeños y medianos establecimientos comerciales que requieren gestionar sus operaciones mediante un sistema POS. | Pequeños negocios que buscan una alternativa económica y sencilla para registrar sus operaciones. | Retailers y empresas de productos de consumo que requieren analizar ejecución comercial y disponibilidad en estantes. |
-| **Estrategias de marketing** | • Redes sociales.<br>• Contenido sobre gestión de inventarios.<br>• Demostraciones del producto.<br>• Pruebas piloto.<br>• Alianzas con proveedores y distribuidores.<br>• Modelo de suscripción. | • Pruebas gratuitas.<br>• Planes de suscripción.<br>• Promoción orientada a pequeñas empresas. | • Demostraciones del producto.<br>• Presencia digital.<br>• Oferta de soluciones para la gestión de comercios. | • No posee una estrategia comercial propia.<br>• Su adopción se debe principalmente a su disponibilidad y bajo costo. | • Marketing B2B.<br>• Demostraciones.<br>• Casos de estudio.<br>• Contenido especializado.<br>• Venta empresarial. |
+| | SmartStock | Trax Retail | Trigo Retail | Pensa Systems |
+|---|---|---|---|---|
+| **Mercado objetivo** | Propietarios y administradores de minimarkets como segmento principal y propietarios y administradores de bodegas de barrio como segmento secundario. Ambos requieren mejorar el control del inventario físico y detectar oportunamente productos con bajo stock. | Empresas de productos de consumo masivo, retailers, supermercados, tiendas de conveniencia y equipos encargados de ejecución comercial. | Retailers y cadenas de tiendas físicas interesadas en automatización, inteligencia operacional, prevención de pérdidas y soluciones de retail autónomo. | Retailers, empresas de productos de consumo masivo y marcas que necesitan conocer con mayor precisión la disponibilidad y ejecución de sus productos en estantes. |
+| **Estrategias de marketing** | • Marketing digital mediante redes sociales y contenido sobre gestión de inventarios.<br>• Demostraciones del producto.<br>• Pruebas piloto en establecimientos.<br>• Alianzas con proveedores y distribuidores.<br>• Modelo de suscripción adaptable al tamaño del negocio. | • Marketing B2B.<br>• Casos de éxito.<br>• Demostraciones y contacto comercial.<br>• Contenido especializado sobre retail, IA y disponibilidad de productos. | • Alianzas estratégicas.<br>• Venta empresarial.<br>• Ecosistemas tecnológicos y cloud.<br>• Posicionamiento en innovación aplicada al retail. | • Demostraciones comerciales.<br>• Casos de estudio, webinars y recursos especializados.<br>• Marketing B2B para retailers y empresas CPG.<br>• Alianzas tecnológicas. |
 
 **Perfil de producto**
 
-| | SmartStock | Alegra POS | Vendty | Excel y registros manuales | Trax Retail |
-|---|---|---|---|---|---|
-| **Productos y servicios** | Gestión de productos, inventarios, compras y ventas; sensores IoT; alertas de stock; historial de movimientos; reportes y apoyo a la reposición. | Punto de venta, facturación, productos, inventario y otras herramientas administrativas. | Punto de venta, registro de ventas, productos, inventarios y funciones de gestión comercial. | Registro manual o semiautomatizado de compras, ventas, productos y cantidades disponibles. | Reconocimiento de imágenes, análisis de estantes, disponibilidad de productos, cumplimiento de exhibición e inteligencia comercial. |
-| **Precios y costos** | Modelo de suscripción según funcionalidades y cantidad de dispositivos. Adicionalmente, se considera un costo inicial asociado al kit de sensores IoT. | Modelo de suscripción con distintos planes según funcionalidades y capacidad del negocio. | Modelo comercial basado en planes o servicios según las funcionalidades requeridas. | Bajo costo. Puede utilizar herramientas existentes como hojas de cálculo o registros físicos. | No se orienta a un esquema estándar para pequeños comercios; su comercialización está enfocada principalmente en clientes empresariales. |
-| **Canales de distribución (Web y/o móvil)** | **Web:** plataforma principal para propietarios y administradores de bodegas y minimarkets.<br>**IoT:** sensores instalados físicamente en los establecimientos. | **Web/Cloud:** plataforma accesible desde dispositivos conectados a Internet. | **Plataforma digital:** utilizada en los puntos de venta y para la administración del negocio. | **Computadora:** dispositivos con hojas de cálculo o registros físicos en cuadernos. | **Plataforma empresarial:** aplicaciones y soluciones de captura y análisis de imágenes. |
+| | SmartStock | Trax Retail | Trigo Retail | Pensa Systems |
+|---|---|---|---|---|
+| **Productos y servicios** | Plataforma web para monitorear inventarios mediante sensores de peso IoT. Incluye niveles de stock, comparación entre inventario físico y registrado, alertas, historial de movimientos, reportes de rotación y mermas, y funcionalidades para gestionar la reposición y coordinar pedidos con proveedores externos. | Plataforma de reconocimiento de imágenes e inteligencia de retail para analizar disponibilidad, ubicación de SKU, precios, promociones, cumplimiento de exhibiciones y otros indicadores de ejecución comercial. | Soluciones de Computer Vision AI para retail, incluyendo inteligencia operacional, prevención de pérdidas y retail autónomo. Analiza imágenes de cámaras para identificar productos y actividades dentro de las tiendas. | Soluciones de Vision AI orientadas a Shelf Intelligence. Permite identificar disponibilidad, stockouts, ubicación, surtido, cumplimiento de planogramas y condiciones físicas del estante. |
+| **Precios y costos** | Se plantea un modelo de suscripción cuyos planes podrán variar según la cantidad de productos, sensores y funcionalidades contratadas. También debe considerarse el costo inicial de los dispositivos IoT. | No presenta precios públicos estandarizados. El servicio se comercializa mediante contacto y reuniones con clientes empresariales. | No presenta un tarifario público; la solución se adapta a la infraestructura y necesidades de cada retailer. | No publica precios estandarizados. Los clientes pueden solicitar una demostración y contactar directamente con el equipo comercial. |
+| **Canales de distribución (Web y/o móvil)** | **Web:** plataforma principal para propietarios y administradores de minimarkets y bodegas de barrio.<br>**IoT:** sensores instalados físicamente en los establecimientos. | **Web/Cloud y móvil:** plataforma, dashboards y aplicaciones utilizadas por personal de campo y administradores. | **Plataforma empresarial:** integración con infraestructura de tiendas, cámaras CCTV y sistemas de procesamiento; también puede operar mediante ecosistemas cloud. | **Web/Plataforma:** dashboards y herramientas de análisis conectados a su sistema de captura y Vision AI. |
 
 **Análisis SWOT**
 
-| | SmartStock | Alegra POS | Vendty | Excel y registros manuales | Trax Retail |
-|---|---|---|---|---|---|
-| **Fortalezas** | • Sensores IoT para monitorear el inventario físico.<br>• Enfoque específico en bodegas y minimarkets.<br>• Alertas automáticas de stock bajo.<br>• Integración entre compras, ventas e inventario.<br>• Comparación entre el stock físico y el stock registrado.<br>• Plataforma web orientada a pequeños comercios. | • Alertas automáticas.<br>• Integración entre compras, ventas e inventario.<br>• Comparación entre stock físico y registrado.<br>• Plataforma consolidada.<br>• Digitalización de ventas e inventario.<br>• Facilidad de acceso mediante la nube.<br>• Funciones administrativas integradas. | • Gestión centralizada de ventas, productos e inventario.<br>• Orientación a operaciones comerciales.<br>• Digitalización del punto de venta. | • Bajo costo.<br>• Facilidad de uso inicial.<br>• Disponibilidad inmediata.<br>• No requiere infraestructura especializada. | • Tecnología avanzada de visión computacional e IA.<br>• Análisis detallado de SKU y estanterías.<br>• Capacidad para generar información de ejecución comercial. |
-| **Debilidades** | • Dependencia de sensores físicos.<br>• Necesidad de instalación y calibración.<br>• Costo inicial de hardware.<br>• Algunos productos pueden ser difíciles de monitorear mediante sensores de peso. | • El inventario depende de que las operaciones sean correctamente registradas.<br>• No contrasta directamente el stock registrado con las existencias físicas mediante sensores.<br>• Requiere registro adecuado de las operaciones. | • Dependencia del registro correcto de operaciones.<br>• Riesgo de errores u omisiones.<br>• Baja automatización.<br>• Dificultad para detectar discrepancias en tiempo real. | • Actualización manual.<br>• Mayor exposición a errores y omisiones.<br>• Baja verificación automatizada.<br>• Dificultad para detectar discrepancias en tiempo real. | • Mayor complejidad tecnológica.<br>• Instalación y mantenimiento.<br>• Orientado principalmente a empresas de mayor escala.<br>• Requiere infraestructura asociada a la captura y procesamiento de imágenes. |
-| **Oportunidades** | • Crecimiento de la digitalización de bodegas y minimarkets.<br>• Reducción progresiva de los costos de dispositivos IoT.<br>• Integración de los procesos de compras y ventas con el control de inventario.<br>• Posibilidad de incorporar análisis predictivo y recomendaciones automáticas.<br>• Alianzas con proveedores y distribuidores.<br>• Expansión hacia nuevos tipos de sensores y productos. | • IoT.<br>• Integración de compras y ventas.<br>• Análisis predictivo.<br>• Alianzas con proveedores y distribuidores.<br>• Crecimiento de la digitalización de pequeñas empresas.<br>• Expansión de servicios administrativos y comerciales. | • Mayor adopción de sistemas POS por pequeños y medianos negocios.<br>• Integración con nuevas herramientas digitales. | • Continúa siendo una alternativa accesible para negocios con baja digitalización. | • Mayor adopción de IA y visión computacional en retail.<br>• Crecimiento de la demanda por información de disponibilidad en tiempo real. |
-| **Amenazas** | • POS consolidados.<br>• Aparición de soluciones IoT económicas.<br>• Resistencia de pequeños comerciantes a invertir en hardware.<br>• Fallos o deterioro de sensores. | • Competencia de otros sistemas POS y plataformas con mayor automatización física del inventario. | • Alta competencia en plataformas POS.<br>• Aparición de soluciones con IoT, IA y automatización. | • Sustitución progresiva por sistemas POS accesibles y soluciones automatizadas de gestión. | • Evolución rápida de tecnologías alternativas de monitoreo.<br>• Competencia creciente en soluciones de IA para retail. |
+| | SmartStock | Trax Retail | Trigo Retail | Pensa Systems |
+|---|---|---|---|---|
+| **Fortalezas** | • Sensores IoT para monitorear directamente cambios en el inventario físico.<br>• Enfoque específico en bodegas y minimarkets.<br>• Alertas automáticas de stock bajo.<br>• Integración entre inventario físico y digital.<br>• Coordinación con proveedores durante el proceso de reposición.<br>• Plataforma web sencilla y accesible. | • Tecnología consolidada de visión computacional e IA.<br>• Reconocimiento detallado de SKU y condiciones de estante.<br>• Amplia variedad de indicadores y análisis.<br>• Experiencia con grandes marcas y empresas internacionales. | • Tecnología avanzada de Computer Vision AI.<br>• Procesamiento en tiempo real.<br>• Puede aprovechar infraestructura CCTV existente.<br>• Alta escalabilidad y adaptación a grandes operaciones de retail. | • Especialización en inteligencia de estantes.<br>• Detección de disponibilidad y stockouts.<br>• Información sobre ubicación y desempeño de productos.<br>• Automatización de tareas relacionadas con auditorías físicas. |
+| **Debilidades** | • Dependencia de sensores físicos.<br>• Necesidad de instalación y calibración adecuada.<br>• No todos los tipos de productos pueden monitorearse fácilmente mediante peso.<br>• Menor experiencia y volumen de datos al ser una propuesta nueva. | • Dependencia de imágenes y condiciones adecuadas de captura.<br>• Puede resultar más compleja que lo requerido por una bodega pequeña.<br>• Su enfoque empresarial puede representar una barrera para pequeños negocios. | • Requiere infraestructura de cámaras y procesamiento de visión computacional.<br>• Está enfocada principalmente en operaciones de retail de mayor escala.<br>• La complejidad técnica puede dificultar su implementación en pequeños establecimientos. | • Dependencia de visión artificial y captura adecuada de imágenes.<br>• Propuesta dirigida principalmente a retailers y empresas CPG.<br>• Puede ofrecer más funcionalidades de las necesarias para pequeños comercios. |
+| **Oportunidades** | • Crecimiento de la digitalización de bodegas y minimarkets.<br>• Mayor disponibilidad y reducción de costos de dispositivos IoT.<br>• Necesidad de mejorar el control de inventarios en pequeños negocios.<br>• Alianzas con distribuidores y proveedores.<br>• Expansión futura hacia recomendaciones automáticas y análisis predictivo.<br>• Integración con nuevos tipos de sensores. | • Mayor adopción de IA en retail.<br>• Crecimiento de la demanda por información de disponibilidad en tiempo real.<br>• Expansión hacia nuevas cadenas y mercados. | • Crecimiento de tiendas inteligentes y retail autónomo.<br>• Mayor utilización de cámaras e IA para analizar operaciones.<br>• Integración con ecosistemas cloud y plataformas empresariales. | • Mayor interés por digitalizar los estantes físicos.<br>• Expansión de soluciones de IA para gestión de inventarios.<br>• Integración de Vision AI con dispositivos móviles y otras tecnologías de retail. |
+| **Amenazas** | • Aparición de nuevas soluciones de inventario IoT a bajo costo.<br>• Competidores consolidados con mayor capacidad tecnológica y financiera.<br>• Resistencia de pequeños comerciantes a invertir en dispositivos adicionales.<br>• Fallos o deterioro de sensores.<br>• Rápida evolución de tecnologías de visión artificial que podrían ofrecer alternativas sin sensores de peso. | • Aparición de tecnologías alternativas de monitoreo sin reconocimiento de imágenes.<br>• Competencia creciente en Computer Vision para retail.<br>• Cambios rápidos en tecnologías de inteligencia artificial. | • Alta competencia en automatización y visión computacional aplicada al retail.<br>• Costos y complejidad de implementaciones empresariales.<br>• Aparición de soluciones más simples y económicas para pequeños establecimientos. | • Crecimiento de competidores con funcionalidades similares mediante Vision AI.<br>• Rápida evolución de sistemas de monitoreo IoT y visión artificial.<br>• Dependencia de la capacidad de los retailers para adoptar e integrar nuevas tecnologías. |
 
-### 2.1.2. Estrategias y tácticas frente a competidores
+### 2.1.2. Strategies and Tactics Against Competitors
 
-**1. Diferenciación mediante sensores IoT y monitoreo del inventario físico en tiempo real:**
+1. **Diferenciación mediante sensores IoT y monitoreo del inventario físico en tiempo real:** A diferencia de soluciones como Trax Retail, Trigo Retail y Pensa Systems, que utilizan principalmente visión computacional e inteligencia artificial para analizar productos en tiendas, SmartStock propone el uso de sensores de peso IoT instalados en los espacios donde se almacenan o exhiben determinados productos, permitiendo:
+   - Monitoreo continuo de las existencias físicas.
+   - Detección de niveles bajos de stock.
+   - Comparación entre el inventario físico y el inventario registrado.
+   - Generación automática de alertas ante posibles faltantes.
 
-A diferencia de soluciones como Alegra POS y Vendty, que se enfocan principalmente en el registro digital de ventas, productos e inventarios, SmartStock propone complementar la gestión transaccional mediante sensores de peso IoT instalados en los espacios donde se almacenan o exhiben determinados productos. Asimismo, frente a métodos como Excel y registros manuales, SmartStock busca reducir la dependencia de actualizaciones realizadas completamente por el usuario.
+   Esto permite ofrecer una solución orientada al control directo del inventario físico y adaptada a las necesidades de bodegas y minimarkets.
 
-El sistema permitirá:
+2. **Solución accesible y escalable para pequeños comercios:** Mientras que varios competidores están orientados principalmente a grandes cadenas de retail y requieren infraestructura de cámaras, procesamiento de imágenes o soluciones empresariales más complejas, SmartStock busca implementar un modelo progresivo y adaptable:
+   - Implementación inicial con una cantidad reducida de sensores.
+   - Incorporación gradual de nuevos productos y dispositivos IoT.
+   - Escalabilidad según el tamaño y necesidades del establecimiento.
+   - Modelo de suscripción adaptable a las funcionalidades utilizadas.
 
-- Monitorear continuamente las existencias físicas.
-- Detectar niveles bajos de stock.
-- Comparar el inventario físico con el inventario registrado.
-- Generar alertas automáticas ante posibles faltantes o diferencias de inventario.
+   Este enfoque busca reducir las barreras tecnológicas y económicas para la adopción de la solución en pequeños comercios.
 
-De esta manera, SmartStock busca ofrecer un control más automatizado del inventario físico, manteniendo un enfoque específico en las necesidades de bodegas y minimarkets.
+3. **Notificaciones oportunas para la gestión de la reposición:** SmartStock permitirá que los propietarios y administradores de minimarkets y bodegas de barrio utilicen la información de inventario para gestionar oportunamente sus necesidades de abastecimiento. La plataforma permitirá:
+   - Identificar productos que requieren reposición.
+   - Registrar necesidades de abastecimiento.
+   - Generar alertas relacionadas con faltantes.
+   - Enviar notificaciones automáticas por correo electrónico o WhatsApp, mediante un servicio de terceros, cuando el stock de un producto alcance un nivel crítico.
 
----
+   De esta manera, la coordinación directa con los proveedores la sigue realizando el usuario fuera de la plataforma; SmartStock actúa como el sistema que le avisa oportunamente cuándo hacerlo, manteniendo a los proveedores como actores externos del abastecimiento sin convertirlos en un segmento objetivo o usuario de la plataforma.
 
-**2. Solución accesible y escalable para pequeños comercios:**
+4. **Experiencia de usuario centrada en información inmediata:** La plataforma busca facilitar la toma de decisiones mediante una interfaz web sencilla e intuitiva que permita consultar rápidamente:
+   - Productos con stock suficiente, bajo o agotado.
+   - Alertas pendientes de reposición.
+   - Diferencias entre el inventario físico y el registrado.
+   - Estado de los dispositivos IoT.
+   - Información relevante según el tipo de usuario.
 
-Mientras que soluciones tecnológicas avanzadas como Trax Retail están orientadas principalmente a operaciones de retail de mayor escala y emplean infraestructura especializada para el análisis de productos, SmartStock plantea una implementación progresiva y adaptable a pequeños comercios.
+   De esta manera, los propietarios y administradores de minimarkets y bodegas de barrio podrán acceder a la información necesaria sin realizar procesos complejos de consulta.
 
-La solución contempla:
+5. **Gestión preventiva del inventario mediante alertas:** SmartStock busca reemplazar un modelo reactivo de reposición por uno preventivo mediante la detección anticipada de niveles bajos de inventario. El sistema permitirá:
+   - Configurar niveles mínimos de stock por producto.
+   - Generar alertas cuando las existencias alcancen dichos niveles.
+   - Identificar diferencias entre el inventario registrado y el físico.
+   - Anticipar necesidades de reposición antes de que un producto se agote.
 
-- Implementación inicial con una cantidad reducida de sensores.
-- Incorporación gradual de nuevos productos y dispositivos IoT.
-- Escalabilidad según el tamaño y las necesidades del establecimiento.
-- Modelo de suscripción adaptable a las funcionalidades y cantidad de dispositivos utilizados.
+   Este enfoque puede contribuir a reducir quiebres de stock y mejorar la disponibilidad de productos en bodegas y minimarkets.
 
-Este enfoque busca reducir las barreras tecnológicas y económicas para la adopción de herramientas de monitoreo de inventario en bodegas y minimarkets.
+6. **Analítica de inventario y apoyo a la toma de decisiones:** SmartStock incorporará información histórica que permita a los administradores analizar el comportamiento de sus productos mediante:
+   - Reportes de rotación de productos.
+   - Registro de mermas.
+   - Historial de alertas y movimientos.
+   - Identificación de productos con mayor necesidad de reposición.
+   - Seguimiento del comportamiento del inventario.
 
----
-
-**3. Integración de compras, ventas e inventario para mejorar la trazabilidad:**
-
-SmartStock busca integrar el registro de compras y ventas con el control del inventario, permitiendo mantener una mayor trazabilidad de los movimientos de productos. A diferencia de los registros manuales, en los que la información puede depender completamente de la actualización realizada por el usuario, la plataforma permitirá relacionar las operaciones comerciales con las variaciones del stock.
-
-El sistema permitirá:
-
-- Registrar compras de productos.
-- Registrar ventas realizadas.
-- Actualizar el inventario registrado según cada operación.
-- Mantener un historial de movimientos.
-- Contrastar los cambios registrados con la información obtenida mediante sensores IoT.
-
-Esta integración permitirá identificar con mayor facilidad el origen de las variaciones de inventario y mejorar el seguimiento de las existencias disponibles.
-
----
-
-**4. Notificaciones oportunas para la gestión de la reposición:**
-
-SmartStock permitirá que los propietarios y administradores de bodegas y minimarkets utilicen la información del inventario para identificar oportunamente necesidades de abastecimiento.
-
-La plataforma permitirá:
-
-- Identificar productos que requieren reposición.
-- Detectar productos que alcanzan niveles mínimos de stock.
-- Generar alertas relacionadas con faltantes.
-- Enviar notificaciones automáticas mediante correo electrónico o servicios de mensajería integrados.
-
-La coordinación directa con los proveedores continuará siendo realizada por el usuario; SmartStock actuará como una herramienta de apoyo que permitirá identificar cuándo es necesario gestionar una reposición.
-
----
-
-**5. Experiencia de usuario centrada en información inmediata:**
-
-La plataforma busca facilitar la toma de decisiones mediante una interfaz web sencilla que permita consultar rápidamente la información más relevante del negocio.
-
-Entre los principales elementos se consideran:
-
-- Estado actual del stock de los productos.
-- Alertas pendientes de reposición.
-- Diferencias entre el inventario físico y el registrado.
-- Historial de compras, ventas y movimientos.
-- Estado de los dispositivos IoT.
-- Información relevante según el tipo de usuario.
-
-De esta manera, los propietarios y administradores podrán acceder a la información necesaria sin realizar procesos complejos de consulta.
-
----
-
-**6. Analítica de inventario y apoyo a la toma de decisiones:**
-
-SmartStock incorporará información histórica que permita a los administradores analizar el comportamiento de los productos y las operaciones del establecimiento.
-
-Entre los principales elementos de análisis se consideran:
-
-- Reportes de rotación de productos.
-- Historial de compras y ventas.
-- Registro de mermas y diferencias de inventario.
-- Historial de alertas y movimientos.
-- Identificación de productos con mayor necesidad de reposición.
-- Seguimiento del comportamiento del inventario.
-
-Esta información permitirá complementar el monitoreo del inventario físico con datos históricos que apoyen la planificación del abastecimiento y la toma de decisiones.
+   Esta información permitirá complementar el monitoreo en tiempo real con datos que apoyen la planificación del abastecimiento y la toma de decisiones.
 
 ## 2.2. Interviews
 
@@ -303,7 +174,7 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
 
 ### 2.2.2. Interview Recording
 
-**Needfinding Interviews Link:** [upc-pre-202620-1asi0729-7729-nexostock- needfinding-sprint-1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQAv4Fpj5KQORod7BZT5LtxkAfyOpDpCzMJ6LMflgGguH1w?e=9x1CUM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+**Needfinding Interviews Link:** `upc-pre-202620-1asi0729-7729-nexostock- needfinding-sprint-1.mp4`
 
 ![Portada del video de entrevistas](../assets/chapter-2/portadaneedfinding.png)
 
@@ -314,7 +185,6 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
 | Campo | Detalle |
 |---|---|
 | **Screenshot** | ![Entrevista 1 - José Martín Montañez](../assets/chapter-2/entrevista11.png) |
-| **URL** | [upc-pre-202620-1asi0729-7729-nexostock- needfinding-sprint-1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQAv4Fpj5KQORod7BZT5LtxkAfyOpDpCzMJ6LMflgGguH1w?e=9x1CUM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 | **Inicia** | 00:00 |
 | **Duración** | 17:10 |
 | **Nombre completo** | José Martín Montañez |
@@ -327,7 +197,6 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
 | Campo | Detalle                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |---|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Screenshot** | ![Entrevista 2 - Cristopher Benavides](../assets/chapter-2/entrevista12.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| **URL** | [upc-pre-202620-1asi0729-7729-nexostock- needfinding-sprint-1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQAv4Fpj5KQORod7BZT5LtxkAfyOpDpCzMJ6LMflgGguH1w?e=9x1CUM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 | **Inicia** | 17:16                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | **Duración** | 06:25                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | **Nombre completo** | Cristopher Benavides                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
@@ -340,7 +209,6 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
 | Campo | Detalle |
 |---|---|
 | **Screenshot** | ![Entrevista 3 - Yngrid Ruiz](../assets/chapter-2/entrevista13.png) |
-| **URL** | [upc-pre-202620-1asi0729-7729-nexostock- needfinding-sprint-1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQAv4Fpj5KQORod7BZT5LtxkAfyOpDpCzMJ6LMflgGguH1w?e=9x1CUM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 | **Inicia** | 23:47 |
 | **Duración** | 07:16 |
 | **Nombre completo** | Yngrid Ruiz |
@@ -355,7 +223,6 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
 | Campo | Detalle |
 |---|---|
 | **Screenshot** | ![Entrevista 1 - Lincoln Bruno](../assets/chapter-2/entrevista21.png) |
-| **URL** | [upc-pre-202620-1asi0729-7729-nexostock- needfinding-sprint-1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQAv4Fpj5KQORod7BZT5LtxkAfyOpDpCzMJ6LMflgGguH1w?e=9x1CUM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 | **Inicia** | 31:08 |
 | **Duración** | 06:39 |
 | **Nombre completo** | Lincoln Bruno |
@@ -368,7 +235,6 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
 | Campo | Detalle |
 |---|---|
 | **Screenshot** | ![Entrevista 2 - Ian San Martin](../assets/chapter-2/entrevista22.png) |
-| **URL** | [upc-pre-202620-1asi0729-7729-nexostock- needfinding-sprint-1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQAv4Fpj5KQORod7BZT5LtxkAfyOpDpCzMJ6LMflgGguH1w?e=9x1CUM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 | **Inicia** | 37:53 |
 | **Duración** | 05:12 |
 | **Nombre completo** | Ian San Martin |
@@ -381,7 +247,6 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
 | Campo | Detalle |
 |---|---|
 | **Screenshot** | ![Entrevista 3 - Pablo Ludeña](../assets/chapter-2/entrevista23.png) |
-| **URL** | [upc-pre-202620-1asi0729-7729-nexostock- needfinding-sprint-1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQAv4Fpj5KQORod7BZT5LtxkAfyOpDpCzMJ6LMflgGguH1w?e=9x1CUM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 | **Inicia** | 43:10 |
 | **Duración** | 05:15 |
 | **Nombre completo** | Pablo Ludeña |
