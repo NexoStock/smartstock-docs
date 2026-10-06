@@ -1,10 +1,11 @@
 # Anexos
- 
+
 ## Anexo A. Videos de Exposiciones
- 
+
 | Entrega | Título del video | Enlace |
 |---|---|---|
-| AV1 | upc-pre202620-1asi0729-7729-nexostock-expo-av1 | upc-pre202620-1asi0729-7729-nexostock-expo-av1.mp4 |
+| AV1 | upc-pre202620-1asi0729-7729-nexostock-expo-av1 | [upc-pre202620-1asi0729-7729-nexostock-expo-av1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQBBvLATo0xZTJlghdDufBFpASdMUoWAAF5742rFpE7_ho4?e=fWVL0e&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+| TB1 | upc-pre202620-1asi0729-7729-nexostock-expo-tb1 | [upc-pre202620-1asi0729-7729-nexostock-expo-tb1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQAD_f22phBaQbf5KmJfQiKKAWY-0vLYokEVxV2jNPhEFdY?e=1epoVB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
  
 ## Anexo B. Enlaces de los artefactos elaborados
  
