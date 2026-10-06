@@ -125,20 +125,20 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
 
 **Preguntas sobre gestión del inventario / comportamiento del negocio**
 
-9. ¿Cómo realiza actualmente el control del inventario de los productos de su minimarket?
-10. ¿Con qué frecuencia revisa físicamente las existencias disponibles?
-11. ¿Qué dificultades encuentra al mantener actualizado el inventario?
-12. Cuénteme la última vez que el stock registrado no coincidió con la cantidad física disponible. ¿Cómo se dio cuenta?
-13. ¿Qué ocurrió la última vez que un producto se agotó sin que lo detectara a tiempo?
-14. ¿Cómo determina cuándo debe realizar una reposición de productos?
-15. ¿Qué productos o categorías son más difíciles de controlar por su rotación?
-16. ¿Cómo se comunica actualmente con sus proveedores para solicitar reposiciones?
-17. ¿Qué herramientas o sistemas utiliza actualmente para gestionar el inventario?
-18. ¿Qué limitaciones encuentra en esas herramientas o métodos?
-19. Cuando revisa el inventario, ¿qué información busca primero y por qué?
-20. ¿Cómo se entera hoy de que un producto está por agotarse? ¿Qué le funciona y qué no?
-21. Cuando detecta que lo registrado no coincide con lo que tiene en tienda, ¿qué hace y qué consecuencias tiene para su negocio?
-22. ¿Qué tarea del control de inventario le gustaría dejar de hacer o hacer de otra manera?
+9. ¿Cómo realiza actualmente y paso a paso el control del inventario de los productos en su minimarket?
+10. ¿Con qué frecuencia exacta realiza una revisión física de las existencias disponibles en tienda o almacén?
+11. ¿Qué dificultades específicas encuentra al intentar mantener actualizado su inventario?
+12. Cuénteme de alguna ocasión reciente en la que el stock registrado no coincidió con la cantidad física disponible. ¿Cómo se dio cuenta exactamente?
+13. Cuénteme qué ocurrió la última vez que un producto se agotó en sus estantes sin que lo detectara a tiempo.
+14. ¿Cómo determina el momento exacto en el que debe realizar una reposición de productos?
+15. ¿Qué productos o categorías específicas son más difíciles de controlar debido a su rotación?
+16. ¿Cómo se comunica actualmente con sus proveedores para solicitar las reposiciones de mercadería?
+17. ¿Qué herramientas, sistemas o métodos utiliza hoy en día para gestionar su inventario?
+18. ¿Qué limitaciones o frustraciones encuentra en esas herramientas o métodos que utiliza?
+19. Cuando revisa el inventario, ¿qué información o dato busca primero y por qué razón?
+20. ¿Cómo se entera hoy en día de que un producto está por agotarse? ¿Qué le funciona de ese método y qué no?
+21. Cuando detecta que lo registrado no coincide con lo que tiene en tienda, ¿qué acción toma y qué consecuencias trae para su negocio?
+22. ¿Qué tarea específica del control de inventario le gustaría dejar de hacer o realizar de otra manera?
 23. ¿Ha invertido antes en alguna herramienta para su negocio? ¿Qué lo llevó a hacerlo o a descartarla?
 
 #### Segundo Segmento Objetivo (Propietarios y administradores de bodegas de barrio)
@@ -156,20 +156,20 @@ Las guías de entrevista para ambos segmentos combinan preguntas demográficas c
 
 **Preguntas sobre gestión del inventario / comportamiento del negocio**
 
-9. ¿Cómo controla actualmente los productos disponibles en su bodega mientras atiende a los clientes?
-10. ¿Dónde y cómo anota los productos que entran y salen de su bodega?
-11. ¿Cada cuánto revisa o cuenta sus productos y cómo lo hace?
-12. ¿Qué dificultades tiene para saber qué productos están por agotarse?
-13. Cuénteme la última vez que lo que tenía anotado no coincidió con lo que había en el estante. ¿Cómo se dio cuenta?
-14. ¿Qué ocurrió la última vez que se quedó sin un producto de alta demanda?
-15. ¿Cómo decide qué productos debe reponer y en qué momento (por ejemplo, cuando pasa el distribuidor o cuando va a comprar al mayorista)?
-16. Cuénteme cómo consigue la mercadería cuando necesita reponer.
-17. ¿Qué parte del control de sus productos le toma más tiempo o le resulta más complicada?
-18. ¿Qué aplicaciones usa hoy para su bodega (cobros, pedidos, mensajes) y qué le resulta fácil o difícil de ellas?
+9. ¿Cómo controla actualmente los productos disponibles en su bodega mientras atiende a los clientes en el mostrador?
+10. ¿Dónde y de qué forma anota exactamente los productos que entran y salen de su bodega?
+11. ¿Cada cuánto tiempo revisa o cuenta sus productos y cómo lleva a cabo ese proceso?
+12. ¿Qué dificultades tiene para saber con certeza qué productos están por agotarse?
+13. Cuénteme de alguna vez reciente en la que lo que tenía anotado no coincidió con lo que había en el estante. ¿Cómo se dio cuenta?
+14. Cuénteme qué ocurrió la última vez que se quedó sin un producto de alta demanda en la bodega.
+15. ¿Cómo decide qué productos debe reponer y en qué momento exacto lo hace (por ejemplo, cuando pasa el distribuidor o cuando va al mayorista)?
+16. Cuénteme paso a paso cómo consigue la mercadería cuando necesita reponer stock.
+17. ¿Qué parte del control de sus productos le toma más tiempo o le resulta más complicada en la rutina diaria?
+18. ¿Qué aplicaciones usa hoy para su bodega (ya sea para cobros, pedidos o mensajes) y qué le resulta fácil o difícil de ellas?
 19. Cuando quiere saber cómo están sus productos, ¿qué datos necesita conocer primero?
-20. ¿Cómo se entera hoy de que un producto está por agotarse?
-21. ¿Qué hace cuando un cliente le pide un producto que ya no tiene? ¿Cada cuánto le ocurre?
-22. ¿Qué tendría que ofrecerle una herramienta para que la use todos los días en su bodega?
+20. ¿Cómo se entera hoy en día de que un producto específico está por agotarse?
+21. ¿Qué hace cuando un cliente le pide un producto que ya no tiene y con qué frecuencia le ocurre esto?
+22. ¿Qué tendría que ofrecerle una herramienta para que decida usarla todos los días en su bodega?
 23. ¿Ha invertido antes en alguna herramienta para su bodega? ¿Qué lo llevó a hacerlo o a descartarla?
 
 ### 2.2.2. Interview Recording
