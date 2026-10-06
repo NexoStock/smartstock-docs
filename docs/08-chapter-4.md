@@ -835,11 +835,17 @@ https://miro.com/welcomeonboard/WXlEQy9hRngvZnRPQkVlR3pJMDN5M25TTmpLSUY1Rk1kckJO
 
 ### 4.6.2. Software Architecture Context Diagram
 
+El diagrama de contexto presenta la relación del propietario o administrador con SmartStock para gestionar el inventario, registrar compras y ventas y consultar alertas y reportes. También muestra la integración con los sensores IoT, que envían lecturas de peso y estado, y con los servicios externos de WhatsApp y correo electrónico para las notificaciones.
+
 ![C4 Context Diagram](../assets/chapter-4/c4contextdiagram.png)
 
 **Figura 68. C4 Context Diagram.**
 
 ### 4.6.3. Software Architecture Container Diagrams
+
+SmartStock adopta una arquitectura de monolito modular: una sola aplicación backend en Spring Boot, organizada en seis módulos correspondientes a los bounded contexts. Esta decisión separa las responsabilidades del dominio y permite un único despliegue del backend, reduciendo la complejidad para el alcance del proyecto. La Landing Page presenta el producto y dirige al frontend Angular, que consulta la API para realizar las operaciones del negocio. El backend ejecuta las reglas y persiste la información mediante Spring Data JPA en MySQL.
+
+Angular permite organizar la interfaz por contexto y reutilizar componentes; Spring Boot facilita la implementación de los servicios web y Spring Data JPA el acceso a los datos. Los sensores IoT envían lecturas de peso y estado al backend para verificar el inventario físico. Las ventas descuentan el stock registrado y las compras lo aumentan al confirmar su recepción, dejando movimientos de inventario. El backend solicita las notificaciones a los servicios externos de correo electrónico y WhatsApp. Este diagrama representa la arquitectura prevista para el backend real del Sprint 3; en el Sprint 2, el frontend utiliza una Fake API.
 
 ![C4 Container Diagram](../assets/chapter-4/c4containerdiagram.png)
 
