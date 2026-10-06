@@ -1,11 +1,11 @@
 <div align="center">
 <img width="80" height="80" alt="logo" src="../assets/cover/logo-upc.png"/>
 
-Universidad Peruan de Ciencias Aplicadas
+Universidad Peruana de Ciencias Aplicadas
 
 Carrera de Ingeniería de Software
 
-**1ASI0730** 
+**1ASI0729** 
 <br>
 **Desarrollo de Aplicaciones Open Source**
 <br>
