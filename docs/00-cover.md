@@ -25,6 +25,7 @@ Proyecto: SmartStock
 <br><br>
 **Integrantes:**
 
+<<<<<<< Updated upstream
 | Código | Apellidos y Nombres |
 | :---: | --- |
 | U20221G181 | Crispin Valdivia, Angel Gabriel |
@@ -32,6 +33,11 @@ Proyecto: SmartStock
 | U202421125 | Montañez Salinas, Lorena Ariana |
 | U20251I477 | Tuesta Girón, Kiara Lucia |
 | U20241F205 | Vizcarra Mamani, Candy Milagros |
+=======
+<h3>Nombre del startup: NexoStock</h3>
+
+<p><b>Nombre del producto: SmartStock</b></p>
+>>>>>>> Stashed changes
 
 <br><br>
 
