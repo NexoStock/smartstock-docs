@@ -180,7 +180,7 @@ Ocurre debido a la dependencia de conteos manuales, errores durante el registro 
 
 #### 6. How – ¿Cómo se puede solucionar?
 
-La solución propuesta, SmartStock, plantea integrar el registro de compras y ventas con el control del inventario y el monitoreo físico mediante sensores de peso conectados a dispositivos IoT. La plataforma web procesará esta información para comparar el inventario registrado con las existencias físicas, detectar niveles bajos o diferencias de stock, generar alertas y facilitar la planificación de la reposición. 
+La solución propuesta, SmartStock, plantea integrar el registro de compras y ventas con el control del inventario y el monitoreo físico mediante sensores de peso conectados a dispositivos IoT. La plataforma web procesará esta información para comparar el inventario registrado con las existencias físicas, detectar niveles bajos o diferencias de stock, generar alertas y facilitar la planificación de la reposición.
 
 #### 7. How much – ¿Cuánto impacto genera / cuánto cuesta la solución?
 
