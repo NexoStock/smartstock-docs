@@ -857,25 +857,49 @@ Angular permite organizar la interfaz por contexto y reutilizar componentes; Spr
 
 **Figura 70. C4 Component Diagram 1.**
 
+**Descripción:** El diagrama detalla IAM dentro del Backend API previsto en Spring Boot. Auth Controller recibe las solicitudes del frontend Angular y las deriva a los servicios de autenticación, registro de cuentas y recuperación de contraseña. User Repository persiste las cuentas y los tokens mediante Spring Data JPA en MySQL. El servicio externo de correo entrega los mensajes de registro y recuperación.
+
+**Leyenda:** Azul oscuro: frontend Angular; azul claro: componentes de IAM; amarillo: servicio externo de correo; verde: MySQL. Los recuadros delimitan el sistema, el backend y el módulo; las flechas indican solicitudes y acceso a datos.
+
 ![C4 Component Diagram 2](../assets/chapter-4/c4componentdiagram2.png)
 
 **Figura 71. C4 Component Diagram 2.**
+
+**Descripción:** Product Controller recibe las solicitudes de registro, consulta y actualización de productos. Product Service gestiona sus datos, incluidos categoría, peso unitario, precio, costo y referencia al proveedor; Threshold Service configura el umbral mínimo. Product Repository persiste esta información en MySQL. IoT Device consulta los datos para vincular sensores, mientras Inventory Monitoring los utiliza en compras y ventas y proporciona la información de proveedores.
+
+**Leyenda:** Azul oscuro: frontend Angular; azul claro: componentes de Product Catalog; morado: módulos relacionados; verde: MySQL. Los recuadros delimitan el sistema, el backend y el módulo; las flechas muestran operaciones, consultas entre módulos y persistencia.
 
 ![C4 Component Diagram 3](../assets/chapter-4/c4componentdiagram3.png)
 
 **Figura 72. C4 Component Diagram 3.**
 
+**Descripción:** Sensor Controller recibe las lecturas de los sensores y las solicitudes del frontend Angular. Sensor Reading Service valida, registra y comunica las lecturas; Connection Monitor determina la conexión según la última lectura; Sensor Linking Service vincula el sensor con un producto del catálogo. Sensor Repository persiste los datos en MySQL. Las lecturas se comunican a Inventory Monitoring mediante ReadingReceived para calcular el stock físico y compararlo con el registrado.
+
+**Leyenda:** Azul oscuro: frontend Angular; azul claro: componentes de IoT Device; amarillo: sensores externos; morado: módulos relacionados; verde: MySQL. Los recuadros delimitan el sistema, el backend y el módulo; las flechas representan solicitudes, lecturas, consultas y comunicación entre módulos.
+
 ![C4 Component Diagram 4](../assets/chapter-4/c4componentdiagram4.png)
 
 **Figura 73. C4 Component Diagram 4.**
+
+**Descripción:** Inventory Controller coordina las operaciones de compras, ventas, proveedores e inventario. Sales Service registra las ventas y Purchases Service gestiona las compras y su recepción. Stock Movement Service registra los movimientos y actualiza el stock registrado: las ventas lo disminuyen y las compras lo aumentan al confirmar su recepción. Inventory Comparison Service utiliza las lecturas IoT para detectar discrepancias sin modificar automáticamente ese stock. Inventory Repository persiste la información en MySQL y el módulo comunica cambios y discrepancias a Alerts & Restocking.
+
+**Leyenda:** Azul oscuro: frontend Angular; azul claro: componentes de Inventory Monitoring; morado: módulos relacionados; verde: MySQL. Los recuadros delimitan el sistema, el backend y el módulo; las flechas muestran operaciones, consultas y comunicación de lecturas o cambios de stock.
 
 ![C4 Component Diagram 5](../assets/chapter-4/c4componentdiagram5.png)
 
 **Figura 74. C4 Component Diagram 5.**
 
+**Descripción:** Alerts Controller atiende las consultas, la configuración de notificaciones y la acción Registrar compra. Alert Evaluation Service compara el umbral del catálogo con el stock del sensor cuando está en línea; si no está disponible, utiliza el stock registrado. Restocking Service gestiona las necesidades de reposición y solicita iniciar una compra en Inventory Monitoring. Notification Service solicita el envío por los canales activos de correo y WhatsApp. Alerts Repository persiste las alertas, necesidades y preferencias en MySQL.
+
+**Leyenda:** Azul oscuro: frontend Angular; azul claro: componentes de Alerts & Restocking; morado: módulos relacionados; amarillo: servicios externos de notificación; verde: MySQL. Los recuadros delimitan el sistema, el backend y el módulo; las flechas indican evaluación del stock, reposición, envío de notificaciones y persistencia.
+
 ![C4 Component Diagram 6](../assets/chapter-4/c4componentdiagram6.png)
 
 **Figura 75. C4 Component Diagram 6.**
+
+**Descripción:** Analytics Controller recibe las consultas del dashboard y de reportes por período. Dashboard Query Service construye resúmenes de stock, compras, ventas y alertas; Report Query Service consulta las operaciones y los movimientos del período. Inventory Data Reader y Alerts Data Reader obtienen la información mediante los módulos correspondientes, sin modificar sus datos. Inventory Monitoring y Alerts & Restocking mantienen su propia persistencia en MySQL.
+
+**Leyenda:** Azul oscuro: frontend Angular; azul claro: componentes de Analytics & Reporting; morado: módulos consultados; verde: MySQL. Los recuadros delimitan el sistema, el backend y el módulo; las flechas representan consultas y acceso a la información mediante los módulos responsables.
 
 ## 4.7. Software Object-Oriented Design
 
