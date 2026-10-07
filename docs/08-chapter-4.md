@@ -87,7 +87,7 @@ Ambos productos utilizan la misma preferencia de idioma mediante `localStorage`,
 
 ### Mapa de Arquitectura de Información
 
-![Mapa Arquitectura de Información](../assets/chapter-4/mapaarquitecturadeinformacion.png)
+![Mapa de arquitectura de información](../assets/chapter-4/mapaarquitecturadeinformacion.png)
 
 El mapa de arquitectura de información representa la organización de ambos productos y muestra también las conexiones existentes entre ellos. Asimismo, permite identificar visualmente la navegación que ya se encuentra implementada y aquella integración que todavía se encuentra pendiente.
 
@@ -614,7 +614,6 @@ El diseño está orientado a los propietarios y administradores de minimarkets y
 
 ![Web Application Wireframe Corner Store 16](../assets/chapter-4/webapplicationwireframes2.16.png)
 
-![Web Application Wireframe Corner Store 17](../assets/chapter-4/webapplicationwireframes2.17.png)
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
