@@ -934,3 +934,5 @@ Angular permite organizar la interfaz por contexto y reutilizar componentes; Spr
 ### 4.8.1. Database Diagrams
 
 ![Database Diagrams](../assets/chapter-4/databasediagrams.png)
+
+El diagrama presenta el diseño relacional previsto para SmartStock en MySQL. Cada negocio se relaciona con sus usuarios, productos, sensores y operaciones de inventario. Las compras se vinculan con proveedores y detalles de productos; las ventas también contienen sus respectivos detalles. Los movimientos registran las entradas por compras recibidas y las salidas por ventas, actualizando el stock registrado. Las lecturas IoT permiten comparar el stock físico con el registrado. Las alertas se relacionan con productos, notificaciones y necesidades de reposición, y pueden originar una compra. Las claves primarias y foráneas identifican los registros y mantienen sus relaciones.
