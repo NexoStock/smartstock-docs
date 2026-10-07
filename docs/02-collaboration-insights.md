@@ -8,3 +8,13 @@ AV1
 Report Insights AV1
 <img src="../assets/chapter-1/insights.jpeg" width="500"/>
 <img src="../assets/chapter-1/insights-2.jpeg" width="500"/>
+
+**Trabajo Parcial (TB1)**
+
+Repositorio de la documentación del proyecto: https://github.com/NexoStock/smartstock-docs.git
+A continuación, se detallan las actividades realizadas en cada entrega, la participación de los miembros del equipo, y
+las evidencias correspondientes.
+TB1
+Report Insights TB1
+<img src="../assets/chapter-1/report1.png" width="500"/>
+<img src="../assets/chapter-1/report2.png" width="500"/>
