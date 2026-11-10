@@ -70,6 +70,6 @@ Carrera de Ingeniería de Software
 
 <br><br><br>
 
-<p><b>Octubre 2026</b></p>
+<p><b>Noviembre 2026</b></p>
 
 </div>
