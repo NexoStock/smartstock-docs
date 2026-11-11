@@ -973,6 +973,56 @@ El Sprint 3 contiene las Technical Stories TS01 a TS15, que implementan con Web 
 
 *Nota.* Elaboración propia
 
+**Tabla 47**  
+*Sprint Backlog 3*
+
+| Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| TS-SH | Soporte técnico | T-SH3.1 | Backend repository and base | Repo nexostock-backend, ramas, Initializr, pom (Java 27, Boot 4.1.1), shared, Result, i18n, perfiles local/prod. | 6 | Vizcarra Mamani, Candy Milagros | Done |
+| TS13 | Catálogo de productos | T-TS13.1 | Product domain and persistence | Product (validate-before-mutate), value objects, converters, repository, ProductCreatedEvent, ThresholdChangedEvent. | 4 | Vizcarra Mamani, Candy Milagros | Done |
+| TS13 | Catálogo de productos | T-TS13.2 | Product services and controller | Command/query services con rollback, assemblers, /api/productos con OpenAPI. | 4 | Vizcarra Mamani, Candy Milagros | Done |
+| TS09 | Proveedores y compras | T-TS09.1 | Suppliers | Proveedores (/api/proveedores). | 5 | Vizcarra Mamani, Candy Milagros | Done |
+| TS-REV | Revisión cruzada | T-REV3.1 | Review PRs of level 1 | Revisar PR de Alertas y Ventas con la regla espejo y @Operation. | 2 | Vizcarra Mamani, Candy Milagros | Done |
+| TS10 | Proveedores y compras | T-TS10.1 | Purchases and receipt | Compras con InventoryContextFacade.addStockForPurchase, recepción repetida y rollback. | 6 | Vizcarra Mamani, Candy Milagros | Done |
+| TS-REV | Revisión cruzada | T-REV3.2 | Review IAM PR | Revisar PR de IAM. | 2 | Vizcarra Mamani, Candy Milagros | Done |
+| TS12 | Proveedores y compras | T-TS12.1 | Purchase queries and release | Consultas de compras y release/1.0.0 (congelamiento). | 3 | Vizcarra Mamani, Candy Milagros | Done |
+| TS-DOC | Soporte técnico | T-DOC3.2 | Swagger captures Catalog and Purchasing | Capturas y documentación de endpoints (5.2.3.6). | 2 | Vizcarra Mamani, Candy Milagros | Done |
+| TS-DOC | Soporte técnico | T-DOC3.9 | Section 5.1.1 (draft) | Redactar 5.1.1 con evidencias; Kiara revisa. | 3 | Vizcarra Mamani, Candy Milagros | Done |
+| TS14 | Movimientos de stock | T-TS14.1 | Stock movement engine | MovementCommandService con bloqueo de fila, StockChangedEvent, InventoryContextFacade. | 8 | Tuesta Girón, Kiara Lucia | Done |
+| TS-SH | Soporte técnico | T-SH3.7 | Business rule tests | JUnit del motor de stock y reglas; ventas concurrentes contra MySQL. | 4 | Tuesta Girón, Kiara Lucia | Done |
+| TS02 | Consulta de stock | T-TS02.1 | Stock queries | Stock actual, detalle con sensor. | 4 | Tuesta Girón, Kiara Lucia | Done |
+| TS02 | Consulta de stock | T-TS02.2 | Comparison and movements | Comparación y /api/movimientos-stock (filtro de fechas). | 6 | Tuesta Girón, Kiara Lucia | Done |
+| TS15 | Analytics | T-TS15.1 | Dashboard and reports | /api/dashboard y /api/reportes con fórmula, período y caso sin datos. | 6 | Crispin Valdivia, Angel Gabriel | Done |
+| TS-DOC | Soporte técnico | T-DOC3.4 | Swagger captures Inventory and Analytics | Capturas y documentación (5.2.3.6). | 3 | Tuesta Girón, Kiara Lucia | Done |
+| TS-DOC | Soporte técnico | T-DOC3.10 | Review of section 5.1.1 | Revisar el borrador de Candy y aportar su evidencia. | 2 | Tuesta Girón, Kiara Lucia | Done |
+| TS03 | Alertas de stock bajo | T-TS03.1 | Alert rules R19–R21 | Alertas con activeKey única, evento después de commit, destinatario por negocio (IamContextFacade). | 6 | Lopez Rimachi, Sebastian Leonardo | Done |
+| TS-DOC | Soporte técnico | T-DOC3.5 | Trello cards | Cargar las cards con responsable, contexto, nivel, estado y evidencia real. | 2 | Lopez Rimachi, Sebastian Leonardo | Done |
+| TS06 | Ventas | T-TS06.1 | Sales domain and persistence | Sale, SaleItem, requestKey única, repositorio. | 4 | Lopez Rimachi, Sebastian Leonardo | Done |
+| TS03 | Alertas de stock bajo | T-TS03.2 | Notification channels | Cola con reclamo atómico PENDING→PROCESSING→SENT/FAILED. | 4 | Lopez Rimachi, Sebastian Leonardo | Done |
+| TS07 | Ventas | T-TS07.1 | RegisterSale | Precio del catálogo, venta + baja de stock en una transacción, idempotencia, rollback. | 6 | Lopez Rimachi, Sebastian Leonardo | Done |
+| TS08 | Ventas | T-TS08.1 | Sales queries and controller | GET /api/ventas y /api/ventas/{code}; Idempotency-Key; por negocio. | 3 | Lopez Rimachi, Sebastian Leonardo | Done |
+| TS03 | Alertas de stock bajo | T-TS03.3 | Email and WhatsApp senders | SMTP y Twilio por variables de entorno. | 3 | Lopez Rimachi, Sebastian Leonardo | Done |
+| TS03 | Alertas de stock bajo | T-TS03.4 | Retry and queries | RetryNotificationCommand, UpdateChannels y las queries restantes. | 2 | Lopez Rimachi, Sebastian Leonardo | Done |
+| TS-DOC | Soporte técnico | T-DOC3.3 | Swagger captures Alerts and Sales | Capturas y documentación (5.2.3.6). | 3 | Lopez Rimachi, Sebastian Leonardo | Done |
+| TS-DOC | Soporte técnico | T-DOC3.11 | Execution evidence 5.2.3.5 | Capturas de la Web App con la API y enlace al video. | 3 | Lopez Rimachi, Sebastian Leonardo | Done |
+| TS-DOC | Soporte técnico | T-DOC3.6a | Trello board | Crear tablero, invitar a todas. | 2 | Montañez Salinas, Lorena Ariana | Done |
+| TS04 | Autenticación | T-TS04.1 | IAM domain and persistence | Business (teléfono opcional), Account, EmailAddress, repositorios, IamContextFacade. | 5 | Montañez Salinas, Lorena Ariana | Done |
+| TS04 | Autenticación | T-TS04.2 | Register, login and JWT service | BCrypt, JwtTokenService, registro con 409 en duplicado. | 5 | Montañez Salinas, Lorena Ariana | Done |
+| TS04 | Autenticación | T-TS04.3 | JWT filter and integration | Filtro JWT, borrar lo temporal, rutas públicas. | 5 | Montañez Salinas, Lorena Ariana | Done |
+| TS-INT | Integración | T-INT3.1 | Login to sale integration tests | Registro → login → producto → stock → venta → alerta; 401/403; aislamiento por negocio. | 4 | Montañez Salinas, Lorena Ariana | Done |
+| TS-DOC | Soporte técnico | T-DOC3.6 | Sprint Backlog table | Intro + captura del tablero + URL público + tabla en texto. | 2 | Montañez Salinas, Lorena Ariana | Done |
+| TS01 | Dispositivos IoT | T-TS01.1 | Sensors and readings | Clave de dispositivo (hash), POST /api/device-readings/{codigo}, duplicados y fuera de orden. | 8 | Crispin Valdivia, Angel Gabriel | Done |
+| TS05 | Dispositivos IoT | T-TS05.1 | Sensor status | Listado y estado provisional. | 3 | Crispin Valdivia, Angel Gabriel | Done |
+| TS-SH | Soporte técnico | T-SH3.3 | Dockerfile and CI | Dockerfile Java 27, perfil prod, CI con Java 27. | 5 | Crispin Valdivia, Angel Gabriel | Done |
+| TS-SH | Soporte técnico | T-SH3.5 | Deploy Web Services and MySQL | Render (Docker) + Aiven, variables, CORS, health; nivel 1 parcial. | 8 | Crispin Valdivia, Angel Gabriel | Done |
+| TS05 | Dispositivos IoT | T-TS05.2 | Link sensor to product | Vincular sensor y producto. | 3 | Crispin Valdivia, Angel Gabriel | Done |
+| TS04 | Autenticación | T-TS04.4 | Forgot and reset password | Token de un solo uso, hash, respuesta que no revela el correo (apoyo a IAM). | 4 | Montañez Salinas, Lorena Ariana | Done |
+| TS-DOC | Soporte técnico | T-DOC3.7 | Deployment evidence | Capturas y redacción de 5.2.3.7 de los 3 productos. | 4 | Crispin Valdivia, Angel Gabriel | Done |
+
+*Nota.* Elaboración propia
+
+La estimación total es de 164 horas, distribuidas así: Ángel 37 h (IoT Device, Docker, despliegue y dashboard), Candy 37 h (base del repositorio, catálogo, proveedores y compras), Sebastián 36 h (alertas, notificaciones y ventas), Kiara 27 h (motor de stock, consultas y pruebas) y Lorena 27 h (IAM, JWT y recuperación de contraseña).
+
 #### 5.2.3.4. Development Evidence for Sprint Review
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
