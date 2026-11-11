@@ -964,6 +964,15 @@ Según la matriz, Lorena lidera IAM; Ángel, IoT Device y Deployment; Sebastián
 
 #### 5.2.3.3. Sprint Backlog 3
 
+El Sprint 3 contiene las Technical Stories TS01 a TS15, que implementan con Web Services reales los contratos simulados en el Sprint 2, y las tareas técnicas de base, despliegue, integración y documentación. Cada tarea se identifica como `T-TS##.n` o `T-<tipo>3.n` y tiene un único responsable. El tablero del sprint está en Trello: https://trello.com/invite/b/6aa988a0941a5fb8c814af43/ATTI5eecabb28fdc9c85d7ba8336b688a97353B8B08C/trello. La Figura 184 muestra el board del Sprint 3.
+
+**Figura 184**  
+*Board del Sprint 3 en Trello*
+
+![Board del Sprint 3 en Trello](../assets/chapter-5/sprint3-sprint-backlog-trello.png)
+
+*Nota.* Elaboración propia
+
 #### 5.2.3.4. Development Evidence for Sprint Review
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
