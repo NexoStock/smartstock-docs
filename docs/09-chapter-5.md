@@ -945,6 +945,23 @@ Para el Sprint 3, el equipo acordó los siguientes puntos:
 
 #### 5.2.3.2. Aspect Leaders and Collaborators
 
+En el Sprint 3 los aspectos coinciden con los bounded contexts de los Web Services, a los que se suma el despliegue. Cada integrante lideró el contexto que ya lideraba en el Sprint 2 y colaboró en los demás mediante revisiones cruzadas de pull requests. Los aspectos son: IAM (registro, inicio de sesión con JWT, recuperación de contraseña y aislamiento por negocio); IoT Device (sensores, clave de dispositivo y lecturas); Alerts & Restocking (alertas de stock bajo y canales de notificación por correo y WhatsApp); Product Catalog (productos, proveedores y compras); Inventory Monitoring (movimientos de stock, ventas y comparación de inventario); Analytics & Reporting (dashboard y reportes); y Deployment (Docker y despliegue en Railway).
+
+**Tabla 46**  
+*Matriz de líderes (L) y colaboradores (C) por aspecto del Sprint 3*
+
+| Team Member (Last Name, First Name) | GitHub Username | IAM | IoT Device | Alerts & Restocking | Product Catalog | Inventory Monitoring | Analytics & Reporting | Deployment |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Crispin Valdivia, Angel Gabriel | @FaureGalliard | C | L | C | C | C | C | L |
+| Lopez Rimachi, Sebastian Leonardo | @leonardoXd1323 | C | C | L | C | C | C | C |
+| Montañez Salinas, Lorena Ariana | @Lore-MS | L | C | C | C | C | C | C |
+| Tuesta Girón, Kiara Lucia | @kitu05g | C | C | C | C | L | L | C |
+| Vizcarra Mamani, Candy Milagros | @candyvizz | C | C | C | L | C | C | C |
+
+*Nota.* Elaboración propia
+
+Según la matriz, Lorena lidera IAM; Ángel, IoT Device y Deployment; Sebastián, Alerts & Restocking y el registro de ventas; Candy, Product Catalog junto con proveedores y compras; y Kiara, Inventory Monitoring y Analytics & Reporting. Ángel colaboró además en Analytics & Reporting con los endpoints de dashboard, reportes y comparación de inventario.
+
 #### 5.2.3.3. Sprint Backlog 3
 
 #### 5.2.3.4. Development Evidence for Sprint Review
