@@ -910,6 +910,39 @@ El grafo de red muestra la aplicación efectiva de GitFlow: las ramas de feature
 
 #### 5.2.3.1. Sprint Planning 3
 
+**Tabla 45**  
+*Sprint Planning 3 del equipo NexoStock*
+
+| Campo | Detalle |
+| --- | --- |
+| Sprint # | 3 |
+| Date | 2026-11-04 |
+| Time | 08:00 PM |
+| Location | Reunión virtual |
+| Prepared By | Vizcarra Mamani, Candy Milagros |
+| Attendees | Crispin Valdivia, Angel Gabriel; Lopez Rimachi, Sebastian Leonardo; Montañez Salinas, Lorena Ariana; Tuesta Girón, Kiara Lucia; Vizcarra Mamani, Candy Milagros |
+| Sprint 2 – Review Summary | En el Sprint 2 se implementó y desplegó en GitHub Pages la primera versión de la Frontend Web Application (v1.0.0), con las 23 User Stories de IAM, IoT Device, Alerts & Restocking, Product Catalog, Inventory Monitoring y Analytics & Reporting, consumiendo una Fake API (json-server) desplegada en Render. Como la Fake API guarda los datos en memoria y se reinicia tras un periodo sin uso, quedó pendiente reemplazarla por Web Services reales con base de datos persistente, manteniendo el mismo contrato de endpoints. |
+| Sprint 2 – Retrospective Summary | Funcionó bien trabajar cada tarea en una rama corta con pull request revisado por otro integrante y mantener los contratos de la API documentados antes de construir las pantallas. Como aspectos a mejorar, el equipo acordó definir desde el inicio las reglas de negocio críticas (stock que solo cambia mediante movimientos, ventas atómicas, alertas sin duplicados) y probarlas contra MySQL real, y no dejar el despliegue para el final del sprint. |
+| Sprint 3 Goal | Our focus is on delivering the first version of the SmartStock Web Services, with persistent data, authentication and the business rules of stock, sales, purchases, sensors and alerts. We believe it delivers reliable inventory records that are no longer lost to minimarket and bodega owners, whose web application and IoT sensors now work against a real backend. This will be confirmed when the Web Services are deployed with their OpenAPI documentation and the web application registers a sale that updates the stock and raises a low-stock alert. |
+| Sprint 3 Velocity | 164 horas estimadas. El Sprint 3 está formado por Technical Stories (TS01 a TS15) y tareas técnicas de soporte (TS-SH), integración (TS-INT), revisión (TS-REV) y documentación (TS-DOC); el Product Backlog no asigna Story Points a las Technical Stories, por lo que la capacidad se planificó en horas por integrante. |
+| Sum of Story Points | 0 Story Points de User Stories; 15 Technical Stories y 40 tareas con una estimación total de 164 horas |
+
+*Nota.* Elaboración propia
+
+Para el Sprint 3, el equipo acordó los siguientes puntos:
+
+(1) Crear el repositorio NexoStock/smartstock-backend con Java 27, Spring Boot 4.1.1, Spring Data JPA y MySQL, organizado por bounded context y con las capas domain, application, infrastructure e interfaces.
+
+(2) Conservar el contrato de la Fake API del Sprint 2 (rutas y nombres de campos en español) para que la Web Application solo cambie la URL base.
+
+(3) Integrar el trabajo por olas: primero la base compartida, luego el nivel 1 de cada contexto y, por último, IAM con JWT, que protege todas las rutas.
+
+(4) Revisar cada pull request de forma cruzada (Candy → Leo → Lore → Angel → Kiara → Candy) e integrarlo con merge commit.
+
+(5) Desplegar los Web Services con Docker y una base MySQL administrada, sin secretos en el repositorio.
+
+(6) Documentar los endpoints con OpenAPI desde el código (springdoc-openapi).
+
 #### 5.2.3.2. Aspect Leaders and Collaborators
 
 #### 5.2.3.3. Sprint Backlog 3
