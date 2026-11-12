@@ -923,3 +923,25 @@ El grafo de red muestra la aplicación efectiva de GitFlow: las ramas de feature
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
+## 5.3. Validation Interviews
+
+### 5.3.1. Diseño de Entrevistas
+
+Las entrevistas de validación buscan comprobar si los usuarios de cada segmento objetivo entienden el Landing Page y la Frontend Web Application, si pueden completar las tareas principales sin ayuda y qué cambiarían. A diferencia de las entrevistas de needfinding del Capítulo II, el entrevistado no describe su problema: interactúa con el producto desplegado mientras responde preguntas cortas sobre lo que ve. Se entrevistó a dueños o encargados de minimarkets y de bodegas; quienes ya habían participado en el needfinding vieron el producto que antes conocieron como prototipo.
+
+Cada entrevista dura entre 11 y 15 minutos, se graba con autorización del entrevistado y sigue un orden fijo, igual para todos, para que las respuestas puedan compararse:
+
+(1) **Introducción (20 s).** Presentación del equipo y del objetivo, aclaración de que no es un examen y solicitud de autorización para grabar.
+
+(2) **Datos del entrevistado (10 s).** Nombre, edad, distrito y tipo de negocio, junto con la fecha, el dispositivo y el navegador.
+
+(3) **Landing Page (2 min).** Se le pide explicar en una frase qué ofrece SmartStock, elegir un plan (Inicial, Crecimiento o Business) y justificar su elección, e indicar dónde haría clic para crear su cuenta.
+
+(4) **Aplicación (6 min), en el orden del menú lateral.** En Productos, desde cuántas unidades quiere que se le avise del stock bajo; en Sensores, si entiende la columna de estado y qué significa; en Ventas, qué tocaría para registrar una venta y si el stock quedó como esperaba; en Alertas, qué haría al ver una alerta de stock bajo; y en Compras, si buscaría ahí lo que le llega del proveedor. Si sobra tiempo, se muestran la comparación de inventario y los reportes.
+
+(5) **Preguntas finales (2 min).** Lo más confuso o lo que le faltó; la pantalla más clara y la más confusa; si confiaría en las alertas para decidir cuándo reponer; y qué precio mensual le parecería razonable.
+
+(6) **Cierre (15 s).** Espacio para comentarios adicionales y agradecimiento.
+
+Las preguntas cambian ligeramente según el segmento: en el caso de las bodegas se enfatiza el plan Inicial y las dudas sobre los sensores, porque son el segmento con menos experiencia en herramientas digitales. Las preguntas son abiertas o de respuesta breve y no sugieren la respuesta correcta; el entrevistador espera la respuesta antes de explicar la pantalla.
+
