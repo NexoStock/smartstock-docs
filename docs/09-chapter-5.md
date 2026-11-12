@@ -945,3 +945,18 @@ Cada entrevista dura entre 11 y 15 minutos, se graba con autorización del entre
 
 Las preguntas cambian ligeramente según el segmento: en el caso de las bodegas se enfatiza el plan Inicial y las dudas sobre los sensores, porque son el segmento con menos experiencia en herramientas digitales. Las preguntas son abiertas o de respuesta breve y no sugieren la respuesta correcta; el entrevistador espera la respuesta antes de explicar la pantalla.
 
+**Tabla 52**  
+*Preguntas de la entrevista de validación por segmento*
+
+| Momento | Segmento minimarket | Segmento bodega |
+| --- | --- | --- |
+| Landing Page | ¿Qué cree que ofrece SmartStock? ¿Qué plan elegiría para su minimarket y por qué? ¿Dónde haría clic para crear su cuenta? | ¿Para qué le serviría en su bodega? ¿Qué cree que incluye el plan Inicial? ¿Le queda alguna duda con los sensores? ¿Dónde haría clic para crear su cuenta? |
+| Productos | ¿Desde cuántas unidades quiere que le avise que se está acabando? | Igual que en minimarket |
+| Sensores | ¿Entiende qué dice la columna de estado? ¿Qué cree que significa? | Igual que en minimarket |
+| Ventas | ¿Qué tocaría para registrar la venta? ¿Esto es lo que esperaba que pasara con las existencias? | ¿Qué tocaría para registrar la venta? ¿Quedaron las unidades que esperaba? |
+| Alertas | ¿Qué haría al ver esta alerta? | Le llega esta alerta: ¿qué haría? |
+| Compras | ¿Es aquí donde buscaría registrar lo que le llega del proveedor? | Igual que en minimarket |
+| Preguntas finales | Lo más confuso; pantalla más clara y más confusa; ¿confiaría en las alertas para reponer?; precio mensual razonable | Lo más confuso; pantalla más clara y más confusa; ¿qué decisión tomaría al ver la alerta?; precio mensual razonable para el plan Inicial |
+
+*Nota.* Elaboración propia
+
