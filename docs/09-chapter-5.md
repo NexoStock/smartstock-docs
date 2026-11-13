@@ -1241,6 +1241,80 @@ Los commits de documentación de los Web Services del Sprint 3 son los que agreg
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
+Durante el Sprint 3 se desplegó por primera vez la versión 1.0.0 de los Web Services, junto con las nuevas versiones del Landing Page y de la Frontend Web Application. La Tabla 51 resume el estado de los tres productos al cierre del sprint.
+
+**Tabla 51**  
+*Evidencia de despliegue del Sprint 3*
+
+| Producto | Repositorio | URL desplegada | Versión | Estado |
+| --- | --- | --- | --- | --- |
+| Landing Page | https://github.com/NexoStock/smartstock-landing-page | https://nexostock.github.io/smartstock-landing-page/ | — | Actualizado en el Sprint 3: sección de videos con About-the-Product y About-the-Team incrustados |
+| Frontend Web Application | https://github.com/NexoStock/smartstock-frontend | https://nexostock.github.io/smartstock-frontend/ | — | Actualizada en el Sprint 3: consume los Web Services desplegados en lugar de la Fake API |
+| Web Services | https://github.com/NexoStock/smartstock-backend | https://smartstock-backend-production-36b6ce8c.up.railway.app | v1.0.0 | Primera versión desplegada |
+| Base de datos MySQL 8.4 | — (servicio administrado de Railway) | Acceso interno del proyecto en Railway | — | Desplegada |
+
+*Nota.* Elaboración propia
+
+**Preparación del despliegue.** En el repositorio de los Web Services se agregaron un `Dockerfile` de dos etapas y un `.dockerignore` (rama `feature/docker-ci`, PR #5). La primera etapa usa la imagen `eclipse-temurin:27-jdk` para compilar el proyecto con el Maven Wrapper (`./mvnw -B -DskipTests package`). La segunda copia solo el `.jar` a la imagen `eclipse-temurin:27-jre`, lo ejecuta con un usuario sin privilegios y activa el perfil `prod`. El perfil `prod` no tiene secretos por defecto: la conexión a la base de datos, el secreto de los JWT y los orígenes permitidos por CORS se leen de variables de entorno, y si alguno falta la aplicación no arranca. Además, en `.gitattributes` se fijaron los finales de línea LF del `mvnw` para que el script funcione dentro del contenedor Linux.
+
+**Release.** Siguiendo GitFlow, desde `develop` se creó la rama `release/1.0.0`, que completó los nombres de los integrantes en el `pom.xml`. Esa rama se integró en `main` con un merge commit (`--no-ff`), se etiquetó como `v1.0.0` y se integró de vuelta en `develop`. Railway despliega desde la rama `main`.
+
+**Despliegue en Railway.** Los pasos fueron:
+
+1. Crear el proyecto en Railway con la opción *Deploy from GitHub repo*, autorizar a Railway en la organización NexoStock y elegir el repositorio `smartstock-backend`, rama `main`. Railway detecta el `Dockerfile` y construye la imagen.
+2. Agregar al proyecto un servicio de base de datos MySQL administrado por Railway (MySQL 8.4).
+3. Habilitar el *TCP Proxy* del servicio MySQL. Durante las pruebas el backend no logró conectarse por la red privada del proyecto (error *Communications link failure*), por lo que se usa el dominio público del proxy de Railway.
+4. Configurar las variables de entorno del servicio de los Web Services: la URL JDBC, el usuario y la contraseña de MySQL (`SPRING_DATASOURCE_URL`, `SPRING_DATASOURCE_USERNAME`, `SPRING_DATASOURCE_PASSWORD`; usuario y contraseña se leen por referencia de las variables del servicio MySQL), `JWT_SECRET` (64 bytes aleatorios en Base64), `CORS_ALLOWED_ORIGINS=https://nexostock.github.io`, `PUBLIC_API_URL` con el dominio público, `PORT=8080`, `SPRING_JPA_HIBERNATE_DDL_AUTO=update`, para que Hibernate cree el esquema en la base vacía, y `SPRINGDOC_API_DOCS_ENABLED` y `SPRINGDOC_SWAGGER_UI_ENABLED`, para publicar la documentación. Los secretos solo existen en Railway: ninguno está en el repositorio.
+5. Generar el dominio público del servicio en *Networking*, apuntando al puerto 8080, y configurar `/actuator/health` como ruta de *health check*.
+
+En los primeros intentos el contenedor se detenía a los pocos segundos de iniciar. Los registros de Railway permitieron identificar tres causas, que se corrigieron solo con configuración, sin cambiar el código: la conexión por la red privada (paso 3), la validación del esquema en una base de datos aún vacía (`ddl-auto=validate` del perfil `prod`, reemplazado por `update` mediante variable de entorno) y la falta de las variables obligatorias del perfil `prod` (`JWT_SECRET`, `CORS_ALLOWED_ORIGINS` y `PUBLIC_API_URL`).
+
+**Verificación.** Con el servicio en línea se comprobó desde fuera de Railway que `/actuator/health` responde `{"status":"UP"}` (incluye la conexión a la base de datos), que Swagger UI y `/v3/api-docs` responden 200, que una ruta protegida sin token responde 401 y que una petición de preflight CORS desde `https://nexostock.github.io` es aceptada.
+
+**Landing Page y Web Application.** El Landing Page sigue publicado en GitHub Pages; en este sprint se agregó la sección de videos con About-the-Product y About-the-Team incrustados desde YouTube. En la Web Application se reemplazó `apiBaseUrl` en `src/environments/environment.ts` por la URL de los Web Services, de modo que la versión publicada en GitHub Pages ya no usa la Fake API.
+
+**Figura 192**  
+*Proyecto en Railway con el servicio de los Web Services y la base de datos MySQL*
+
+![Proyecto en Railway con el servicio de los Web Services y la base de datos MySQL](../assets/chapter-5/sprint3-deploy-railway-proyecto.png)
+
+*Nota.* Elaboración propia
+
+**Figura 193**  
+*Variables de entorno del servicio de los Web Services en Railway*
+
+![Variables de entorno del servicio de los Web Services en Railway](../assets/chapter-5/sprint3-deploy-railway-variables.png)
+
+*Nota.* Railway oculta los valores de todas las variables. Elaboración propia
+
+**Figura 194**  
+*Despliegue exitoso de los Web Services en Railway con su dominio público*
+
+![Despliegue exitoso de los Web Services en Railway con su dominio público](../assets/chapter-5/sprint3-deploy-railway-deploy.png)
+
+*Nota.* Despliegue activo del merge de release/1.0.0 en main, publicado en smartstock-backend-production-36b6ce8c.up.railway.app. Elaboración propia
+
+**Figura 195**  
+*Health check de los Web Services desplegados*
+
+![Health check de los Web Services desplegados](../assets/chapter-5/sprint3-deploy-health.png)
+
+*Nota.* Respuesta de https://smartstock-backend-production-36b6ce8c.up.railway.app/actuator/health. Elaboración propia
+
+**Figura 196**  
+*Etiqueta v1.0.0 del repositorio de los Web Services*
+
+![Etiqueta v1.0.0 del repositorio de los Web Services](../assets/chapter-5/sprint3-deploy-tag-v1-0-0.png)
+
+*Nota.* Elaboración propia
+
+**Figura 197**  
+*Landing Page con la sección de videos y Web Application conectada a los Web Services*
+
+![Landing Page con la sección de videos y Web Application conectada a los Web Services](../assets/chapter-5/sprint3-deploy-landing-webapp.png)
+
+*Nota.* (a) Sección de videos del Landing Page; (b) Web Application publicada en GitHub Pages con peticiones dirigidas a los Web Services en Railway. Elaboración propia
+
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
 Durante el Sprint 3 el equipo trabajó en el repositorio NexoStock/smartstock-backend con el mismo flujo de GitFlow del Sprint 2 (Tabla 44). Cada integrante desarrolló su contexto en ramas `feature/<contexto>` o `fix/<contexto>` creadas desde develop y las integró mediante pull request revisado por otro integrante, con merge commit. La versión 1.0.0 se publicó a través de la rama `release/1.0.0`, que se integró en main con la etiqueta v1.0.0 y de vuelta en develop. Los mensajes de commit siguen Conventional Commits, en inglés, con el contexto como alcance; por ejemplo, `feat(devices): add sensors, device key and readings`.
