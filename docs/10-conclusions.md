@@ -26,6 +26,20 @@
 
 - **Sobre la gestión y colaboración del equipo:** La distribución de tareas por contexto, el seguimiento mediante Trello y el uso de ramas, Conventional Commits y pull requests permitieron organizar el desarrollo y registrar los aportes de los integrantes. La integración progresiva mediante develop y la preparación de la versión publicada facilitaron la coordinación de los cambios del Sprint 2.
 
+## Sprint 3 – Web Services y validación con usuarios
+
+- **Sobre la implementación de los Web Services:** El desarrollo de los RESTful Web Services con Java 27, Spring Boot y Spring Data JPA reemplazó la Fake API por un backend con datos persistentes en MySQL. Organizar el código por bounded context, con las capas domain, application, infrastructure e interfaces, permitió que cada integrante trabajara en su contexto sin afectar a los demás y que los contextos se comunicaran mediante facades y eventos.
+
+- **Sobre las reglas de negocio:** La implementación hizo cumplir en el servidor las reglas críticas del producto: el stock solo cambia mediante movimientos, una venta se registra completa o no se registra, una compra recibida dos veces no suma stock dos veces, cada producto tiene como máximo una alerta activa y los sensores se autentican con una clave propia guardada como hash. Las pruebas contra MySQL real, ejecutadas en el CI, dieron confianza en que estas reglas se mantienen al integrar nuevas ramas.
+
+- **Sobre la seguridad y el aislamiento de datos:** El uso de JWT y la asociación de cada recurso a un negocio garantizan que cada usuario vea solo su información, mientras que las rutas públicas se limitan al registro, al inicio de sesión, a la recuperación de contraseña y a la recepción de lecturas de los sensores.
+
+- **Sobre el despliegue:** La contenedorización con Docker y el despliegue en Railway pusieron en línea la versión 1.0.0 de los Web Services con su documentación OpenAPI. Resolver los fallos iniciales solo con variables de entorno, sin secretos en el repositorio, confirmó que el perfil de producción estaba bien separado del de desarrollo.
+
+- **Sobre la integración con la aplicación web:** Mantener en el backend el contrato de la Fake API permitió conectar la Frontend Web Application cambiando principalmente la URL base; las diferencias encontradas (compras, proveedores y umbral) se corrigieron en el frontend, y se agregaron al backend los endpoints de dashboard, reportes y comparación de inventario.
+
+- **Sobre la validación con usuarios:** Las entrevistas de validación con dueños de bodegas y minimarkets, que usaron el producto desplegado, permitieron identificar qué partes se entienden sin ayuda y qué debe mejorarse, como el idioma inicial de la aplicación y la información de la lista de compras.
+
 # Recomendaciones
 
 - **Sobre la continuidad del desarrollo del sistema:** Se recomienda continuar con la implementación progresiva de las funcionalidades definidas en el Product Backlog, priorizando aquellas relacionadas con el monitoreo del inventario físico, vinculación de sensores IoT, configuración de niveles mínimos de stock, alertas automáticas y comparación entre el inventario físico y el registrado. Estas funcionalidades representan una parte importante de la propuesta de valor de SmartStock.
