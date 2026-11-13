@@ -40,6 +40,17 @@
 
 - **Sobre la validación con usuarios:** Las entrevistas de validación con dueños de bodegas y minimarkets, que usaron el producto desplegado, permitieron identificar qué partes se entienden sin ayuda y qué debe mejorarse, como el idioma inicial de la aplicación y la información de la lista de compras.
 
+## Video About-the-Team
+
+El video About-the-Team presenta al equipo NexoStock y su trabajo en el desarrollo de SmartStock. Incluye escenas reales del trabajo del equipo, una retrospectiva narrada del proyecto y el testimonio ante cámara de cada integrante, en el que describe las actividades que realizó, el logro del Student Outcome y las competencias que desarrolló. Está publicado en YouTube e incrustado en la sección de videos del Landing Page.
+
+**Figura 202**  
+*Video About-the-Team publicado en YouTube*
+
+![Video About-the-Team publicado en YouTube](../assets/chapter-5/sprint3-about-the-team.png)
+
+*Nota.* Disponible en https://youtu.be/QxwsvZKVQao. Elaboración propia
+
 # Recomendaciones
 
 - **Sobre la continuidad del desarrollo del sistema:** Se recomienda continuar con la implementación progresiva de las funcionalidades definidas en el Product Backlog, priorizando aquellas relacionadas con el monitoreo del inventario físico, vinculación de sensores IoT, configuración de niveles mínimos de stock, alertas automáticas y comparación entre el inventario físico y el registrado. Estas funcionalidades representan una parte importante de la propuesta de valor de SmartStock.
