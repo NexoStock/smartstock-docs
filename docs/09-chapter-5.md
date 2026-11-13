@@ -1446,3 +1446,13 @@ Heurística violada: Usability – reconocer antes que recordar; Information Arc
 Problema: con los Web Services del Sprint 3, la respuesta de las compras incluye el identificador del proveedor, el estado y el total, pero no la fecha ni el nombre del proveedor. El usuario debe recordar a qué compra corresponde cada fila, y el filtro por fechas no puede aplicarse.  
 Recomendación: agregar la fecha de registro y el nombre del proveedor a la respuesta de GET /api/compras y mostrarlos en la lista.
 
+## 5.4. Video About-the-Product
+
+El video About-the-Product presenta SmartStock a los potenciales usuarios: el problema de las diferencias entre el stock físico y el registrado en bodegas y minimarkets, el resumen del modelo de negocio, las principales características del producto (sensores de peso, registro de ventas y compras, alertas de stock bajo, comparación de inventario y reportes) y sus beneficios, con escenas de interacción con la aplicación y opiniones de los segmentos objetivo tomadas de las entrevistas de validación. Dura entre uno y tres minutos, está publicado en YouTube e incrustado en la sección de videos del Landing Page.
+
+**Figura 201**  
+*Video About-the-Product publicado en YouTube*
+
+![Video About-the-Product publicado en YouTube](../assets/chapter-5/sprint3-about-the-product.png)
+
+*Nota.* Disponible en https://youtu.be/7PVpjP6lQFA. Elaboración propia
