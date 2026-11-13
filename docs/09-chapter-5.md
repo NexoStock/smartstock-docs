@@ -918,6 +918,47 @@ El grafo de red muestra la aplicación efectiva de GitFlow: las ramas de feature
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
+Al cierre del Sprint 3 la Frontend Web Application dejó de usar la Fake API y consume los Web Services desplegados en Railway. Para lograrlo se cambió la URL base en `src/environments/environment.ts` y se ajustaron los servicios cuyo contrato cambió con el backend real: las compras ahora envían `productos` con `precioUnitario` y se reciben con `POST /api/compras/{id}/recibir`; el registro de proveedores incluye el RUC, que el backend exige; el umbral mínimo se actualiza por producto; y la lista de productos que se pueden vincular a un sensor se obtiene cruzando productos y sensores. Las vistas implementadas son las del Sprint 2, ahora con datos persistentes en MySQL: los datos ya no se pierden al reiniciar el servicio y cada negocio solo ve su propia información.
+
+Las Figuras 185 a 189 muestran la aplicación desplegada en https://nexostock.github.io/smartstock-frontend/ trabajando contra los Web Services.
+
+**Figura 185**  
+*Inicio de sesión y dashboard con datos de los Web Services*
+
+![Inicio de sesión y dashboard con datos de los Web Services](../assets/chapter-5/sprint3-ejecucion-dashboard.png)
+
+*Nota.* (a) Inicio de sesión; (b) dashboard con las ventas y compras del día y el nivel de stock. Elaboración propia
+
+**Figura 186**  
+*Registro de un producto y vinculación de su sensor*
+
+![Registro de un producto y vinculación de su sensor](../assets/chapter-5/sprint3-ejecucion-producto-sensor.png)
+
+*Nota.* Elaboración propia
+
+**Figura 187**  
+*Registro de una venta que descuenta el stock*
+
+![Registro de una venta que descuenta el stock](../assets/chapter-5/sprint3-ejecucion-venta.png)
+
+*Nota.* Elaboración propia
+
+**Figura 188**  
+*Registro y recepción de una compra*
+
+![Registro y recepción de una compra](../assets/chapter-5/sprint3-ejecucion-compra.png)
+
+*Nota.* Elaboración propia
+
+**Figura 189**  
+*Comparación entre el stock físico y el registrado*
+
+![Comparación entre el stock físico y el registrado](../assets/chapter-5/sprint3-ejecucion-comparacion.png)
+
+*Nota.* Elaboración propia
+
+El recorrido completo de la aplicación con los Web Services puede verse en el video de navegación del producto: [enlace al video de navegación del Sprint 3].
+
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
 En el Sprint 3 el equipo implementó los Web Services de SmartStock con Spring Boot 4.1.1 y Java 27 en el repositorio NexoStock/smartstock-backend, y los documentó con OpenAPI 3 mediante springdoc-openapi. Cada controlador declara su grupo con `@Tag`, cada operación con `@Operation` y cada código de respuesta con `@ApiResponse`, y los cuerpos de request muestran datos de ejemplo con `@Schema(example = ...)`. La especificación se genera a partir del código, de modo que la documentación coincide con lo implementado.
