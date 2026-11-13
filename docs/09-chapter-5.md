@@ -910,11 +910,200 @@ El grafo de red muestra la aplicación efectiva de GitFlow: las ramas de feature
 
 #### 5.2.3.1. Sprint Planning 3
 
+**Tabla 45**  
+*Sprint Planning 3 del equipo NexoStock*
+
+| Campo | Detalle |
+| --- | --- |
+| Sprint # | 3 |
+| Date | 2026-11-04 |
+| Time | 08:00 PM |
+| Location | Reunión virtual |
+| Prepared By | Vizcarra Mamani, Candy Milagros |
+| Attendees | Crispin Valdivia, Angel Gabriel; Lopez Rimachi, Sebastian Leonardo; Montañez Salinas, Lorena Ariana; Tuesta Girón, Kiara Lucia; Vizcarra Mamani, Candy Milagros |
+| Sprint 2 – Review Summary | En el Sprint 2 se implementó y desplegó en GitHub Pages la primera versión de la Frontend Web Application (v1.0.0), con las 23 User Stories de IAM, IoT Device, Alerts & Restocking, Product Catalog, Inventory Monitoring y Analytics & Reporting, consumiendo una Fake API (json-server) desplegada en Render. Como la Fake API guarda los datos en memoria y se reinicia tras un periodo sin uso, quedó pendiente reemplazarla por Web Services reales con base de datos persistente, manteniendo el mismo contrato de endpoints. |
+| Sprint 2 – Retrospective Summary | Funcionó bien trabajar cada tarea en una rama corta con pull request revisado por otro integrante y mantener los contratos de la API documentados antes de construir las pantallas. Como aspectos a mejorar, el equipo acordó definir desde el inicio las reglas de negocio críticas (stock que solo cambia mediante movimientos, ventas atómicas, alertas sin duplicados) y probarlas contra MySQL real, y no dejar el despliegue para el final del sprint. |
+| Sprint 3 Goal | Our focus is on delivering the first version of the SmartStock Web Services, with persistent data, authentication and the business rules of stock, sales, purchases, sensors and alerts. We believe it delivers reliable inventory records that are no longer lost to minimarket and bodega owners, whose web application and IoT sensors now work against a real backend. This will be confirmed when the Web Services are deployed with their OpenAPI documentation and the web application registers a sale that updates the stock and raises a low-stock alert. |
+| Sprint 3 Velocity | 164 horas estimadas. El Sprint 3 está formado por Technical Stories (TS01 a TS15) y tareas técnicas de soporte (TS-SH), integración (TS-INT), revisión (TS-REV) y documentación (TS-DOC); el Product Backlog no asigna Story Points a las Technical Stories, por lo que la capacidad se planificó en horas por integrante. |
+| Sum of Story Points | 0 Story Points de User Stories; 15 Technical Stories y 40 tareas con una estimación total de 164 horas |
+
+*Nota.* Elaboración propia
+
+Para el Sprint 3, el equipo acordó los siguientes puntos:
+
+(1) Crear el repositorio NexoStock/smartstock-backend con Java 27, Spring Boot 4.1.1, Spring Data JPA y MySQL, organizado por bounded context y con las capas domain, application, infrastructure e interfaces.
+
+(2) Conservar el contrato de la Fake API del Sprint 2 (rutas y nombres de campos en español) para que la Web Application solo cambie la URL base.
+
+(3) Integrar el trabajo por olas: primero la base compartida, luego el nivel 1 de cada contexto y, por último, IAM con JWT, que protege todas las rutas.
+
+(4) Revisar cada pull request de forma cruzada (Candy → Leo → Lore → Angel → Kiara → Candy) e integrarlo con merge commit.
+
+(5) Desplegar los Web Services con Docker y una base MySQL administrada, sin secretos en el repositorio.
+
+(6) Documentar los endpoints con OpenAPI desde el código (springdoc-openapi).
+
 #### 5.2.3.2. Aspect Leaders and Collaborators
+
+En el Sprint 3 los aspectos coinciden con los bounded contexts de los Web Services, a los que se suma el despliegue. Cada integrante lideró el contexto que ya lideraba en el Sprint 2 y colaboró en los demás mediante revisiones cruzadas de pull requests. Los aspectos son: IAM (registro, inicio de sesión con JWT, recuperación de contraseña y aislamiento por negocio); IoT Device (sensores, clave de dispositivo y lecturas); Alerts & Restocking (alertas de stock bajo y canales de notificación por correo y WhatsApp); Product Catalog (productos, proveedores y compras); Inventory Monitoring (movimientos de stock, ventas y comparación de inventario); Analytics & Reporting (dashboard y reportes); y Deployment (Docker y despliegue en Railway).
+
+**Tabla 46**  
+*Matriz de líderes (L) y colaboradores (C) por aspecto del Sprint 3*
+
+| Team Member (Last Name, First Name) | GitHub Username | IAM | IoT Device | Alerts & Restocking | Product Catalog | Inventory Monitoring | Analytics & Reporting | Deployment |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Crispin Valdivia, Angel Gabriel | @FaureGalliard | C | L | C | C | C | C | L |
+| Lopez Rimachi, Sebastian Leonardo | @leonardoXd1323 | C | C | L | C | C | C | C |
+| Montañez Salinas, Lorena Ariana | @Lore-MS | L | C | C | C | C | C | C |
+| Tuesta Girón, Kiara Lucia | @kitu05g | C | C | C | C | L | L | C |
+| Vizcarra Mamani, Candy Milagros | @candyvizz | C | C | C | L | C | C | C |
+
+*Nota.* Elaboración propia
+
+Según la matriz, Lorena lidera IAM; Ángel, IoT Device y Deployment; Sebastián, Alerts & Restocking y el registro de ventas; Candy, Product Catalog junto con proveedores y compras; y Kiara, Inventory Monitoring y Analytics & Reporting. Ángel colaboró además en Analytics & Reporting con los endpoints de dashboard, reportes y comparación de inventario.
 
 #### 5.2.3.3. Sprint Backlog 3
 
+El Sprint 3 contiene las Technical Stories TS01 a TS15, que implementan con Web Services reales los contratos simulados en el Sprint 2, y las tareas técnicas de base, despliegue, integración y documentación. Cada tarea se identifica como `T-TS##.n` o `T-<tipo>3.n` y tiene un único responsable. El tablero del sprint está en Trello: https://trello.com/invite/b/6aa988a0941a5fb8c814af43/ATTI5eecabb28fdc9c85d7ba8336b688a97353B8B08C/trello. La Figura 184 muestra el board del Sprint 3.
+
+**Figura 184**  
+*Board del Sprint 3 en Trello*
+
+![Board del Sprint 3 en Trello](../assets/chapter-5/sprint3-sprint-backlog-trello.png)
+
+*Nota.* Elaboración propia
+
+**Tabla 47**  
+*Sprint Backlog 3*
+
+| Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| TS-SH | Soporte técnico | T-SH3.1 | Backend repository and base | Repo nexostock-backend, ramas, Initializr, pom (Java 27, Boot 4.1.1), shared, Result, i18n, perfiles local/prod. | 6 | Vizcarra Mamani, Candy Milagros | Done |
+| TS13 | Catálogo de productos | T-TS13.1 | Product domain and persistence | Product (validate-before-mutate), value objects, converters, repository, ProductCreatedEvent, ThresholdChangedEvent. | 4 | Vizcarra Mamani, Candy Milagros | Done |
+| TS13 | Catálogo de productos | T-TS13.2 | Product services and controller | Command/query services con rollback, assemblers, /api/productos con OpenAPI. | 4 | Vizcarra Mamani, Candy Milagros | Done |
+| TS09 | Proveedores y compras | T-TS09.1 | Suppliers | Proveedores (/api/proveedores). | 5 | Vizcarra Mamani, Candy Milagros | Done |
+| TS-REV | Revisión cruzada | T-REV3.1 | Review PRs of level 1 | Revisar PR de Alertas y Ventas con la regla espejo y @Operation. | 2 | Vizcarra Mamani, Candy Milagros | Done |
+| TS10 | Proveedores y compras | T-TS10.1 | Purchases and receipt | Compras con InventoryContextFacade.addStockForPurchase, recepción repetida y rollback. | 6 | Vizcarra Mamani, Candy Milagros | Done |
+| TS-REV | Revisión cruzada | T-REV3.2 | Review IAM PR | Revisar PR de IAM. | 2 | Vizcarra Mamani, Candy Milagros | Done |
+| TS12 | Proveedores y compras | T-TS12.1 | Purchase queries and release | Consultas de compras y release/1.0.0 (congelamiento). | 3 | Vizcarra Mamani, Candy Milagros | Done |
+| TS-DOC | Soporte técnico | T-DOC3.2 | Swagger captures Catalog and Purchasing | Capturas y documentación de endpoints (5.2.3.6). | 2 | Vizcarra Mamani, Candy Milagros | Done |
+| TS-DOC | Soporte técnico | T-DOC3.9 | Section 5.1.1 (draft) | Redactar 5.1.1 con evidencias; Kiara revisa. | 3 | Vizcarra Mamani, Candy Milagros | Done |
+| TS14 | Movimientos de stock | T-TS14.1 | Stock movement engine | MovementCommandService con bloqueo de fila, StockChangedEvent, InventoryContextFacade. | 8 | Tuesta Girón, Kiara Lucia | Done |
+| TS-SH | Soporte técnico | T-SH3.7 | Business rule tests | JUnit del motor de stock y reglas; ventas concurrentes contra MySQL. | 4 | Tuesta Girón, Kiara Lucia | Done |
+| TS02 | Consulta de stock | T-TS02.1 | Stock queries | Stock actual, detalle con sensor. | 4 | Tuesta Girón, Kiara Lucia | Done |
+| TS02 | Consulta de stock | T-TS02.2 | Comparison and movements | Comparación y /api/movimientos-stock (filtro de fechas). | 6 | Tuesta Girón, Kiara Lucia | Done |
+| TS15 | Analytics | T-TS15.1 | Dashboard and reports | /api/dashboard y /api/reportes con fórmula, período y caso sin datos. | 6 | Crispin Valdivia, Angel Gabriel | Done |
+| TS-DOC | Soporte técnico | T-DOC3.4 | Swagger captures Inventory and Analytics | Capturas y documentación (5.2.3.6). | 3 | Tuesta Girón, Kiara Lucia | Done |
+| TS-DOC | Soporte técnico | T-DOC3.10 | Review of section 5.1.1 | Revisar el borrador de Candy y aportar su evidencia. | 2 | Tuesta Girón, Kiara Lucia | Done |
+| TS03 | Alertas de stock bajo | T-TS03.1 | Alert rules R19–R21 | Alertas con activeKey única, evento después de commit, destinatario por negocio (IamContextFacade). | 6 | Lopez Rimachi, Sebastian Leonardo | Done |
+| TS-DOC | Soporte técnico | T-DOC3.5 | Trello cards | Cargar las cards con responsable, contexto, nivel, estado y evidencia real. | 2 | Lopez Rimachi, Sebastian Leonardo | Done |
+| TS06 | Ventas | T-TS06.1 | Sales domain and persistence | Sale, SaleItem, requestKey única, repositorio. | 4 | Lopez Rimachi, Sebastian Leonardo | Done |
+| TS03 | Alertas de stock bajo | T-TS03.2 | Notification channels | Cola con reclamo atómico PENDING→PROCESSING→SENT/FAILED. | 4 | Lopez Rimachi, Sebastian Leonardo | Done |
+| TS07 | Ventas | T-TS07.1 | RegisterSale | Precio del catálogo, venta + baja de stock en una transacción, idempotencia, rollback. | 6 | Lopez Rimachi, Sebastian Leonardo | Done |
+| TS08 | Ventas | T-TS08.1 | Sales queries and controller | GET /api/ventas y /api/ventas/{code}; Idempotency-Key; por negocio. | 3 | Lopez Rimachi, Sebastian Leonardo | Done |
+| TS03 | Alertas de stock bajo | T-TS03.3 | Email and WhatsApp senders | SMTP y Twilio por variables de entorno. | 3 | Lopez Rimachi, Sebastian Leonardo | Done |
+| TS03 | Alertas de stock bajo | T-TS03.4 | Retry and queries | RetryNotificationCommand, UpdateChannels y las queries restantes. | 2 | Lopez Rimachi, Sebastian Leonardo | Done |
+| TS-DOC | Soporte técnico | T-DOC3.3 | Swagger captures Alerts and Sales | Capturas y documentación (5.2.3.6). | 3 | Lopez Rimachi, Sebastian Leonardo | Done |
+| TS-DOC | Soporte técnico | T-DOC3.11 | Execution evidence 5.2.3.5 | Capturas de la Web App con la API y enlace al video. | 3 | Lopez Rimachi, Sebastian Leonardo | Done |
+| TS-DOC | Soporte técnico | T-DOC3.6a | Trello board | Crear tablero, invitar a todas. | 2 | Montañez Salinas, Lorena Ariana | Done |
+| TS04 | Autenticación | T-TS04.1 | IAM domain and persistence | Business (teléfono opcional), Account, EmailAddress, repositorios, IamContextFacade. | 5 | Montañez Salinas, Lorena Ariana | Done |
+| TS04 | Autenticación | T-TS04.2 | Register, login and JWT service | BCrypt, JwtTokenService, registro con 409 en duplicado. | 5 | Montañez Salinas, Lorena Ariana | Done |
+| TS04 | Autenticación | T-TS04.3 | JWT filter and integration | Filtro JWT, borrar lo temporal, rutas públicas. | 5 | Montañez Salinas, Lorena Ariana | Done |
+| TS-INT | Integración | T-INT3.1 | Login to sale integration tests | Registro → login → producto → stock → venta → alerta; 401/403; aislamiento por negocio. | 4 | Montañez Salinas, Lorena Ariana | Done |
+| TS-DOC | Soporte técnico | T-DOC3.6 | Sprint Backlog table | Intro + captura del tablero + URL público + tabla en texto. | 2 | Montañez Salinas, Lorena Ariana | Done |
+| TS01 | Dispositivos IoT | T-TS01.1 | Sensors and readings | Clave de dispositivo (hash), POST /api/device-readings/{codigo}, duplicados y fuera de orden. | 8 | Crispin Valdivia, Angel Gabriel | Done |
+| TS05 | Dispositivos IoT | T-TS05.1 | Sensor status | Listado y estado provisional. | 3 | Crispin Valdivia, Angel Gabriel | Done |
+| TS-SH | Soporte técnico | T-SH3.3 | Dockerfile and CI | Dockerfile Java 27, perfil prod, CI con Java 27. | 5 | Crispin Valdivia, Angel Gabriel | Done |
+| TS-SH | Soporte técnico | T-SH3.5 | Deploy Web Services and MySQL | Render (Docker) + Aiven, variables, CORS, health; nivel 1 parcial. | 8 | Crispin Valdivia, Angel Gabriel | Done |
+| TS05 | Dispositivos IoT | T-TS05.2 | Link sensor to product | Vincular sensor y producto. | 3 | Crispin Valdivia, Angel Gabriel | Done |
+| TS04 | Autenticación | T-TS04.4 | Forgot and reset password | Token de un solo uso, hash, respuesta que no revela el correo (apoyo a IAM). | 4 | Montañez Salinas, Lorena Ariana | Done |
+| TS-DOC | Soporte técnico | T-DOC3.7 | Deployment evidence | Capturas y redacción de 5.2.3.7 de los 3 productos. | 4 | Crispin Valdivia, Angel Gabriel | Done |
+
+*Nota.* Elaboración propia
+
+La estimación total es de 164 horas, distribuidas así: Ángel 37 h (IoT Device, Docker, despliegue y dashboard), Candy 37 h (base del repositorio, catálogo, proveedores y compras), Sebastián 36 h (alertas, notificaciones y ventas), Kiara 27 h (motor de stock, consultas y pruebas) y Lorena 27 h (IAM, JWT y recuperación de contraseña).
+
 #### 5.2.3.4. Development Evidence for Sprint Review
+
+Durante el Sprint 3 se implementaron los Web Services de SmartStock en el repositorio NexoStock/smartstock-backend (Java 27, Spring Boot 4.1.1, Spring Data JPA y MySQL), organizados por bounded context: IAM, IoT Device, Product Catalog, Inventory Monitoring (con ventas, compras y proveedores) y Alerts & Restocking. Cada tarea del Sprint Backlog se desarrolló en una rama `feature/<contexto>` o `fix/<contexto>` creada desde develop, que se integró mediante pull request revisado por otro integrante, con merge commit. La versión se publicó a través de la rama `release/1.0.0`.
+
+La Tabla 48 presenta los commits del sprint agrupados por la rama en la que se desarrollaron, en el orden en que se integraron. Siguen la convención de Conventional Commits, en inglés y en minúsculas.
+
+**Tabla 48**  
+*Commits del Sprint 3 en el repositorio smartstock-backend*
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| --- | --- | --- | --- | --- | --- |
+| NexoStock/smartstock-backend | `feature/shared-base` | `4e5b6c1` | `feat(shared-catalog): add backend foundation and product catalog` | — | 06/11/2026 |
+| NexoStock/smartstock-backend | `main` | `156ed6d` | `fix(shared): resolve CORS bean ambiguity in local security` | — | 06/11/2026 |
+| NexoStock/smartstock-backend | `feature/iam-auth` | `0824e63` | `feat(iam): add domain model for accounts and businesses` | — | 06/11/2026 |
+| NexoStock/smartstock-backend | `feature/iam-auth` | `1ded298` | `feat(iam): add persistence, hashing and jwt infrastructure` | — | 07/11/2026 |
+| NexoStock/smartstock-backend | `feature/iam-auth` | `0dae512` | `feat(iam): add account command and query services` | — | 07/11/2026 |
+| NexoStock/smartstock-backend | `feature/iam-auth` | `390a007` | `feat(iam): add authentication controller and context facade` | — | 07/11/2026 |
+| NexoStock/smartstock-backend | `feature/iam-security` | `1ddba6c` | `feat(iam): enforce JWT authentication and tenant isolation` | — | 09/11/2026 |
+| NexoStock/smartstock-backend | `feature/inventory-stock-management` | `ce38b3e` | `feat(inventory): add Movement aggregate and MovementType enum` | — | 07/11/2026 |
+| NexoStock/smartstock-backend | `feature/inventory-stock-management` | `11d72f6` | `feat(inventory): add AdjustStockCommand and RegisterMovementCommand domain commands` | — | 07/11/2026 |
+| NexoStock/smartstock-backend | `feature/inventory-stock-management` | `ca83dde` | `feat(inventory): add StockChangedEvent domain event` | — | 07/11/2026 |
+| NexoStock/smartstock-backend | `feature/inventory-stock-management` | `6b22bc2` | `feat(inventory): add MovementRepository JPA interface` | — | 07/11/2026 |
+| NexoStock/smartstock-backend | `feature/inventory-stock-management` | `8acef16` | `feat(inventory): add MovementCommandService interface` | — | 07/11/2026 |
+| NexoStock/smartstock-backend | `feature/inventory-stock-management` | `3146465` | `feat(inventory): implement MovementCommandServiceImpl with transaction management` | — | 07/11/2026 |
+| NexoStock/smartstock-backend | `feature/inventory-stock-management` | `3f84008` | `feat(inventory): add ProductCreatedEventHandler to register initial stock` | — | 07/11/2026 |
+| NexoStock/smartstock-backend | `feature/inventory-stock-management` | `5987b71` | `feat(inventory): add InventoryContextFacade for Sales and Purchasing ACL` | — | 07/11/2026 |
+| NexoStock/smartstock-backend | `feature/inventory-stock-management` | `07b5b71` | `feat(inventory): add StockController REST endpoint for stock adjustments` | — | 07/11/2026 |
+| NexoStock/smartstock-backend | `feature/inventory-stock-management` | `b179391` | `fix(inventory): remove UTF-8 BOM from Java sources` | — | 09/11/2026 |
+| NexoStock/smartstock-backend | `feature/purchasing` | `6347961` | `wip(purchasing): save purchasing implementation` | — | 06/11/2026 |
+| NexoStock/smartstock-backend | `feature/purchasing` | `d293143` | `test(purchasing): add supplier purchase and purchase item unit tests` | — | 06/11/2026 |
+| NexoStock/smartstock-backend | `feature/purchasing` | `d614d57` | `test(purchasing): remove misplaced supplier test` | — | 06/11/2026 |
+| NexoStock/smartstock-backend | `fix/catalog-enforce-stock-capacity` | `bb546fd` | `fix(catalog): enforce maximum stock capacity` | — | 10/11/2026 |
+| NexoStock/smartstock-backend | `feature/docker-ci` | `94ef743` | `chore(build): keep mvnw with LF line endings` | With core.autocrlf on Windows the wrapper was checked out with CRLF and could not run inside the Linux image. | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/docker-ci` | `4b49111` | `chore(docker): add dockerignore` | Keeps build output, IDE files, local secrets (.env) and dev tools out of the image. | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/docker-ci` | `1f208e7` | `build(docker): add multi-stage Dockerfile with Java 27` | Builds with eclipse-temurin:27-jdk and runs on 27-jre as a non-root user with the prod profile, which has no default secrets. | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/docker-ci` | `565b4cf` | `ci: add GitHub Actions workflow with Java 27` | Runs ./mvnw clean verify on pushes and pull requests to main and develop, prints the Java and Maven versions, and checks that the Docker image builds. | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/devices-sensors` | `0bdc5d4` | `feat(devices): add sensor and sensor reading aggregates` | Sensor keeps only the SHA-256 of its device key, the linked product and the last reading. Its status follows rule R11: available when not linked, online with a reading in the last 5 minutes, disconnected otherwise. | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/devices-sensors` | `d82d8ae` | `feat(devices): add register sensor and receive reading commands` | A reading must weigh between 0 and 100000 kg and cannot come from the future; when the device has no clock the server time is used. | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/devices-sensors` | `ad8ca4e` | `feat(devices): add link and unlink sensor commands` | — | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/devices-sensors` | `111e42d` | `feat(devices): add rotate device key and delete sensor commands` | — | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/devices-sensors` | `32877ed` | `feat(devices): add sensor queries` | List, detail and latest readings of a sensor, always scoped to the business. | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/devices-sensors` | `f3d14dc` | `feat(devices): add sensor and reading repositories` | — | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/devices-sensors` | `481d624` | `feat(catalog): expose product unit weight through the context facade` | Devices needs the unit weight to turn the weight on the scale into units. The method only reads; nothing else in Catalog changes. | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/devices-sensors` | `b89b104` | `feat(devices): add catalog outbound service` | Devices reads product name and unit weight only through CatalogContextFacade. | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/devices-sensors` | `14d84ae` | `feat(devices): add sensor command service interface` | — | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/devices-sensors` | `3239248` | `feat(devices): add device key generation and hashing` | Keys are 32 random bytes; only their SHA-256 is stored and the comparison runs in constant time. | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/devices-sensors` | `751fd63` | `feat(devices): implement sensor command service` | A missing or foreign X-Device-Key returns 401 with the same message as an unknown device. Duplicate and out-of-order readings return 409. Linking checks the product in Catalog and allows one sensor per product. | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/devices-sensors` | `d6d762a` | `feat(devices): add sensor query service` | — | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/devices-sensors` | `a38f670` | `feat(devices): add sensor and reading history resources` | Field names follow the Angular SensorResource: codigo, productoId, productoNombre, estado, ultimaLecturaAt, pesoKg and unidades. | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/devices-sensors` | `ae8add8` | `feat(devices): add request resources for sensors and readings` | — | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/devices-sensors` | `ec06fc2` | `feat(devices): add sensor resource assembler` | Units on the scale are the last weight divided by the product unit weight, rounded down. | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/devices-sensors` | `713b73d` | `feat(devices): add sensors controller` | List, detail, latest readings, register, link (POST /api/sensores/vincular, as the web app calls it), unlink, rotate key and delete. Every endpoint has @Operation and @ApiResponses. | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/devices-sensors` | `7db30c4` | `feat(devices): add device readings endpoint with X-Device-Key` | POST /api/device-readings/{deviceCode} does not use the user JWT, but every request must carry a valid X-Device-Key (401 otherwise). | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/devices-sensors` | `fdb075e` | `test(devices): add sensor status and reading command tests` | — | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/devices-sensors` | `1e98592` | `test(devices): add reading authentication and ordering tests` | Covers a missing key, another device key and an unknown device (401), and duplicate and out-of-order readings (409). | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/devices-sensors` | `915b4a5` | `docs(devices): add HTTP examples for sensors and readings` | Covers the happy path and the 400, 401 and 409 answers to capture them for the report. | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/devices-sensors` | `c9c7b6c` | `feat(devices): add device simulator` | Single-file Java program that posts a reading with X-Device-Key every few seconds. | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/devices-sensors` | `aaa300c` | `fix(devices): allow device-key readings without JWT and test security` | — | 10/11/2026 |
+| NexoStock/smartstock-backend | `feature/alerts-rules` | `c79ff43` | `feat(alerts): add domain persistence and list endpoint` | — | 09/11/2026 |
+| NexoStock/smartstock-backend | `feature/alerts-rules` | `24c05e0` | `test(alerts): verify alert lifecycle` | — | 09/11/2026 |
+| NexoStock/smartstock-backend | `feature/alerts-rules` | `fa2c564` | `feat(alerts): evaluate low stock and handle inventory events` | — | 10/11/2026 |
+| NexoStock/smartstock-backend | `feature/alerts-rules` | `a7e5d7c` | `fix(alerts): remove misplaced service from test sources` | — | 10/11/2026 |
+| NexoStock/smartstock-backend | `feature/alerts-rules` | `e49a98c` | `test(alerts): cover low stock evaluation rules` | — | 10/11/2026 |
+| NexoStock/smartstock-backend | `feature/alerts-rules` | `624fc3b` | `feat(sales): add sale registration with inventory integration` | — | 10/11/2026 |
+| NexoStock/smartstock-backend | `feature/alerts-rules` | `45aaa1f` | `feat(sales): expose registration and business-scoped history API` | — | 10/11/2026 |
+| NexoStock/smartstock-backend | `feature/alerts-rules` | `fdbeddc` | `test(sales): verify registration rollback and idempotency with MySQL` | — | 11/11/2026 |
+| NexoStock/smartstock-backend | `feature/external-services` | `9103a07` | `feat(alerts): add notification channels senders and retries` | — | 10/11/2026 |
+| NexoStock/smartstock-backend | `feature/external-services` | `50ded60` | `fix(notifications): allow startup with notifications disabled` | — | 11/11/2026 |
+| NexoStock/smartstock-backend | `feature/external-services` | `3001552` | `test(notifications): verify full startup without SMTP` | — | 11/11/2026 |
+| NexoStock/smartstock-backend | `feature/external-services` | `c5ca679` | `fix(notifications): support optional WhatsApp template and log send errors` | — | 12/11/2026 |
+| NexoStock/smartstock-backend | `feature/iam-password-reset` | `eecd25c` | `feat(iam): add password reset token and commands` | Task: T-TS04.4 | 10/11/2026 |
+| NexoStock/smartstock-backend | `feature/iam-password-reset` | `bd70cbc` | `feat(iam): add password reset token repository and hashing` | Task: T-TS04.4 | 10/11/2026 |
+| NexoStock/smartstock-backend | `feature/iam-password-reset` | `af54675` | `feat(iam): add password reset command handlers` | Task: T-TS04.4 | 10/11/2026 |
+| NexoStock/smartstock-backend | `feature/iam-password-reset` | `2745781` | `feat(iam): add forgot and reset password endpoints` | Task: T-TS04.4 | 10/11/2026 |
+| NexoStock/smartstock-backend | `feature/iam-password-reset` | `233226e` | `fix(security): permit swagger ui and api docs` | Task: T-TS04.4 | 10/11/2026 |
+| NexoStock/smartstock-backend | `feature/ci-mysql-integration` | `e52eaa1` | `ci: run MySQL integration tests in GitHub Actions` | — | 12/11/2026 |
+| NexoStock/smartstock-backend | `chore/update-github-actions` | `807bc81` | `chore(ci): update GitHub Actions versions` | — | 12/11/2026 |
+| NexoStock/smartstock-backend | `release/1.0.0` | `720f33d` | `chore(release): complete developer names for 1.0.0` | Add the full names of Angel Crispin Valdivia and Kiara Tuesta Giron to the pom developers list before publishing release 1.0.0. | 13/11/2026 |
+| NexoStock/smartstock-backend | `develop` | `e97c68a` | `feat(inventory): add product movement history endpoint` | — | 12/11/2026 |
+
+*Nota.* Obtenido del historial de la rama develop con git log. Elaboración propia
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
@@ -923,3 +1112,37 @@ El grafo de red muestra la aplicación efectiva de GitFlow: las ramas de feature
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 3 el equipo trabajó en el repositorio NexoStock/smartstock-backend con el mismo flujo de GitFlow del Sprint 2 (Tabla 44). Cada integrante desarrolló su contexto en ramas `feature/<contexto>` o `fix/<contexto>` creadas desde develop y las integró mediante pull request revisado por otro integrante, con merge commit. La versión 1.0.0 se publicó a través de la rama `release/1.0.0`, que se integró en main con la etiqueta v1.0.0 y de vuelta en develop. Los mensajes de commit siguen Conventional Commits, en inglés, con el contexto como alcance; por ejemplo, `feat(devices): add sensors, device key and readings`.
+
+La Tabla 48 registra 68 commits del sprint, repartidos entre los cinco integrantes: Ángel 26, Sebastián 12, Candy 11, Lorena 9 y Kiara 9. Además, el CI del repositorio ejecuta en cada pull request la compilación y las pruebas con Java 27 y una base MySQL, de modo que ninguna rama se integra si rompe las reglas de negocio probadas.
+
+##### Analíticos de colaboración de los repositorios
+
+La vista de contribuyentes de GitHub y la vista Pulse muestran la participación de los cinco integrantes en el repositorio de los Web Services (Figuras 198 y 199).
+
+**Figura 198**  
+*Contributors del repositorio NexoStock/smartstock-backend*
+
+![Contributors del repositorio NexoStock/smartstock-backend](../assets/chapter-5/sprint3-colaboracion-contributors.png)
+
+*Nota.* Elaboración propia
+
+**Figura 199**  
+*Pulse del repositorio NexoStock/smartstock-backend*
+
+![Pulse del repositorio NexoStock/smartstock-backend](../assets/chapter-5/sprint3-colaboracion-pulse.png)
+
+*Nota.* Elaboración propia
+
+##### Historial de ramas de los repositorios
+
+El grafo de red muestra la aplicación de GitFlow en el repositorio de los Web Services: las ramas de feature nacen de develop y se integran en ella mediante merge commits, y la rama main recibe la versión publicada a través de release/1.0.0.
+
+**Figura 200**  
+*Network graph del repositorio NexoStock/smartstock-backend*
+
+![Network graph del repositorio NexoStock/smartstock-backend](../assets/chapter-5/sprint3-colaboracion-network.png)
+
+*Nota.* Elaboración propia
+
