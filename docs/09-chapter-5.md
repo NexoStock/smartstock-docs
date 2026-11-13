@@ -923,3 +923,19 @@ El grafo de red muestra la aplicación efectiva de GitFlow: las ramas de feature
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
+### 5.3.3. Evaluaciones según heurísticas
+
+La evaluación heurística se realizó con el formato del Anexo D sobre el Landing Page y la Frontend Web Application desplegados, y cubre usabilidad, arquitectura de información y diseño inclusivo. Cada problema se califica con la siguiente escala de severidad:
+
+**Tabla 54**  
+*Escala de severidad de los problemas de usabilidad*
+
+| Nivel | Descripción |
+| --- | --- |
+| 1 | Problema superficial: puede ser fácilmente superado por el usuario o se presenta con muy poca frecuencia. No necesita corregirse a menos que haya tiempo disponible. |
+| 2 | Problema menor: puede ocurrir con un poco más de frecuencia o es un poco más difícil de superar. Se le debe asignar una prioridad baja para la siguiente versión. |
+| 3 | Problema mayor: ocurre con frecuencia o los usuarios no pueden resolverlo. Es importante corregirlo con prioridad alta. |
+| 4 | Problema muy grave: impide que el usuario continúe usando la herramienta. Es imperativo corregirlo antes del lanzamiento. |
+
+*Nota.* Adaptado del Anexo D del enunciado del trabajo final
+
