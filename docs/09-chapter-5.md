@@ -939,3 +939,26 @@ La evaluación heurística se realizó con el formato del Anexo D sobre el Landi
 
 *Nota.* Adaptado del Anexo D del enunciado del trabajo final
 
+**Tabla 55**  
+*Resumen de los problemas identificados*
+
+| # | Problema | Escala de severidad | Heurística / Principio violado(a) |
+| --- | --- | --- | --- |
+| 1 | La aplicación se abre en inglés aunque los usuarios de ambos segmentos hablan español | 2 | Usability: coincidencia entre el sistema y el mundo real; Inclusive Design: reconocer la exclusión |
+| 2 | La lista de compras no muestra la fecha ni el nombre del proveedor de cada compra | 2 | Usability: reconocer antes que recordar; Information Architecture: ¿es fácil de encontrar? |
+| 3 | [problema identificado en las entrevistas] | [1-4] | [heurística] |
+
+*Nota.* Elaboración propia
+
+**Problema 1: La aplicación se abre en inglés aunque los usuarios hablan español**  
+Severidad: 2  
+Heurística violada: Usability – coincidencia entre el sistema y el mundo real; Inclusive Design – reconocer la exclusión.  
+Problema: el idioma por defecto de la Frontend Web Application es inglés (en_US), como pide el enunciado, pero los dueños de bodegas y minimarkets entrevistados hablan español y, en el caso de las bodegas, tienen poca experiencia con herramientas digitales. Antes de cada entrevista fue necesario cambiar el idioma manualmente.  
+Recomendación: detectar el idioma del navegador al primer ingreso y recordar la elección del usuario, manteniendo en_US como idioma por defecto cuando el navegador no esté en español.
+
+**Problema 2: La lista de compras no muestra la fecha ni el proveedor**  
+Severidad: 2  
+Heurística violada: Usability – reconocer antes que recordar; Information Architecture – ¿es fácil de encontrar?  
+Problema: con los Web Services del Sprint 3, la respuesta de las compras incluye el identificador del proveedor, el estado y el total, pero no la fecha ni el nombre del proveedor. El usuario debe recordar a qué compra corresponde cada fila, y el filtro por fechas no puede aplicarse.  
+Recomendación: agregar la fecha de registro y el nombre del proveedor a la respuesta de GET /api/compras y mostrarlos en la lista.
+
