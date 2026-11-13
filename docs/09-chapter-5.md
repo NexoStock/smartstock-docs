@@ -1112,3 +1112,37 @@ La Tabla 48 presenta los commits del sprint agrupados por la rama en la que se d
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 3 el equipo trabajó en el repositorio NexoStock/smartstock-backend con el mismo flujo de GitFlow del Sprint 2 (Tabla 44). Cada integrante desarrolló su contexto en ramas `feature/<contexto>` o `fix/<contexto>` creadas desde develop y las integró mediante pull request revisado por otro integrante, con merge commit. La versión 1.0.0 se publicó a través de la rama `release/1.0.0`, que se integró en main con la etiqueta v1.0.0 y de vuelta en develop. Los mensajes de commit siguen Conventional Commits, en inglés, con el contexto como alcance; por ejemplo, `feat(devices): add sensors, device key and readings`.
+
+La Tabla 48 registra 68 commits del sprint, repartidos entre los cinco integrantes: Ángel 26, Sebastián 12, Candy 11, Lorena 9 y Kiara 9. Además, el CI del repositorio ejecuta en cada pull request la compilación y las pruebas con Java 27 y una base MySQL, de modo que ninguna rama se integra si rompe las reglas de negocio probadas.
+
+##### Analíticos de colaboración de los repositorios
+
+La vista de contribuyentes de GitHub y la vista Pulse muestran la participación de los cinco integrantes en el repositorio de los Web Services (Figuras 198 y 199).
+
+**Figura 198**  
+*Contributors del repositorio NexoStock/smartstock-backend*
+
+![Contributors del repositorio NexoStock/smartstock-backend](../assets/chapter-5/sprint3-colaboracion-contributors.png)
+
+*Nota.* Elaboración propia
+
+**Figura 199**  
+*Pulse del repositorio NexoStock/smartstock-backend*
+
+![Pulse del repositorio NexoStock/smartstock-backend](../assets/chapter-5/sprint3-colaboracion-pulse.png)
+
+*Nota.* Elaboración propia
+
+##### Historial de ramas de los repositorios
+
+El grafo de red muestra la aplicación de GitFlow en el repositorio de los Web Services: las ramas de feature nacen de develop y se integran en ella mediante merge commits, y la rama main recibe la versión publicada a través de release/1.0.0.
+
+**Figura 200**  
+*Network graph del repositorio NexoStock/smartstock-backend*
+
+![Network graph del repositorio NexoStock/smartstock-backend](../assets/chapter-5/sprint3-colaboracion-network.png)
+
+*Nota.* Elaboración propia
+
