@@ -923,3 +923,13 @@ El grafo de red muestra la aplicación efectiva de GitFlow: las ramas de feature
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
+## 5.4. Video About-the-Product
+
+El video About-the-Product presenta SmartStock a los potenciales usuarios: el problema de las diferencias entre el stock físico y el registrado en bodegas y minimarkets, el resumen del modelo de negocio, las principales características del producto (sensores de peso, registro de ventas y compras, alertas de stock bajo, comparación de inventario y reportes) y sus beneficios, con escenas de interacción con la aplicación y opiniones de los segmentos objetivo tomadas de las entrevistas de validación. Dura entre uno y tres minutos, está publicado en YouTube e incrustado en la sección de videos del Landing Page.
+
+**Figura 201**  
+*Video About-the-Product publicado en YouTube*
+
+![Video About-the-Product publicado en YouTube](../assets/chapter-5/sprint3-about-the-product.png)
+
+*Nota.* Disponible en https://youtu.be/7PVpjP6lQFA. Elaboración propia
