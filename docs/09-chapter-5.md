@@ -960,3 +960,23 @@ Las preguntas cambian ligeramente según el segmento: en el caso de las bodegas 
 
 *Nota.* Elaboración propia
 
+### 5.3.2. Registro de Entrevistas
+
+La Tabla 53 resume las entrevistas de validación realizadas. El video consolidado con todas las entrevistas se encuentra en el Anexo C: [enlace al video de entrevistas de validación].
+
+**Tabla 53**  
+*Registro de las entrevistas de validación*
+
+| N.º | Segmento | Entrevistado (nombre, edad, distrito) | Entrevistador | Fecha | Inicio en el video | Duración | Resumen |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Bodega | [nombre], [edad], [distrito] | Crispin Valdivia, Angel Gabriel | [fecha] | [mm:ss] | [mm:ss] | [resumen de lo que entendió, lo que le costó y lo que propuso] |
+| 2 | Bodega | [nombre], [edad], [distrito] | [integrante] | [fecha] | [mm:ss] | [mm:ss] | [resumen] |
+| 3 | Bodega | [nombre], [edad], [distrito] | [integrante] | [fecha] | [mm:ss] | [mm:ss] | [resumen] |
+| 4 | Minimarket | [nombre], [edad], [distrito] | [integrante] | [fecha] | [mm:ss] | [mm:ss] | [resumen] |
+| 5 | Minimarket | [nombre], [edad], [distrito] | [integrante] | [fecha] | [mm:ss] | [mm:ss] | [resumen] |
+| 6 | Minimarket | [nombre], [edad], [distrito] | [integrante] | [fecha] | [mm:ss] | [mm:ss] | [resumen] |
+
+*Nota.* Elaboración propia
+
+<!-- Por cada entrevista: agregar debajo una figura con la captura del video (Figura N) y un párrafo con sus respuestas principales. -->
+
