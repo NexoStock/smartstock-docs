@@ -27,9 +27,9 @@ Carrera de Ingeniería de Software
 
 <br>
 
-<h3>NexoStock</h3>
+<h3>Nombre del startup: NexoStock</h3>
 
-<p><b>SmartStock</b></p>
+<p><b>Nombre del producto: SmartStock</b></p>
 
 <br><br>
 
@@ -70,6 +70,6 @@ Carrera de Ingeniería de Software
 
 <br><br><br>
 
-<p><b>Octubre 2026</b></p>
+<p><b>Noviembre 2026</b></p>
 
 </div>
