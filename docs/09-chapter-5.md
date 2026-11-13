@@ -1025,6 +1025,86 @@ La estimación total es de 164 horas, distribuidas así: Ángel 37 h (IoT Device
 
 #### 5.2.3.4. Development Evidence for Sprint Review
 
+Durante el Sprint 3 se implementaron los Web Services de SmartStock en el repositorio NexoStock/smartstock-backend (Java 27, Spring Boot 4.1.1, Spring Data JPA y MySQL), organizados por bounded context: IAM, IoT Device, Product Catalog, Inventory Monitoring (con ventas, compras y proveedores) y Alerts & Restocking. Cada tarea del Sprint Backlog se desarrolló en una rama `feature/<contexto>` o `fix/<contexto>` creada desde develop, que se integró mediante pull request revisado por otro integrante, con merge commit. La versión se publicó a través de la rama `release/1.0.0`.
+
+La Tabla 48 presenta los commits del sprint agrupados por la rama en la que se desarrollaron, en el orden en que se integraron. Siguen la convención de Conventional Commits, en inglés y en minúsculas.
+
+**Tabla 48**  
+*Commits del Sprint 3 en el repositorio smartstock-backend*
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| --- | --- | --- | --- | --- | --- |
+| NexoStock/smartstock-backend | `feature/shared-base` | `4e5b6c1` | `feat(shared-catalog): add backend foundation and product catalog` | — | 06/11/2026 |
+| NexoStock/smartstock-backend | `main` | `156ed6d` | `fix(shared): resolve CORS bean ambiguity in local security` | — | 06/11/2026 |
+| NexoStock/smartstock-backend | `feature/iam-auth` | `0824e63` | `feat(iam): add domain model for accounts and businesses` | — | 06/11/2026 |
+| NexoStock/smartstock-backend | `feature/iam-auth` | `1ded298` | `feat(iam): add persistence, hashing and jwt infrastructure` | — | 07/11/2026 |
+| NexoStock/smartstock-backend | `feature/iam-auth` | `0dae512` | `feat(iam): add account command and query services` | — | 07/11/2026 |
+| NexoStock/smartstock-backend | `feature/iam-auth` | `390a007` | `feat(iam): add authentication controller and context facade` | — | 07/11/2026 |
+| NexoStock/smartstock-backend | `feature/iam-security` | `1ddba6c` | `feat(iam): enforce JWT authentication and tenant isolation` | — | 09/11/2026 |
+| NexoStock/smartstock-backend | `feature/inventory-stock-management` | `ce38b3e` | `feat(inventory): add Movement aggregate and MovementType enum` | — | 07/11/2026 |
+| NexoStock/smartstock-backend | `feature/inventory-stock-management` | `11d72f6` | `feat(inventory): add AdjustStockCommand and RegisterMovementCommand domain commands` | — | 07/11/2026 |
+| NexoStock/smartstock-backend | `feature/inventory-stock-management` | `ca83dde` | `feat(inventory): add StockChangedEvent domain event` | — | 07/11/2026 |
+| NexoStock/smartstock-backend | `feature/inventory-stock-management` | `6b22bc2` | `feat(inventory): add MovementRepository JPA interface` | — | 07/11/2026 |
+| NexoStock/smartstock-backend | `feature/inventory-stock-management` | `8acef16` | `feat(inventory): add MovementCommandService interface` | — | 07/11/2026 |
+| NexoStock/smartstock-backend | `feature/inventory-stock-management` | `3146465` | `feat(inventory): implement MovementCommandServiceImpl with transaction management` | — | 07/11/2026 |
+| NexoStock/smartstock-backend | `feature/inventory-stock-management` | `3f84008` | `feat(inventory): add ProductCreatedEventHandler to register initial stock` | — | 07/11/2026 |
+| NexoStock/smartstock-backend | `feature/inventory-stock-management` | `5987b71` | `feat(inventory): add InventoryContextFacade for Sales and Purchasing ACL` | — | 07/11/2026 |
+| NexoStock/smartstock-backend | `feature/inventory-stock-management` | `07b5b71` | `feat(inventory): add StockController REST endpoint for stock adjustments` | — | 07/11/2026 |
+| NexoStock/smartstock-backend | `feature/inventory-stock-management` | `b179391` | `fix(inventory): remove UTF-8 BOM from Java sources` | — | 09/11/2026 |
+| NexoStock/smartstock-backend | `feature/purchasing` | `6347961` | `wip(purchasing): save purchasing implementation` | — | 06/11/2026 |
+| NexoStock/smartstock-backend | `feature/purchasing` | `d293143` | `test(purchasing): add supplier purchase and purchase item unit tests` | — | 06/11/2026 |
+| NexoStock/smartstock-backend | `feature/purchasing` | `d614d57` | `test(purchasing): remove misplaced supplier test` | — | 06/11/2026 |
+| NexoStock/smartstock-backend | `fix/catalog-enforce-stock-capacity` | `bb546fd` | `fix(catalog): enforce maximum stock capacity` | — | 10/11/2026 |
+| NexoStock/smartstock-backend | `feature/docker-ci` | `94ef743` | `chore(build): keep mvnw with LF line endings` | With core.autocrlf on Windows the wrapper was checked out with CRLF and could not run inside the Linux image. | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/docker-ci` | `4b49111` | `chore(docker): add dockerignore` | Keeps build output, IDE files, local secrets (.env) and dev tools out of the image. | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/docker-ci` | `1f208e7` | `build(docker): add multi-stage Dockerfile with Java 27` | Builds with eclipse-temurin:27-jdk and runs on 27-jre as a non-root user with the prod profile, which has no default secrets. | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/docker-ci` | `565b4cf` | `ci: add GitHub Actions workflow with Java 27` | Runs ./mvnw clean verify on pushes and pull requests to main and develop, prints the Java and Maven versions, and checks that the Docker image builds. | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/devices-sensors` | `0bdc5d4` | `feat(devices): add sensor and sensor reading aggregates` | Sensor keeps only the SHA-256 of its device key, the linked product and the last reading. Its status follows rule R11: available when not linked, online with a reading in the last 5 minutes, disconnected otherwise. | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/devices-sensors` | `d82d8ae` | `feat(devices): add register sensor and receive reading commands` | A reading must weigh between 0 and 100000 kg and cannot come from the future; when the device has no clock the server time is used. | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/devices-sensors` | `ad8ca4e` | `feat(devices): add link and unlink sensor commands` | — | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/devices-sensors` | `111e42d` | `feat(devices): add rotate device key and delete sensor commands` | — | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/devices-sensors` | `32877ed` | `feat(devices): add sensor queries` | List, detail and latest readings of a sensor, always scoped to the business. | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/devices-sensors` | `f3d14dc` | `feat(devices): add sensor and reading repositories` | — | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/devices-sensors` | `481d624` | `feat(catalog): expose product unit weight through the context facade` | Devices needs the unit weight to turn the weight on the scale into units. The method only reads; nothing else in Catalog changes. | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/devices-sensors` | `b89b104` | `feat(devices): add catalog outbound service` | Devices reads product name and unit weight only through CatalogContextFacade. | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/devices-sensors` | `14d84ae` | `feat(devices): add sensor command service interface` | — | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/devices-sensors` | `3239248` | `feat(devices): add device key generation and hashing` | Keys are 32 random bytes; only their SHA-256 is stored and the comparison runs in constant time. | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/devices-sensors` | `751fd63` | `feat(devices): implement sensor command service` | A missing or foreign X-Device-Key returns 401 with the same message as an unknown device. Duplicate and out-of-order readings return 409. Linking checks the product in Catalog and allows one sensor per product. | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/devices-sensors` | `d6d762a` | `feat(devices): add sensor query service` | — | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/devices-sensors` | `a38f670` | `feat(devices): add sensor and reading history resources` | Field names follow the Angular SensorResource: codigo, productoId, productoNombre, estado, ultimaLecturaAt, pesoKg and unidades. | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/devices-sensors` | `ae8add8` | `feat(devices): add request resources for sensors and readings` | — | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/devices-sensors` | `ec06fc2` | `feat(devices): add sensor resource assembler` | Units on the scale are the last weight divided by the product unit weight, rounded down. | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/devices-sensors` | `713b73d` | `feat(devices): add sensors controller` | List, detail, latest readings, register, link (POST /api/sensores/vincular, as the web app calls it), unlink, rotate key and delete. Every endpoint has @Operation and @ApiResponses. | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/devices-sensors` | `7db30c4` | `feat(devices): add device readings endpoint with X-Device-Key` | POST /api/device-readings/{deviceCode} does not use the user JWT, but every request must carry a valid X-Device-Key (401 otherwise). | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/devices-sensors` | `fdb075e` | `test(devices): add sensor status and reading command tests` | — | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/devices-sensors` | `1e98592` | `test(devices): add reading authentication and ordering tests` | Covers a missing key, another device key and an unknown device (401), and duplicate and out-of-order readings (409). | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/devices-sensors` | `915b4a5` | `docs(devices): add HTTP examples for sensors and readings` | Covers the happy path and the 400, 401 and 409 answers to capture them for the report. | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/devices-sensors` | `c9c7b6c` | `feat(devices): add device simulator` | Single-file Java program that posts a reading with X-Device-Key every few seconds. | 08/11/2026 |
+| NexoStock/smartstock-backend | `feature/devices-sensors` | `aaa300c` | `fix(devices): allow device-key readings without JWT and test security` | — | 10/11/2026 |
+| NexoStock/smartstock-backend | `feature/alerts-rules` | `c79ff43` | `feat(alerts): add domain persistence and list endpoint` | — | 09/11/2026 |
+| NexoStock/smartstock-backend | `feature/alerts-rules` | `24c05e0` | `test(alerts): verify alert lifecycle` | — | 09/11/2026 |
+| NexoStock/smartstock-backend | `feature/alerts-rules` | `fa2c564` | `feat(alerts): evaluate low stock and handle inventory events` | — | 10/11/2026 |
+| NexoStock/smartstock-backend | `feature/alerts-rules` | `a7e5d7c` | `fix(alerts): remove misplaced service from test sources` | — | 10/11/2026 |
+| NexoStock/smartstock-backend | `feature/alerts-rules` | `e49a98c` | `test(alerts): cover low stock evaluation rules` | — | 10/11/2026 |
+| NexoStock/smartstock-backend | `feature/alerts-rules` | `624fc3b` | `feat(sales): add sale registration with inventory integration` | — | 10/11/2026 |
+| NexoStock/smartstock-backend | `feature/alerts-rules` | `45aaa1f` | `feat(sales): expose registration and business-scoped history API` | — | 10/11/2026 |
+| NexoStock/smartstock-backend | `feature/alerts-rules` | `fdbeddc` | `test(sales): verify registration rollback and idempotency with MySQL` | — | 11/11/2026 |
+| NexoStock/smartstock-backend | `feature/external-services` | `9103a07` | `feat(alerts): add notification channels senders and retries` | — | 10/11/2026 |
+| NexoStock/smartstock-backend | `feature/external-services` | `50ded60` | `fix(notifications): allow startup with notifications disabled` | — | 11/11/2026 |
+| NexoStock/smartstock-backend | `feature/external-services` | `3001552` | `test(notifications): verify full startup without SMTP` | — | 11/11/2026 |
+| NexoStock/smartstock-backend | `feature/external-services` | `c5ca679` | `fix(notifications): support optional WhatsApp template and log send errors` | — | 12/11/2026 |
+| NexoStock/smartstock-backend | `feature/iam-password-reset` | `eecd25c` | `feat(iam): add password reset token and commands` | Task: T-TS04.4 | 10/11/2026 |
+| NexoStock/smartstock-backend | `feature/iam-password-reset` | `bd70cbc` | `feat(iam): add password reset token repository and hashing` | Task: T-TS04.4 | 10/11/2026 |
+| NexoStock/smartstock-backend | `feature/iam-password-reset` | `af54675` | `feat(iam): add password reset command handlers` | Task: T-TS04.4 | 10/11/2026 |
+| NexoStock/smartstock-backend | `feature/iam-password-reset` | `2745781` | `feat(iam): add forgot and reset password endpoints` | Task: T-TS04.4 | 10/11/2026 |
+| NexoStock/smartstock-backend | `feature/iam-password-reset` | `233226e` | `fix(security): permit swagger ui and api docs` | Task: T-TS04.4 | 10/11/2026 |
+| NexoStock/smartstock-backend | `feature/ci-mysql-integration` | `e52eaa1` | `ci: run MySQL integration tests in GitHub Actions` | — | 12/11/2026 |
+| NexoStock/smartstock-backend | `chore/update-github-actions` | `807bc81` | `chore(ci): update GitHub Actions versions` | — | 12/11/2026 |
+| NexoStock/smartstock-backend | `release/1.0.0` | `720f33d` | `chore(release): complete developer names for 1.0.0` | Add the full names of Angel Crispin Valdivia and Kiara Tuesta Giron to the pom developers list before publishing release 1.0.0. | 13/11/2026 |
+| NexoStock/smartstock-backend | `develop` | `e97c68a` | `feat(inventory): add product movement history endpoint` | — | 12/11/2026 |
+
+*Nota.* Obtenido del historial de la rama develop con git log. Elaboración propia
+
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
