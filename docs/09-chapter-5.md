@@ -920,6 +920,77 @@ El grafo de red muestra la aplicación efectiva de GitFlow: las ramas de feature
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
+En el Sprint 3 el equipo implementó los Web Services de SmartStock con Spring Boot 4.1.1 y Java 27 en el repositorio NexoStock/smartstock-backend, y los documentó con OpenAPI 3 mediante springdoc-openapi. Cada controlador declara su grupo con `@Tag`, cada operación con `@Operation` y cada código de respuesta con `@ApiResponse`, y los cuerpos de request muestran datos de ejemplo con `@Schema(example = ...)`. La especificación se genera a partir del código, de modo que la documentación coincide con lo implementado.
+
+La documentación desplegada puede consultarse en Swagger UI, en https://smartstock-backend-production-36b6ce8c.up.railway.app/swagger-ui/index.html, y la especificación en formato JSON en https://smartstock-backend-production-36b6ce8c.up.railway.app/v3/api-docs. Todas las rutas comienzan con `/api` y, salvo el registro, el inicio de sesión, la recuperación de contraseña y la recepción de lecturas de los sensores, requieren el encabezado `Authorization: Bearer <token>` obtenido al iniciar sesión. Sin token, el servicio responde 401. Los datos de cada negocio quedan aislados: un negocio no puede consultar ni modificar los recursos de otro (responde 404). Los nombres de los campos JSON se mantienen en español para conservar el contrato con la Web Application del Sprint 2. El dashboard, los reportes, la comparación de inventario, el detalle del sensor por producto y la lista de movimientos pertenecen al contexto de solo lectura Analytics & Reporting: consultan los datos de los demás contextos sin modificarlos.
+
+**Tabla 49**  
+*Documentación de los endpoints de los Web Services del Sprint 3*
+
+| Endpoint | Método | Acción | Parámetros | Ejemplo de request | Response y explicación | TS |
+| --- | --- | --- | --- | --- | --- | --- |
+| `/api/auth/register` | POST | Registra un negocio y su cuenta | — | `{ "businessName": "Bodega Don Pepe", "businessType": "bodega", "phone": "+51999999999", "email": "pepe@bodega.pe", "password": "Clave-Segura-123" }` | 201 con la sesión { token, email, businessName, businessType }; 400 datos inválidos; 409 correo ya registrado | TS04 |
+| `/api/auth/login` | POST | Inicia sesión | — | `{ "email": "pepe@bodega.pe", "password": "Clave-Segura-123" }` | 200 con la sesión y el token JWT; 400 credenciales inválidas, sin indicar qué dato falló (R3) | TS04 |
+| `/api/auth/forgot-password` | POST | Solicita la recuperación de contraseña | — | `{ "email": "pepe@bodega.pe" }` | 200 siempre, aunque el correo no exista, para no revelar qué cuentas existen (R4) | TS04 |
+| `/api/auth/reset-password` | POST | Cambia la contraseña con el token recibido | — | `{ "token": "token-recibido-por-correo", "newPassword": "Nueva-Clave-123" }` | 200 contraseña actualizada; 400 token inválido, vencido o ya usado (un solo uso) | TS04 |
+| `/api/productos` | GET | Lista los productos del negocio | — | — | 200 con la lista de productos, su stock registrado y su sensor | TS13 |
+| `/api/productos` | POST | Registra un producto | — | `{ "nombre": "Arroz Costeño 5 kg", "sku": "ARR-005", "categoria": "Abarrotes", "pesoUnitario": 5.0, "precioVenta": 24.90, "costoCompra": 21.50, "stockRegistrado": 40, "umbralMinimo": 10, "capacidadMaxima": 100 }` | 201 con el producto creado; 400 datos inválidos; 409 SKU duplicado en el negocio; 422 umbral mayor que la capacidad (R7) | TS13 |
+| `/api/productos/{id}` | GET | Consulta un producto | id (ruta) | — | 200 con el producto; 404 no existe o es de otro negocio | TS13 |
+| `/api/productos/{id}` | PUT | Actualiza un producto | id (ruta) | Mismo cuerpo que el registro | 200 con el producto; el SKU se conserva; 400; 404; 409 SKU duplicado; 422 umbral mayor que la capacidad | TS13 |
+| `/api/productos/{id}` | DELETE | Retira un producto | id (ruta) | — | 204 retirado; 404; 422 el producto aún tiene stock | TS13 |
+| `/api/productos/{id}/umbral` | PUT | Cambia el umbral mínimo de stock | id (ruta) | `{ "umbralMinimo": 12 }` | 200 umbral actualizado; 404; 422 umbral mayor que la capacidad (R7) | TS13 |
+| `/api/productos/{id}/ajustes` | POST | Ajusta el stock tras un conteo físico | id (ruta) | `{ "stockRegistrado": 35, "motivo": "Conteo fisico" }` | 200 con el stock ajustado y el movimiento registrado (R17); 400; 404; 422 no hay nada que cambiar | TS02 |
+| `/api/productos/{id}/movimientos` | GET | Historial de movimientos del producto | id (ruta) | — | 200 con los movimientos de entrada, salida y ajuste; 404 | TS14 |
+| `/api/productos/{id}/detalle` | GET | Sensor del producto con sus últimas lecturas | id (ruta) | — | 200 con el sensor (código, estado, peso y unidades) y las últimas cinco lecturas convertidas a unidades (R12); sensor nulo si el producto no tiene sensor; 404 | TS02 |
+| `/api/inventario/comparacion` | GET | Compara el stock físico con el registrado | — | — | 200 con cada producto: unidades medidas por su sensor en línea, stock registrado, diferencia porcentual y resultado MATCH, DISCREPANCY (diferencia mayor al 10 %, R20) o REGISTERED_ONLY (sin sensor en línea, R18); incluye el número de discrepancias | TS06 |
+| `/api/movimientos-stock` | GET | Lista los movimientos de stock del negocio | desde, hasta (fecha) | — | 200 con los movimientos del período: tipo (IN u OUT), origen (SALE, PURCHASE o ADJUSTMENT), referencia y cantidad; 400 rango de fechas inválido | TS14 |
+| `/api/sensores` | GET | Lista los sensores del negocio | — | — | 200 con cada sensor, su producto vinculado y su estado (disponible, en línea, desconectado) | TS05 |
+| `/api/sensores` | POST | Registra un sensor | — | `{ "codigo": "SN-0001" }` | 201 con el sensor y la clave del dispositivo, que se muestra una sola vez; en la base solo se guarda su hash SHA-256; 400 código inválido; 409 código ya registrado | TS01 |
+| `/api/sensores/{id}` | GET | Consulta un sensor | id (ruta) | — | 200 con el producto, el último peso y las unidades estimadas; 404 | TS05 |
+| `/api/sensores/{id}` | DELETE | Elimina un sensor | id (ruta) | — | 204 eliminado; 404 | TS05 |
+| `/api/sensores/{id}/lecturas` | GET | Últimas lecturas del sensor | id (ruta) | — | 200 con las lecturas más recientes; 404 | TS05 |
+| `/api/sensores/vincular` | POST | Vincula un sensor a un producto | — | `{ "sensorId": 1, "productoId": 1 }` | 200 con el sensor vinculado; 404 sensor o producto no encontrado; 409 sensor o producto ya vinculado (R9) | TS05 |
+| `/api/sensores/{id}/desvincular` | POST | Desvincula el sensor de su producto | id (ruta) | — | 200 sensor disponible; 404; 409 el sensor no estaba vinculado | TS05 |
+| `/api/sensores/{id}/rotar-clave` | POST | Genera una nueva clave del dispositivo | id (ruta) | — | 200 con la nueva clave; la anterior deja de funcionar (401); 404 | TS01 |
+| `/api/device-readings/{deviceCode}` | POST | Recibe la lectura de peso que envía el sensor | deviceCode (ruta), X-Device-Key (encabezado) | `{ "pesoKg": 12.5, "medidoEn": "2026-11-13T15:00:00Z" }` | 201 lectura guardada; 400 peso negativo o fecha futura; 401 sin clave o con clave de otro dispositivo; 409 lectura duplicada o fuera de orden. No usa JWT: el sensor se autentica con su clave | TS01 |
+| `/api/ventas` | POST | Registra una venta | Idempotency-Key (encabezado) | `{ "items": [{ "productoId": 1, "cantidad": 2, "precioUnitario": 24.90 }] }` | 201 con la venta; usa el precio del catálogo y descuenta el stock en la misma transacción; si una línea falla se revierte toda la venta; con la misma Idempotency-Key devuelve la misma venta sin descontar dos veces; 400; 404; 422 stock insuficiente (R13, R14) | TS07 |
+| `/api/ventas` | GET | Lista las ventas | desde, hasta (fecha) | — | 200 con las ventas del rango; 400 rango de fechas inválido | TS08 |
+| `/api/ventas/{code}` | GET | Detalle de una venta | code (ruta) | — | 200 con los ítems y el total; 404 | TS08 |
+| `/api/proveedores` | GET | Lista los proveedores | — | — | 200 con los proveedores activos | TS09 |
+| `/api/proveedores` | POST | Registra un proveedor | — | `{ "nombre": "Distribuidora Lima SAC", "ruc": "20123456789", "correo": "ventas@proveedor.com", "telefono": "987654321", "direccion": "Av. Principal 123, Lima" }` | 201 con el proveedor; 400; 409 RUC duplicado (R8) | TS09 |
+| `/api/proveedores/{id}` | GET / PUT | Consulta y actualiza un proveedor | id (ruta) | PUT: mismo cuerpo que el registro | 200 con el proveedor; 400; 404; 409 RUC duplicado | TS09 |
+| `/api/proveedores/{id}` | DELETE | Desactiva un proveedor | id (ruta) | — | 200 proveedor desactivado; 404 | TS09 |
+| `/api/compras` | POST | Registra una compra pendiente | — | `{ "proveedorId": 1, "productos": [{ "productoId": 1, "cantidad": 10, "precioUnitario": 15.5 }] }` | 201 con la compra pendiente, sin cambiar el stock; 400; 404 proveedor o producto no encontrado; 409 | TS10 |
+| `/api/compras/{id}/recibir` | POST | Recibe la compra y suma el stock | id (ruta) | — | 200 compra recibida; recibirla otra vez no vuelve a sumar stock (R15, R16); 404; 422 compra cancelada | TS11 |
+| `/api/compras/{id}/cancelar` | POST | Cancela una compra pendiente | id (ruta) | — | 200 compra cancelada; 404; 422 la compra ya fue recibida | TS10 |
+| `/api/compras` | GET | Lista las compras | — | — | 200 con las compras y su estado | TS12 |
+| `/api/compras/{id}` | GET | Detalle de una compra | id (ruta) | — | 200 con los ítems y el estado; 404 | TS12 |
+| `/api/dashboard` | GET | Resumen del día del negocio | — | — | 200 con ventas y compras del día (total y cantidad), alertas de stock bajo activas, las cinco últimas operaciones y el nivel de stock de cada producto (lowStock o healthy) | TS15 |
+| `/api/reportes` | GET | Reporte de un período | desde, hasta (fecha) | — | 200 con el total de ventas y compras, los movimientos de stock y las compras pendientes del período; una compra pendiente aún no mueve stock; 400 rango de fechas inválido | TS15 |
+| `/api/alertas` | GET | Lista las alertas de stock bajo | — | — | 200 con las alertas activas, una por producto; 401 | TS03 |
+| `/api/canales-notificacion` | GET | Lista los canales de notificación | — | — | 200 con los canales (correo y WhatsApp) y su estado; 401; 404 | TS03 |
+| `/api/canales-notificacion` | PUT | Activa o desactiva canales | — | `[{ "id": 1, "activo": true }, { "id": 2, "activo": false }]` | 200 con los canales; 400; 401; 404; 422 debe quedar al menos un canal activo | TS03 |
+| `/api/notificaciones` | GET | Lista las notificaciones enviadas | — | — | 200 con cada mensaje y su estado (pendiente, enviado, fallido); 401 | TS03 |
+| `/api/notificaciones/{id}/reintentar` | POST | Reintenta una notificación fallida | id (ruta) | — | 202 notificación en cola; 401; 404; 422 la notificación no está fallida | TS03 |
+
+*Nota.* Los códigos de respuesta se tomaron de la especificación OpenAPI generada por el servicio desplegado. Elaboración propia
+
+**Tabla 50**  
+*Relación de endpoints implementados por contexto*
+
+| Contexto | Recurso (endpoint base) | Acciones implementadas | TS relacionadas |
+| --- | --- | --- | --- |
+| IAM | `/api/auth/register, /login, /forgot-password, /reset-password` | POST | TS04 |
+| IoT Device | `/api/sensores, /api/sensores/{id}, /lecturas, /vincular, /desvincular, /rotar-clave, /api/device-readings/{deviceCode}` | GET, POST, DELETE | TS01, TS05 |
+| Product Catalog | `/api/productos, /api/productos/{id}, /api/productos/{id}/umbral` | GET, POST, PUT, DELETE | TS13 |
+| Inventory Monitoring | `/api/productos/{id}/ajustes, /api/productos/{id}/movimientos, /api/productos/{id}/detalle, /api/inventario/comparacion, /api/movimientos-stock` | GET, POST | TS02, TS06, TS14 |
+| Inventory – Ventas | `/api/ventas, /api/ventas/{code}` | GET, POST | TS06, TS07, TS08 |
+| Inventory – Compras | `/api/proveedores, /api/proveedores/{id}, /api/compras, /api/compras/{id}, /recibir, /cancelar` | GET, POST, PUT, DELETE | TS09, TS10, TS11, TS12 |
+| Alerts & Restocking | `/api/alertas, /api/canales-notificacion, /api/notificaciones, /api/notificaciones/{id}/reintentar` | GET, POST, PUT | TS03 |
+| Analytics & Reporting | `/api/dashboard, /api/reportes` | GET | TS15 |
+
+*Nota.* Elaboración propia
+
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
