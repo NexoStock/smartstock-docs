@@ -954,4 +954,46 @@ En los primeros intentos el contenedor se detenía a los pocos segundos de inici
 
 **Landing Page y Web Application.** El Landing Page sigue publicado en GitHub Pages; en este sprint se agregó la sección de videos con About-the-Product y About-the-Team incrustados desde YouTube. En la Web Application se reemplazó `apiBaseUrl` en `src/environments/environment.ts` por la URL de los Web Services, de modo que la versión publicada en GitHub Pages ya no usa la Fake API.
 
+**Figura 192**  
+*Proyecto en Railway con el servicio de los Web Services y la base de datos MySQL*
+
+![Proyecto en Railway con el servicio de los Web Services y la base de datos MySQL](../assets/chapter-5/sprint3-deploy-railway-proyecto.png)
+
+*Nota.* Elaboración propia
+
+**Figura 193**  
+*Variables de entorno del servicio de los Web Services en Railway*
+
+![Variables de entorno del servicio de los Web Services en Railway](../assets/chapter-5/sprint3-deploy-railway-variables.png)
+
+*Nota.* Railway oculta los valores de todas las variables. Elaboración propia
+
+**Figura 194**  
+*Despliegue exitoso de los Web Services en Railway con su dominio público*
+
+![Despliegue exitoso de los Web Services en Railway con su dominio público](../assets/chapter-5/sprint3-deploy-railway-deploy.png)
+
+*Nota.* Despliegue activo del merge de release/1.0.0 en main, publicado en smartstock-backend-production-36b6ce8c.up.railway.app. Elaboración propia
+
+**Figura 195**  
+*Health check de los Web Services desplegados*
+
+![Health check de los Web Services desplegados](../assets/chapter-5/sprint3-deploy-health.png)
+
+*Nota.* Respuesta de https://smartstock-backend-production-36b6ce8c.up.railway.app/actuator/health. Elaboración propia
+
+**Figura 196**  
+*Etiqueta v1.0.0 del repositorio de los Web Services*
+
+![Etiqueta v1.0.0 del repositorio de los Web Services](../assets/chapter-5/sprint3-deploy-tag-v1-0-0.png)
+
+*Nota.* Elaboración propia
+
+**Figura 197**  
+*Landing Page con la sección de videos y Web Application conectada a los Web Services*
+
+![Landing Page con la sección de videos y Web Application conectada a los Web Services](../assets/chapter-5/sprint3-deploy-landing-webapp.png)
+
+*Nota.* (a) Sección de videos del Landing Page; (b) Web Application publicada en GitHub Pages con peticiones dirigidas a los Web Services en Railway. Elaboración propia
+
 #### 5.2.3.8. Team Collaboration Insights during Sprint
