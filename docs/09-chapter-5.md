@@ -1333,3 +1333,42 @@ La Tabla 53 resume las entrevistas de validación realizadas. El video consolida
 
 <!-- Por cada entrevista: agregar debajo una figura con la captura del video (Figura N) y un párrafo con sus respuestas principales. -->
 
+### 5.3.3. Evaluaciones según heurísticas
+
+La evaluación heurística se realizó con el formato del Anexo D sobre el Landing Page y la Frontend Web Application desplegados, y cubre usabilidad, arquitectura de información y diseño inclusivo. Cada problema se califica con la siguiente escala de severidad:
+
+**Tabla 54**  
+*Escala de severidad de los problemas de usabilidad*
+
+| Nivel | Descripción |
+| --- | --- |
+| 1 | Problema superficial: puede ser fácilmente superado por el usuario o se presenta con muy poca frecuencia. No necesita corregirse a menos que haya tiempo disponible. |
+| 2 | Problema menor: puede ocurrir con un poco más de frecuencia o es un poco más difícil de superar. Se le debe asignar una prioridad baja para la siguiente versión. |
+| 3 | Problema mayor: ocurre con frecuencia o los usuarios no pueden resolverlo. Es importante corregirlo con prioridad alta. |
+| 4 | Problema muy grave: impide que el usuario continúe usando la herramienta. Es imperativo corregirlo antes del lanzamiento. |
+
+*Nota.* Adaptado del Anexo D del enunciado del trabajo final
+
+**Tabla 55**  
+*Resumen de los problemas identificados*
+
+| # | Problema | Escala de severidad | Heurística / Principio violado(a) |
+| --- | --- | --- | --- |
+| 1 | La aplicación se abre en inglés aunque los usuarios de ambos segmentos hablan español | 2 | Usability: coincidencia entre el sistema y el mundo real; Inclusive Design: reconocer la exclusión |
+| 2 | La lista de compras no muestra la fecha ni el nombre del proveedor de cada compra | 2 | Usability: reconocer antes que recordar; Information Architecture: ¿es fácil de encontrar? |
+| 3 | [problema identificado en las entrevistas] | [1-4] | [heurística] |
+
+*Nota.* Elaboración propia
+
+**Problema 1: La aplicación se abre en inglés aunque los usuarios hablan español**  
+Severidad: 2  
+Heurística violada: Usability – coincidencia entre el sistema y el mundo real; Inclusive Design – reconocer la exclusión.  
+Problema: el idioma por defecto de la Frontend Web Application es inglés (en_US), como pide el enunciado, pero los dueños de bodegas y minimarkets entrevistados hablan español y, en el caso de las bodegas, tienen poca experiencia con herramientas digitales. Antes de cada entrevista fue necesario cambiar el idioma manualmente.  
+Recomendación: detectar el idioma del navegador al primer ingreso y recordar la elección del usuario, manteniendo en_US como idioma por defecto cuando el navegador no esté en español.
+
+**Problema 2: La lista de compras no muestra la fecha ni el proveedor**  
+Severidad: 2  
+Heurística violada: Usability – reconocer antes que recordar; Information Architecture – ¿es fácil de encontrar?  
+Problema: con los Web Services del Sprint 3, la respuesta de las compras incluye el identificador del proveedor, el estado y el total, pero no la fecha ni el nombre del proveedor. El usuario debe recordar a qué compra corresponde cada fila, y el filtro por fechas no puede aplicarse.  
+Recomendación: agregar la fecha de registro y el nombre del proveedor a la respuesta de GET /api/compras y mostrarlos en la lista.
+
