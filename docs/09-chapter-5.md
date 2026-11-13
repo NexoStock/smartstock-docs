@@ -936,4 +936,22 @@ Durante el Sprint 3 se desplegó por primera vez la versión 1.0.0 de los Web Se
 
 *Nota.* Elaboración propia
 
+**Preparación del despliegue.** En el repositorio de los Web Services se agregaron un `Dockerfile` de dos etapas y un `.dockerignore` (rama `feature/docker-ci`, PR #5). La primera etapa usa la imagen `eclipse-temurin:27-jdk` para compilar el proyecto con el Maven Wrapper (`./mvnw -B -DskipTests package`). La segunda copia solo el `.jar` a la imagen `eclipse-temurin:27-jre`, lo ejecuta con un usuario sin privilegios y activa el perfil `prod`. El perfil `prod` no tiene secretos por defecto: la conexión a la base de datos, el secreto de los JWT y los orígenes permitidos por CORS se leen de variables de entorno, y si alguno falta la aplicación no arranca. Además, en `.gitattributes` se fijaron los finales de línea LF del `mvnw` para que el script funcione dentro del contenedor Linux.
+
+**Release.** Siguiendo GitFlow, desde `develop` se creó la rama `release/1.0.0`, que completó los nombres de los integrantes en el `pom.xml`. Esa rama se integró en `main` con un merge commit (`--no-ff`), se etiquetó como `v1.0.0` y se integró de vuelta en `develop`. Railway despliega desde la rama `main`.
+
+**Despliegue en Railway.** Los pasos fueron:
+
+1. Crear el proyecto en Railway con la opción *Deploy from GitHub repo*, autorizar a Railway en la organización NexoStock y elegir el repositorio `smartstock-backend`, rama `main`. Railway detecta el `Dockerfile` y construye la imagen.
+2. Agregar al proyecto un servicio de base de datos MySQL administrado por Railway (MySQL 8.4).
+3. Habilitar el *TCP Proxy* del servicio MySQL. Durante las pruebas el backend no logró conectarse por la red privada del proyecto (error *Communications link failure*), por lo que se usa el dominio público del proxy de Railway.
+4. Configurar las variables de entorno del servicio de los Web Services: la URL JDBC, el usuario y la contraseña de MySQL (`SPRING_DATASOURCE_URL`, `SPRING_DATASOURCE_USERNAME`, `SPRING_DATASOURCE_PASSWORD`; usuario y contraseña se leen por referencia de las variables del servicio MySQL), `JWT_SECRET` (64 bytes aleatorios en Base64), `CORS_ALLOWED_ORIGINS=https://nexostock.github.io`, `PUBLIC_API_URL` con el dominio público, `PORT=8080`, `SPRING_JPA_HIBERNATE_DDL_AUTO=update`, para que Hibernate cree el esquema en la base vacía, y `SPRINGDOC_API_DOCS_ENABLED` y `SPRINGDOC_SWAGGER_UI_ENABLED`, para publicar la documentación. Los secretos solo existen en Railway: ninguno está en el repositorio.
+5. Generar el dominio público del servicio en *Networking*, apuntando al puerto 8080, y configurar `/actuator/health` como ruta de *health check*.
+
+En los primeros intentos el contenedor se detenía a los pocos segundos de iniciar. Los registros de Railway permitieron identificar tres causas, que se corrigieron solo con configuración, sin cambiar el código: la conexión por la red privada (paso 3), la validación del esquema en una base de datos aún vacía (`ddl-auto=validate` del perfil `prod`, reemplazado por `update` mediante variable de entorno) y la falta de las variables obligatorias del perfil `prod` (`JWT_SECRET`, `CORS_ALLOWED_ORIGINS` y `PUBLIC_API_URL`).
+
+**Verificación.** Con el servicio en línea se comprobó desde fuera de Railway que `/actuator/health` responde `{"status":"UP"}` (incluye la conexión a la base de datos), que Swagger UI y `/v3/api-docs` responden 200, que una ruta protegida sin token responde 401 y que una petición de preflight CORS desde `https://nexostock.github.io` es aceptada.
+
+**Landing Page y Web Application.** El Landing Page sigue publicado en GitHub Pages; en este sprint se agregó la sección de videos con About-the-Product y About-the-Team incrustados desde YouTube. En la Web Application se reemplazó `apiBaseUrl` en `src/environments/environment.ts` por la URL de los Web Services, de modo que la versión publicada en GitHub Pages ya no usa la Fake API.
+
 #### 5.2.3.8. Team Collaboration Insights during Sprint
