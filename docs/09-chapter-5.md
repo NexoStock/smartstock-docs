@@ -991,6 +991,24 @@ La documentación desplegada puede consultarse en Swagger UI, en https://smartst
 
 *Nota.* Elaboración propia
 
+**Figura 190**  
+*Documentación de los Web Services en Swagger UI desplegado en Railway*
+
+![Documentación de los Web Services en Swagger UI desplegado en Railway](../assets/chapter-5/sprint3-swagger-ui.png)
+
+*Nota.* Vista general de los grupos de endpoints en https://smartstock-backend-production-36b6ce8c.up.railway.app/swagger-ui/index.html. Elaboración propia
+
+**Figura 191**  
+*Interacción con los endpoints de IoT Device en Swagger UI*
+
+![Interacción con los endpoints de IoT Device en Swagger UI](../assets/chapter-5/sprint3-swagger-devices.png)
+
+*Nota.* (a) Registro del sensor SN-0001 con su clave de dispositivo (201); (b) vinculación al producto (200); (c) lectura con X-Device-Key (201); (d) lectura sin clave (401); (e) lectura duplicada (409). Elaboración propia
+
+<!-- Capturas de los demás contextos (IAM, Catalog, Inventory, Ventas, Compras, Alerts): agregar aquí como Figuras 186 en adelante, una por contexto. -->
+
+Los commits de documentación de los Web Services del Sprint 3 son los que agregaron las anotaciones de OpenAPI en los controladores de cada contexto y el archivo `http/devices.http`, que reúne ejemplos ejecutables de todas las llamadas de IoT Device. Se encuentran en la Tabla 48.
+
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
