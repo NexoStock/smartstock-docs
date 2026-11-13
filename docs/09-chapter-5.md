@@ -922,4 +922,18 @@ El grafo de red muestra la aplicación efectiva de GitFlow: las ramas de feature
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
+Durante el Sprint 3 se desplegó por primera vez la versión 1.0.0 de los Web Services, junto con las nuevas versiones del Landing Page y de la Frontend Web Application. La Tabla 51 resume el estado de los tres productos al cierre del sprint.
+
+**Tabla 51**  
+*Evidencia de despliegue del Sprint 3*
+
+| Producto | Repositorio | URL desplegada | Versión | Estado |
+| --- | --- | --- | --- | --- |
+| Landing Page | https://github.com/NexoStock/smartstock-landing-page | https://nexostock.github.io/smartstock-landing-page/ | — | Actualizado en el Sprint 3: sección de videos con About-the-Product y About-the-Team incrustados |
+| Frontend Web Application | https://github.com/NexoStock/smartstock-frontend | https://nexostock.github.io/smartstock-frontend/ | — | Actualizada en el Sprint 3: consume los Web Services desplegados en lugar de la Fake API |
+| Web Services | https://github.com/NexoStock/smartstock-backend | https://smartstock-backend-production-36b6ce8c.up.railway.app | v1.0.0 | Primera versión desplegada |
+| Base de datos MySQL 8.4 | — (servicio administrado de Railway) | Acceso interno del proyecto en Railway | — | Desplegada |
+
+*Nota.* Elaboración propia
+
 #### 5.2.3.8. Team Collaboration Insights during Sprint
