@@ -12,71 +12,117 @@ A continuación se detallan los productos de software que utilizan los miembros 
 
 #### Project Management
 
+**Tabla 21**
+
+*Herramientas de gestión de proyectos*
+
 | Producto | Propósito de uso en el proyecto | Ruta |
 | --- | --- | --- |
-| Trello | Gestión del Product Backlog y de los Sprint Backlogs mediante tableros por sprint, con el registro de los work-items y su estado. | https://trello.com |
-| Microsoft Teams | Realización de las sesiones síncronas del equipo, incluyendo Sprint Planning, Sprint Review y Retrospective. | https://www.microsoft.com/microsoft-teams |
+| Trello | Gestión del Product Backlog y de los Sprint Backlogs mediante tableros por sprint, con el registro de los work-items y su estado. |`https://trello.com`|
+| Microsoft Teams | Realización de las sesiones síncronas del equipo, incluyendo Sprint Planning, Sprint Review y Retrospective. |`https://www.microsoft.com/microsoft-teams`|
+
+*Nota. Elaboración propia.*
 
 #### Requirements Management
 
+**Tabla 22**
+
+*Herramientas de gestión de requisitos*
+
 | Producto | Propósito de uso en el proyecto | Ruta |
 | --- | --- | --- |
-| UXPressia | Elaboración de los User Personas, Empathy Maps, User Journey Maps e Impact Maps de los segmentos objetivo. | https://uxpressia.com |
-| Miro | Realización de las sesiones de Big Picture Event Storming y Design-Level Event Storming. | https://miro.com |
+| UXPressia | Elaboración de los User Personas, Empathy Maps, User Journey Maps e Impact Maps de los segmentos objetivo. |`https://uxpressia.com`|
+| Miro | Realización de las sesiones de Big Picture Event Storming y Design-Level Event Storming. |`https://miro.com`|
+
+*Nota. Elaboración propia.*
 
 #### Product UX/UI Design
 
+**Tabla 23**
+
+*Herramientas de diseño UX/UI del producto*
+
 | Producto | Propósito de uso en el proyecto | Ruta |
 | --- | --- | --- |
-| Figma | Elaboración de los wireframes, mock-ups y prototipos del Landing Page y de la Web Application, en sus versiones para Desktop y Mobile Web Browser. | https://www.figma.com |
-| FigJam | Elaboración de los Wireflow Diagrams y de los User Flow Diagrams de la Web Application. | https://www.figma.com/figjam |
-| LucidChart | Elaboración de los Class Diagrams de UML y de los Database Diagrams de cada bounded context. | https://www.lucidchart.com |
-| Structurizr | Elaboración de los diagramas de C4 Model en sus niveles de Context, Container y Component. | https://structurizr.com |
+| Figma | Elaboración de los wireframes, mock-ups y prototipos del Landing Page y de la Web Application, en sus versiones para Desktop y Mobile Web Browser. |`https://www.figma.com`|
+| FigJam | Elaboración de los Wireflow Diagrams y de los User Flow Diagrams de la Web Application. |`https://www.figma.com/figjam`|
+| LucidChart | Elaboración de los Class Diagrams de UML y de los Database Diagrams de cada bounded context. |`https://www.lucidchart.com`|
+| Structurizr | Elaboración de los diagramas de C4 Model en sus niveles de Context, Container y Component. |`https://structurizr.com`|
+
+*Nota. Elaboración propia.*
 
 #### Software Development
 
+**Tabla 24**
+
+*Herramientas de desarrollo de software*
+
 | Producto | Propósito de uso en el proyecto | Ruta |
 | --- | --- | --- |
-| IntelliJ IDEA Ultimate | Entorno de desarrollo integrado para la implementación de los Web Services en Java con Spring Boot. Disponible mediante la JetBrains Educational License. | https://www.jetbrains.com/idea/download |
-| WebStorm | Entorno de desarrollo integrado para la implementación de la Frontend Web Application en Angular y del Landing Page. Disponible mediante la JetBrains Educational License. | https://www.jetbrains.com/webstorm/download |
-| Java Development Kit (JDK) 21 LTS | Kit de desarrollo del lenguaje Java utilizado para la implementación de los Web Services. | https://adoptium.net/temurin/releases |
-| Spring Boot | Framework open source utilizado para la implementación del RESTful API, junto con Spring Data JPA para la persistencia. | https://start.spring.io |
-| Node.js y npm | Entorno de ejecución y gestor de paquetes requeridos por Angular CLI. | https://nodejs.org/en/download |
-| Angular CLI | Herramienta de línea de comandos para la creación, ejecución y construcción de la Frontend Web Application. | https://angular.dev/tools/cli |
-| Angular Material | Biblioteca de componentes de interfaz de usuario basada en Material Design, utilizada en la Web Application. | https://material.angular.io |
-| MySQL Community Server | Sistema de gestión de base de datos relacional utilizado para la persistencia de los Web Services. | https://dev.mysql.com/downloads/mysql |
-| Postman | Verificación manual de las solicitudes y respuestas de los endpoints del RESTful API durante el desarrollo. | https://www.postman.com/downloads |
+| IntelliJ IDEA Ultimate | Entorno de desarrollo integrado para la implementación de los Web Services en Java con Spring Boot. Disponible mediante la JetBrains Educational License. |`https://www.jetbrains.com/idea/download`|
+| WebStorm | Entorno de desarrollo integrado para la implementación de la Frontend Web Application en Angular y del Landing Page. Disponible mediante la JetBrains Educational License. |`https://www.jetbrains.com/webstorm/download`|
+| Java Development Kit (JDK) 21 LTS | Kit de desarrollo del lenguaje Java utilizado para la implementación de los Web Services. |`https://adoptium.net/temurin/releases`|
+| Spring Boot | Framework open source utilizado para la implementación del RESTful API, junto con Spring Data JPA para la persistencia. |`https://start.spring.io`|
+| Node.js y npm | Entorno de ejecución y gestor de paquetes requeridos por Angular CLI. |`https://nodejs.org/en/download`|
+| Angular CLI | Herramienta de línea de comandos para la creación, ejecución y construcción de la Frontend Web Application. |`https://angular.dev/tools/cli`|
+| Angular Material | Biblioteca de componentes de interfaz de usuario basada en Material Design, utilizada en la Web Application. |`https://material.angular.io`|
+| MySQL Community Server | Sistema de gestión de base de datos relacional utilizado para la persistencia de los Web Services. |`https://dev.mysql.com/downloads/mysql`|
+| Postman | Verificación manual de las solicitudes y respuestas de los endpoints del RESTful API durante el desarrollo. |`https://www.postman.com/downloads`|
+
+*Nota. Elaboración propia.*
 
 #### Software Documentation
 
+**Tabla 25**
+
+*Herramientas de documentación de software*
+
 | Producto | Propósito de uso en el proyecto | Ruta |
 | --- | --- | --- |
-| Swagger UI (springdoc-openapi) | Generación y publicación de la documentación del RESTful API bajo la especificación OpenAPI. | https://springdoc.org |
-| GitHub | Alojamiento del informe del proyecto en formato Markdown y de la documentación de cada repositorio. | https://github.com/NexoStock |
+| Swagger UI (springdoc-openapi) | Generación y publicación de la documentación del RESTful API bajo la especificación OpenAPI. |`https://springdoc.org`|
+| GitHub | Alojamiento del informe del proyecto en formato Markdown y de la documentación de cada repositorio. |`https://github.com/NexoStock`|
+
+*Nota. Elaboración propia.*
 
 #### Software Deployment
 
+**Tabla 26**
+
+*Herramientas de despliegue de software*
+
 | Producto | Propósito de uso en el proyecto | Ruta |
 | --- | --- | --- |
-| GitHub Pages | Publicación del sitio web estático correspondiente al Landing Page. | https://pages.github.com |
-| Vercel | Despliegue continuo de la Frontend Web Application (Angular), con integración directa a GitHub para actualizar automáticamente cada nueva versión. | https://vercel.com |
-| Railway | Despliegue de los Web Services (Spring Boot) y de la base de datos MySQL administrada utilizada para su persistencia. | https://railway.app |
-| Git | Sistema de control de versiones utilizado localmente por cada miembro del equipo. | https://git-scm.com/downloads |
+| GitHub Pages | Publicación del sitio web estático correspondiente al Landing Page. |`https://pages.github.com`|
+| Vercel | Despliegue continuo de la Frontend Web Application (Angular), con integración directa a GitHub para actualizar automáticamente cada nueva versión. |`https://vercel.com`|
+| Railway | Despliegue de los Web Services (Spring Boot) y de la base de datos MySQL administrada utilizada para su persistencia. |`https://railway.app`|
+| Git | Sistema de control de versiones utilizado localmente por cada miembro del equipo. |`https://git-scm.com/downloads`|
+
+*Nota. Elaboración propia.*
 
 ### 5.1.2. Source Code Management
 
 El equipo utiliza GitHub como plataforma de alojamiento y Git como sistema de control de versiones. Los repositorios del proyecto pertenecen a la organización pública NexoStock y se organizan en un repositorio por producto, además del repositorio de documentación del informe.
 
+**Tabla 27**
+
+*Links de los repositorios*
+
 | Producto | Repositorio |
 | --- | --- |
-| Project Report | https://github.com/NexoStock/smartstock-docs |
-| Landing Page | https://github.com/NexoStock/smartstock-landing-page |
+| Project Report |`https://github.com/NexoStock/smartstock-docs`|
+| Landing Page |`https://github.com/NexoStock/smartstock-landing-page`|
 | Frontend Web Application | Pendiente de creación. |
 | Web Services | Pendiente de creación. En este repositorio se incluye el proyecto junto con los archivos de pruebas, tanto unitarias como de integración y aceptación. |
+
+*Nota. Elaboración propia.*
 
 #### GitFlow como workflow de control de versiones
 
 El equipo aplica GitFlow, siguiendo el modelo de ramificación descrito por Vincent Driessen. Cada repositorio mantiene las siguientes ramas:
+
+**Tabla 28**
+
+*Ramas de GitFlow y convención de nombres *
 
 | Rama | Propósito | Convención de nombre |
 | --- | --- | --- |
@@ -85,6 +131,8 @@ El equipo aplica GitFlow, siguiendo el modelo de ramificación descrito por Vinc
 | Feature branches | Una rama por cada feature o sección en desarrollo. Nace de `develop` y se integra a `develop` mediante Pull Request. | `feature/<nombre-en-kebab-case>`, por ejemplo `feature/user-stories` o `feature/sensor-linking` |
 | Release branches | Rama de preparación de una versión a entregar. Nace de `develop` y se integra tanto a `main` como a `develop`. | `release/<major>.<minor>.<patch>`, por ejemplo `release/1.0.0` |
 | Hotfix branches | Rama de corrección urgente sobre una versión ya publicada. Nace de `main` y se integra tanto a `main` como a `develop`. | `hotfix/<nombre-en-kebab-case>`, por ejemplo `hotfix/broken-toc-links` |
+
+**Nota. Elaboración propia."
 
 #### Semantic Versioning
 
@@ -96,11 +144,11 @@ Cada release se registra como un tag de Git sobre `main`, bajo el formato:
 
 #### Conventional Commits
 
-Los mensajes de commit siguen la especificación de Conventional Commits, bajo la estructura:
+LLos mensajes de commit siguen la especificación de Conventional Commits, bajo la estructura <type>(<scope>): <description>. Los tipos utilizados por el equipo son los siguientes:
 
-`<type>(<scope>): <description>`
+**Tabla 29**
 
-Los tipos utilizados por el equipo son los siguientes:
+*Tipos de commit según Conventional Commits*
 
 | Tipo | Uso |
 | --- | --- |
@@ -112,11 +160,17 @@ Los tipos utilizados por el equipo son los siguientes:
 | `test` | Incorporación o corrección de pruebas. |
 | `chore` | Cambios en la configuración del proyecto o en las herramientas de soporte. |
 
-La descripción se redacta en inglés, en modo imperativo y en minúsculas, sin punto final. El scope identifica la sección del informe o el módulo del producto afectado.
+*Nota. Elaboración propia.*
+
+La descripción se redacta en inglés, en modo imperativo y en minúsculas, sin punto final. El scope identifica la sección del informe o el módulo del producto afectado. 
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
 El equipo adopta la nomenclatura en inglés para todos los lenguajes utilizados en la solución, así como las siguientes convenciones estándar de codificación:
+
+**Tabla 30**
+
+*Convenciones de código adoptadas por lenguaje*
 
 | Lenguaje | Convención adoptada |
 | --- | --- |
@@ -126,32 +180,57 @@ El equipo adopta la nomenclatura en inglés para todos los lenguajes utilizados 
 | C# | C# Coding Conventions (Microsoft) / Microsoft ASP.NET Core Coding Guidelines |
 | Gherkin (criterios de aceptación) | Gherkin Conventions for Readable Specifications |
 
+*Nota. Elaboración propia.*
+
 ### 5.1.4. Software Deployment Configuration
+
+Aquí ya hay evidencia real del Sprint 2, así que Frontend y la Fake API sí se pueden documentar. Los Web Services los dejo como pendientes, igual que en tu 5.1.2. Esto corrige tu Tabla 26 y la sección 5.1.4.
 
 #### Landing Page
 
+Esta parte queda igual. Es correcta y coincide con tu Sprint 1 y 2:
+
 El Landing Page se publica como sitio web estático en GitHub Pages, a partir del repositorio correspondiente de la organización NexoStock. Los pasos de configuración son los siguientes:
 
-1. Integrar a la rama `main` del repositorio del Landing Page la versión a publicar, mediante una release branch.
-2. En la configuración del repositorio, acceder a la sección Pages y seleccionar como fuente la rama `main` y el directorio raíz.
+1. Integrar a la rama `main` del repositorio del Landing Page la versión a publicar, mediante una `release branch`.
+2. En la configuración del repositorio, acceder a la sección **Pages** y seleccionar como fuente la rama `main` y el directorio raíz.
 3. Confirmar la publicación y verificar el sitio en el URL asignado por GitHub Pages.
-4. Verificar el correcto funcionamiento de los call-to-action que redirigen a la Web Application, del selector de idioma y del enlace a los términos y condiciones del footer.
+4. Verificar el correcto funcionamiento de los *call-to-action* que redirigen a la Web Application, del selector de idioma y del enlace a los términos y condiciones del footer.
 
 El Landing Page se encuentra desplegado y accesible públicamente en el siguiente URL:
 
-https://nexostock.github.io/smartstock-landing-page/
+`https://github.com/NexoStock/smartstock-landing-page.git`
 
-Al no requerir el sitio un proceso de construcción, GitHub Pages publica directamente el contenido de la rama `main`, de modo que cada integración de una release branch a dicha rama genera una nueva versión publicada sin pasos adicionales.
+Al no requerir el sitio un proceso de construcción, GitHub Pages publica directamente el contenido de la rama main, de modo que cada integración de una release branch a dicha rama genera una nueva versión publicada sin pasos adicionales.
+La figura 200 muestra la configuración del repositorio, con main como rama por defecto y develop como rama de integración, conforme a GitFlow.
+
+**Figura 200**
+
+*Configuración de ramas del repositorio smartstock-landing-page*
 
 ![Software Deployment Configuration](../assets/chapter-5/softwaredeploymentconfiguration.png)
 
+*Nota. Captura de la configuración del repositorio smartstock-landing-page en GitHub, donde se aprecian las ramas main (por defecto) y develop. Elaboración propia.*
+
 #### Frontend Web Application
 
-> Pendiente de definir y documentar. Debe especificar los pasos necesarios para que, a partir del repositorio de código fuente, se logre la construcción de producción de la aplicación Angular y su publicación en el proveedor seleccionado, incluyendo la configuración del URL base del RESTful API por ambiente.
+La Frontend Web Application se publica en GitHub Pages mediante GitHub Actions, a partir del repositorio `smartstock-frontend`. Los pasos de configuración son los siguientes:
+
+1. En la configuración del repositorio, acceder a la sección **Pages** y seleccionar como fuente **GitHub Actions**.
+
+2. Crear el workflow `deploy.yml` («Deploy to GitHub Pages»), que al integrar en la rama `main` ejecuta un job `build` (Node 22, `npm ci` y `ng build` con `--base-href /smartstock-frontend/`, además de copiar `index.html` como `404.html` para el enrutamiento) y un job `deploy`.
+
+3. Configurar la URL base del RESTful API en `apiBaseUrl`, dentro de `src/environments/environment.ts`, según el ambiente. Mientras no exista el backend real, apunta a la Fake API.
+
+4. Integrar la versión a publicar en `main` mediante una release branch, etiquetarla con Semantic Versioning y verificar la URL pública.
+
+La Frontend Web Application se encuentra desplegada y accesible públicamente en el siguiente URL:`https://github.com/NexoStock/smartstock-frontend.git`
+
+Como json-server no corre en GitHub Pages, la Fake API se publicó como Web Service de Node en Render (plan gratuito), desde la rama main del repositorio smartstock-frontend, con el comando de inicio node server/server.js --simulate y la variable NODE_VERSION=22. Su URL es `https://smartstock-fake-api-angular.onrender.com`
 
 #### Web Services
 
-> Pendiente de definir y documentar. Debe especificar los pasos necesarios para que, a partir del repositorio de código fuente, se logre la construcción del artefacto de la aplicación Spring Boot, su despliegue en el proveedor seleccionado, la configuración de las variables de entorno y de la conexión a la base de datos, y la publicación de la documentación OpenAPI mediante Swagger.
+Los Web Services (Spring Boot) se despliegan a partir del Sprint 3. Los pasos de construcción, despliegue, configuración de variables de entorno y de la conexión a la base de datos, y la publicación de la documentación OpenAPI mediante Swagger se documentan en la sección 5.2.3.7.
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
@@ -160,6 +239,10 @@ En esta sección se explica y evidencia el proceso de implementación, pruebas, 
 ### 5.2.1. Sprint 1
 
 #### 5.2.1.1. Sprint Planning 1
+
+**Tabla 31**
+
+*Sprint Planning 1*
 
 | Campo | Detalle |
 | --- | --- |
@@ -175,11 +258,16 @@ En esta sección se explica y evidencia el proceso de implementación, pruebas, 
 | Sprint 1 Velocity | 10 Story Points (Velocidad estimada para el primer ciclo del equipo). |
 | Sum of Story Points | 10 |
 
+*Nota. Elaboración propia*
+
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
 El alcance del Sprint 1 corresponde al Landing Page y a la puesta en marcha del ciclo de vida del proyecto. Sobre esa base, el equipo identificó cinco aspectos y designó un líder por cada uno, buscando que cada integrante condujera el área en la que aportaba mayor conocimiento y colaborara en las restantes. La designación se refleja en la selección de tasks del Sprint Backlog y en la autoría de los commits de los repositorios.
+Los aspectos considerados son: el Design System, que define la identidad visual compartida por los productos; la Estructura y contenido visual del sitio, que abarca el encabezado principal y su propuesta de valor; la Redacción y prueba social, que cubre los textos de los segmentos y los testimonios; la Accesibilidad e internacionalización, que cubre los atributos ARIA y los idiomas en_US y es_419; y la Configuración y despliegue, que abarca el control de versiones, el despliegue y la elaboración del informe.
 
-Los aspectos considerados son: el Design System, que define la identidad visual compartida por los productos; la Estructura y contenido visual del sitio, que abarca el encabezado principal y su propuesta de valor; la Redacción y prueba social, que cubre los textos de los segmentos y los testimonios; la Accesibilidad e internacionalización, que cubre los atributos ARIA y los idiomas `en_US` y `es_419`; y la Configuración y despliegue, que abarca el control de versiones, el despliegue y la elaboración del informe.
+**Tabla 32**
+
+*Matriz de líderes (L) y colaboradores (C) por aspecto del Sprint 1 *
 
 | Team Member (Last Name, First Name) | GitHub Username | Design System | Estructura y contenido visual | Redacción y prueba social | Accesibilidad e i18n | Configuración y despliegue |
 | --- | --- | :---: | :---: | :---: | :---: | :---: |
@@ -189,14 +277,26 @@ Los aspectos considerados son: el Design System, que define la identidad visual 
 | Tuesta Girón, Kiara Lucia | @kitu05g | C | C | C | L | C |
 | Vizcarra Mamani, Candy Milagros | @candyvizz | C | L | C | C | C |
 
+*Nota. Elaboració propia.*
+
 #### 5.2.1.3. Sprint Backlog 1
 
-El Sprint Backlog 1 se estructuró en torno a la construcción del sitio web estático (Landing Page) de SmartStock, encargado de comunicar la propuesta de valor del producto, los casos de uso diferenciados para bodegas de barrio y minimarkets, los planes y precios, la comparación frente a otras soluciones del mercado, y el flujo de contacto y registro de nuevos usuarios. Cada User Story del Epic EP08 se descompuso en tareas técnicas concretas, asignadas a los integrantes del subequipo de Landing Page (Angel Crispin y Kiara Tuesta) según su rol de diseño y desarrollo dentro del proyecto.
+El Sprint Backlog 1 se estructuró en torno a la construcción del sitio web estático (Landing Page) de SmartStock, encargado de comunicar la propuesta de valor del producto, los casos de uso diferenciados para bodegas de barrio y minimarkets, los planes y precios, la comparación frente a otras soluciones del mercado, y el flujo de contacto y registro de nuevos usuarios. Cada User Story del Epic EP08 se descompuso en tareas técnicas concretas, asignadas a los integrantes del subequipo de Landing Page (Angel Crispin y Kiara Tuesta) según su rol de diseño y desarrollo dentro del proyecto."
+
+**Trello link:**  
+`https://trello.com/invite/b/6aa988a0941a5fb8c814af43/ATTI5eecabb28fdc9c85d7ba8336b688a97353B8B08C/trello`
+
+**Figura 201**
+
+*Tablero del Sprint 1 en Trello*
 
 ![Sprint Backlog 1](../assets/chapter-5/sprintbacklog1.png)
 
-**Trello link:**  
-https://trello.com/invite/b/6aa988a0941a5fb8c814af43/ATTI5eecabb28fdc9c85d7ba8336b688a97353B8B08C/trello
+*Nota. Elaboración propia.*
+
+**Tabla 33**
+
+*Sprint Backlog 1: historias, tareas, estimación y responsable*
 
 | Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (h) | Assigned To | Status |
 | --- | --- | --- | --- | --- | ---: | --- | --- |
@@ -219,11 +319,16 @@ https://trello.com/invite/b/6aa988a0941a5fb8c814af43/ATTI5eecabb28fdc9c85d7ba833
 | US23 | Comparación frente a otras soluciones | TS23.2 | Maquetado de la sección de comparación | Implementación en HTML/CSS de la sección de comparación de soluciones | 2 | Tuesta Girón, Kiara Lucia (@kitu05g) | To-do |
 | US24 | Acceso a registro desde el sitio web | TS24.1 | Botón de registro persistente | Añadir el enlace/botón de registro visible en todas las secciones del sitio | 1 | Crispin Valdivia, Angel Gabriel (@FaureGalliard) | To-do |
 
+*Nota. Elaboración propia.*
+
 #### 5.2.1.4. Development Evidence for Sprint Review
 
 Durante el Sprint 1 se implementó la primera versión del sitio web estático (Landing Page) de SmartStock, cubriendo las secciones de propuesta de valor, problemática, casos de uso por segmento, comparación frente a otras soluciones, planes y precios, testimonios, preguntas frecuentes y formulario de contacto.
+A continuación, la Tabla 34 presenta los commits relacionados con la implementación, organizados por rama según GitFlow y redactados bajo la convención de Conventional Commits.
 
-A continuación se presenta la tabla de commits relacionados con la implementación, organizados por rama según GitFlow y redactados bajo la convención de Conventional Commits.
+**Tabla 34**
+
+*Commits del Sprint 1 en el repositorio smartstock-landing-page*
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on |
 | --- | --- | --- | --- | --- | --- |
@@ -238,131 +343,210 @@ A continuación se presenta la tabla de commits relacionados con la implementaci
 | NexoStock/smartstock-landing-page | `feature/visual-refresh` | `39e8f6d` | `feat(a11y): translate the aria labels and pin english as the default locale` | The navigation and the language selector exposed their aria-label only in english, so a screen reader announced them in english while reading the rest of the page in spanish. They are now translated like any other copy. The initial locale no longer follows the browser language: the project statement requires english to be the default language of the product. | 17/09/2026 |
 | NexoStock/smartstock-landing-page | `feature/visual-refresh` | `60f268b` | `fix(landing): restore the hero route and consolidate the stylesheet` | The hero call to action lost its data-app attribute in the redesign, so it pointed nowhere. The project statement requires every call to action to redirect the visitor to the corresponding view of the web application, and US24 states it as an acceptance criterion. Merge the second :root into the original one so the palette has a single source of truth, and give the gradient heading a solid fallback colour: color:transparent applies unconditionally while background-clip:text does not, which left the main heading invisible in forced-colors mode and when printing. | 17/09/2026 |
 
+*Nota. Elaboración propia.*
+
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
-Durante el Sprint 1 se implementó y desplegó la primera versión del Landing Page, que cubre las User Stories del sitio web estático especificadas en la sección 3.1. El sitio se encuentra accesible en:
+Durante el Sprint 1 se implementó y desplegó la primera versión del Landing Page, que cubre las User Stories del sitio web estático especificadas en la sección 3.1. El sitio se encuentra accesible en:`https://nexostock.github.io/smartstock-landing-page/`
 
-https://nexostock.github.io/smartstock-landing-page/
+Landing Page Demonstration Video:`https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQA-Q3weXz9fQKE42Q-KkgoIAadgYrZxWARopglSvgvHunk?e=hNwpTf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D`
 
 A continuación se presentan las principales vistas implementadas.
 
 ##### Encabezado principal y propuesta de valor (US16, US24)
 
 El encabezado principal se organiza en dos columnas: a la izquierda la propuesta de valor, que presenta qué es SmartStock y qué problema resuelve, y a la derecha una fotografía de un propietario de tienda utilizando la plataforma junto a sus estantes abastecidos. La imagen permite que el visitante reconozca el segmento al que se dirige el producto antes de leer una sola línea, y cuenta con un texto alternativo descriptivo que se traduce junto con el resto de la página.
-
 La barra superior mantiene visibles de forma permanente el selector de idioma y la acción de crear cuenta, en cumplimiento de la regla de negocio de la US24.
+La figura 202 muestra el encabezado y la figura 203 la sección de problemas que lo sigue.
+
+**Figura 202**
+
+*Encabezado principal y propuesta de valor del Landing Page (US16, US24)*
 
 ![Execution Evidence for Sprint Review 1](../assets/chapter-5/executionevidenceforsprintreview1.png)
 
+*Nota. Elaboración propia.*
+
+**Figura 203**
+
+*Sección de problemas del Landing Page (US16)*
+
 ![Execution Evidence for Sprint Review 2](../assets/chapter-5/executionevidenceforsprintreview2.png)
+
+*Nota. Elaboración propia.*
 
 ##### Casos de uso por segmento objetivo (US17, US18)
 
-La sección de casos de uso separa el contenido dirigido a bodegas de barrio del dirigido a minimarkets. Cada bloque enumera los beneficios propios del segmento y cierra con un call-to-action que redirige a la vista de registro de la Web Application transportando el segmento correspondiente.
+La sección de casos de uso separa el contenido dirigido a bodegas de barrio del dirigido a minimarkets. Cada bloque enumera los beneficios propios del segmento y cierra con un call-to-action que redirige a la vista de registro de la Web Application transportando el segmento correspondiente. La captura se presenta con la experiencia conmutada a español latinoamericano, de modo que evidencie además el alcance de la traducción sobre el contenido de esta sección.
 
-La captura se presenta con la experiencia conmutada a español latinoamericano, de modo que evidencie además el alcance de la traducción sobre el contenido de esta sección.
+La figura 204 muestra esta sección.
+
+**Figura 204**
+
+*Sección de casos de uso por segmento objetivo del Landing Page (US17, US18)*
 
 ![Execution Evidence for Sprint Review 3](../assets/chapter-5/executionevidenceforsprintreview3.png)
 
-##### Comparación frente a otras soluciones
+*Nota. Elaboración propia.*
 
-La Landing Page incluye una sección comparativa que permite visualizar las diferencias de SmartStock frente a otras soluciones del mercado.
+##### Comparación frente a otras soluciones (US23)
+
+La sección comparativa contrasta SmartStock con otras alternativas del mercado en capacidades como la lectura automática del stock físico, el funcionamiento sin integración con un punto de venta, el costo para una sola tienda, las alertas por WhatsApp y el tiempo de puesta en marcha. La figura 205 muestra esta sección.
+
+**Figura 205**
+
+*Sección comparativa frente a otras soluciones del Landing Page (US23)*
 
 ![Execution Evidence for Sprint Review 4](../assets/chapter-5/executionevidenceforsprintreview4.png)
 
+*Nota. Elaboración propia.*
+
 ##### Planes y precios (US19)
 
-Los tres planes se presentan sobre el mismo conjunto de características, ordenados de menor a mayor capacidad, y el plan intermedio se destaca mediante un borde de mayor peso. Cada plan conduce al registro con el plan preseleccionado.
+Los tres planes se presentan sobre el mismo conjunto de características, ordenados de menor a mayor capacidad, y el plan intermedio se destaca mediante un borde de mayor peso. Cada plan conduce al registro con el plan preseleccionado. Las tarjetas aplican el refresco visual del design system: radio de esquina de 14 píxeles, elevación tenue en reposo y un filete de acento que se revela al pasar el cursor.
 
-Las tarjetas aplican el refresco visual del design system: radio de esquina de 14 píxeles, elevación tenue en reposo y un filete de acento que se revela al pasar el cursor.
+La figura 206 muestra los tres planes.
+
+**Figura 206**
+
+*Sección de planes y precios del Landing Page (US19)*
 
 ![Execution Evidence for Sprint Review 5](../assets/chapter-5/executionevidenceforsprintreview5.png)
 
+*Nota. Elaboración propia.*
+
 ##### Testimonios de clientes (US22)
 
-La sección de testimonios presenta las opiniones recogidas durante las entrevistas, cada una acompañada de una valoración y de un avatar con las iniciales del entrevistado. La valoración se expone además mediante `aria-label`, de modo que un lector de pantalla anuncie la calificación en lugar de leer una sucesión de símbolos.
+La sección de testimonios presenta las opiniones recogidas durante las entrevistas, cada una acompañada de una valoración y de un avatar con las iniciales del entrevistado. La valoración se expone además mediante aria-label, de modo que un lector de pantalla anuncie la calificación en lugar de leer una sucesión de símbolos.
+
+La figura 207 muestra la sección de testimonios.
+
+**Figura 207**
+
+*Sección de testimonios de clientes del Landing Page (US22)*
 
 ![Execution Evidence for Sprint Review 6](../assets/chapter-5/executionevidenceforsprintreview6.png)
 
+*Nota. Elaboración propia.*
+
 ##### Formulario de solicitud de demostración (US20)
 
-El formulario valida los campos obligatorios al abandonar cada campo y expone los mensajes de error mediante `role="alert"`, de modo que un lector de pantalla los anuncie.
+El formulario valida los campos obligatorios al abandonar cada campo y expone los mensajes de error mediante role="alert", de modo que un lector de pantalla los anuncie. Los campos adoptan el radio de esquina y el color de borde definidos en la sección 4.1, y el botón de envío emplea el degradado de marca.
 
-Los campos adoptan el radio de esquina y el color de borde definidos en la sección 4.1, y el botón de envío emplea el degradado de marca.
+Las figuras 208 y 209 muestran el formulario y su pie de página.
+
+**Figura 208**
+
+*Formulario de solicitud de demostración del Landing Page (US20)*
 
 ![Execution Evidence for Sprint Review 7](../assets/chapter-5/executionevidenceforsprintreview7.png)
+
+*Nota. Elaboración propia.*
+
+**Figura 209**
+
+*Campos del formulario y pie de página del Landing Page (US20)*
+
+![Execution Evidence for Sprint Review 8](../assets/chapter-5/executionevidenceforsprintreview8.png)
+
+*Nota. Elaboración propia.*
 
 ##### Internacionalización de la experiencia (en_US / es_419)
 
 El idioma por defecto del sitio es el inglés, conforme a lo establecido en el enunciado. El sitio no adopta el idioma del navegador en la primera visita, precisamente para que el idioma por defecto del producto sea siempre el inglés; a partir de ahí, la preferencia elegida por el visitante queda registrada en el navegador.
 
-El selector de idioma de la barra superior conmuta toda la experiencia al español latinoamericano, incluyendo el título del documento, los textos de la interfaz, los mensajes de validación del formulario y los atributos `aria-label` de la navegación, del selector de idioma y de la imagen del encabezado principal.
-
-El atributo `lang` del documento se actualiza en cada conmutación, de modo que un lector de pantalla emplee la pronunciación correcta.
-
-![Execution Evidence for Sprint Review 8](../assets/chapter-5/executionevidenceforsprintreview8.png)
+El selector de idioma de la barra superior conmuta toda la experiencia al español latinoamericano, incluyendo el título del documento, los textos de la interfaz, los mensajes de validación del formulario y los atributos aria-label de la navegación, del selector de idioma y de la imagen del encabezado principal. El atributo lang del documento se actualiza en cada conmutación, de modo que un lector de pantalla emplee la pronunciación correcta.
 
 ##### Diseño web adaptable (responsive web design)
 
 La experiencia se adapta a las dimensiones del dispositivo cliente. En navegador móvil, las rejillas de tarjetas colapsan a una sola columna, la escala tipográfica de los titulares se reduce y la navegación se repliega tras un botón de menú.
-
 La barra superior conserva en pantallas estrechas únicamente la marca, el selector de idioma y el botón de menú. La acción de crear cuenta se traslada al interior del menú desplegable, de modo que la barra no compita por el ancho disponible y se mantenga el cumplimiento de la regla de negocio de la US24, que establece que la opción de registro está disponible de forma permanente en todas las secciones del sitio web estático.
+
+La figura 210 muestra el Landing Page en versión móvil.
+
+**Figura 210**
+
+*Landing Page en versión móvil*
 
 ![Execution Evidence for Sprint Review 9](../assets/chapter-5/executionevidenceforsprintreview9.png)
 
-**Landing Page Demonstration Video:**  
-SmartStock - Landing Page Review.mp4
+*Nota. Elaboración propia.*
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
-N/A. Durante el Sprint 1 el esfuerzo de desarrollo se enfocó exclusivamente en la creación del sitio web estático promocional (Landing Page), por lo que aún no se han implementado APIs RESTful ni Endpoints backend que requieran ser documentados a través de Swagger/OpenAPI.
-
-Esta documentación se estructurará a partir del Sprint 2.
+N/A. Durante el Sprint 1 el esfuerzo de desarrollo se enfocó exclusivamente en la creación del sitio web estático promocional (Landing Page), por lo que aún no se han implementado APIs RESTful ni Endpoints backend que requieran ser documentados a través de Swagger/OpenAPI. Esta documentación se estructurará a partir del Sprint 2.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
-Durante el Sprint 1, el alcance de despliegue correspondió al Landing Page. El equipo creó el repositorio `smartstock-landing-page` dentro de la organización NexoStock, aplicó sobre él el flujo de trabajo GitFlow e integró la versión `1.0.0` a la rama `main` mediante una release branch.
+Durante el Sprint 1, el alcance de despliegue correspondió al Landing Page. El equipo creó el repositorio smartstock-landing-page dentro de la organización NexoStock, aplicó sobre él el flujo de trabajo GitFlow e integró la versión 1.0.0 a la rama main mediante una release branch. A continuación, habilitó GitHub Pages tomando como fuente dicha rama y el directorio raíz del repositorio.
 
-A continuación, habilitó GitHub Pages tomando como fuente dicha rama y el directorio raíz del repositorio.
+La Tabla 35 resume el estado de despliegue de cada producto.
+
+**Tabla 35**
+
+*Evidencia de despliegue del Sprint 1*
 
 | Producto | Repositorio | URL desplegado | Estado |
 | --- | --- | --- | --- |
-| Landing Page | https://github.com/NexoStock/smartstock-landing-page | https://nexostock.github.io/smartstock-landing-page/ | Desplegado |
+| Landing Page |`https://github.com/NexoStock/smartstock-landing-page`|`https://nexostock.github.io/smartstock-landing-page/`| Desplegado |
 | Frontend Web Application | Pendiente de despliegue. | — | Fuera del alcance del Sprint 1 |
 | Web Services | Pendiente de despliegue. | — | Fuera del alcance del Sprint 1 |
 
-La configuración aplicada en el repositorio se muestra a continuación. La fuente de publicación es la rama `main` y el directorio raíz, y GitHub confirma la publicación del sitio.
+*Nota. Elaboración propia.*
 
-En el selector de ramas se aprecian además las ramas `main` y `develop`, que evidencian la aplicación de GitFlow sobre el repositorio.
+La configuración aplicada en el repositorio se muestra a continuación. La fuente de publicación es la rama main y el directorio raíz, y GitHub confirma la publicación del sitio. En el selector de ramas se aprecian además las ramas main y develop, que evidencian la aplicación de GitFlow sobre el repositorio.
+La configuración aplicada en el repositorio se muestra en la figura 211.
+
+**Figura 211**
+
+*Configuración de GitHub Pages del repositorio smartstock-landing-page con la rama main como fuente*
 
 ![Software Deployment Evidence for Sprint Review](../assets/chapter-5/softwaredeploymentevidenceforsprintreview.png)
+
+*Nota. Elaboración propia.*
 
 Se verificó que el sitio publicado responde correctamente tanto en la página de inicio como en la página de términos y condiciones, y que la hoja de estilos y el archivo de comportamiento se sirven sin errores.
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
-Durante el Sprint 1, el equipo organizó la implementación del Landing Page según los aspectos definidos en la sección 5.2.1.2. Cada integrante trabajó sobre el aspecto que lideraba y registró su aporte mediante commits propios en el repositorio `smartstock-landing-page`, aplicando GitFlow y Conventional Commits.
+Durante el Sprint 1, el equipo organizó la implementación del Landing Page según los aspectos definidos en la sección 5.2.1.2. Cada integrante trabajó sobre el aspecto que lideraba y registró su aporte mediante commits propios en el repositorio smartstock-landing-page, aplicando GitFlow y Conventional Commits.
 
-El flujo de trabajo seguido fue el siguiente: la rama `develop` concentró el avance acumulado, cada conjunto de cambios se desarrolló en una rama `feature/` que se integró a `develop` sin avance rápido (`--no-ff`), de modo que el historial conserve visible el punto de integración de cada aporte, y las versiones entregadas se publicaron desde `main` mediante ramas `release/` etiquetadas con versionado semántico.
+El flujo de trabajo seguido fue el siguiente: la rama develop concentró el avance acumulado, cada conjunto de cambios se desarrolló en una rama feature/ que se integró a develop sin avance rápido (--no-ff), de modo que el historial conserve visible el punto de integración de cada aporte, y las versiones entregadas se publicaron desde main mediante ramas release/ etiquetadas con versionado semántico.
 
 ##### Analíticos de colaboración del repositorio del Landing Page
 
 La vista de contribuyentes evidencia la participación de los cinco integrantes del equipo, con el detalle de commits y de líneas agregadas y eliminadas por cada uno.
 
-![Team Collaboration](../assets/chapter-5/teamcollaboration.png)
+La figura 212 muestra esta vista.
+
+**Figura 212**
+
+*Contributors del repositorio NexoStock/smartstock-landing-page*
+
+![Team Collaboration](../assets/chapter-5/image48.png)
+
+*Nota. Elaboración propia.*
 
 ##### Historial de ramas del repositorio
 
-El grafo de red muestra la aplicación efectiva de GitFlow: las ramas de feature nacen de `develop`, se integran nuevamente a ella y la rama `main` recibe únicamente las versiones publicadas.
+El grafo de red muestra la aplicación efectiva de GitFlow: las ramas de feature nacen de develop, se integran nuevamente a ella y la rama main recibe únicamente las versiones publicadas.
+
+La figura 213 muestra el grafo de red.
+
+**Figura 213**
+
+*Network graph del repositorio NexoStock/smartstock-landing-page*
 
 ![Team Collaboration - Branch History](../assets/chapter-5/teamcollaboration2.png) 
+
+*Nota. Elaboración propia.*
 
 ### 5.2.2. Sprint 2
 
 #### 5.2.2.1. Sprint Planning 2
 
-**Tabla 35**  
-*Sprint Planning 2 del equipo NexoStock*
+**Tabla 36**  
+*Sprint Planning 2*
 
 | Campo | Detalle |
 | --- | --- |
@@ -383,26 +567,20 @@ El grafo de red muestra la aplicación efectiva de GitFlow: las ramas de feature
 Para el Sprint 2, el equipo acordó los siguientes puntos:
 
 (1) Definir primero las historias de Compras y Ventas, por ser el núcleo del producto, antes de construir sus pantallas.
-
-(2) Identificar las historias como US (User Stories) y TS (Technical Stories) y las tareas como `T-US##` y `T-TS##`.
-
-(3) Trabajar cada tarea en una rama corta `feature/<contexto>-<tarea>` creada desde develop e integrada mediante pull request con merge commit (`--no-ff`), sin commits directos en main ni en develop.
-
+(2) Identificar las historias como US (User Stories) y TS (Technical Stories) y las tareas como T-US## y T-TS##.
+(3) Trabajar cada tarea en una rama corta feature/<contexto>-<tarea> creada desde develop e integrada mediante pull request con merge commit (--no-ff), sin commits directos en main ni en develop.
 (4) No modificar archivos compartidos (rutas, estilos, menú, modelos) sin avisar al equipo.
-
 (5) Usar datos simulados con json-server (Fake API) mientras el Web Service real no esté disponible.
-
-(6) Actualizar el Landing Page para que el registro redirija a la Frontend Web Application desplegada, en lugar de apuntar a una dirección local.
-
 El Sprint Goal se redactó en inglés siguiendo el formato de la plantilla, y la velocidad se calculó sobre las 23 User Stories que no pertenecen al Landing Page, que suman 84 Story Points. Las Technical Stories pasan al Sprint 3 junto con los Web Services reales.
+(6) Actualizar el Landing Page para que el registro redirija a la Frontend Web Application desplegada, en lugar de apuntar a una dirección local. 
 
 #### 5.2.2.2. Aspect Leaders and Collaborators
 
 El alcance del Sprint 2 corresponde a la Frontend Web Application. Sobre esa base, el equipo identificó seis aspectos, correspondientes a los bounded contexts del producto, y designó un líder por cada uno, buscando que cada integrante condujera el área que había elegido y colaborara en las restantes. La designación se refleja en la selección de tasks del Sprint Backlog y en la autoría de los commits del repositorio.
-
 Los aspectos considerados son: IAM, que cubre el registro, el inicio de sesión y la recuperación de contraseña; IoT Device, que cubre la vinculación de sensores, su estado de conexión y la recepción de lecturas; Alerts & Restocking, que cubre las notificaciones de stock bajo y las alertas de discrepancia; Product Catalog, que cubre el registro y la edición de productos y la configuración del umbral mínimo; Inventory Monitoring, que cubre el peso actual, el listado por nivel de stock, la comparación entre inventario físico y registrado, y el registro de ventas, compras y proveedores con sus movimientos de stock; y Analytics & Reporting, que cubre el dashboard y los reportes de consumo y movimientos.
 
-**Tabla 36**  
+**Tabla 37**  
+
 *Matriz de líderes (L) y colaboradores (C) por aspecto del Sprint 2*
 
 | Team Member (Last Name, First Name) | GitHub Username | IAM | IoT Device | Alerts & Restocking | Product Catalog | Inventory Monitoring | Analytics & Reporting |
@@ -413,24 +591,28 @@ Los aspectos considerados son: IAM, que cubre el registro, el inicio de sesión 
 | Tuesta Girón, Kiara Lucia | @kitu05g | C | C | C | C | L | L |
 | Vizcarra Mamani, Candy Milagros | @candyvizz | C | C | C | L | C | C |
 
-*Nota.* Elaboración propia
+*Nota. Elaboración propia*
 
 Según la matriz, Lorena lidera IAM; Ángel, IoT Device; Sebastián, Alerts & Restocking; Candy, Product Catalog; y Kiara, Inventory Monitoring y Analytics & Reporting. Además, las pantallas y servicios de ventas, compras y proveedores se desarrollaron en colaboración entre IAM, Product Catalog y Alerts & Restocking, como colaboradores del bounded context Inventory Monitoring: las ventas las implementó Lorena y las compras y proveedores, Candy.
 
 #### 5.2.2.3. Sprint Backlog 2
 
-El Sprint 2 contiene las 23 User Stories que no son del Landing Page (84 Story Points). Las Technical Stories TS01 a TS15 pasan al Sprint 3 con los Web Services reales; en este sprint solo se incluyen sus tareas de simulación (mock), marcadas "(mock)" y sin Story Points propios. El tablero está en Trello: https://trello.com/invite/b/6ac18a7abca5e0a5a2507958/ATTI5da625d2f61dff20dbdf0a2396f6b06f27A47625/sprint-backlog-2-source. La Figura 161 muestra el board del Sprint 2.
+El Sprint 2 contiene las 23 User Stories que no son del Landing Page (84 Story Points). Las Technical Stories TS01 a TS15 pasan al Sprint 3 con los Web Services reales; en este sprint solo se incluyen sus tareas de simulación (mock), marcadas "(mock)" y sin Story Points propios. El tablero está en Trello:`https://trello.com/invite/b/6ac18a7abca5e0a5a2507958/ATTI5da625d2f61dff20dbdf0a2396f6b06f27A47625/sprint-backlog-2-source`
 
-**Figura 161**  
+La figura 214 muestra el board del Sprint 2.
+
+**Figura 214**
+
 *Board del Sprint 2 en Trello*
 
 ![Board del Sprint 2 en Trello](../assets/chapter-5/sprint2-sprint-backlog-trello.png)
 
-*Nota.* Elaboración propia
+*Nota. Elaboración propia*
 
 La carga de trabajo se distribuyó entre los cinco integrantes según el bounded context que lideran, como se muestra en la Tabla 37.
 
-**Tabla 37**  
+**Tabla 38**  
+
 *Distribución de Story Points del Sprint 2 por integrante*
 
 | Integrante | Contexto | User Stories | Story Points |
@@ -442,11 +624,12 @@ La carga de trabajo se distribuyó entre los cinco integrantes según el bounded
 | Kiara | Inventory Monitoring y Analytics & Reporting | US07, US08, US11, US15, US25 | 21 |
 | Total |  |  | 84 |
 
-*Nota.* Elaboración propia
+*Nota. Elaboración propia*
 
-Las tareas se identifican como ``T-US##`.#` (historias de usuario), ``T-TS##`.#` (contratos de la Fake API, sin puntos) y `T-SH.#` (setup compartido de Ángel, sin historia). El detalle de cada tarea se presenta en la Tabla 38; todas finalizaron en estado Done.
+Las tareas se identifican como T-US##.# (historias de usuario), T-TS##.# (contratos de la Fake API, sin puntos) y T-SH.# (setup compartido de Ángel, sin historia). El detalle de cada tarea se presenta en la Tabla 38; todas finalizaron en estado Done.
 
-**Tabla 38**  
+**Tabla 39**  
+
 *Sprint Backlog 2: historias, tareas, estimación y responsable*
 
 | Sprint # | Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
@@ -528,15 +711,16 @@ Las tareas se identifican como ``T-US##`.#` (historias de usuario), ``T-TS##`.#`
 | 2 | US07 | Visualización del peso actual de un producto | T-US07.1 | Detalle con peso actual | Peso del sensor y unidades equivalentes. | 4 | Kiara | Done |
 | 2 | US07 | Visualización del peso actual de un producto | T-US07.2 | Últimas cinco lecturas | Historial corto de lecturas. | 3 | Kiara | Done |
 
-*Nota.* Elaboración propia
+*Nota. Elaboración propia*
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 
-Durante el Sprint 2 se implementó la Frontend Web Application de SmartStock en el repositorio NexoStock/smartstock-frontend, con las vistas y servicios de IAM, IoT Device, Alerts & Restocking, Product Catalog, Inventory Monitoring (incluidas ventas, compras y proveedores) y Analytics & Reporting. Cada tarea del Sprint Backlog se desarrolló en una rama `feature/<contexto>-<tarea>` creada desde develop e integrada mediante pull request con merge commit.
+Durante el Sprint 2 se implementó la Frontend Web Application de SmartStock en el repositorio NexoStock/smartstock-frontend, con las vistas y servicios de IAM, IoT Device, Alerts & Restocking, Product Catalog, Inventory Monitoring (incluidas ventas, compras y proveedores) y Analytics & Reporting. Cada tarea del Sprint Backlog se desarrolló en una rama feature/<contexto>-<tarea> creada desde develop e integrada mediante pull request con merge commit.
 
 A continuación se presenta la tabla de commits relacionados con la implementación, organizados por rama según el orden de integración del equipo y redactados bajo la convención de Conventional Commits, en inglés y en minúsculas, con el identificador de la tarea (por ejemplo T-US02.2) en el cuerpo del mensaje.
 
-**Tabla 39**  
+**Tabla 40**
+
 *Commits del Sprint 2 en el repositorio smartstock-frontend*
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
@@ -614,17 +798,18 @@ A continuación se presenta la tabla de commits relacionados con la implementaci
 | NexoStock/smartstock-frontend | `release/1.0.0` | `735e144` | `chore(release): set version 1.0.0` | Task: T-SH.1 | 06/10/2026 |
 | NexoStock/smartstock-landing-page | `feature/signup-frontend-link` | `45c0ab9` | `feat(landing): redirect sign up to deployed frontend` | — | 06/10/2026 |
 
-*Nota.* Elaboración propia
+*Nota. Elaboración propia*
 
-La tabla sigue el orden de integración del equipo: primero feature/shared-sprint2-setup y feature/shared-mock-server, luego los contextos, y al final la rama chore/gitignore-ide y la rama release/1.0.0 con las que se cerró el sprint. En el repositorio del frontend son 21 ramas y 71 commits (se excluyen los commits de merge generados por GitHub al integrar cada pull request, así como el commit inicial de la base del frontend). Los pull requests del sprint van del #1 al #22.
+La tabla sigue el orden de integración del equipo: primero feature/shared-sprint2-setup y feature/shared-mock-server, luego los contextos, y al final la rama chore/gitignore-ide y la rama release/1.0.0 con las que se cerró el sprint. En el repositorio del frontend son 21 ramas y 71 commits  (se excluyen los commits de merge generados por GitHub al integrar cada pull request, así como el commit inicial de la base del frontend). Los pull requests del sprint van del #1 al #22.
 
-En el repositorio NexoStock/smartstock-landing-page se registró además un commit en la rama feature/signup-frontend-link, que actualiza la variable APP_URL de script.js para que el botón de registro redirija a https://nexostock.github.io/smartstock-frontend. La rama se integró a develop mediante el PR #1 y develop se integró a main mediante el PR #2, con lo que el Landing Page actualizado quedó publicado.
+En el repositorio NexoStock/smartstock-landing-page se registró además un commit en la rama feature/signup-frontend-link, que actualiza la variable APP_URL de script.js para que el botón de registro redirija a `https://nexostock.github.io/smartstock-frontend`. La rama se integró a develop mediante el PR #1 y develop se integró a main mediante el PR #2, con lo que el Landing Page actualizado quedó publicado. 
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
-En este sprint el frontend alcanzó las vistas de los seis contextos funcionando con datos simulados por la Fake API: registro e inicio de sesión, ventas, productos, proveedores y compras, sensores, alertas, stock, dashboard y reportes. La aplicación está desplegada y accesible en https://nexostock.github.io/smartstock-frontend/ (sección 5.2.2.7), con soporte para inglés y español. Cada captura se rotula con la historia que cubre. El video que muestra la visualización y la navegación logradas en el sprint está en [upc-pre202620-1asi0729-7729-nexostock-product-navigation-sprint-2.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421125_upc_edu_pe/IQAKt8LsBsB6TYBsqSsYvpp4ATF62ASTTiT9MA_hCLKuZrk?e=yaJRIY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D).
+En este sprint el frontend alcanzó las vistas de los seis contextos funcionando con datos simulados por la Fake API: registro e inicio de sesión, ventas, productos, proveedores y compras, sensores, alertas, stock, dashboard y reportes. La aplicación está desplegada y accesible en https://nexostock.github.io/smartstock-frontend/ (sección 5.2.2.7), con soporte para inglés y español. Cada captura se rotula con la historia que cubre. El video que muestra la visualización y la navegación logradas en el sprint, al cual se puede acceder desde el siguiente link:
+`https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421125_upc_edu_pe/IQAKt8LsBsB6TYBsqSsYvpp4ATF62ASTTiT9MA_hCLKuZrk?e=U5KqGD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D`
 
-**Tabla 40**  
+**Tabla 41**  
 *Evidencia de ejecución por contexto e historia de usuario del Sprint 2*
 
 | Contexto | Historia | Ruta | La captura debe mostrar | Figura |
@@ -642,97 +827,122 @@ En este sprint el frontend alcanzó las vistas de los seis contextos funcionando
 | Inventory Monitoring | US07, US08 y US11 | /products, /products/:id, /comparison | niveles de stock, detalle con peso actual y comparación físico vs. registrado | 172 |
 | Analytics & Reporting | US15 y US25 | /dashboard, /reports | tarjetas del día con ventas y compras, y reporte por período | 173 |
 
-*Nota.* Elaboración propia
+*Nota. Elaboración propia*
 
-**Figura 162**  
+
+**Figura 215**
+
 *Registro de cuenta con selección de tipo de negocio y error de correo en uso (US01)*
 
 ![Registro de cuenta con selección de tipo de negocio y error de correo en uso (US01)](../assets/chapter-5/sprint2-ejecucion-registro.png)
 
-*Nota.* Elaboración propia
+*Nota. Elaboración propia.*
 
-**Figura 163**  
+
+**Figura 216**
+
 *Inicio de sesión con mensaje de credenciales incorrectas (US02)*
 
 ![Inicio de sesión con mensaje de credenciales incorrectas (US02)](../assets/chapter-5/sprint2-ejecucion-inicio-sesion.png)
 
-*Nota.* Elaboración propia
+*Nota. Elaboración propia.*
 
-**Figura 164**  
+
+**Figura 217**
+
 *Recuperación de contraseña: solicitud del enlace y confirmación de envío (US03)*
 
 ![Recuperación de contraseña: solicitud del enlace y confirmación de envío (US03)](../assets/chapter-5/sprint2-ejecucion-recuperacion-contrasena.png)
 
-*Nota.* Elaboración propia
+*Nota. Elaboración propia.*
 
-**Figura 165**  
+
+**Figura 218**
+
 *Ventas: (a) venta registrada, (b) rechazo por stock insuficiente, (c) historial por fechas y (d) detalle con movimiento de salida (US26, US27, US28)*
 
 ![Ventas: (a) venta registrada, (b) rechazo por stock insuficiente, (c) historial por fechas y (d) detalle con movimiento de salida (US26, US27, US28)](../assets/chapter-5/sprint2-ejecucion-ventas.png)
 
-*Nota.* Elaboración propia
+*Nota. Elaboración propia.*
 
-**Figura 166**  
+
+**Figura 219**
+
 *Vinculación de sensor a un producto y error de sensor en uso (US04)*
 
 ![Vinculación de sensor a un producto y error de sensor en uso (US04)](../assets/chapter-5/sprint2-ejecucion-vinculacion-sensor.png)
 
-*Nota.* Elaboración propia
+*Nota. Elaboración propia.*
 
-**Figura 167**  
+
+**Figura 220**
+
 *Estado de conexión de sensores en línea y desconectados (US06)*
 
 ![Estado de conexión de sensores en línea y desconectados (US06)](../assets/chapter-5/sprint2-ejecucion-estado-sensores.png)
 
-*Nota.* Elaboración propia
+*Nota. Elaboración propia.*
 
-**Figura 168**  
+
+**Figura 221**
+
 *Configuración de notificaciones por correo y WhatsApp (US09, US10)*
 
 ![Configuración de notificaciones por correo y WhatsApp (US09, US10)](../assets/chapter-5/sprint2-ejecucion-notificaciones.png)
 
-*Nota.* Elaboración propia
+*Nota. Elaboración propia.*
 
-**Figura 169**  
+
+**Figura 222**
+
 *Alertas activas y botón de compra desde una alerta de stock bajo (US12, US32)*
 
 ![Alertas activas y botón de compra desde una alerta de stock bajo (US12, US32)](../assets/chapter-5/sprint2-ejecucion-alertas.png)
 
-*Nota.* Elaboración propia
+*Nota. Elaboración propia.*
 
-**Figura 170**  
+
+**Figura 223**
+
 *Catálogo: (a) registro de producto, (b) edición con stock de solo lectura y (c) umbral mínimo con error de capacidad máxima (US13, US14, US05)*
 
 ![Catálogo: (a) registro de producto, (b) edición con stock de solo lectura y (c) umbral mínimo con error de capacidad máxima (US13, US14, US05)](../assets/chapter-5/sprint2-ejecucion-catalogo.png)
 
-*Nota.* Elaboración propia
+*Nota. Elaboración propia.*
 
-**Figura 171**  
+
+**Figura 224**
+
 *Proveedores y compras: (a) proveedor creado, (b) compra pendiente, (c) compra recibida y (d) historial por fechas (US29, US30, US31)*
 
 ![Proveedores y compras: (a) proveedor creado, (b) compra pendiente, (c) compra recibida y (d) historial por fechas (US29, US30, US31)](../assets/chapter-5/sprint2-ejecucion-proveedores-compras.png)
 
-*Nota.* Elaboración propia
+*Nota. Elaboración propia.*
 
-**Figura 172**  
+
+**Figura 225**
+
 *Monitoreo de inventario: (a) productos por nivel de stock, (b) detalle con peso actual y (c) comparación físico vs. registrado (US07, US08, US11)*
 
 ![Monitoreo de inventario: (a) productos por nivel de stock, (b) detalle con peso actual y (c) comparación físico vs. registrado (US07, US08, US11)](../assets/chapter-5/sprint2-ejecucion-monitoreo-inventario.png)
 
-*Nota.* Elaboración propia
+*Nota. Elaboración propia.*
 
-**Figura 173**  
+
+**Figura 226**
+
 *Dashboard con ventas y compras del día, y reporte por período (US15, US25)*
 
 ![Dashboard con ventas y compras del día, y reporte por período (US15, US25)](../assets/chapter-5/sprint2-ejecucion-dashboard-reportes.png)
 
-*Nota.* Elaboración propia
+*Nota. Elaboración propia.*
+
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
 En el Sprint 2 el equipo documentó con OpenAPI los contratos de los endpoints que las pantallas consumen a través de la Fake API: los de las Technical Stories TS01 a TS15 y los de autenticación que usan las pantallas de registro y recuperación. Los Web Services reales (Spring Boot) se implementarán en el Sprint 3 con el mismo contrato; por eso aún no existe el repositorio de Web Services ni hay commits de documentación en este sprint. La especificación se redactó en formato OpenAPI 3.0.3 utilizando Swagger Editor y se visualiza mediante Swagger UI (Figuras 186 y 187). Los contratos se documentan con el prefijo /api del backend real; la Fake API desplegada los expone en la raíz, sin ese prefijo (por ejemplo, POST /auth/login). Los códigos de error siguen el formato { code, ...detalle } que devuelve la Fake API.
 
-**Tabla 41**  
+**Tabla 42**  
 *Documentación de los endpoints de la Fake API / Web Services del Sprint 2*
 
 | Endpoint | Método | Acción | Parámetros | Ejemplo de request | Response y explicación | TS |
@@ -767,11 +977,12 @@ En el Sprint 2 el equipo documentó con OpenAPI los contratos de los endpoints q
 | `/api/dashboard` | GET | Resumen del dashboard | — | — | 200 con tarjetas de ventas y compras del día, alertas y productos | TS14 |
 | `/api/reportes` | GET | Reporte de consumo y movimientos | desde, hasta (fecha) | — | 200 con el reporte del período (solo minimarket) | TS15 |
 
-*Nota.* Los códigos de respuesta y de error fueron contrastados con el código de la Fake API (server/routes). Elaboración propia
+*Nota. Los códigos de respuesta y de error fueron contrastados con el código de la Fake API (server/routes). Elaboración propia*
 
-La Tabla 42 resume la relación entre cada contexto, los recursos implementados y la Technical Story asociada.
+La Tabla 43 resume la relación entre cada contexto, los recursos implementados y la Technical Story asociada.
 
-**Tabla 42**  
+**Tabla 43**  
+
 *Relación de endpoints implementados por contexto*
 
 | Contexto | Recurso (endpoint base) | Acciones implementadas | TS relacionadas |
@@ -786,84 +997,92 @@ La Tabla 42 resume la relación entre cada contexto, los recursos implementados 
 | Alerts & Restocking | `/api/alertas, /api/notificaciones/stock-bajo, /api/canales-notificacion` | GET, POST, PUT | TS03, TS14 |
 | Analytics & Reporting | `/api/dashboard, /api/reportes` | GET | TS14, TS15 |
 
-*Nota.* Elaboración propia
+*Nota. Elaboración propia*
 
-**Figura 174**  
+**Figura 227**
+
 *Especificación OpenAPI de la Fake API en Swagger Editor*
 
 ![Especificación OpenAPI de la Fake API en Swagger Editor](../assets/chapter-5/sprint2-swagger-editor.png)
 
-*Nota.* Elaboración propia
+*Nota. Elaboración propia*
 
-**Figura 175**  
+**Figura 228**
+
 *Documentación de los endpoints en Swagger UI*
 
 ![Documentación de los endpoints en Swagger UI](../assets/chapter-5/sprint2-swagger-ui.png)
 
-*Nota.* Elaboración propia
+*Nota. Elaboración propia*
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
-Durante el Sprint 2 el alcance de despliegue correspondió a la primera versión de la Frontend Web Application, publicada en GitHub Pages desde la rama main, a la que se integró mediante la rama release/1.0.0 (PR #21) y quedó etiquetada como v1.0.0. El Landing Page, publicado en el Sprint 1, se actualizó para que su botón de registro redirija a la aplicación desplegada (PR #1 y PR #2 del repositorio del Landing Page). Los Web Services no forman parte de este sprint.
+Durante el Sprint 2 el alcance de despliegue correspondió a la primera versión de la Frontend Web Application, publicada en GitHub Pages desde la rama main, a la que se integró mediante la rama release/1.0.0 (PR #21) y quedó etiquetada como v1.0.0. El Landing Page, publicado en el Sprint 1, se actualizó para que su botón de registro redirija a la aplicación desplegada (PR #1 y PR #2 del repositorio del Landing Page). Los Web Services no forman parte de este sprint. 
 
-**Tabla 43**  
+**Tabla 44**  
 *Evidencia de despliegue del Sprint 2*
 
 | Producto | Repositorio | URL desplegada | Versión | Estado |
 | --- | --- | --- | --- | --- |
-| Landing Page | https://github.com/NexoStock/smartstock-landing-page | https://nexostock.github.io/smartstock-landing-page/ | v1.1.0 | Desplegado en el Sprint 1; actualizado en el Sprint 2 (registro hacia el frontend) |
-| Frontend Web Application | https://github.com/NexoStock/smartstock-frontend | https://nexostock.github.io/smartstock-frontend/ | v1.0.0 | Primera versión desplegada |
-| Fake API (json-server) | https://github.com/NexoStock/smartstock-frontend/tree/main/server | https://smartstock-fake-api-angular.onrender.com | v1.0.0 | Desplegada |
+| Landing Page |`https://github.com/NexoStock/smartstock-landing-page`|`https://nexostock.github.io/smartstock-landing-page/`| v1.1.0 | Desplegado en el Sprint 1; actualizado en el Sprint 2 (registro hacia el frontend) |
+| Frontend Web Application |`https://github.com/NexoStock/smartstock-frontend`|`https://nexostock.github.io/smartstock-frontend/`| v1.0.0 | Primera versión desplegada |
+| Fake API (json-server) |`https://github.com/NexoStock/smartstock-frontend/tree/main/server`|`https://smartstock-fake-api-angular.onrender.com`| v1.0.0 | Desplegada |
 | Web Services | [aún no creado; Spring Boot] | — | — | Previsto para el Sprint 3 |
 
-*Nota.* Elaboración propia
+*Nota. Elaboración propia*
 
-Las actividades de despliegue fueron: (1) habilitar GitHub Pages con Source: GitHub Actions; (2) crear el workflow deploy.yml («Deploy to GitHub Pages»), que al integrar en main ejecuta un job build (Node 22, npm ci y ng build con --base-href /smartstock-frontend/, copia de index.html como 404.html para el enrutamiento) y un job deploy; (3) preparar la rama release/1.0.0 con cuatro commits de la tarea T-SH.1: versión 1.0.0 en package.json, el workflow, la ruta relativa de las traducciones (i18n/<contexto>/) para que funcionen bajo la ruta base de GitHub Pages, y la URL de la Fake API en environment.ts; (4) actualizar el Landing Page: en el repositorio del Landing Page se cambió APP_URL de http://localhost:4200 a https://nexostock.github.io/smartstock-frontend y se integró a main mediante los PR #1 y #2; y (5) verificar la URL pública. En la primera ejecución el job deploy fue rechazado por las reglas de protección del entorno github-pages, que no permitían la rama main; se agregó main a las ramas permitidas y la reejecución del workflow terminó con éxito. Finalmente se publicó la etiqueta v1.0.0 y la rama main se integró de vuelta en develop mediante el PR #22, de modo que ambas ramas quedaron con el mismo contenido.
+Las actividades de despliegue fueron: (1) habilitar GitHub Pages con Source: GitHub Actions; (2) crear el workflow deploy.yml («Deploy to GitHub Pages»), que al integrar en main ejecuta un job build (Node 22, npm ci y ng build con --base-href /smartstock-frontend/, copia de index.html como 404.html para el enrutamiento) y un job deploy; (3) preparar la rama release/1.0.0 con cuatro commits de la tarea T-SH.1: versión 1.0.0 en package.json, el workflow, la ruta relativa de las traducciones (i18n/<contexto>/) para que funcionen bajo la ruta base de GitHub Pages, y la URL de la Fake API en environment.ts; (4) actualizar el Landing Page: en el repositorio del Landing Page se cambió APP_URL de `http://localhost:4200`a`https://nexostock.github.io/smartstock-frontend`y se integró a main mediante los PR #1 y #2; y (5) verificar la URL pública. 
 
 Como json-server no corre en GitHub Pages, la Fake API se publicó como Web Service de Node en Render (plan gratuito): repositorio NexoStock/smartstock-frontend, rama main, comando de inicio node server/server.js --simulate y variable NODE_VERSION=22. Implementa los contratos documentados en 5.2.2.6 y, al ser plan gratuito, se suspende tras unos 15 minutos sin uso: la primera petición tarda cerca de un minuto y sus datos en memoria se reinician. Cuando exista el backend, solo cambia apiBaseUrl en src/environments/environment.ts.
 
-El despliegue se verificó abriendo el Landing Page y comprobando que el botón de registro abre la pantalla /sign-up del frontend desplegado, y luego abriendo la URL pública del frontend, iniciando sesión con un usuario de prueba, navegando entre los contextos en inglés y español, recargando la página (lo que prueba el 404.html) y confirmando que las peticiones van a la Fake API.
+El despliegue se verificó abriendo el Landing Page y comprobando que el botón de registro abre la pantalla /sign-up del frontend desplegado, y luego abriendo la URL pública del frontend, iniciando sesión  con un usuario de prueba, navegando entre los contextos en inglés y español, recargando la página (lo que prueba el 404.html) y confirmando que las peticiones van a la Fake API.
 
-**Figura 176**  
+**Figura 229**
+
 *Configuración de GitHub Pages con GitHub Actions como fuente*
 
 ![Configuración de GitHub Pages con GitHub Actions como fuente](../assets/chapter-5/sprint2-deploy-github-pages.png)
 
-*Nota.* Pages del repositorio NexoStock/smartstock-frontend; la aplicación se publica con el workflow deploy.yml al integrar en main. Elaboración propia
+*Nota. Pages del repositorio NexoStock/smartstock-frontend; la aplicación se publica con el workflow deploy.yml al integrar en main. Elaboración propia*
 
-**Figura 177**  
+**Figura 230**
+
 *Ejecución del workflow «Deploy to GitHub Pages» con los jobs build y deploy exitosos*
 
 ![Ejecución del workflow «Deploy to GitHub Pages» con los jobs build y deploy exitosos](../assets/chapter-5/sprint2-deploy-github-actions.png)
 
-*Nota.* Ejecución disparada por el merge del PR #21 en main. En la primera corrida, deploy fue rechazado por las reglas del entorno github-pages (no permitían main); tras permitirla, la reejecución terminó con éxito. Elaboración propia
+*Nota. Ejecución disparada por el merge del PR #21 en main. En la primera corrida, deploy fue rechazado por las reglas del entorno github-pages (no permitían main); tras permitirla, la reejecución terminó con éxito. Elaboración propia*
 
-**Figura 178**  
+**Figura 231**
+
 *Fake API desplegada en Render (Live, rama main)*
 
 ![Fake API desplegada en Render (Live, rama main)](../assets/chapter-5/sprint2-deploy-render.png)
 
-*Nota.* Web Service de Node, plan Free, repositorio NexoStock/smartstock-frontend, rama main, URL https://smartstock-fake-api-angular.onrender.com. Elaboración propia
+*Nota. Web Service de Node, plan Free, repositorio NexoStock/smartstock-frontend, rama main, URL `https://smartstock-fake-api-angular.onrender.com`. Elaboración propia*
 
-**Figura 179**  
+**Figura 232**
+
 *Etiqueta v1.0.0 del repositorio*
 
 ![Etiqueta v1.0.0 del repositorio](../assets/chapter-5/sprint2-deploy-tag-v1-0-0.png)
 
-*Nota.* Elaboración propia
+*Nota. Elaboración propia*
 
-**Figura 180**  
+**Figura 233*
+
 *Frontend Web Application funcionando en su URL pública*
 
 ![Frontend Web Application funcionando en su URL pública](../assets/chapter-5/sprint2-deploy-frontend-publico.png)
 
-*Nota.* (a) Dashboard con datos de la Fake API en inglés; (b) el mismo dashboard en español. Elaboración propia
+*Nota. (a) Dashboard con datos de la Fake API en inglés; (b) el mismo dashboard en español. Elaboración propia*
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
-Durante el Sprint 2, el equipo organizó la implementación según los aspectos definidos en la sección 5.2.2.2. Cada integrante trabajó sobre el contexto que lideraba y registró su aporte mediante commits propios en el repositorio NexoStock/smartstock-frontend, aplicando GitFlow y Conventional Commits. El flujo de trabajo seguido se resume en la Tabla 44.
+Durante el Sprint 2, el equipo organizó la implementación según los aspectos definidos en la sección 5.2.2.2. Cada integrante trabajó sobre el contexto que lideraba y registró su aporte mediante commits propios en el repositorio NexoStock/smartstock-frontend, aplicando GitFlow y Conventional Commits. El flujo de trabajo seguido se resume en la Tabla 45.
 
-**Tabla 44**  
+**Tabla 45**  
+
 *Flujo de ramas de GitFlow seguido en el Sprint 2*
 
 | Rama | Nace de | Se integra en | Regla |
@@ -873,7 +1092,7 @@ Durante el Sprint 2, el equipo organizó la implementación según los aspectos 
 | `feature/<contexto>-<tarea>` | develop | develop | Una rama corta por tarea del Sprint Backlog; se integra mediante pull request revisado por otro integrante, con merge commit (`--no-ff`). |
 | `release/<x.y.z>` | develop | main y de vuelta a develop | Prepara la versión a entregar; al integrarse en main se etiqueta con versionado semántico (vX.Y.Z). |
 
-*Nota.* Elaboración propia
+*Nota. Elaboración propia*
 
 Los mensajes de commit siguen Conventional Commits (feat, fix, docs, refactor, test, chore), en inglés, con el contexto como alcance, por ejemplo feat(iam): add login view. El identificador de la tarea se registra en el cuerpo del mensaje.
 
@@ -881,37 +1100,44 @@ Los mensajes de commit siguen Conventional Commits (feat, fix, docs, refactor, t
 
 La vista de contribuyentes de GitHub y la vista Pulse muestran la participación de los cinco integrantes del equipo en el repositorio, con commits distribuidos entre los contextos que cada uno lideró (Figuras 181 y 182).
 
-**Figura 181**  
+**Figura 234**
+
 *Contributors del repositorio NexoStock/smartstock-frontend*
 
 ![Contributors del repositorio NexoStock/smartstock-frontend](../assets/chapter-5/sprint2-colaboracion-contributors.png)
 
-*Nota.* Elaboración propia
+*Nota. Elaboración propia*
 
-**Figura 182**  
+**Figura 235**
+
 *Pulse del repositorio NexoStock/smartstock-frontend*
 
 ![Pulse del repositorio NexoStock/smartstock-frontend](../assets/chapter-5/sprint2-colaboracion-pulse.png)
 
-*Nota.* Elaboración propia
+*Nota. Elaboración propia*
+
 
 ##### Historial de ramas de los repositorios
 
 El grafo de red muestra la aplicación efectiva de GitFlow: las ramas de feature nacen de develop y se integran nuevamente a ella mediante merge commits, y la rama main recibe únicamente la versión publicada a través de release/1.0.0.
 
-**Figura 183**  
+**Figura 236**
+
 *Network graph del repositorio NexoStock/smartstock-frontend*
 
 ![Network graph del repositorio NexoStock/smartstock-frontend](../assets/chapter-5/sprint2-colaboracion-network.png)
 
-*Nota.* Elaboración propia
+*Nota. Elaboración propia*
 
 ### 5.2.3. Sprint 3
 
 #### 5.2.3.1. Sprint Planning 3
 
-**Tabla 45**  
-*Sprint Planning 3 del equipo NexoStock*
+En el Sprint Planning 3 el equipo definió como meta entregar la primera versión desplegada de los Web Services de SmartStock (Spring Boot, Spring Data JPA y MySQL), para que la Frontend Web Application desarrollada en Angular funcione con datos reales y persistentes en lugar de la Fake API. El sprint abarca las Technical Stories TS01 a TS15 (EP09), que en el Sprint 2 se trabajaron como tareas de simulación (mock) y ahora se implementan con Web Services reales. El sprint incluye además la autenticación: registro de negocio, inicio de sesión y token JWT del contexto IAM. La planificación se realizó el 2026-11-02 a las 2:00 PM, en reunión virtual. 
+
+**Tabla 46**  
+
+*Sprint Planning 3*
 
 | Campo | Detalle |
 | --- | --- |
@@ -927,532 +1153,1012 @@ El grafo de red muestra la aplicación efectiva de GitFlow: las ramas de feature
 | Sprint 3 Velocity | 164 horas estimadas. El Sprint 3 está formado por Technical Stories (TS01 a TS15) y tareas técnicas de soporte (TS-SH), integración (TS-INT), revisión (TS-REV) y documentación (TS-DOC); el Product Backlog no asigna Story Points a las Technical Stories, por lo que la capacidad se planificó en horas por integrante. |
 | Sum of Story Points | 0 Story Points de User Stories; 15 Technical Stories y 40 tareas con una estimación total de 164 horas |
 
-*Nota.* Elaboración propia
+*Nota. Elaboración propia*
 
-Para el Sprint 3, el equipo acordó los siguientes puntos:
+Para el Sprint 3 el equipo acordó: (1) cada integrante construye el backend del bounded context que ya construyó en el frontend; (2) los contextos se comunican mediante fachadas ACL y eventos de Spring, y Analytics & Reporting consulta los datos de los demás contextos mediante un modelo de lectura; (3) la seguridad se integra en dos niveles: la base inicial usa una configuración temporal abierta con un negocio fijo, y el filtro JWT reemplaza esa configuración al cerrar el sprint; y (4) cada corrección queda registrada con su evidencia. 
 
-(1) Crear el repositorio NexoStock/smartstock-backend con Java 27, Spring Boot 4.1.1, Spring Data JPA y MySQL, organizado por bounded context y con las capas domain, application, infrastructure e interfaces.
+**Tabla 47**
 
-(2) Conservar el contrato de la Fake API del Sprint 2 (rutas y nombres de campos en español) para que la Web Application solo cambie la URL base.
+*Autocrítica y mejoras acordadas para AV2*
 
-(3) Integrar el trabajo por olas: primero la base compartida, luego el nivel 1 de cada contexto y, por último, IAM con JWT, que protege todas las rutas.
+| **ID** | **Entrega** | **Autocrítica** | **Mejora acordada** | **Evidencia** |
+|---|---|---|---|---|
+| M01 | TB1 | El docente observó el uso de hipervínculos. | El índice se presenta sin enlaces; el resto de las direcciones son enlaces que se prueban uno por uno en el PDF final. | Índice y secciones 5.2.3.3, 5.2.3.6, 5.2.3.7 y 5.4 |
+| M02 | TB1 | La rúbrica de mejora continua señaló persistencia de errores y ausencia de algunos artefactos identificados con anterioridad. | Contrastar cada sección con el enunciado antes de la entrega y cerrar todo texto "Pendiente". | Secciones 5.1 y 5.2.3 |
+| M03 | TB1 | La rúbrica de comunicación señaló errores de ortografía o gramática. | Revisar ortografía antes de entregar; un segundo integrante lee cada capítulo. | Todo el informe |
+| M04 | TB1 | Las secciones 5.1.1, 5.1.2 y 5.1.4 conservan textos "Pendiente" y un proveedor de despliegue distinto al realmente usado. | Completar repositorios, entorno de desarrollo y despliegue con lo realmente implementado. | Secciones 5.1.1, 5.1.2 y 5.1.4 |
+| M05 | TB1 | Los diagramas C4 hablan de módulos "previstos" para el Sprint 3. | Cambiar a "implementado" y verificar contra el código. | Secciones 4.6.3 y 4.6.4 |
 
-(4) Revisar cada pull request de forma cruzada (Candy → Leo → Lore → Angel → Kiara → Candy) e integrarlo con merge commit.
-
-(5) Desplegar los Web Services con Docker y una base MySQL administrada, sin secretos en el repositorio.
-
-(6) Documentar los endpoints con OpenAPI desde el código (springdoc-openapi).
+*Nota. Elaboración propia*
 
 #### 5.2.3.2. Aspect Leaders and Collaborators
 
-En el Sprint 3 los aspectos coinciden con los bounded contexts de los Web Services, a los que se suma el despliegue. Cada integrante lideró el contexto que ya lideraba en el Sprint 2 y colaboró en los demás mediante revisiones cruzadas de pull requests. Los aspectos son: IAM (registro, inicio de sesión con JWT, recuperación de contraseña y aislamiento por negocio); IoT Device (sensores, clave de dispositivo y lecturas); Alerts & Restocking (alertas de stock bajo y canales de notificación por correo y WhatsApp); Product Catalog (productos, proveedores y compras); Inventory Monitoring (movimientos de stock, ventas y comparación de inventario); Analytics & Reporting (dashboard y reportes); y Deployment (Docker y despliegue en Railway).
+Los aspectos de este sprint corresponden a los bounded contexts del backend, implementados como módulos de un monolito Spring Boot: IAM (registro, inicio de sesión, token JWT y recuperación de contraseña), IoT Device (sensores y lecturas), Alerts & Restocking (alertas, notificaciones por correo y WhatsApp, y Ventas), Product Catalog (productos, proveedores y compras), Inventory Monitoring (movimientos y stock) y Analytics & Reporting (dashboard y reportes). Cada aspecto tiene un líder (L) y los demás colaboran (C) revisando pull requests y probando la integración. Esta distribución se refleja en la selección de tasks de la sección 5.2.3.3 y en la autoría de los commits del repositorio. 
 
-**Tabla 46**  
-*Matriz de líderes (L) y colaboradores (C) por aspecto del Sprint 3*
+**Tabla 48**  
 
-| Team Member (Last Name, First Name) | GitHub Username | IAM | IoT Device | Alerts & Restocking | Product Catalog | Inventory Monitoring | Analytics & Reporting | Deployment |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Crispin Valdivia, Angel Gabriel | @FaureGalliard | C | L | C | C | C | C | L |
-| Lopez Rimachi, Sebastian Leonardo | @leonardoXd1323 | C | C | L | C | C | C | C |
-| Montañez Salinas, Lorena Ariana | @Lore-MS | L | C | C | C | C | C | C |
-| Tuesta Girón, Kiara Lucia | @kitu05g | C | C | C | C | L | L | C |
-| Vizcarra Mamani, Candy Milagros | @candyvizz | C | C | C | L | C | C | C |
+*Matriz de liderazgo y colaboración (LACX) del Sprint 3*
 
-*Nota.* Elaboración propia
+| **Team Member (Last Name, First Name)** | **GitHub Username** | **IAM** | **IoT Device** | **Alerts & Restocking** | **Product Catalog** | **Inventory Monitoring** | **Analytics & Reporting** |
+| --------------------------------------- | ------------------- | ------- | -------------- | ----------------------- | ------------------- | ------------------------ | ------------------------- |
+| Crispin Valdivia, Angel Gabriel | @FaureGalliard | C | L | C | C | C | C |
+| Lopez Rimachi, Sebastian Leonardo | @leonardoXd1323 | C | C | L | C | C | C |
+| Montañez Salinas, Lorena Ariana | @Lore-MS | L | C | C | C | C | C |
+| Tuesta Girón, Kiara Lucia | @kitu05g | C | C | C | C | L | L |
+| Vizcarra Mamani, Candy Milagros | @candyvizz | C | C | C | L | C | C |
 
-Según la matriz, Lorena lidera IAM; Ángel, IoT Device y Deployment; Sebastián, Alerts & Restocking y el registro de ventas; Candy, Product Catalog junto con proveedores y compras; y Kiara, Inventory Monitoring y Analytics & Reporting. Ángel colaboró además en Analytics & Reporting con los endpoints de dashboard, reportes y comparación de inventario.
+*Nota. Elaboración propia*
 
 #### 5.2.3.3. Sprint Backlog 3
 
-El Sprint 3 contiene las Technical Stories TS01 a TS15, que implementan con Web Services reales los contratos simulados en el Sprint 2, y las tareas técnicas de base, despliegue, integración y documentación. Cada tarea se identifica como `T-TS##.n` o `T-<tipo>3.n` y tiene un único responsable. El tablero del sprint está en Trello: https://trello.com/invite/b/6aa988a0941a5fb8c814af43/ATTI5eecabb28fdc9c85d7ba8336b688a97353B8B08C/trello. La Figura 184 muestra el board del Sprint 3.
+El objetivo del Sprint 3 es entregar la primera versión desplegada de los Web Services de SmartStock, para que la aplicación Angular funcione con datos reales y persistentes. El sprint contiene las 15 Technical Stories (TS01 a TS15), que suman 45 Story Points, y 40 tareas con 164 horas en total. Las tareas de soporte (setup, documentación, integración, revisión cruzada y pruebas) no tienen Story Points propios. La autenticación (T-TS04.1 a T-TS04.4) se implementa en este sprint: el despliegue inicial usó una seguridad temporal abierta y el filtro JWT la reemplazó al cierre. El tablero del sprint está en Trello (figura 236) y su dirección pública, escrita como texto simple, es: 
+URL pública del tablero de Trello:`https://trello.com/b/m2D1USjs/sprint-backlog-3-source`
 
-**Figura 184**  
-*Board del Sprint 3 en Trello*
+**Figura 237**
 
-![Board del Sprint 3 en Trello](../assets/chapter-5/sprint3-sprint-backlog-trello.png)
+*Tablero de Trello del Sprint Backlog 3*
 
-*Nota.* Elaboración propia
+![Board del Sprint 3 en Trello](../assets/chapter-5/image264.png)
 
-**Tabla 47**  
+*Nota. Elaboración propia*
+
+Las tareas se identifican como T-TS##.# (Technical Stories), T-SH3.# (setup compartido), T-DOC3.# (documentación), T-INT3.# (integración) y T-REV3.# (revisión cruzada).
+
+**Tabla 49**  
+
 *Sprint Backlog 3*
 
-| Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| TS-SH | Soporte técnico | T-SH3.1 | Backend repository and base | Repo nexostock-backend, ramas, Initializr, pom (Java 27, Boot 4.1.1), shared, Result, i18n, perfiles local/prod. | 6 | Vizcarra Mamani, Candy Milagros | Done |
-| TS13 | Catálogo de productos | T-TS13.1 | Product domain and persistence | Product (validate-before-mutate), value objects, converters, repository, ProductCreatedEvent, ThresholdChangedEvent. | 4 | Vizcarra Mamani, Candy Milagros | Done |
-| TS13 | Catálogo de productos | T-TS13.2 | Product services and controller | Command/query services con rollback, assemblers, /api/productos con OpenAPI. | 4 | Vizcarra Mamani, Candy Milagros | Done |
-| TS09 | Proveedores y compras | T-TS09.1 | Suppliers | Proveedores (/api/proveedores). | 5 | Vizcarra Mamani, Candy Milagros | Done |
-| TS-REV | Revisión cruzada | T-REV3.1 | Review PRs of level 1 | Revisar PR de Alertas y Ventas con la regla espejo y @Operation. | 2 | Vizcarra Mamani, Candy Milagros | Done |
-| TS10 | Proveedores y compras | T-TS10.1 | Purchases and receipt | Compras con InventoryContextFacade.addStockForPurchase, recepción repetida y rollback. | 6 | Vizcarra Mamani, Candy Milagros | Done |
-| TS-REV | Revisión cruzada | T-REV3.2 | Review IAM PR | Revisar PR de IAM. | 2 | Vizcarra Mamani, Candy Milagros | Done |
-| TS12 | Proveedores y compras | T-TS12.1 | Purchase queries and release | Consultas de compras y release/1.0.0 (congelamiento). | 3 | Vizcarra Mamani, Candy Milagros | Done |
-| TS-DOC | Soporte técnico | T-DOC3.2 | Swagger captures Catalog and Purchasing | Capturas y documentación de endpoints (5.2.3.6). | 2 | Vizcarra Mamani, Candy Milagros | Done |
-| TS-DOC | Soporte técnico | T-DOC3.9 | Section 5.1.1 (draft) | Redactar 5.1.1 con evidencias; Kiara revisa. | 3 | Vizcarra Mamani, Candy Milagros | Done |
-| TS14 | Movimientos de stock | T-TS14.1 | Stock movement engine | MovementCommandService con bloqueo de fila, StockChangedEvent, InventoryContextFacade. | 8 | Tuesta Girón, Kiara Lucia | Done |
-| TS-SH | Soporte técnico | T-SH3.7 | Business rule tests | JUnit del motor de stock y reglas; ventas concurrentes contra MySQL. | 4 | Tuesta Girón, Kiara Lucia | Done |
-| TS02 | Consulta de stock | T-TS02.1 | Stock queries | Stock actual, detalle con sensor. | 4 | Tuesta Girón, Kiara Lucia | Done |
-| TS02 | Consulta de stock | T-TS02.2 | Comparison and movements | Comparación y /api/movimientos-stock (filtro de fechas). | 6 | Tuesta Girón, Kiara Lucia | Done |
-| TS15 | Analytics | T-TS15.1 | Dashboard and reports | /api/dashboard y /api/reportes con fórmula, período y caso sin datos. | 6 | Crispin Valdivia, Angel Gabriel | Done |
-| TS-DOC | Soporte técnico | T-DOC3.4 | Swagger captures Inventory and Analytics | Capturas y documentación (5.2.3.6). | 3 | Tuesta Girón, Kiara Lucia | Done |
-| TS-DOC | Soporte técnico | T-DOC3.10 | Review of section 5.1.1 | Revisar el borrador de Candy y aportar su evidencia. | 2 | Tuesta Girón, Kiara Lucia | Done |
-| TS03 | Alertas de stock bajo | T-TS03.1 | Alert rules R19–R21 | Alertas con activeKey única, evento después de commit, destinatario por negocio (IamContextFacade). | 6 | Lopez Rimachi, Sebastian Leonardo | Done |
-| TS-DOC | Soporte técnico | T-DOC3.5 | Trello cards | Cargar las cards con responsable, contexto, nivel, estado y evidencia real. | 2 | Lopez Rimachi, Sebastian Leonardo | Done |
-| TS06 | Ventas | T-TS06.1 | Sales domain and persistence | Sale, SaleItem, requestKey única, repositorio. | 4 | Lopez Rimachi, Sebastian Leonardo | Done |
-| TS03 | Alertas de stock bajo | T-TS03.2 | Notification channels | Cola con reclamo atómico PENDING→PROCESSING→SENT/FAILED. | 4 | Lopez Rimachi, Sebastian Leonardo | Done |
-| TS07 | Ventas | T-TS07.1 | RegisterSale | Precio del catálogo, venta + baja de stock en una transacción, idempotencia, rollback. | 6 | Lopez Rimachi, Sebastian Leonardo | Done |
-| TS08 | Ventas | T-TS08.1 | Sales queries and controller | GET /api/ventas y /api/ventas/{code}; Idempotency-Key; por negocio. | 3 | Lopez Rimachi, Sebastian Leonardo | Done |
-| TS03 | Alertas de stock bajo | T-TS03.3 | Email and WhatsApp senders | SMTP y Twilio por variables de entorno. | 3 | Lopez Rimachi, Sebastian Leonardo | Done |
-| TS03 | Alertas de stock bajo | T-TS03.4 | Retry and queries | RetryNotificationCommand, UpdateChannels y las queries restantes. | 2 | Lopez Rimachi, Sebastian Leonardo | Done |
-| TS-DOC | Soporte técnico | T-DOC3.3 | Swagger captures Alerts and Sales | Capturas y documentación (5.2.3.6). | 3 | Lopez Rimachi, Sebastian Leonardo | Done |
-| TS-DOC | Soporte técnico | T-DOC3.11 | Execution evidence 5.2.3.5 | Capturas de la Web App con la API y enlace al video. | 3 | Lopez Rimachi, Sebastian Leonardo | Done |
-| TS-DOC | Soporte técnico | T-DOC3.6a | Trello board | Crear tablero, invitar a todas. | 2 | Montañez Salinas, Lorena Ariana | Done |
-| TS04 | Autenticación | T-TS04.1 | IAM domain and persistence | Business (teléfono opcional), Account, EmailAddress, repositorios, IamContextFacade. | 5 | Montañez Salinas, Lorena Ariana | Done |
-| TS04 | Autenticación | T-TS04.2 | Register, login and JWT service | BCrypt, JwtTokenService, registro con 409 en duplicado. | 5 | Montañez Salinas, Lorena Ariana | Done |
-| TS04 | Autenticación | T-TS04.3 | JWT filter and integration | Filtro JWT, borrar lo temporal, rutas públicas. | 5 | Montañez Salinas, Lorena Ariana | Done |
-| TS-INT | Integración | T-INT3.1 | Login to sale integration tests | Registro → login → producto → stock → venta → alerta; 401/403; aislamiento por negocio. | 4 | Montañez Salinas, Lorena Ariana | Done |
-| TS-DOC | Soporte técnico | T-DOC3.6 | Sprint Backlog table | Intro + captura del tablero + URL público + tabla en texto. | 2 | Montañez Salinas, Lorena Ariana | Done |
-| TS01 | Dispositivos IoT | T-TS01.1 | Sensors and readings | Clave de dispositivo (hash), POST /api/device-readings/{codigo}, duplicados y fuera de orden. | 8 | Crispin Valdivia, Angel Gabriel | Done |
-| TS05 | Dispositivos IoT | T-TS05.1 | Sensor status | Listado y estado provisional. | 3 | Crispin Valdivia, Angel Gabriel | Done |
-| TS-SH | Soporte técnico | T-SH3.3 | Dockerfile and CI | Dockerfile Java 27, perfil prod, CI con Java 27. | 5 | Crispin Valdivia, Angel Gabriel | Done |
-| TS-SH | Soporte técnico | T-SH3.5 | Deploy Web Services and MySQL | Render (Docker) + Aiven, variables, CORS, health; nivel 1 parcial. | 8 | Crispin Valdivia, Angel Gabriel | Done |
-| TS05 | Dispositivos IoT | T-TS05.2 | Link sensor to product | Vincular sensor y producto. | 3 | Crispin Valdivia, Angel Gabriel | Done |
-| TS04 | Autenticación | T-TS04.4 | Forgot and reset password | Token de un solo uso, hash, respuesta que no revela el correo (apoyo a IAM). | 4 | Montañez Salinas, Lorena Ariana | Done |
-| TS-DOC | Soporte técnico | T-DOC3.7 | Deployment evidence | Capturas y redacción de 5.2.3.7 de los 3 productos. | 4 | Crispin Valdivia, Angel Gabriel | Done |
+| **Sprint #** | **Story Id** | **Story Title** | **Task Id** | **Task Title** | **Task Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+|---|---|---|---|---|---|---:|---|---|
+| 3 | TS01 | Dispositivos IoT | T-TS01.1 | Sensors and readings | Clave de dispositivo (hash), POST /api/device-readings/{codigo}, duplicados y fuera de orden. | 8 | Crispin Valdivia, Angel Gabriel (@FaureGalliard) | Done |
+| 3 | TS02 | Consulta de stock | T-TS02.1 | Stock queries | Stock actual, detalle con sensor. | 4 | Tuesta Girón, Kiara Lucia (@kitu05g) | Done |
+| 3 | TS02 | Consulta de stock | T-TS02.2 | Comparison and movements | Comparación y /api/movimientos-stock (filtro de fechas). | 6 | Tuesta Girón, Kiara Lucia (@kitu05g) | Done |
+| 3 | TS03 | Alertas de stock bajo | T-TS03.1 | Alert rules R19–R21 | Alertas con activeKey única, evento después de commit, destinatario por negocio (IamContextFacade). | 6 | Lopez Rimachi, Sebastian Leonardo (@leonardoXd1323) | Done |
+| 3 | TS03 | Alertas de stock bajo | T-TS03.2 | Notification channels | Cola con reclamo atómico PENDING→PROCESSING→SENT/FAILED. | 4 | Lopez Rimachi, Sebastian Leonardo (@leonardoXd1323) | Done |
+| 3 | TS03 | Alertas de stock bajo | T-TS03.3 | Email and WhatsApp senders | SMTP y Twilio por variables de entorno. | 3 | Lopez Rimachi, Sebastian Leonardo (@leonardoXd1323) | Done |
+| 3 | TS03 | Alertas de stock bajo | T-TS03.4 | Retry and queries | RetryNotificationCommand, UpdateChannels y las queries restantes. | 2 | Lopez Rimachi, Sebastian Leonardo (@leonardoXd1323) | Done |
+| 3 | TS04 | Autenticación | T-TS04.1 | IAM domain and persistence | Business (teléfono opcional), Account, EmailAddress, repositorios, IamContextFacade. | 5 | Montañez Salinas, Lorena Ariana (@Lore-MS) | Done |
+| 3 | TS04 | Autenticación | T-TS04.2 | Register, login and JWT service | BCrypt, JwtTokenService, registro con 409 en duplicado. | 5 | Montañez Salinas, Lorena Ariana (@Lore-MS) | Done |
+| 3 | TS04 | Autenticación | T-TS04.3 | JWT filter and integration | El commit del filtro lo integró Candy en feature/iam-security. | 5 | Montañez Salinas, Lorena Ariana (@Lore-MS) | Done |
+| 3 | TS04 | Autenticación | T-TS04.4 | Forgot and reset password | Token de un solo uso, hash y respuesta que no revela el correo. | 4 | Montañez Salinas, Lorena Ariana (@Lore-MS) | Done |
+| 3 | TS05 | Dispositivos IoT | T-TS05.1 | Sensor status | Listado y estado provisional. | 3 | Crispin Valdivia, Angel Gabriel (@FaureGalliard) | Done |
+| 3 | TS05 | Dispositivos IoT | T-TS05.2 | Link sensor to product | Vincular sensor y producto. | 3 | Crispin Valdivia, Angel Gabriel (@FaureGalliard) | Done |
+| 3 | TS06 | Ventas | T-TS06.1 | Sales domain and persistence | Sale, SaleItem, requestKey única, repositorio. | 4 | Lopez Rimachi, Sebastian Leonardo (@leonardoXd1323) | Done |
+| 3 | TS07 | Ventas | T-TS07.1 | RegisterSale | Precio del catálogo, venta + baja de stock en una transacción, idempotencia, rollback. | 6 | Lopez Rimachi, Sebastian Leonardo (@leonardoXd1323) | Done |
+| 3 | TS08 | Ventas | T-TS08.1 | Sales queries and controller | GET /api/ventas y /api/ventas/{code}; Idempotency-Key; por negocio. | 3 | Lopez Rimachi, Sebastian Leonardo (@leonardoXd1323) | Done |
+| 3 | TS09 | Proveedores y compras | T-TS09.1 | Suppliers | Proveedores (/api/proveedores). | 5 | Vizcarra Mamani, Candy Milagros (@candyvizz) | Done |
+| 3 | TS10 | Proveedores y compras | T-TS10.1 | Purchases and receipt | Compras con InventoryContextFacade.addStockForPurchase, recepción repetida y rollback. | 6 | Vizcarra Mamani, Candy Milagros (@candyvizz) | Done |
+| 3 | TS12 | Proveedores y compras | T-TS12.1 | Purchase queries and release | Consultas de compras (listado y detalle por id). | 3 | Vizcarra Mamani, Candy Milagros (@candyvizz) | Done |
+| 3 | TS13 | Catálogo de productos | T-TS13.1 | Product domain and persistence | Product (validate-before-mutate), value objects, converters, repository, ProductCreatedEvent, ThresholdChangedEvent. | 4 | Vizcarra Mamani, Candy Milagros (@candyvizz) | Done |
+| 3 | TS13 | Catálogo de productos | T-TS13.2 | Product services and controller | Command/query services con rollback, assemblers, /api/productos con OpenAPI. | 4 | Vizcarra Mamani, Candy Milagros (@candyvizz) | Done |
+| 3 | TS14 | Movimientos de stock | T-TS14.1 | Stock movement engine | MovementCommandService con bloqueo de fila, StockChangedEvent, InventoryContextFacade. | 8 | Tuesta Girón, Kiara Lucia (@kitu05g) | Done |
+| 3 | TS15 | Analytics | T-TS15.1 | Dashboard and reports | /api/dashboard y /api/reportes con fórmula, período y caso sin datos. | 6 | Tuesta Girón, Kiara Lucia (@kitu05g) | Done |
+| 3 | TS-DOC | Soporte técnico | T-DOC3.1 | Review of section 5.1.1 | Revisar el borrador de Candy y aportar su evidencia. | 2 | Tuesta Girón, Kiara Lucia (@kitu05g) | Done |
+| 3 | TS-DOC | Soporte técnico | T-DOC3.2 | Execution evidence 5.2.3.5 | Capturas de la Web App con la API y enlace al video. | 3 | Lopez Rimachi, Sebastian Leonardo (@leonardoXd1323) | Done |
+| 3 | TS-DOC | Soporte técnico | T-DOC3.3 | Swagger captures Catalog and Purchasing | Capturas y documentación de endpoints (5.2.3.6). | 2 | Vizcarra Mamani, Candy Milagros (@candyvizz) | Done |
+| 3 | TS-DOC | Soporte técnico | T-DOC3.4 | Swagger captures Alerts and Sales | Capturas y documentación (5.2.3.6). | 3 | Lopez Rimachi, Sebastian Leonardo (@leonardoXd1323) | Done |
+| 3 | TS-DOC | Soporte técnico | T-DOC3.5 | Swagger captures Inventory and Analytics | Capturas y documentación (5.2.3.6). | 3 | Tuesta Girón, Kiara Lucia (@kitu05g) | Done |
+| 3 | TS-DOC | Soporte técnico | T-DOC3.6 | Trello cards | Cargar las cards con responsable, contexto, nivel, estado y evidencia real. | 2 | Lopez Rimachi, Sebastian Leonardo (@leonardoXd1323) | Done |
+| 3 | TS-DOC | Soporte técnico | T-DOC3.7 | Sprint Backlog table | Intro + captura del tablero + URL público + tabla en texto. | 2 | Montañez Salinas, Lorena Ariana (@Lore-MS) | Done |
+| 3 | TS-DOC | Soporte técnico | T-DOC3.8 | Trello board | Crear tablero, invitar a todas. | 2 | Montañez Salinas, Lorena Ariana (@Lore-MS) | Done |
+| 3 | TS-DOC | Soporte técnico | T-DOC3.9 | Deployment evidence | Capturas y redacción de 5.2.3.7 de los 3 productos. | 4 | Crispin Valdivia, Angel Gabriel (@FaureGalliard) | Done |
+| 3 | TS-DOC | Soporte técnico | T-DOC3.10 | Section 5.1.1 (draft) | Redactar 5.1.1 con evidencias; Kiara revisa. | 3 | Vizcarra Mamani, Candy Milagros (@candyvizz) | Done |
+| 3 | TS-INT | Integración | T-INT3.1 | Login to sale integration tests | Registro → login → producto → stock → venta → alerta; 401/403; aislamiento por negocio. | 4 | Montañez Salinas, Lorena Ariana (@Lore-MS) | Done |
+| 3 | TS-REV | Revisión cruzada | T-REV3.1 | Review PRs of level 1 | Revisar PR de Alertas y Ventas con la regla espejo y @Operation. | 2 | Vizcarra Mamani, Candy Milagros (@candyvizz) | Done |
+| 3 | TS-REV | Revisión cruzada | T-REV3.2 | Review IAM PR | Revisar PR de IAM. | 2 | Vizcarra Mamani, Candy Milagros (@candyvizz) | Done |
+| 3 | TS-SH | Soporte técnico | T-SH3.1 | Backend repository and base | Repo smartstock-backend, ramas, Initializr, pom (Java 27, Boot 4.1.1), shared, Result, i18n, perfiles local/prod. | 6 | Vizcarra Mamani, Candy Milagros (@candyvizz) | Done |
+| 3 | TS-SH | Soporte técnico | T-SH3.2 | Dockerfile and CI | Dockerfile Java 27, perfil prod, CI con Java 27. | 5 | Crispin Valdivia, Angel Gabriel (@FaureGalliard) | Done |
+| 3 | TS-SH | Soporte técnico | T-SH3.3 | Deploy Web Services and MySQL | Render (Docker) + Railway, variables, CORS, health; nivel 1 parcial; versiones v1.0.0, v1.1.0 y v1.1.1. | 8 | Crispin Valdivia, Angel Gabriel (@FaureGalliard) | Done |
+| 3 | TS-SH | Soporte técnico | T-SH3.4 | Business rule tests | JUnit del motor de stock y reglas; ventas concurrentes contra MySQL. | 4 | Tuesta Girón, Kiara Lucia (@kitu05g) | Done |
 
-*Nota.* Elaboración propia
-
-La estimación total es de 164 horas, distribuidas así: Ángel 37 h (IoT Device, Docker, despliegue y dashboard), Candy 37 h (base del repositorio, catálogo, proveedores y compras), Sebastián 36 h (alertas, notificaciones y ventas), Kiara 27 h (motor de stock, consultas y pruebas) y Lorena 27 h (IAM, JWT y recuperación de contraseña).
+*Nota. Elaboración propia. Estados: To Do · In Progress · Review · Done; al cierre del sprint todas las tareas están en Done. Horas por integrante: Angel 31, Candy 37, Kiara 33, Leo 36, Lore 27; total: 164.*
 
 #### 5.2.3.4. Development Evidence for Sprint Review
 
-Durante el Sprint 3 se implementaron los Web Services de SmartStock en el repositorio NexoStock/smartstock-backend (Java 27, Spring Boot 4.1.1, Spring Data JPA y MySQL), organizados por bounded context: IAM, IoT Device, Product Catalog, Inventory Monitoring (con ventas, compras y proveedores) y Alerts & Restocking. Cada tarea del Sprint Backlog se desarrolló en una rama `feature/<contexto>` o `fix/<contexto>` creada desde develop, que se integró mediante pull request revisado por otro integrante, con merge commit. La versión se publicó a través de la rama `release/1.0.0`.
+En este sprint la implementación se concentró en el repositorio de Web Services (Spring Boot, Spring Data JPA y MySQL), organizado en un paquete por bounded context con las capas domain, infrastructure, application e interfaces. Cada integrante trabajó en una rama feature/<contexto>-<tarea> creada desde develop, y los cambios se integraron mediante pull request con merge commit. Los mensajes siguen Conventional Commits, en inglés y en minúsculas. El contexto IAM, a cargo de Lorena, se desarrolló en tres ramas: feature/iam-auth (dominio, persistencia, servicios y controlador, en cuatro commits, uno por capa), feature/iam-security (filtro JWT y aislamiento por negocio) y feature/iam-password-reset (recuperación de contraseña, en cinco commits). La tabla reúne los commits más representativos de cada integrante. 
 
-La Tabla 48 presenta los commits del sprint agrupados por la rama en la que se desarrollaron, en el orden en que se integraron. Siguen la convención de Conventional Commits, en inglés y en minúsculas.
+**Tabla 50**
 
-**Tabla 48**  
-*Commits del Sprint 3 en el repositorio smartstock-backend*
+*Commits relacionados con la implementación del Sprint 3*
 
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
-| --- | --- | --- | --- | --- | --- |
-| NexoStock/smartstock-backend | `feature/shared-base` | `4e5b6c1` | `feat(shared-catalog): add backend foundation and product catalog` | — | 06/11/2026 |
-| NexoStock/smartstock-backend | `main` | `156ed6d` | `fix(shared): resolve CORS bean ambiguity in local security` | — | 06/11/2026 |
-| NexoStock/smartstock-backend | `feature/iam-auth` | `0824e63` | `feat(iam): add domain model for accounts and businesses` | — | 06/11/2026 |
-| NexoStock/smartstock-backend | `feature/iam-auth` | `1ded298` | `feat(iam): add persistence, hashing and jwt infrastructure` | — | 07/11/2026 |
-| NexoStock/smartstock-backend | `feature/iam-auth` | `0dae512` | `feat(iam): add account command and query services` | — | 07/11/2026 |
-| NexoStock/smartstock-backend | `feature/iam-auth` | `390a007` | `feat(iam): add authentication controller and context facade` | — | 07/11/2026 |
-| NexoStock/smartstock-backend | `feature/iam-security` | `1ddba6c` | `feat(iam): enforce JWT authentication and tenant isolation` | — | 09/11/2026 |
-| NexoStock/smartstock-backend | `feature/inventory-stock-management` | `ce38b3e` | `feat(inventory): add Movement aggregate and MovementType enum` | — | 07/11/2026 |
-| NexoStock/smartstock-backend | `feature/inventory-stock-management` | `11d72f6` | `feat(inventory): add AdjustStockCommand and RegisterMovementCommand domain commands` | — | 07/11/2026 |
-| NexoStock/smartstock-backend | `feature/inventory-stock-management` | `ca83dde` | `feat(inventory): add StockChangedEvent domain event` | — | 07/11/2026 |
-| NexoStock/smartstock-backend | `feature/inventory-stock-management` | `6b22bc2` | `feat(inventory): add MovementRepository JPA interface` | — | 07/11/2026 |
-| NexoStock/smartstock-backend | `feature/inventory-stock-management` | `8acef16` | `feat(inventory): add MovementCommandService interface` | — | 07/11/2026 |
-| NexoStock/smartstock-backend | `feature/inventory-stock-management` | `3146465` | `feat(inventory): implement MovementCommandServiceImpl with transaction management` | — | 07/11/2026 |
-| NexoStock/smartstock-backend | `feature/inventory-stock-management` | `3f84008` | `feat(inventory): add ProductCreatedEventHandler to register initial stock` | — | 07/11/2026 |
-| NexoStock/smartstock-backend | `feature/inventory-stock-management` | `5987b71` | `feat(inventory): add InventoryContextFacade for Sales and Purchasing ACL` | — | 07/11/2026 |
-| NexoStock/smartstock-backend | `feature/inventory-stock-management` | `07b5b71` | `feat(inventory): add StockController REST endpoint for stock adjustments` | — | 07/11/2026 |
-| NexoStock/smartstock-backend | `feature/inventory-stock-management` | `b179391` | `fix(inventory): remove UTF-8 BOM from Java sources` | — | 09/11/2026 |
-| NexoStock/smartstock-backend | `feature/purchasing` | `6347961` | `wip(purchasing): save purchasing implementation` | — | 06/11/2026 |
-| NexoStock/smartstock-backend | `feature/purchasing` | `d293143` | `test(purchasing): add supplier purchase and purchase item unit tests` | — | 06/11/2026 |
-| NexoStock/smartstock-backend | `feature/purchasing` | `d614d57` | `test(purchasing): remove misplaced supplier test` | — | 06/11/2026 |
-| NexoStock/smartstock-backend | `fix/catalog-enforce-stock-capacity` | `bb546fd` | `fix(catalog): enforce maximum stock capacity` | — | 10/11/2026 |
-| NexoStock/smartstock-backend | `feature/docker-ci` | `94ef743` | `chore(build): keep mvnw with LF line endings` | With core.autocrlf on Windows the wrapper was checked out with CRLF and could not run inside the Linux image. | 08/11/2026 |
-| NexoStock/smartstock-backend | `feature/docker-ci` | `4b49111` | `chore(docker): add dockerignore` | Keeps build output, IDE files, local secrets (.env) and dev tools out of the image. | 08/11/2026 |
-| NexoStock/smartstock-backend | `feature/docker-ci` | `1f208e7` | `build(docker): add multi-stage Dockerfile with Java 27` | Builds with eclipse-temurin:27-jdk and runs on 27-jre as a non-root user with the prod profile, which has no default secrets. | 08/11/2026 |
-| NexoStock/smartstock-backend | `feature/docker-ci` | `565b4cf` | `ci: add GitHub Actions workflow with Java 27` | Runs ./mvnw clean verify on pushes and pull requests to main and develop, prints the Java and Maven versions, and checks that the Docker image builds. | 08/11/2026 |
-| NexoStock/smartstock-backend | `feature/devices-sensors` | `0bdc5d4` | `feat(devices): add sensor and sensor reading aggregates` | Sensor keeps only the SHA-256 of its device key, the linked product and the last reading. Its status follows rule R11: available when not linked, online with a reading in the last 5 minutes, disconnected otherwise. | 08/11/2026 |
-| NexoStock/smartstock-backend | `feature/devices-sensors` | `d82d8ae` | `feat(devices): add register sensor and receive reading commands` | A reading must weigh between 0 and 100000 kg and cannot come from the future; when the device has no clock the server time is used. | 08/11/2026 |
-| NexoStock/smartstock-backend | `feature/devices-sensors` | `ad8ca4e` | `feat(devices): add link and unlink sensor commands` | — | 08/11/2026 |
-| NexoStock/smartstock-backend | `feature/devices-sensors` | `111e42d` | `feat(devices): add rotate device key and delete sensor commands` | — | 08/11/2026 |
-| NexoStock/smartstock-backend | `feature/devices-sensors` | `32877ed` | `feat(devices): add sensor queries` | List, detail and latest readings of a sensor, always scoped to the business. | 08/11/2026 |
-| NexoStock/smartstock-backend | `feature/devices-sensors` | `f3d14dc` | `feat(devices): add sensor and reading repositories` | — | 08/11/2026 |
-| NexoStock/smartstock-backend | `feature/devices-sensors` | `481d624` | `feat(catalog): expose product unit weight through the context facade` | Devices needs the unit weight to turn the weight on the scale into units. The method only reads; nothing else in Catalog changes. | 08/11/2026 |
-| NexoStock/smartstock-backend | `feature/devices-sensors` | `b89b104` | `feat(devices): add catalog outbound service` | Devices reads product name and unit weight only through CatalogContextFacade. | 08/11/2026 |
-| NexoStock/smartstock-backend | `feature/devices-sensors` | `14d84ae` | `feat(devices): add sensor command service interface` | — | 08/11/2026 |
-| NexoStock/smartstock-backend | `feature/devices-sensors` | `3239248` | `feat(devices): add device key generation and hashing` | Keys are 32 random bytes; only their SHA-256 is stored and the comparison runs in constant time. | 08/11/2026 |
-| NexoStock/smartstock-backend | `feature/devices-sensors` | `751fd63` | `feat(devices): implement sensor command service` | A missing or foreign X-Device-Key returns 401 with the same message as an unknown device. Duplicate and out-of-order readings return 409. Linking checks the product in Catalog and allows one sensor per product. | 08/11/2026 |
-| NexoStock/smartstock-backend | `feature/devices-sensors` | `d6d762a` | `feat(devices): add sensor query service` | — | 08/11/2026 |
-| NexoStock/smartstock-backend | `feature/devices-sensors` | `a38f670` | `feat(devices): add sensor and reading history resources` | Field names follow the Angular SensorResource: codigo, productoId, productoNombre, estado, ultimaLecturaAt, pesoKg and unidades. | 08/11/2026 |
-| NexoStock/smartstock-backend | `feature/devices-sensors` | `ae8add8` | `feat(devices): add request resources for sensors and readings` | — | 08/11/2026 |
-| NexoStock/smartstock-backend | `feature/devices-sensors` | `ec06fc2` | `feat(devices): add sensor resource assembler` | Units on the scale are the last weight divided by the product unit weight, rounded down. | 08/11/2026 |
-| NexoStock/smartstock-backend | `feature/devices-sensors` | `713b73d` | `feat(devices): add sensors controller` | List, detail, latest readings, register, link (POST /api/sensores/vincular, as the web app calls it), unlink, rotate key and delete. Every endpoint has @Operation and @ApiResponses. | 08/11/2026 |
-| NexoStock/smartstock-backend | `feature/devices-sensors` | `7db30c4` | `feat(devices): add device readings endpoint with X-Device-Key` | POST /api/device-readings/{deviceCode} does not use the user JWT, but every request must carry a valid X-Device-Key (401 otherwise). | 08/11/2026 |
-| NexoStock/smartstock-backend | `feature/devices-sensors` | `fdb075e` | `test(devices): add sensor status and reading command tests` | — | 08/11/2026 |
-| NexoStock/smartstock-backend | `feature/devices-sensors` | `1e98592` | `test(devices): add reading authentication and ordering tests` | Covers a missing key, another device key and an unknown device (401), and duplicate and out-of-order readings (409). | 08/11/2026 |
-| NexoStock/smartstock-backend | `feature/devices-sensors` | `915b4a5` | `docs(devices): add HTTP examples for sensors and readings` | Covers the happy path and the 400, 401 and 409 answers to capture them for the report. | 08/11/2026 |
-| NexoStock/smartstock-backend | `feature/devices-sensors` | `c9c7b6c` | `feat(devices): add device simulator` | Single-file Java program that posts a reading with X-Device-Key every few seconds. | 08/11/2026 |
-| NexoStock/smartstock-backend | `feature/devices-sensors` | `aaa300c` | `fix(devices): allow device-key readings without JWT and test security` | — | 10/11/2026 |
-| NexoStock/smartstock-backend | `feature/alerts-rules` | `c79ff43` | `feat(alerts): add domain persistence and list endpoint` | — | 09/11/2026 |
-| NexoStock/smartstock-backend | `feature/alerts-rules` | `24c05e0` | `test(alerts): verify alert lifecycle` | — | 09/11/2026 |
-| NexoStock/smartstock-backend | `feature/alerts-rules` | `fa2c564` | `feat(alerts): evaluate low stock and handle inventory events` | — | 10/11/2026 |
-| NexoStock/smartstock-backend | `feature/alerts-rules` | `a7e5d7c` | `fix(alerts): remove misplaced service from test sources` | — | 10/11/2026 |
-| NexoStock/smartstock-backend | `feature/alerts-rules` | `e49a98c` | `test(alerts): cover low stock evaluation rules` | — | 10/11/2026 |
-| NexoStock/smartstock-backend | `feature/alerts-rules` | `624fc3b` | `feat(sales): add sale registration with inventory integration` | — | 10/11/2026 |
-| NexoStock/smartstock-backend | `feature/alerts-rules` | `45aaa1f` | `feat(sales): expose registration and business-scoped history API` | — | 10/11/2026 |
-| NexoStock/smartstock-backend | `feature/alerts-rules` | `fdbeddc` | `test(sales): verify registration rollback and idempotency with MySQL` | — | 11/11/2026 |
-| NexoStock/smartstock-backend | `feature/external-services` | `9103a07` | `feat(alerts): add notification channels senders and retries` | — | 10/11/2026 |
-| NexoStock/smartstock-backend | `feature/external-services` | `50ded60` | `fix(notifications): allow startup with notifications disabled` | — | 11/11/2026 |
-| NexoStock/smartstock-backend | `feature/external-services` | `3001552` | `test(notifications): verify full startup without SMTP` | — | 11/11/2026 |
-| NexoStock/smartstock-backend | `feature/external-services` | `c5ca679` | `fix(notifications): support optional WhatsApp template and log send errors` | — | 12/11/2026 |
-| NexoStock/smartstock-backend | `feature/iam-password-reset` | `eecd25c` | `feat(iam): add password reset token and commands` | Task: T-TS04.4 | 10/11/2026 |
-| NexoStock/smartstock-backend | `feature/iam-password-reset` | `bd70cbc` | `feat(iam): add password reset token repository and hashing` | Task: T-TS04.4 | 10/11/2026 |
-| NexoStock/smartstock-backend | `feature/iam-password-reset` | `af54675` | `feat(iam): add password reset command handlers` | Task: T-TS04.4 | 10/11/2026 |
-| NexoStock/smartstock-backend | `feature/iam-password-reset` | `2745781` | `feat(iam): add forgot and reset password endpoints` | Task: T-TS04.4 | 10/11/2026 |
-| NexoStock/smartstock-backend | `feature/iam-password-reset` | `233226e` | `fix(security): permit swagger ui and api docs` | Task: T-TS04.4 | 10/11/2026 |
-| NexoStock/smartstock-backend | `feature/ci-mysql-integration` | `e52eaa1` | `ci: run MySQL integration tests in GitHub Actions` | — | 12/11/2026 |
-| NexoStock/smartstock-backend | `chore/update-github-actions` | `807bc81` | `chore(ci): update GitHub Actions versions` | — | 12/11/2026 |
-| NexoStock/smartstock-backend | `release/1.0.0` | `720f33d` | `chore(release): complete developer names for 1.0.0` | Add the full names of Angel Crispin Valdivia and Kiara Tuesta Giron to the pom developers list before publishing release 1.0.0. | 13/11/2026 |
-| NexoStock/smartstock-backend | `develop` | `e97c68a` | `feat(inventory): add product movement history endpoint` | — | 12/11/2026 |
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Committed on (Date)** |
+|---|---|---|---|---|---|
+| NexoStock/smartstock-backend | feature/shared-base | `4e5b6c1` | feat(shared-catalog): add backend foundation and product catalog | — | 06/11/2026 |
+| NexoStock/smartstock-backend | feature/purchasing | `6347961` | wip(purchasing): save purchasing implementation | — | 06/11/2026 |
+| NexoStock/smartstock-backend | feature/iam-auth | `0824e63` | feat(iam): add domain model for accounts and businesses | — | 06/11/2026 |
+| NexoStock/smartstock-backend | feature/iam-auth | `1ded298` | feat(iam): add persistence, hashing and jwt infrastructure | — | 07/11/2026 |
+| NexoStock/smartstock-backend | feature/iam-auth | `0dae512` | feat(iam): add account command and query services | — | 07/11/2026 |
+| NexoStock/smartstock-backend | feature/iam-auth | `390a007` | feat(iam): add authentication controller and context facade | — | 07/11/2026 |
+| NexoStock/smartstock-backend | feature/inventory-stock-management | `3146465` | feat(inventory): implement MovementCommandServiceImpl with transaction management | — | 07/11/2026 |
+| NexoStock/smartstock-backend | feature/inventory-stock-management | `5987b71` | feat(inventory): add InventoryContextFacade for Sales and Purchasing ACL | — | 07/11/2026 |
+| NexoStock/smartstock-backend | feature/devices-sensors | `3239248` | feat(devices): add device key generation and hashing | — | 08/11/2026 |
+| NexoStock/smartstock-backend | feature/devices-sensors | `713b73d` | feat(devices): add sensors controller | — | 08/11/2026 |
+| NexoStock/smartstock-backend | feature/devices-sensors | `7db30c4` | feat(devices): add device readings endpoint with X-Device-Key | — | 08/11/2026 |
+| NexoStock/smartstock-backend | feature/docker-ci | `1f208e7` | build(docker): add multi-stage Dockerfile with Java 27 | — | 08/11/2026 |
+| NexoStock/smartstock-backend | feature/docker-ci | `565b4cf` | ci: add GitHub Actions workflow with Java 27 | — | 08/11/2026 |
+| NexoStock/smartstock-backend | feature/iam-security | `1ddba6c` | feat(iam): enforce JWT authentication and tenant isolation | — | 09/11/2026 |
+| NexoStock/smartstock-backend | feature/alerts-rules | `fa2c564` | feat(alerts): evaluate low stock and handle inventory events | — | 10/11/2026 |
+| NexoStock/smartstock-backend | feature/alerts-rules | `624fc3b` | feat(sales): add sale registration with inventory integration | — | 10/11/2026 |
+| NexoStock/smartstock-backend | feature/alerts-rules | `45aaa1f` | feat(sales): expose registration and business-scoped history API | — | 10/11/2026 |
+| NexoStock/smartstock-backend | feature/external-services | `9103a07` | feat(alerts): add notification channels senders and retries | — | 10/11/2026 |
+| NexoStock/smartstock-backend | feature/iam-password-reset | `eecd25c` | feat(iam): add password reset token and commands | Task: T-TS04.4 | 10/11/2026 |
+| NexoStock/smartstock-backend | feature/iam-password-reset | `bd70cbc` | feat(iam): add password reset token repository and hashing | Task: T-TS04.4 | 10/11/2026 |
+| NexoStock/smartstock-backend | feature/iam-password-reset | `af54675` | feat(iam): add password reset command handlers | Task: T-TS04.4 | 10/11/2026 |
+| NexoStock/smartstock-backend | feature/iam-password-reset | `2745781` | feat(iam): add forgot and reset password endpoints | Task: T-TS04.4 | 10/11/2026 |
+| NexoStock/smartstock-backend | feature/iam-password-reset | `233226e` | fix(security): permit swagger ui and api docs | Task: T-TS04.4 | 10/11/2026 |
+| NexoStock/smartstock-backend | feature/analytics-dashboard | `7bc6a61` | feat(analytics): expose dashboard and reports endpoints | — | 13/11/2026 |
+| NexoStock/smartstock-backend | feature/analytics-dashboard | `98913aa` | feat(analytics): expose inventory comparison and movements endpoints | — | 13/11/2026 |
 
-*Nota.* Obtenido del historial de la rama develop con git log. Elaboración propia
+*Nota. Elaboración propia. Solo los commits de la tarea T-TS04.4 incluyen la tarea en el cuerpo del mensaje.*
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
-Al cierre del Sprint 3 la Frontend Web Application dejó de usar la Fake API y consume los Web Services desplegados en Railway. Para lograrlo se cambió la URL base en `src/environments/environment.ts` y se ajustaron los servicios cuyo contrato cambió con el backend real: las compras ahora envían `productos` con `precioUnitario` y se reciben con `POST /api/compras/{id}/recibir`; el registro de proveedores incluye el RUC, que el backend exige; el umbral mínimo se actualiza por producto; y la lista de productos que se pueden vincular a un sensor se obtiene cruzando productos y sensores. Las vistas implementadas son las del Sprint 2, ahora con datos persistentes en MySQL: los datos ya no se pierden al reiniciar el servicio y cada negocio solo ve su propia información.
+En el Sprint 3 la Frontend Web Application Angular quedó conectada a los Web Services reales: las vistas de IAM, IoT Device, Alerts & Restocking, Product Catalog, Inventory Monitoring (incluidas ventas, compras y proveedores) y Analytics & Reporting funcionan con datos persistentes en MySQL en lugar de la Fake API. El cambio se concentró en la dirección base del servicio (apiBaseUrl) y en el inicio de sesión: ahora la aplicación usa el token JWT y cada negocio solo ve sus propios datos. Cada captura se rotula con la historia que cubre. El video que muestra la navegación lograda en el sprint se llama upc-pre202620-1asi0729-7729-nexostock-product-navigation-sprint-3.mp4 y su dirección, escrita como texto simple, es:`https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f946_upc_edu_pe/IQBdzCqqjN2bRZw1igPd50NKAWzK-qGA2o6WDNVhILYWqao?e=ZpZHyF&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D`
 
-Las Figuras 185 a 189 muestran la aplicación desplegada en https://nexostock.github.io/smartstock-frontend/ trabajando contra los Web Services.
+**Tabla 51**
 
-**Figura 185**  
-*Inicio de sesión y dashboard con datos de los Web Services*
+*Evidencia de ejecución por contexto e historia de usuario del Sprint 3*
 
-![Inicio de sesión y dashboard con datos de los Web Services](../assets/chapter-5/sprint3-ejecucion-dashboard.png)
+| **Contexto** | **Historia** | **Ruta** | **La captura debe mostrar** | **Figura** |
+|---|---|---|---|---:|
+| IAM | US01, US02 y US03 (registro, inicio de sesión y credenciales inválidas) | `/sign-up`, `/sign-in` | Registro de negocio, inicio de sesión con token y error por credenciales inválidas | 237 |
+| Ventas | US26, US27 y US28 | `/sales`, `/sales/new`, `/sales/:id` | Venta registrada, rechazo por stock insuficiente, historial por fechas y detalle | 238 |
+| IoT Device | US04 (vinculación de sensor) | `/sensors/link` | Selección de sensor y producto, y error de sensor en uso | 239 |
+| IoT Device | US06 y US07 (estado y peso actual) | `/sensors` | Sensores en línea y desconectados, y peso actual | 240 |
+| Alerts & Restocking | US09 y US10 (notificaciones) | `/settings` | Canales de correo y WhatsApp configurados | 241 |
+| Alerts & Restocking | US12 y US32 (alertas y compra desde la alerta) | `/alerts` | Alerta de stock bajo o discrepancia y botón que abre el registro de compra | 242 |
+| Product Catalog | US13, US14 y US05 (productos y umbral mínimo) | `/products/new`, `/products/:id/edit` y `/sensors/:id/threshold` | Registro, edición y umbral mínimo con error de validación | 243 |
+| Proveedores y Compras | US29, US30 y US31 | `/purchases/suppliers`, `/purchases/new`, `/purchases` y `/purchases/:id` | Proveedor creado, compra pendiente, compra recibida e historial por fechas | 244 |
+| Inventory Monitoring | US08 y US11 | `/products` y `/comparison` | Niveles de stock y comparación físico vs. registrado (solo minimarket) | 245 |
+| IoT Device y Alerts & Restocking | Prueba de integración (R20) | `/sensors` y `/alerts` | Lectura de 2.0 kg del sensor, estado en línea y discrepancia con su alerta, en Swagger y en la aplicación | 246 |
+| Analytics & Reporting | US15 y US25 | `/dashboard`, `/reports` | Tarjetas del día con ventas y compras, y reporte por período | 247 |
 
-*Nota.* (a) Inicio de sesión; (b) dashboard con las ventas y compras del día y el nivel de stock. Elaboración propia
+*Nota. Elaboración propia*
 
-**Figura 186**  
-*Registro de un producto y vinculación de su sensor*
+**Figura 238**
 
-![Registro de un producto y vinculación de su sensor](../assets/chapter-5/sprint3-ejecucion-producto-sensor.png)
+*Autenticación en la aplicación: (a) registro de negocio, (b) inicio de sesión y (c) error por credenciales inválidas (US01, US02 y US03)*
 
-*Nota.* Elaboración propia
-
-**Figura 187**  
-*Registro de una venta que descuenta el stock*
-
-![Registro de una venta que descuenta el stock](../assets/chapter-5/sprint3-ejecucion-venta.png)
-
-*Nota.* Elaboración propia
-
-**Figura 188**  
-*Registro y recepción de una compra*
-
-![Registro y recepción de una compra](../assets/chapter-5/sprint3-ejecucion-compra.png)
+(completar - LORENA: capturas de /sign-up y /sign-in en la app Angular)
 
 *Nota.* Elaboración propia
 
-**Figura 189**  
-*Comparación entre el stock físico y el registrado*
+**Figura 239**
 
-![Comparación entre el stock físico y el registrado](../assets/chapter-5/sprint3-ejecucion-comparacion.png)
+*Pantalla de Ventas: (a) venta registrada, (b) rechazo por stock insuficiente, (c) historial por fechas y (d) detalle (US26, US27 y US28)*
+
+(completar - LEO)
 
 *Nota.* Elaboración propia
 
-El recorrido completo de la aplicación con los Web Services puede verse en el video de navegación del producto: [enlace al video de navegación del Sprint 3].
+**Figura 240**
+
+*Vinculación de sensor a un producto y error de sensor en uso (US04)*
+
+(completar - ANGEL)
+
+*Nota.* Elaboración propia
+
+**Figura 241**
+
+*Estado de conexión de sensores en línea y desconectados, y peso actual (US06 y US07)*
+
+(completar - ANGEL)
+
+*Nota.* Elaboración propia
+
+**Figura 242**
+
+*Configuración de notificaciones por correo y WhatsApp (US09 y US10)*
+
+(completar - LEO)
+
+*Nota.* Elaboración propia
+
+**Figura 243**
+
+*Alertas activas y botón de compra desde una alerta de stock bajo (US12 y US32)*
+
+(completar - LEO)
+
+*Nota.* Elaboración propia
+
+**Figura 244**
+
+*Catálogo de productos: (a) registro, (b) edición y (c) umbral mínimo con su error de validación (US13, US14 y US05)*
+
+(completar - CANDY)
+
+*Nota.* Elaboración propia
+
+**Figura 245**
+
+*Proveedores y compras: (a) proveedor creado, (b) formulario de nueva compra, (c) compra recibida y (d) historial por fechas con una compra pendiente (US29, US30 y US31)*
+
+(completar - CANDY)
+
+*Nota.* Elaboración propia
+
+**Figura 246**
+
+*Inventory Monitoring: (a) lista de productos con su nivel de stock y (b) comparación entre el stock físico y el registrado (US08 y US11)*
+
+(completar - KIARA)
+
+*Nota.* Elaboración propia
+
+**Figura 247**
+
+*Prueba de integración: lectura de 2.0 kg en el sensor, estado en línea y discrepancia con su alerta (R20), en Swagger y en la aplicación, con fecha de la prueba*
+
+(completar - ANGEL: lectura en Swagger y estado en línea)
+
+(completar - LEO: alerta de discrepancia en la app. La imagen del archivo es una alerta LOW_STOCK, no una discrepancia R20, así que no sirve aquí.)
+
+*Nota.* Elaboración propia
+
+**Figura 248**
+
+*Dashboard con ventas y compras del día, y reporte por período (US15 y US25)*
+
+(completar - KIARA)
+
+*Nota.* Elaboración propia
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
-En el Sprint 3 el equipo implementó los Web Services de SmartStock con Spring Boot 4.1.1 y Java 27 en el repositorio NexoStock/smartstock-backend, y los documentó con OpenAPI 3 mediante springdoc-openapi. Cada controlador declara su grupo con `@Tag`, cada operación con `@Operation` y cada código de respuesta con `@ApiResponse`, y los cuerpos de request muestran datos de ejemplo con `@Schema(example = ...)`. La especificación se genera a partir del código, de modo que la documentación coincide con lo implementado.
+En el Sprint 3 el equipo documentó con OpenAPI los endpoints de los Web Services de SmartStock, que se visualizan mediante Swagger UI (springdoc), con las anotaciones @Operation y @ApiResponses en cada controlador. Las rutas protegidas exigen el token JWT en la cabecera Authorization y cada negocio solo accede a sus propios datos. Los errores se devuelven con un código y un mensaje en inglés o en español, según el encabezado Accept-Language, sin mostrar el stack trace. En el contexto IAM se probaron los casos de registro (201 y 409) y de inicio de sesión (200 y 400) con datos de muestra.
+Repositorio de Web Services: github.com/NexoStock/smartstock-backend
+Documentación desplegada (Swagger UI):`https://smartstock-backend-production-36b6ce8c.up.railway.app/swagger-ui/index.html`
+Documentación local (Swagger UI): localhost:8080/swagger-ui.html
+Commits de documentación: ver Tabla 50 (sección 5.2.3.4)
 
-La documentación desplegada puede consultarse en Swagger UI, en https://smartstock-backend-production-36b6ce8c.up.railway.app/swagger-ui/index.html, y la especificación en formato JSON en https://smartstock-backend-production-36b6ce8c.up.railway.app/v3/api-docs. Todas las rutas comienzan con `/api` y, salvo el registro, el inicio de sesión, la recuperación de contraseña y la recepción de lecturas de los sensores, requieren el encabezado `Authorization: Bearer <token>` obtenido al iniciar sesión. Sin token, el servicio responde 401. Los datos de cada negocio quedan aislados: un negocio no puede consultar ni modificar los recursos de otro (responde 404). Los nombres de los campos JSON se mantienen en español para conservar el contrato con la Web Application del Sprint 2. El dashboard, los reportes, la comparación de inventario, el detalle del sensor por producto y la lista de movimientos pertenecen al contexto de solo lectura Analytics & Reporting: consultan los datos de los demás contextos sin modificarlos.
+**Tabla 52**
 
-**Tabla 49**  
 *Documentación de los endpoints de los Web Services del Sprint 3*
 
-| Endpoint | Método | Acción | Parámetros | Ejemplo de request | Response y explicación | TS |
-| --- | --- | --- | --- | --- | --- | --- |
-| `/api/auth/register` | POST | Registra un negocio y su cuenta | — | `{ "businessName": "Bodega Don Pepe", "businessType": "bodega", "phone": "+51999999999", "email": "pepe@bodega.pe", "password": "Clave-Segura-123" }` | 201 con la sesión { token, email, businessName, businessType }; 400 datos inválidos; 409 correo ya registrado | TS04 |
-| `/api/auth/login` | POST | Inicia sesión | — | `{ "email": "pepe@bodega.pe", "password": "Clave-Segura-123" }` | 200 con la sesión y el token JWT; 400 credenciales inválidas, sin indicar qué dato falló (R3) | TS04 |
-| `/api/auth/forgot-password` | POST | Solicita la recuperación de contraseña | — | `{ "email": "pepe@bodega.pe" }` | 200 siempre, aunque el correo no exista, para no revelar qué cuentas existen (R4) | TS04 |
-| `/api/auth/reset-password` | POST | Cambia la contraseña con el token recibido | — | `{ "token": "token-recibido-por-correo", "newPassword": "Nueva-Clave-123" }` | 200 contraseña actualizada; 400 token inválido, vencido o ya usado (un solo uso) | TS04 |
-| `/api/productos` | GET | Lista los productos del negocio | — | — | 200 con la lista de productos, su stock registrado y su sensor | TS13 |
-| `/api/productos` | POST | Registra un producto | — | `{ "nombre": "Arroz Costeño 5 kg", "sku": "ARR-005", "categoria": "Abarrotes", "pesoUnitario": 5.0, "precioVenta": 24.90, "costoCompra": 21.50, "stockRegistrado": 40, "umbralMinimo": 10, "capacidadMaxima": 100 }` | 201 con el producto creado; 400 datos inválidos; 409 SKU duplicado en el negocio; 422 umbral mayor que la capacidad (R7) | TS13 |
-| `/api/productos/{id}` | GET | Consulta un producto | id (ruta) | — | 200 con el producto; 404 no existe o es de otro negocio | TS13 |
-| `/api/productos/{id}` | PUT | Actualiza un producto | id (ruta) | Mismo cuerpo que el registro | 200 con el producto; el SKU se conserva; 400; 404; 409 SKU duplicado; 422 umbral mayor que la capacidad | TS13 |
-| `/api/productos/{id}` | DELETE | Retira un producto | id (ruta) | — | 204 retirado; 404; 422 el producto aún tiene stock | TS13 |
-| `/api/productos/{id}/umbral` | PUT | Cambia el umbral mínimo de stock | id (ruta) | `{ "umbralMinimo": 12 }` | 200 umbral actualizado; 404; 422 umbral mayor que la capacidad (R7) | TS13 |
-| `/api/productos/{id}/ajustes` | POST | Ajusta el stock tras un conteo físico | id (ruta) | `{ "stockRegistrado": 35, "motivo": "Conteo fisico" }` | 200 con el stock ajustado y el movimiento registrado (R17); 400; 404; 422 no hay nada que cambiar | TS02 |
-| `/api/productos/{id}/movimientos` | GET | Historial de movimientos del producto | id (ruta) | — | 200 con los movimientos de entrada, salida y ajuste; 404 | TS14 |
-| `/api/productos/{id}/detalle` | GET | Sensor del producto con sus últimas lecturas | id (ruta) | — | 200 con el sensor (código, estado, peso y unidades) y las últimas cinco lecturas convertidas a unidades (R12); sensor nulo si el producto no tiene sensor; 404 | TS02 |
-| `/api/inventario/comparacion` | GET | Compara el stock físico con el registrado | — | — | 200 con cada producto: unidades medidas por su sensor en línea, stock registrado, diferencia porcentual y resultado MATCH, DISCREPANCY (diferencia mayor al 10 %, R20) o REGISTERED_ONLY (sin sensor en línea, R18); incluye el número de discrepancias | TS06 |
-| `/api/movimientos-stock` | GET | Lista los movimientos de stock del negocio | desde, hasta (fecha) | — | 200 con los movimientos del período: tipo (IN u OUT), origen (SALE, PURCHASE o ADJUSTMENT), referencia y cantidad; 400 rango de fechas inválido | TS14 |
-| `/api/sensores` | GET | Lista los sensores del negocio | — | — | 200 con cada sensor, su producto vinculado y su estado (disponible, en línea, desconectado) | TS05 |
-| `/api/sensores` | POST | Registra un sensor | — | `{ "codigo": "SN-0001" }` | 201 con el sensor y la clave del dispositivo, que se muestra una sola vez; en la base solo se guarda su hash SHA-256; 400 código inválido; 409 código ya registrado | TS01 |
-| `/api/sensores/{id}` | GET | Consulta un sensor | id (ruta) | — | 200 con el producto, el último peso y las unidades estimadas; 404 | TS05 |
-| `/api/sensores/{id}` | DELETE | Elimina un sensor | id (ruta) | — | 204 eliminado; 404 | TS05 |
-| `/api/sensores/{id}/lecturas` | GET | Últimas lecturas del sensor | id (ruta) | — | 200 con las lecturas más recientes; 404 | TS05 |
-| `/api/sensores/vincular` | POST | Vincula un sensor a un producto | — | `{ "sensorId": 1, "productoId": 1 }` | 200 con el sensor vinculado; 404 sensor o producto no encontrado; 409 sensor o producto ya vinculado (R9) | TS05 |
-| `/api/sensores/{id}/desvincular` | POST | Desvincula el sensor de su producto | id (ruta) | — | 200 sensor disponible; 404; 409 el sensor no estaba vinculado | TS05 |
-| `/api/sensores/{id}/rotar-clave` | POST | Genera una nueva clave del dispositivo | id (ruta) | — | 200 con la nueva clave; la anterior deja de funcionar (401); 404 | TS01 |
-| `/api/device-readings/{deviceCode}` | POST | Recibe la lectura de peso que envía el sensor | deviceCode (ruta), X-Device-Key (encabezado) | `{ "pesoKg": 12.5, "medidoEn": "2026-11-13T15:00:00Z" }` | 201 lectura guardada; 400 peso negativo o fecha futura; 401 sin clave o con clave de otro dispositivo; 409 lectura duplicada o fuera de orden. No usa JWT: el sensor se autentica con su clave | TS01 |
-| `/api/ventas` | POST | Registra una venta | Idempotency-Key (encabezado) | `{ "items": [{ "productoId": 1, "cantidad": 2, "precioUnitario": 24.90 }] }` | 201 con la venta; usa el precio del catálogo y descuenta el stock en la misma transacción; si una línea falla se revierte toda la venta; con la misma Idempotency-Key devuelve la misma venta sin descontar dos veces; 400; 404; 422 stock insuficiente (R13, R14) | TS07 |
-| `/api/ventas` | GET | Lista las ventas | desde, hasta (fecha) | — | 200 con las ventas del rango; 400 rango de fechas inválido | TS08 |
-| `/api/ventas/{code}` | GET | Detalle de una venta | code (ruta) | — | 200 con los ítems y el total; 404 | TS08 |
-| `/api/proveedores` | GET | Lista los proveedores | — | — | 200 con los proveedores activos | TS09 |
-| `/api/proveedores` | POST | Registra un proveedor | — | `{ "nombre": "Distribuidora Lima SAC", "ruc": "20123456789", "correo": "ventas@proveedor.com", "telefono": "987654321", "direccion": "Av. Principal 123, Lima" }` | 201 con el proveedor; 400; 409 RUC duplicado (R8) | TS09 |
-| `/api/proveedores/{id}` | GET / PUT | Consulta y actualiza un proveedor | id (ruta) | PUT: mismo cuerpo que el registro | 200 con el proveedor; 400; 404; 409 RUC duplicado | TS09 |
-| `/api/proveedores/{id}` | DELETE | Desactiva un proveedor | id (ruta) | — | 200 proveedor desactivado; 404 | TS09 |
-| `/api/compras` | POST | Registra una compra pendiente | — | `{ "proveedorId": 1, "productos": [{ "productoId": 1, "cantidad": 10, "precioUnitario": 15.5 }] }` | 201 con la compra pendiente, sin cambiar el stock; 400; 404 proveedor o producto no encontrado; 409 | TS10 |
-| `/api/compras/{id}/recibir` | POST | Recibe la compra y suma el stock | id (ruta) | — | 200 compra recibida; recibirla otra vez no vuelve a sumar stock (R15, R16); 404; 422 compra cancelada | TS11 |
-| `/api/compras/{id}/cancelar` | POST | Cancela una compra pendiente | id (ruta) | — | 200 compra cancelada; 404; 422 la compra ya fue recibida | TS10 |
-| `/api/compras` | GET | Lista las compras | — | — | 200 con las compras y su estado | TS12 |
-| `/api/compras/{id}` | GET | Detalle de una compra | id (ruta) | — | 200 con los ítems y el estado; 404 | TS12 |
-| `/api/dashboard` | GET | Resumen del día del negocio | — | — | 200 con ventas y compras del día (total y cantidad), alertas de stock bajo activas, las cinco últimas operaciones y el nivel de stock de cada producto (lowStock o healthy) | TS15 |
-| `/api/reportes` | GET | Reporte de un período | desde, hasta (fecha) | — | 200 con el total de ventas y compras, los movimientos de stock y las compras pendientes del período; una compra pendiente aún no mueve stock; 400 rango de fechas inválido | TS15 |
-| `/api/alertas` | GET | Lista las alertas de stock bajo | — | — | 200 con las alertas activas, una por producto; 401 | TS03 |
-| `/api/canales-notificacion` | GET | Lista los canales de notificación | — | — | 200 con los canales (correo y WhatsApp) y su estado; 401; 404 | TS03 |
-| `/api/canales-notificacion` | PUT | Activa o desactiva canales | — | `[{ "id": 1, "activo": true }, { "id": 2, "activo": false }]` | 200 con los canales; 400; 401; 404; 422 debe quedar al menos un canal activo | TS03 |
-| `/api/notificaciones` | GET | Lista las notificaciones enviadas | — | — | 200 con cada mensaje y su estado (pendiente, enviado, fallido); 401 | TS03 |
-| `/api/notificaciones/{id}/reintentar` | POST | Reintenta una notificación fallida | id (ruta) | — | 202 notificación en cola; 401; 404; 422 la notificación no está fallida | TS03 |
+| **Endpoint** | **Método** | **Acción** | **Parámetros** | **Ejemplo de request** | **Response y explicación** | **Historia** |
+|---|---|---|---|---|---|---|
+| `/api/auth/register` | POST | Registra un negocio y su cuenta | Cuerpo: businessName, businessType, phone (opcional), email, password | `{"businessName": "Bodega Ana", "businessType": "BODEGA", "phone": "999111222", "email": "ana@bodega.pe", "password": "•••"}` | 201 con el token y los datos del negocio; 409 si el correo ya está registrado; 400 si faltan datos o son inválidos. | US01 |
+| `/api/auth/login` | POST | Valida credenciales y emite el token JWT | Cuerpo: email y password | `{"email": "ana@bodega.pe", "password": "•••"}` | 200 con el token JWT (8 horas de vigencia), correo y negocio; 400 si el cuerpo es inválido o las credenciales no coinciden (código INVALID_CREDENTIALS). | US02 y US03 |
+| `/api/auth/forgot-password` | POST | Solicita el restablecimiento de contraseña | Cuerpo: email | `{"email": "ana@bodega.pe"}` | 200 con un mensaje genérico, exista o no el correo, para no revelar qué cuentas están registradas; 400 si el correo no es válido. El token se guarda con hash y dura 1 hora. | TS04 |
+| `/api/auth/reset-password` | POST | Cambia la contraseña con el token de un solo uso | Cuerpo: token y newPassword (de 8 a 72 caracteres) | `{"token": "•••", "newPassword": "•••"}` | 200 con un mensaje de confirmación; 400 si el token es inválido, venció o ya se usó (INVALID_OR_EXPIRED_TOKEN), o si la contraseña no cumple el largo. | TS04 |
+| `/api/*` (rutas protegidas) | Todos | Exigen el token JWT | Cabecera: Authorization: Bearer token | `Authorization: Bearer •••` | 401 si falta el token o es inválido o venció. Cada negocio solo ve sus datos: si pide un recurso de otro negocio recibe 404. | TS04 |
+| `/api/device-readings/{deviceCode}` | POST | Recibe una lectura de peso del sensor | Ruta: deviceCode; cabecera: X-Device-Key; cuerpo: peso | `{"peso": 12.4}` | 201 si la lectura se guarda; 400 si el peso es inválido o la fecha es futura; 401 si falta o es incorrecta la clave X-Device-Key; 409 si la lectura está duplicada o fuera de orden. | TS01 |
+| `/api/sensores` | POST | Registra un sensor | Cuerpo: código del sensor | `{"codigo": "SENSOR-001"}` | 201 con el sensor y su clave de dispositivo; 400 si el código es inválido; 409 si el código ya está registrado. | TS05 |
+| `/api/sensores` | GET | Lista los sensores del negocio con su estado | — | — | 200 con la lista de sensores y su estado de conexión. | US06 |
+| `/api/sensores/{id}` | GET | Consulta un sensor | Ruta: id | — | 200 con el sensor; 404 si no existe. | US06 y US07 |
+| `/api/sensores/{id}/lecturas` | GET | Consulta las últimas lecturas del sensor, de la más reciente a la más antigua | Ruta: id | — | 200 con las últimas 10 lecturas; 404 si el sensor no existe. | US07 |
+| `/api/sensores/vincular` | POST | Vincula un sensor con un producto | Cuerpo: sensorId y productoId | `{"sensorId": 1, "productoId": 1}` | 200 si queda vinculado; 404 si el sensor o el producto no existen; 409 si alguno ya está vinculado. | US04 |
+| `/api/sensores/{id}/desvincular` | POST | Desvincula el sensor de su producto | Ruta: id | — | 200 si queda desvinculado; 404 si no existe; 409 si no estaba vinculado. | US04 |
+| `/api/sensores/{id}/rotar-clave` | POST | Genera una nueva clave del dispositivo | Ruta: id | — | 200 con la nueva clave; 404 si el sensor no existe. | TS01 |
+| `/api/sensores/{id}` | DELETE | Elimina un sensor | Ruta: id | — | 204 si se elimina; 404 si no existe. | TS05 |
+| `/api/productos` | POST | Registra un producto; el stock inicial se registra como movimiento | Cuerpo: nombre, sku, categoria, pesoUnitario, precioVenta, costoCompra, proveedorHabitual, stockRegistrado, umbralMinimo y capacidadMaxima | `{"nombre": "Arroz Costeño 5 kg", "sku": "ARR-005", "categoria": "Abarrotes", "pesoUnitario": 5, "precioVenta": 24.9, "costoCompra": 21.5, "proveedorHabitual": "Distribuidora Lima", "stockRegistrado": 40, "umbralMinimo": 10, "capacidadMaxima": 100}` | 201 con el producto; 400 si hay campos inválidos; 409 si el SKU ya existe; 422 si se rompe una regla de negocio (por ejemplo, umbral mayor que la capacidad máxima). | TS13 y US13 |
+| `/api/productos` | GET | Lista los productos del negocio | — | — | 200 con la lista de productos y su nivel de stock; lista vacía si no hay productos. | TS13 y US08 |
+| `/api/productos/{id}` | GET | Consulta un producto | Ruta: id | — | 200 con el producto; 404 si no existe. | TS13 |
+| `/api/productos/{id}` | PUT | Actualiza un producto (el stock solo cambia mediante ajustes) | Ruta: id; cuerpo: igual que en el registro | El mismo cuerpo del registro con los campos cambiados | 200 con el producto actualizado; 400, 404, 409 o 422 según el error. | US14 |
+| `/api/productos/{id}/umbral` | PUT | Cambia el umbral mínimo de stock | Ruta: id; cuerpo: umbralMinimo | `{"umbralMinimo": 15}` | 200 si se actualiza; 404 si no existe; 422 si el valor es inválido. | US05 |
+| `/api/productos/{id}` | DELETE | Retira un producto | Ruta: id | — | 204 si se retira; 404 si no existe; 422 si no se puede retirar. | TS13 |
+| `/api/productos/{id}/ajustes` | POST | Fija el stock contable del producto y registra un movimiento auditado | Ruta: id; cuerpo: stockRegistrado (nuevo stock contable) y motivo | `{"stockRegistrado": 35, "motivo": "Conteo fisico"}` | 200 con el stock ajustado; 400 si los datos son inválidos; 404 si el producto no existe; 422 si no hay nada que cambiar. | TS14 |
+| `/api/productos/{id}/movimientos` | GET | Consulta el historial de movimientos de un producto | Ruta: id | — | 200 con el historial; 404 si el producto no existe. | TS14 |
+| `/api/productos/{id}/detalle` | GET | Consulta el detalle del sensor de un producto | Ruta: id | — | 200 con el detalle; 404 si el producto no existe. | TS02 |
+| `/api/inventario/comparacion` | GET | Compara el peso físico con la cantidad registrada | — | — | 200 con la comparación de cada producto; 401 si falta el token. | US11 |
+| `/api/movimientos-stock` | GET | Lista los movimientos de stock por rango de fechas | Consulta: desde y hasta (aaaa-mm-dd) | `/api/movimientos-stock?desde=2026-11-01&hasta=2026-11-30` | 200 con los movimientos; 400 si el rango de fechas es inválido. | TS15 |
+| `/api/dashboard` | GET | Consulta el dashboard del negocio | — | — | 200 con las tarjetas del día (ventas y compras); 401 si falta el token. | US15 |
+| `/api/reportes` | GET | Consulta el reporte de un período | Consulta: desde y hasta | `/api/reportes?desde=2026-11-01&hasta=2026-11-30` | 200 con el reporte; 400 si el rango de fechas es inválido. | US25 |
+| `/api/ventas` | POST | Registra una venta y descuenta el stock en una sola transacción | Cuerpo: items (productoId, cantidad, precioUnitario) | `{"items": [{"productoId": 9, "cantidad": 4, "precioUnitario": 5}]}` | 201 con la venta; 400 si la solicitud es inválida; 404 si el producto no existe; 422 si se rompe una regla de negocio (por ejemplo, stock insuficiente). Si hay un error no se cambia nada. | TS07 y US26 |
+| `/api/ventas` | GET | Lista las ventas por rango de fechas | Consulta: desde y hasta (aaaa-mm-dd) | `/api/ventas?desde=2026-11-13&hasta=2026-11-13` | 200 con las ventas; 400 si el rango de fechas es inválido. | TS08 y US27 |
+| `/api/ventas/{codigo}` | GET | Consulta el detalle de una venta | Ruta: codigo | `/api/ventas/V-170f3d4d` | 200 con la venta y sus ítems; 404 si no existe. | TS08 y US28 |
+| `/api/alertas` | GET | Lista las alertas del negocio | — | — | 200 con las alertas (tipo, estado, producto y stock); 401 si falta el token. | TS03, US12 y US32 |
+| `/api/notificaciones` | GET | Lista las notificaciones | — | — | 200 con las notificaciones y su estado; 401 si falta el token. | TS03 |
+| `/api/notificaciones/{id}/reintentar` | POST | Vuelve a encolar una notificación fallida | Ruta: id | — | 202 si queda en cola; 404 si no existe; 422 si la notificación no está fallida. | TS03 |
+| `/api/canales-notificacion` | GET | Lista los canales de notificación del negocio | — | — | 200 con los canales; 404 si no hay contacto del negocio. | US09 |
+| `/api/canales-notificacion` | PUT | Activa o desactiva canales | Cuerpo: lista con id y active | `[{"id": 6, "active": true}]` | 200 si se actualizan; 400 si la solicitud es inválida; 404 si el canal no existe; 422 si no queda ningún canal activo. | US10 |
+| `/api/proveedores` | POST | Registra un proveedor | Cuerpo: nombre, ruc, correo, telefono y direccion | `{"nombre": "Distribuidora Lima SAC", "ruc": "20123456789", "correo": "ventas@proveedor.com", "telefono": "987654321", "direccion": "Av. Principal 123, Lima"}` | 201 con el proveedor; 400 si hay datos inválidos; 409 si ya existe. | TS09 y US29 |
+| `/api/proveedores` | GET | Lista los proveedores | — | — | 200 con la lista de proveedores. | TS09 |
+| `/api/proveedores/{id}` | GET, PUT y DELETE | Consulta, actualiza y desactiva un proveedor | Ruta: id | (PUT) el mismo cuerpo del registro de proveedor | 200 en los tres casos; 400 o 409 en la actualización según el error; 404 si no existe. | TS09 |
+| `/api/compras` | POST | Registra una compra pendiente con sus productos | Cuerpo: proveedorId y productos (productoId, cantidad, precioUnitario) | `{"proveedorId": 1, "productos": [{"productoId": 1, "cantidad": 10, "precioUnitario": 12.5}]}` | 201 con la compra; 400 si hay datos inválidos; 404 si el proveedor o un producto no existe; 409 si hay conflicto. | TS10 y US30 |
+| `/api/compras` | GET | Lista las compras | — | — | 200 con las compras. | TS12 y US31 |
+| `/api/compras/{id}` | GET | Consulta una compra | Ruta: id | — | 200 con la compra; 404 si no existe. | TS12 |
+| `/api/compras/{id}/recibir` | POST | Recibe la compra y suma el stock en una sola transacción | Ruta: id | — | 200 con la compra recibida; 404 si no existe; 422 si ya fue recibida o no puede recibirse. | TS11 |
+| `/api/compras/{id}/cancelar` | POST | Cancela una compra pendiente | Ruta: id | — | 200 con la compra cancelada; 404 si no existe; 422 si no se puede cancelar. | TS10 |
 
-*Nota.* Los códigos de respuesta se tomaron de la especificación OpenAPI generada por el servicio desplegado. Elaboración propia
+*Nota. Elaboración propia. Los códigos de respuesta provienen de las anotaciones @ApiResponse de cada controlador y se confirmaron en Swagger.*
 
-**Tabla 50**  
-*Relación de endpoints implementados por contexto*
+**Figura 249**
 
-| Contexto | Recurso (endpoint base) | Acciones implementadas | TS relacionadas |
-| --- | --- | --- | --- |
-| IAM | `/api/auth/register, /login, /forgot-password, /reset-password` | POST | TS04 |
-| IoT Device | `/api/sensores, /api/sensores/{id}, /lecturas, /vincular, /desvincular, /rotar-clave, /api/device-readings/{deviceCode}` | GET, POST, DELETE | TS01, TS05 |
-| Product Catalog | `/api/productos, /api/productos/{id}, /api/productos/{id}/umbral` | GET, POST, PUT, DELETE | TS13 |
-| Inventory Monitoring | `/api/productos/{id}/ajustes, /api/productos/{id}/movimientos, /api/productos/{id}/detalle, /api/inventario/comparacion, /api/movimientos-stock` | GET, POST | TS02, TS06, TS14 |
-| Inventory – Ventas | `/api/ventas, /api/ventas/{code}` | GET, POST | TS06, TS07, TS08 |
-| Inventory – Compras | `/api/proveedores, /api/proveedores/{id}, /api/compras, /api/compras/{id}, /recibir, /cancelar` | GET, POST, PUT, DELETE | TS09, TS10, TS11, TS12 |
-| Alerts & Restocking | `/api/alertas, /api/canales-notificacion, /api/notificaciones, /api/notificaciones/{id}/reintentar` | GET, POST, PUT | TS03 |
-| Analytics & Reporting | `/api/dashboard, /api/reportes` | GET | TS15 |
+*Swagger de IAM: registro, inicio de sesión, solicitud de recuperación y restablecimiento de contraseña (US01, US02 y US03)*
+
+![IAM](../assets/chapter-5/image120.png)
+![IAM](../assets/chapter-5/image49.png)
+![IAM](../assets/chapter-5/image93.png)
+
+*Nota. Elaboración propia*
+
+**Figura 250**
+
+*Swagger de sensores: registro, listado, detalle, lecturas, vinculación, desvinculación, rotación de clave y eliminación (TS05, US04, US06 y US07)*
+
+(completar - ANGEL)
 
 *Nota.* Elaboración propia
 
-**Figura 190**  
-*Documentación de los Web Services en Swagger UI desplegado en Railway*
+**Figura 251**
 
-![Documentación de los Web Services en Swagger UI desplegado en Railway](../assets/chapter-5/sprint3-swagger-ui.png)
+*POST /api/device-readings/{deviceCode} con la cabecera X-Device-Key en Swagger (TS01)*
 
-*Nota.* Vista general de los grupos de endpoints en https://smartstock-backend-production-36b6ce8c.up.railway.app/swagger-ui/index.html. Elaboración propia
+(completar - ANGEL)
 
-**Figura 191**  
-*Interacción con los endpoints de IoT Device en Swagger UI*
+*Nota.* Elaboración propia
 
-![Interacción con los endpoints de IoT Device en Swagger UI](../assets/chapter-5/sprint3-swagger-devices.png)
+**Figura 252**
 
-*Nota.* (a) Registro del sensor SN-0001 con su clave de dispositivo (201); (b) vinculación al producto (200); (c) lectura con X-Device-Key (201); (d) lectura sin clave (401); (e) lectura duplicada (409). Elaboración propia
+*Swagger de productos: registro, listado, detalle, actualización, umbral mínimo y eliminación (TS13, US05, US13 y US14)*
 
-<!-- Capturas de los demás contextos (IAM, Catalog, Inventory, Ventas, Compras, Alerts): agregar aquí como Figuras 186 en adelante, una por contexto. -->
+(completar - CANDY)
 
-Los commits de documentación de los Web Services del Sprint 3 son los que agregaron las anotaciones de OpenAPI en los controladores de cada contexto y el archivo `http/devices.http`, que reúne ejemplos ejecutables de todas las llamadas de IoT Device. Se encuentran en la Tabla 48.
+*Nota.* Elaboración propia
+
+**Figura 253**
+
+*Swagger de stock: ajuste e historial de movimientos de un producto (TS14)*
+
+(completar - KIARA)
+
+*Nota.* Elaboración propia
+
+**Figura 254**
+
+*Swagger de monitoreo de inventario: comparación físico vs. registrado, detalle de stock y movimientos por fechas (TS02, US11 y TS15)*
+
+(completar - KIARA)
+
+*Nota.* Elaboración propia
+
+**Figura 255**
+
+*GET /api/dashboard y GET /api/reportes en Swagger (US15 y US25)*
+
+(completar - KIARA)
+
+*Nota.* Elaboración propia
+
+**Figura 256**
+
+*Swagger de ventas: registro, historial por fechas y detalle (TS07, TS08 y US26 a US28)*
+
+(completar - LEO)
+
+*Nota.* Elaboración propia
+
+**Figura 257**
+
+*GET /api/alertas en Swagger (TS03, US12 y US32)*
+
+![getapialertas](../assets/chapter-5/image91.png)
+
+*Nota. Elaboración propia*
+
+**Figura 258**
+
+*Swagger de notificaciones: listado y reintento de una notificación fallida (TS03)*
+
+(completar - LEO)
+
+*Nota.* Elaboración propia
+
+**Figura 259**
+
+*Swagger de canales de notificación: consulta y activación o desactivación (US09 y US10)*
+
+(completar - LEO)
+
+*Nota.* Elaboración propia
+
+**Figura 260**
+
+*Swagger de proveedores: registro, listado, detalle, actualización y desactivación (TS09 y US29)*
+
+(completar - CANDY)
+
+*Nota.* Elaboración propia
+
+**Figura 261**
+
+*Swagger de compras: registro, listado, detalle, recepción y cancelación (TS10, TS11, TS12, US30 y US31)*
+
+(completar - CANDY)
+
+*Nota.* Elaboración propia
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
-Durante el Sprint 3 se desplegó por primera vez la versión 1.0.0 de los Web Services, junto con las nuevas versiones del Landing Page y de la Frontend Web Application. La Tabla 51 resume el estado de los tres productos al cierre del sprint.
+Durante el Sprint 3 el alcance de despliegue incluyó los Web Services, la base de datos y la conexión de la Frontend Web Application con la API real. Los Web Services (Spring Boot, Java 27) se empaquetaron con un Dockerfile multi-stage y se desplegaron en Railway con el perfil `prod`, que recibe su configuración por variables de entorno. La base de datos MySQL se alojó en (completar - ANGEL: Railway o Aiven) y su esquema, de 16 tablas, se creó mediante (completar - ANGEL: cómo se crearon las tablas, porque el perfil prod usa `ddl-auto=validate` y no las crea solo). La Frontend Web Application y el Landing Page continúan publicados en GitHub Pages; el frontend se actualizó para consumir la API desplegada cambiando la dirección base del servicio (`apiBaseUrl`). Las actividades de despliegue fueron:
 
-**Tabla 51**  
+1. Empaquetar los Web Services con Docker y publicarlos en Railway, disponibles en `https://smartstock-backend-production-36b6ce8c.up.railway.app`, con la documentación de Swagger UI en la ruta `/swagger-ui/index.html`.
+2. Alojar la base de datos MySQL en (completar - ANGEL) y crear sus 16 tablas.
+3. Configurar en Railway las variables de entorno del perfil `prod` (base de datos, clave JWT, orígenes permitidos de CORS, correo y WhatsApp), sin publicar sus valores.
+4. Verificar el servicio con el health check `/actuator/health` y con la ejecución del flujo de integración continua en GitHub Actions (compilación, pruebas con MySQL y construcción de la imagen Docker).
+5. Actualizar la Frontend Web Application para que consuma la API desplegada y publicarla en GitHub Pages, disponible en (completar - ANGEL: dirección del frontend, como texto simple).
+
+**Tabla 53**
+
 *Evidencia de despliegue del Sprint 3*
 
-| Producto | Repositorio | URL desplegada | Versión | Estado |
-| --- | --- | --- | --- | --- |
-| Landing Page | https://github.com/NexoStock/smartstock-landing-page | https://nexostock.github.io/smartstock-landing-page/ | — | Actualizado en el Sprint 3: sección de videos con About-the-Product y About-the-Team incrustados |
-| Frontend Web Application | https://github.com/NexoStock/smartstock-frontend | https://nexostock.github.io/smartstock-frontend/ | — | Actualizada en el Sprint 3: consume los Web Services desplegados en lugar de la Fake API |
-| Web Services | https://github.com/NexoStock/smartstock-backend | https://smartstock-backend-production-36b6ce8c.up.railway.app | v1.0.0 | Primera versión desplegada |
-| Base de datos MySQL 8.4 | — (servicio administrado de Railway) | Acceso interno del proyecto en Railway | — | Desplegada |
+| **Producto** | **Repositorio** | **URL desplegada** | **Versión** | **Estado** |
+|---|---|---|---|---|
+| Web Services (Spring Boot) | NexoStock/smartstock-backend | `https://smartstock-backend-production-36b6ce8c.up.railway.app` (documentación: `/swagger-ui/index.html`) | v1.1.1 | Desplegado (Railway) |
+| Base de datos MySQL | NexoStock/smartstock-backend | (completar - ANGEL: servicio y plataforma, sin host ni credenciales) | (completar - ANGEL: versión de MySQL) | (completar - ANGEL: Running) |
+| Frontend Web Application | NexoStock/smartstock-frontend | (completar - ANGEL: dirección en GitHub Pages) | (completar - ANGEL) | Desplegado (GitHub Pages) |
 
 *Nota.* Elaboración propia
 
-**Preparación del despliegue.** En el repositorio de los Web Services se agregaron un `Dockerfile` de dos etapas y un `.dockerignore` (rama `feature/docker-ci`, PR #5). La primera etapa usa la imagen `eclipse-temurin:27-jdk` para compilar el proyecto con el Maven Wrapper (`./mvnw -B -DskipTests package`). La segunda copia solo el `.jar` a la imagen `eclipse-temurin:27-jre`, lo ejecuta con un usuario sin privilegios y activa el perfil `prod`. El perfil `prod` no tiene secretos por defecto: la conexión a la base de datos, el secreto de los JWT y los orígenes permitidos por CORS se leen de variables de entorno, y si alguno falta la aplicación no arranca. Además, en `.gitattributes` se fijaron los finales de línea LF del `mvnw` para que el script funcione dentro del contenedor Linux.
+**Figura 262**
 
-**Release.** Siguiendo GitFlow, desde `develop` se creó la rama `release/1.0.0`, que completó los nombres de los integrantes en el `pom.xml`. Esa rama se integró en `main` con un merge commit (`--no-ff`), se etiquetó como `v1.0.0` y se integró de vuelta en `develop`. Railway despliega desde la rama `main`.
+*Backend API de SmartStock desplegado en Railway*
 
-**Despliegue en Railway.** Los pasos fueron:
-
-1. Crear el proyecto en Railway con la opción *Deploy from GitHub repo*, autorizar a Railway en la organización NexoStock y elegir el repositorio `smartstock-backend`, rama `main`. Railway detecta el `Dockerfile` y construye la imagen.
-2. Agregar al proyecto un servicio de base de datos MySQL administrado por Railway (MySQL 8.4).
-3. Habilitar el *TCP Proxy* del servicio MySQL. Durante las pruebas el backend no logró conectarse por la red privada del proyecto (error *Communications link failure*), por lo que se usa el dominio público del proxy de Railway.
-4. Configurar las variables de entorno del servicio de los Web Services: la URL JDBC, el usuario y la contraseña de MySQL (`SPRING_DATASOURCE_URL`, `SPRING_DATASOURCE_USERNAME`, `SPRING_DATASOURCE_PASSWORD`; usuario y contraseña se leen por referencia de las variables del servicio MySQL), `JWT_SECRET` (64 bytes aleatorios en Base64), `CORS_ALLOWED_ORIGINS=https://nexostock.github.io`, `PUBLIC_API_URL` con el dominio público, `PORT=8080`, `SPRING_JPA_HIBERNATE_DDL_AUTO=update`, para que Hibernate cree el esquema en la base vacía, y `SPRINGDOC_API_DOCS_ENABLED` y `SPRINGDOC_SWAGGER_UI_ENABLED`, para publicar la documentación. Los secretos solo existen en Railway: ninguno está en el repositorio.
-5. Generar el dominio público del servicio en *Networking*, apuntando al puerto 8080, y configurar `/actuator/health` como ruta de *health check*.
-
-En los primeros intentos el contenedor se detenía a los pocos segundos de iniciar. Los registros de Railway permitieron identificar tres causas, que se corrigieron solo con configuración, sin cambiar el código: la conexión por la red privada (paso 3), la validación del esquema en una base de datos aún vacía (`ddl-auto=validate` del perfil `prod`, reemplazado por `update` mediante variable de entorno) y la falta de las variables obligatorias del perfil `prod` (`JWT_SECRET`, `CORS_ALLOWED_ORIGINS` y `PUBLIC_API_URL`).
-
-**Verificación.** Con el servicio en línea se comprobó desde fuera de Railway que `/actuator/health` responde `{"status":"UP"}` (incluye la conexión a la base de datos), que Swagger UI y `/v3/api-docs` responden 200, que una ruta protegida sin token responde 401 y que una petición de preflight CORS desde `https://nexostock.github.io` es aceptada.
-
-**Landing Page y Web Application.** El Landing Page sigue publicado en GitHub Pages; en este sprint se agregó la sección de videos con About-the-Product y About-the-Team incrustados desde YouTube. En la Web Application se reemplazó `apiBaseUrl` en `src/environments/environment.ts` por la URL de los Web Services, de modo que la versión publicada en GitHub Pages ya no usa la Fake API.
-
-**Figura 192**  
-*Proyecto en Railway con el servicio de los Web Services y la base de datos MySQL*
-
-![Proyecto en Railway con el servicio de los Web Services y la base de datos MySQL](../assets/chapter-5/sprint3-deploy-railway-proyecto.png)
+(completar - ANGEL)
 
 *Nota.* Elaboración propia
 
-**Figura 193**  
-*Variables de entorno del servicio de los Web Services en Railway*
+**Figura 263**
 
-![Variables de entorno del servicio de los Web Services en Railway](../assets/chapter-5/sprint3-deploy-railway-variables.png)
+*Servicio de base de datos MySQL creado (sin mostrar host ni credenciales)*
 
-*Nota.* Railway oculta los valores de todas las variables. Elaboración propia
-
-**Figura 194**  
-*Despliegue exitoso de los Web Services en Railway con su dominio público*
-
-![Despliegue exitoso de los Web Services en Railway con su dominio público](../assets/chapter-5/sprint3-deploy-railway-deploy.png)
-
-*Nota.* Despliegue activo del merge de release/1.0.0 en main, publicado en smartstock-backend-production-36b6ce8c.up.railway.app. Elaboración propia
-
-**Figura 195**  
-*Health check de los Web Services desplegados*
-
-![Health check de los Web Services desplegados](../assets/chapter-5/sprint3-deploy-health.png)
-
-*Nota.* Respuesta de https://smartstock-backend-production-36b6ce8c.up.railway.app/actuator/health. Elaboración propia
-
-**Figura 196**  
-*Etiqueta v1.0.0 del repositorio de los Web Services*
-
-![Etiqueta v1.0.0 del repositorio de los Web Services](../assets/chapter-5/sprint3-deploy-tag-v1-0-0.png)
+(completar - ANGEL)
 
 *Nota.* Elaboración propia
 
-**Figura 197**  
-*Landing Page con la sección de videos y Web Application conectada a los Web Services*
+**Figura 264**
 
-![Landing Page con la sección de videos y Web Application conectada a los Web Services](../assets/chapter-5/sprint3-deploy-landing-webapp.png)
+*Tablas del esquema de SmartStock creadas en la base de datos*
 
-*Nota.* (a) Sección de videos del Landing Page; (b) Web Application publicada en GitHub Pages con peticiones dirigidas a los Web Services en Railway. Elaboración propia
+(completar - ANGEL)
+
+*Nota.* Elaboración propia
+
+**Figura 265**
+
+*Verificación del despliegue: respuesta de `/actuator/health` y documentación en `/swagger-ui/index.html`*
+
+(completar - ANGEL)
+
+*Nota.* Elaboración propia
+
+**Figura 266**
+
+*Ejecución del workflow de integración continua en GitHub Actions: compilación, pruebas y construcción de la imagen Docker*
+
+(completar - ANGEL)
+
+*Nota.* Elaboración propia
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
-Durante el Sprint 3 el equipo trabajó en el repositorio NexoStock/smartstock-backend con el mismo flujo de GitFlow del Sprint 2 (Tabla 44). Cada integrante desarrolló su contexto en ramas `feature/<contexto>` o `fix/<contexto>` creadas desde develop y las integró mediante pull request revisado por otro integrante, con merge commit. La versión 1.0.0 se publicó a través de la rama `release/1.0.0`, que se integró en main con la etiqueta v1.0.0 y de vuelta en develop. Los mensajes de commit siguen Conventional Commits, en inglés, con el contexto como alcance; por ejemplo, `feat(devices): add sensors, device key and readings`.
+En el Sprint 3 los cinco integrantes aportaron commits en el repositorio de Web Services, cada uno en el *bounded context* que lidera según la Tabla 48: Angel en IoT Device y el despliegue, Leo en Alerts & Restocking y Ventas, Lorena en IAM (registro, inicio de sesión, token JWT y recuperación de contraseña), Kiara en Inventory Monitoring y Analytics & Reporting, y Candy en Product Catalog, Compras y la integración de los pull requests. El trabajo siguió GitFlow con una rama corta por tarea. El contexto IAM se integró en tres partes mediante los pull requests #4 (autenticación), #7 (filtro JWT y aislamiento por negocio) y #15 (recuperación de contraseña). El repositorio cerró el sprint con las versiones v1.0.0 y v1.1.0, y con el hotfix v1.1.1 que corrige el Dockerfile.
 
-La Tabla 48 registra 68 commits del sprint, repartidos entre los cinco integrantes: Ángel 26, Sebastián 12, Candy 11, Lorena 9 y Kiara 9. Además, el CI del repositorio ejecuta en cada pull request la compilación y las pruebas con Java 27 y una base MySQL, de modo que ninguna rama se integra si rompe las reglas de negocio probadas.
+**Tabla 54**  
+*Flujo de ramas de GitFlow seguido en el Sprint 3*
 
-##### Analíticos de colaboración de los repositorios
+| Rama | Nace de | Se integra en | Regla |
+|---|---|---|---|
+| `main` | — | — | Recibe únicamente las versiones publicadas; solo se modifica mediante pull request. |
+| `develop` | — | — | Concentra el avance acumulado del sprint; solo se modifica mediante pull request. |
+| `feature/<contexto>-<tarea>` | `develop` | `develop` | Una rama corta por tarea; se integra mediante pull request con merge commit. |
+| `fix/<descripción>` | `develop` | `develop` | Corrige un defecto detectado durante el sprint; se integra mediante pull request con merge commit. |
+| `release/<x.y.z>` | `develop` | `main` y de vuelta a `develop` | Prepara la versión a entregar; se etiqueta `vX.Y.Z` (`v1.0.0` y `v1.1.0`). |
+| `hotfix/<x.y.z>` | `main` | `main` y de vuelta a `develop` | Corrige un defecto de la versión publicada; se etiqueta `vX.Y.Z` (`v1.1.1`). |
 
-La vista de contribuyentes de GitHub y la vista Pulse muestran la participación de los cinco integrantes en el repositorio de los Web Services (Figuras 198 y 199).
+*Nota. Elaboración propia*
 
-**Figura 198**  
-*Contributors del repositorio NexoStock/smartstock-backend*
+**Figura 267**  
+*Contributors del repositorio de Web Services*
 
-![Contributors del repositorio NexoStock/smartstock-backend](../assets/chapter-5/sprint3-colaboracion-contributors.png)
+*Nota. Elaboración propia*
 
-*Nota.* Elaboración propia
+**Figura 268**  
+*Pulse del repositorio de Web Services*
 
-**Figura 199**  
-*Pulse del repositorio NexoStock/smartstock-backend*
+*Nota. Elaboración propia*
 
-![Pulse del repositorio NexoStock/smartstock-backend](../assets/chapter-5/sprint3-colaboracion-pulse.png)
+**Figura 269**  
+*Network graph del repositorio de Web Services*
 
-*Nota.* Elaboración propia
+*Nota. Elaboración propia*
 
-##### Historial de ramas de los repositorios
+### 5.2.4. Sprint 4
 
-El grafo de red muestra la aplicación de GitFlow en el repositorio de los Web Services: las ramas de feature nacen de develop y se integran en ella mediante merge commits, y la rama main recibe la versión publicada a través de release/1.0.0.
+#### 5.2.4.1. Sprint Planning 4
 
-**Figura 200**  
-*Network graph del repositorio NexoStock/smartstock-backend*
+#### 5.2.4.2. Aspect Leaders and Collaborators
 
-![Network graph del repositorio NexoStock/smartstock-backend](../assets/chapter-5/sprint3-colaboracion-network.png)
+#### 5.2.4.3. Sprint Backlog 4
 
-*Nota.* Elaboración propia
+#### 5.2.4.4. Development Evidence for Sprint Review
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint
+
+
 
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de Entrevistas
 
-Las entrevistas de validación buscan comprobar si los usuarios de cada segmento objetivo entienden el Landing Page y la Frontend Web Application, si pueden completar las tareas principales sin ayuda y qué cambiarían. A diferencia de las entrevistas de needfinding del Capítulo II, el entrevistado no describe su problema: interactúa con el producto desplegado mientras responde preguntas cortas sobre lo que ve. Se entrevistó a dueños o encargados de minimarkets y de bodegas; quienes ya habían participado en el needfinding vieron el producto que antes conocieron como prototipo.
 
-Cada entrevista dura entre 11 y 15 minutos, se graba con autorización del entrevistado y sigue un orden fijo, igual para todos, para que las respuestas puedan compararse:
+Las entrevistas de validación evaluarán la comprensión y la facilidad de uso del Landing Page y de la Web Application de SmartStock con propietarios y administradores de minimarkets y bodegas de barrio. El equipo realizará entre tres y cinco entrevistas por segmento, buscando contactar nuevamente a los participantes de TB1. A diferencia de las entrevistas iniciales (2.2.1), que buscaban conocer al usuario y su problema, estas sesiones buscan observar cómo el usuario reacciona ante el producto y qué partes no comprende.
 
-(1) **Introducción (20 s).** Presentación del equipo y del objetivo, aclaración de que no es un examen y solicitud de autorización para grabar.
+Las entrevistas se realizaron sobre las versiones desplegadas del producto. El Landing Page se encuentra en `https://nexostock.github.io/smartstock-landing-page/` y la Web Application en `https://nexostock.github.io/smartstock-frontend/`.
 
-(2) **Datos del entrevistado (10 s).** Nombre, edad, distrito y tipo de negocio, junto con la fecha, el dispositivo y el navegador.
+Para agilizar las sesiones, se aplicará una demostración guiada e interactiva: la persona entrevistadora presenta y opera el Landing Page y la Web Application, y el participante interactúa indicando qué opción elegiría, qué dato ingresaría y qué espera que ocurra en cada pantalla. Si el participante desea manejar la aplicación, se le cede el control. Las preguntas de opinión se realizan al final. Cada sesión dura aproximadamente 5 a 6 minutos y se edita en un fragmento de 3 a 5 minutos por entrevista, que se integra en el video único de entrevistas de validación.
 
-(3) **Landing Page (2 min).** Se le pide explicar en una frase qué ofrece SmartStock, elegir un plan (Inicial, Crecimiento o Business) y justificar su elección, e indicar dónde haría clic para crear su cuenta.
+**Elementos de la sesión de validación**
 
-(4) **Aplicación (6 min), en el orden del menú lateral.** En Productos, desde cuántas unidades quiere que se le avise del stock bajo; en Sensores, si entiende la columna de estado y qué significa; en Ventas, qué tocaría para registrar una venta y si el stock quedó como esperaba; en Alertas, qué haría al ver una alerta de stock bajo; y en Compras, si buscaría ahí lo que le llega del proveedor. Si sobra tiempo, se muestran la comparación de inventario y los reportes.
+El Landing Page se evalúa para comprobar la comprensión de la propuesta de valor, los planes, las preguntas frecuentes y el acceso al registro o contacto. Su dirección, escrita como texto simple, es: (completar - LORENA: dirección del Landing Page de SmartStock, del repositorio de NexoStock).
 
-(5) **Preguntas finales (2 min).** Lo más confuso o lo que le faltó; la pantalla más clara y la más confusa; si confiaría en las alertas para decidir cuándo reponer; y qué precio mensual le parecería razonable.
+La Web Application se evalúa con los cuatro user flows de cada segmento, que se describen más abajo. Su dirección, escrita como texto simple, es: (completar - LORENA: dirección de la Web Application de SmartStock, del repositorio de NexoStock).
 
-(6) **Cierre (15 s).** Espacio para comentarios adicionales y agradecimiento.
+**Preparación de la sesión**
 
-Las preguntas cambian ligeramente según el segmento: en el caso de las bodegas se enfatiza el plan Inicial y las dudas sobre los sensores, porque son el segmento con menos experiencia en herramientas digitales. Las preguntas son abiertas o de respuesta breve y no sugieren la respuesta correcta; el entrevistador espera la respuesta antes de explicar la pantalla.
+Antes de cada entrevista, la persona entrevistadora comprobará el funcionamiento del Landing Page y de la Web Application. Se prepararán los datos de prueba necesarios: una cuenta ya registrada, un producto de ejemplo, un sensor disponible y una alerta de stock bajo. Se utilizarán datos ficticios para evitar registrar información sensible. Se aplicará únicamente la guía correspondiente al segmento del participante.
 
-**Tabla 52**  
-*Preguntas de la entrevista de validación por segmento*
+**Estructura de la sesión**
 
-| Momento | Segmento minimarket | Segmento bodega |
-| --- | --- | --- |
-| Landing Page | ¿Qué cree que ofrece SmartStock? ¿Qué plan elegiría para su minimarket y por qué? ¿Dónde haría clic para crear su cuenta? | ¿Para qué le serviría en su bodega? ¿Qué cree que incluye el plan Inicial? ¿Le queda alguna duda con los sensores? ¿Dónde haría clic para crear su cuenta? |
-| Productos | ¿Desde cuántas unidades quiere que le avise que se está acabando? | Igual que en minimarket |
-| Sensores | ¿Entiende qué dice la columna de estado? ¿Qué cree que significa? | Igual que en minimarket |
-| Ventas | ¿Qué tocaría para registrar la venta? ¿Esto es lo que esperaba que pasara con las existencias? | ¿Qué tocaría para registrar la venta? ¿Quedaron las unidades que esperaba? |
-| Alertas | ¿Qué haría al ver esta alerta? | Le llega esta alerta: ¿qué haría? |
-| Compras | ¿Es aquí donde buscaría registrar lo que le llega del proveedor? | Igual que en minimarket |
-| Preguntas finales | Lo más confuso; pantalla más clara y más confusa; ¿confiaría en las alertas para reponer?; precio mensual razonable | Lo más confuso; pantalla más clara y más confusa; ¿qué decisión tomaría al ver la alerta?; precio mensual razonable para el plan Inicial |
+La sesión tiene cuatro fases:
 
-*Nota.* Elaboración propia
+1. **Inicio y datos del participante (1 minuto):** bienvenida, autorización para grabar, nombre y apellido, edad, distrito y función en el negocio.
+2. **Demostración del Landing Page (1 minuto):** la persona entrevistadora presenta tres secciones y el participante indica su reacción.
+3. **Demostración de la Web Application (3 minutos):** la persona entrevistadora presenta cuatro user flows y el participante indica qué opción elegiría y qué espera que ocurra.
+4. **Preguntas finales y cierre (1 a 2 minutos):** cuatro preguntas sobre la experiencia, comentario final y agradecimiento.
+
+El texto exacto de las fases de inicio y cierre es común para ambos segmentos y se encuentra en el guion de presentación del equipo, para que todas las personas entrevistadoras usen las mismas palabras.
+
+**Primer Segmento Objetivo (Propietarios y administradores de minimarkets)**
+
+*Demostración del Landing Page*
+
+Se mostrará primero el Landing Page y se indicará: «Le voy a mostrar nuestra página como si estuviera buscando una herramienta para su minimarket. Cuénteme qué le llama la atención o qué no entiende.» Se presentan tres secciones:
+
+1. **Propuesta de valor:** la persona entrevistadora muestra el inicio de la página y los beneficios. El participante indica qué entiende que ofrece SmartStock.
+2. **Planes:** la persona entrevistadora muestra los planes Crecimiento y Business. El participante indica qué diferencia ve entre ambos y cuál elegiría.
+3. **Acceso al registro:** la persona entrevistadora muestra la parte superior de la página. El participante indica dónde cree que debería ingresar para comenzar.
+
+*User flows de la Web Application*
+
+Se indicará: «Ahora le mostraré la aplicación. Iré presentando una pantalla a la vez y le pediré que me diga qué opción elegiría y qué espera que pase. Si prefiere manejarla usted, con gusto.» Se presentan cuatro user flows:
+
+1. **Registro de productos.** La persona entrevistadora muestra el formulario de un producto de prueba. El participante indica qué nivel de existencias fijaría para recibir una alerta de stock bajo (la persona entrevistadora lo ingresa). Se observa si entiende el campo del umbral de stock.
+2. **Consulta y vinculación de sensores.** La persona entrevistadora muestra la lista de sensores y el estado de uno disponible. El participante indica qué entiende del estado del sensor y cuál vincularía al producto. Se observa si interpreta el estado y reconoce cómo vincularlo.
+3. **Registro de ventas.** La persona entrevistadora muestra la pantalla de ventas. El participante indica qué opción tocaría para registrar la venta de un producto y qué espera que ocurra con las existencias (la persona entrevistadora la registra). Se observa si identifica la opción correcta y comprende el cambio en las existencias.
+4. **Reposición desde una alerta.** La persona entrevistadora muestra una alerta de stock bajo. El participante indica qué significa la alerta y qué opción elegiría para reponer el producto (la persona entrevistadora inicia la compra). Se observa si entiende la alerta y encuentra cómo iniciar la compra.
+
+*Preguntas finales*
+
+Al terminar la demostración, se indicará: «Gracias. Ahora quisiéramos conocer su opinión sobre la experiencia.»
+
+1. ¿Qué entiende que ofrece SmartStock y qué información le resultó confusa o considera que falta?
+2. ¿Qué parte de la aplicación le resultó más clara y cuál le generó más dudas?
+3. ¿Confiaría en las alertas para decidir cuándo reponer un producto? ¿Por qué?
+4. ¿Qué precio mensual consideraría razonable por esta solución y por qué?
+
+**Segundo Segmento Objetivo (Propietarios y administradores de bodegas de barrio)**
+
+*Demostración del Landing Page*
+
+Se mostrará primero el Landing Page y se indicará: «Le voy a mostrar nuestra página como si estuviera buscando una herramienta para su bodega. Cuénteme qué le llama la atención o qué no entiende.» Se presentan tres secciones:
+
+1. **Propuesta de valor y casos de uso para bodegas:** la persona entrevistadora muestra el inicio de la página y los casos de uso. El participante indica para qué cree que podría utilizar SmartStock en su bodega.
+2. **Plan Inicial y preguntas frecuentes sobre sensores:** la persona entrevistadora muestra el plan Inicial y las preguntas frecuentes sobre la instalación de sensores. El participante indica qué entiende que incluye el plan y qué dudas tiene sobre los sensores.
+3. **Acceso al registro:** la persona entrevistadora muestra la parte superior de la página. El participante indica dónde cree que debería ingresar para comenzar.
+
+*User flows de la Web Application*
+
+Se indicará: «Ahora le mostraré la aplicación. Iré presentando una pantalla a la vez y le pediré que me diga qué opción elegiría y qué espera que pase. Si prefiere manejarla usted, con gusto.» Se presentan cuatro user flows:
+
+1. **Registro de productos.** La persona entrevistadora muestra el formulario de un producto de prueba. El participante indica qué nivel de existencias fijaría para recibir una alerta de stock bajo (la persona entrevistadora lo ingresa). Se observa si entiende el campo del umbral de stock.
+2. **Consulta y vinculación de sensores.** La persona entrevistadora muestra la lista de sensores y el estado de uno disponible. El participante indica qué entiende del estado del sensor y cuál vincularía al producto. Se observa si interpreta el estado y reconoce cómo vincularlo.
+3. **Registro de una venta simple.** La persona entrevistadora muestra la pantalla de ventas. El participante indica qué opción tocaría para registrar una venta y cuántas unidades espera que queden (la persona entrevistadora la registra). Se observa si identifica la opción con pocos pasos y entiende las unidades restantes.
+4. **Consulta de alertas y reposición.** La persona entrevistadora muestra una alerta de stock bajo. El participante indica qué haría al recibirla y qué opción elegiría para reponer el producto (la persona entrevistadora inicia la compra). Se observa qué decisión toma ante la alerta y si encuentra cómo iniciar la compra.
+
+*Preguntas finales*
+
+Al terminar la demostración, se indicará: «Gracias. Ahora quisiéramos conocer su opinión sobre la experiencia.»
+
+1. ¿Qué entiende que ofrece SmartStock en su bodega y qué dudas le quedan sobre los sensores?
+2. ¿Qué parte de la aplicación le resultó más clara y cuál le generó más dudas?
+3. ¿Qué entendió de la alerta de stock bajo y qué decisión tomaría al verla?
+4. Viendo el plan Inicial, ¿qué precio mensual consideraría razonable por esta solución y por qué?
+
+**Indicaciones de observación (comunes para ambos segmentos)**
+
+Antes de ejecutar cada acción en la aplicación, la persona entrevistadora esperará a que el participante indique qué opción elegiría, sin señalar botones. Si el participante no sabe cómo continuar, se le ayudará y se registrará. Si desea manejar la aplicación, se le cederá el control y se dejará constancia de esta modalidad. Para el video, de cada entrevista se conservará un fragmento de 3 a 5 minutos con el título del entrevistado, su segmento y la fecha. Las reacciones, las dificultades y la ayuda brindada serán la base de la evaluación según heurísticas (5.3.3).
 
 ### 5.3.2. Registro de Entrevistas
 
-La Tabla 53 resume las entrevistas de validación realizadas. El video consolidado con todas las entrevistas se encuentra en el Anexo C: [enlace al video de entrevistas de validación].
 
-**Tabla 53**  
-*Registro de las entrevistas de validación*
+**Video de entrevistas de validación**
 
-| N.º | Segmento | Entrevistado (nombre, edad, distrito) | Entrevistador | Fecha | Inicio en el video | Duración | Resumen |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Bodega | [nombre], [edad], [distrito] | Crispin Valdivia, Angel Gabriel | [fecha] | [mm:ss] | [mm:ss] | [resumen de lo que entendió, lo que le costó y lo que propuso] |
-| 2 | Bodega | [nombre], [edad], [distrito] | [integrante] | [fecha] | [mm:ss] | [mm:ss] | [resumen] |
-| 3 | Bodega | [nombre], [edad], [distrito] | [integrante] | [fecha] | [mm:ss] | [mm:ss] | [resumen] |
-| 4 | Minimarket | [nombre], [edad], [distrito] | [integrante] | [fecha] | [mm:ss] | [mm:ss] | [resumen] |
-| 5 | Minimarket | [nombre], [edad], [distrito] | [integrante] | [fecha] | [mm:ss] | [mm:ss] | [resumen] |
-| 6 | Minimarket | [nombre], [edad], [distrito] | [integrante] | [fecha] | [mm:ss] | [mm:ss] | [resumen] |
+`https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQBFC7khe0dTSaFFsb7f2-qXAfUSmPvc1f4ZhV_XQ6qEaHw?e=zJeXXn&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D`
 
-*Nota.* Elaboración propia
+La figura 269 muestra el video y los tiempos de cada entrevista son:
 
-<!-- Por cada entrevista: agregar debajo una figura con la captura del video (Figura N) y un párrafo con sus respuestas principales. -->
+- Entrevista 01: 00:05 - 07:42
+- Entrevista 02: 07:47 - 14:23
+- Entrevista 03: 14:28 - 20:36
+- Entrevista 04: 20:41 - 27:08
+- Entrevista 05: 27:13 - 39:48
+
+**Figura 270**
+
+*Video de entrevistas de validación a propietarios y administradores de minimarkets y bodegas de barrio*
+
+![videovalidacion](../assets/chapter-5/image117.png)
+
+*Nota. Elaboración propia*
+
+### Primer Segmento Objetivo (Propietarios y administradores de minimarkets)
+
+**Tabla 55**
+
+*Registro de la entrevista 1 a propietarios y administradores de minimarkets*
+
+| Campo | Información |
+|---|---|
+| Screenshot | ![videovalidacion](../assets/chapter-5/image265.png) |
+| Inicia | 00:05 |
+| Duración | 07:37 |
+| Nombre completo | José Martín Montañez |
+| Edad | 52 años |
+| Distrito | Pueblo Libre |
+| Resumen | José identificó SmartStock como una solución para controlar el inventario, gestionar reposiciones y recibir alertas. Eligió el plan Business y propuso recibir avisos desde diez unidades, considerando la rotación de cada producto. Reconoció las opciones para crear una cuenta, registrar ventas y nuevas compras, pero manifestó dificultad para comprender los estados de los sensores. Consideró útiles las alertas para contactar a sus proveedores y señaló que las revisaría al iniciar y terminar el día. Como mejora principal, sugirió incorporar la lectura de códigos de barras en ventas y compras para evitar digitar numerosos productos. No precisó una tarifa mensual concreta. |
+
+*Nota. Elaboración propia*
+
+**Tabla 56**
+
+*Registro de la entrevista 2 a propietarios y administradores de minimarkets*
+
+| Campo | Información |
+|---|---|
+| Screenshot | ![videovalidacion](../assets/chapter-5/image294.png) |
+| Inicia | 07:47 |
+| Duración | 06:36 |
+| Nombre completo | Cristopher Benavides |
+| Edad | 23 años |
+| Distrito | Jesus Maria |
+| Resumen | Cristopher identificó SmartStock como una herramienta para actualizar el stock mediante las entradas y salidas de productos. Eligió el plan Crecimiento y propuso recibir alertas desde cuatro unidades. Consideró el panel la pantalla más clara y destacó el cambio de idioma y las notificaciones. Inicialmente tuvo dificultad para seguir la demostración de compras y, al preguntarle cómo registrar una venta, señaló la opción Comprobante, lo que sugiere revisar la claridad de esa acción. Indicó que confiaría en las alertas para decidir cuándo reponer y consideró razonable un precio mensual cercano a S/100. |
+
+*Nota. Elaboración propia*
+
+**Tabla 57**
+
+*Registro de la entrevista 3 a propietarios y administradores de minimarkets*
+
+| Campo | Información |
+|---|---|
+| Screenshot | ![videovalidacion](../assets/chapter-5/image67.png) |
+| Inicia | 14:28 |
+| Duración | 06:08 |
+| Nombre completo | Yngrid Ruiz |
+| Edad | 23 años |
+| Distrito | Pueblo Libre |
+| Resumen | Yngrid identificó SmartStock como una solución para registrar y controlar el inventario de su minimarket. Tras la demostración guiada, consideró que la aplicación era completa y señaló el registro de inventario como la función más clara. No manifestó dudas sobre las secciones presentadas y afirmó que confiaría en las alertas para decidir cuándo reponer, porque los productos estarían registrados en la aplicación. Consideró razonable un precio mensual de S/50 y no añadió otras observaciones. |
+
+*Nota. Elaboración propia*
+
+### Segundo Segmento Objetivo (Propietarios y administradores de bodegas de barrio)
+
+**Tabla 58**
+
+*Registro de la entrevista 1 a propietarios y administradores de bodegas de barrio*
+
+| Campo | Información |
+|---|---|
+| Screenshot | ![videovalidacion](../assets/chapter-5/image168.png) |
+| Inicia | 20:41 |
+| Duración | 06:27 |
+| Nombre completo | Lincoln Bruno |
+| Edad | 49 años |
+| Distrito | Comas |
+| Resumen | Lincoln identificó SmartStock como una herramienta para controlar el stock de su tienda y almacén. Eligió el plan Inicial para conocer su funcionamiento y evaluar posteriormente otros planes según el movimiento del negocio. Propuso recibir alertas desde cinco unidades y señaló que estas le permitirían realizar pedidos para reponer productos. Esperaba acceder directamente desde una alerta al registro de compras. Aunque consideró que la aplicación era clara en general, solicitó una mejor explicación sobre el funcionamiento de los sensores. Al preguntarle cómo registrar una venta, señaló la opción Comprobante, por lo que conviene revisar la claridad de esa acción. |
+
+*Nota. Elaboración propia*
+
+**Tabla 59**
+
+*Registro de la entrevista 2 a propietarios y administradores de bodegas de barrio*
+
+| Campo | Información |
+|---|---|
+| Screenshot | ![videovalidacion](../assets/chapter-5/image38.png) |
+| Inicia | 27:13 |
+| Duración | 07:37 |
+| Nombre completo | Ian Kimi San Martin Cauti |
+| Edad | 20 años |
+| Distrito | Santiago de Surco |
+| Resumen | Ian, administrador de una bodega, identificó SmartStock como una herramienta para organizar el inventario, controlar las existencias y reconocer cuándo reponer mercadería. Explicó que, durante los periodos de numerosas ventas, resulta difícil revisar manualmente qué productos se están agotando y cuáles tienen mayor disponibilidad. Consideró el plan Inicial adecuado para un negocio pequeño y manifestó dudas sobre el funcionamiento de los sensores, los posibles costos adicionales y los requisitos para implementarlos. Para crear una cuenta, señaló que buscaría un botón denominado «Registrarse» o «Comenzar» en la página principal. |
+
+*Nota. Elaboración propia*
+
+### Análisis de entrevistas de validación
+
+Se analizaron las respuestas de cinco participantes: tres del segmento de propietarios y administradores de minimarkets y dos del segmento de propietarios y administradores de bodegas de barrio. Las sesiones permitieron recoger opiniones sobre la comprensión de SmartStock, la navegación de la aplicación, las alertas y las mejoras esperadas.
+
+Para este análisis se utilizó la transcripción completa de cuatro entrevistas y la transcripción parcial de la entrevista de Ian San Martin. Los resultados de este último se limitan a las respuestas disponibles hasta el minuto 30:00 del video. Los porcentajes describen únicamente a los participantes analizados y no representan a la totalidad de negocios de cada segmento.
+
+#### Primer segmento objetivo: propietarios y administradores de minimarkets
+
+Participaron José Montañez, Cristopher Benavides y Yngrid Ruiz, con edades declaradas de 51, 23 y 23 años, respectivamente. El 66,7 % de los participantes tiene 23 años. José y Cristopher señalaron residir en Jesús María, mientras que el distrito de Yngrid no se especificó en la entrevista disponible.
+
+Los tres participantes relacionaron SmartStock con el control del inventario. José destacó su utilidad para gestionar las existencias, las reposiciones y las alertas; Cristopher reconoció el registro de entradas y salidas de productos; y Yngrid identificó la solución como una herramienta para registrar y administrar el inventario. Asimismo, los tres expresaron confianza en las alertas para decidir cuándo reponer productos.
+
+Se identificaron dificultades específicas durante la demostración. José manifestó que no comprendía el significado de los estados de los sensores y propuso incorporar la lectura de códigos de barras para agilizar las ventas y compras. Cristopher indicó que necesitaba mayor claridad en el recorrido de compras porque no había observado con precisión dónde se hacía clic. Además, al preguntarle cómo registrar una venta, señaló la opción «Comprobante», lo que sugiere revisar la claridad de esa acción. Yngrid consideró claro el registro de inventario y no manifestó dudas al finalizar la sesión.
+
+**Hallazgos identificados en las entrevistas de validación de minimarkets**
+
+**Tabla 60**
+
+*Hallazgos de las entrevistas de validación a propietarios y administradores de minimarkets*
+
+| Aspecto evaluado | Hallazgo identificado | Frecuencia |
+|---|---|---|
+| Comprensión de la propuesta | Relacionaron SmartStock con el registro o control del inventario. | 3 de 3 (100 %) |
+| Confianza en las alertas | Expresaron que confiarían en las alertas para decidir cuándo reponer productos. | 3 de 3 (100 %) |
+| Comprensión de los sensores | José manifestó explícitamente que no comprendía los estados mostrados. | 1 de 3 (33,3 %) |
+| Claridad del recorrido de compras | Cristopher solicitó mayor claridad sobre los pasos mostrados durante la demostración. | 1 de 3 (33,3 %) |
+| Agilidad del registro | José propuso incorporar códigos de barras para reducir la digitación de productos. | 1 de 3 (33,3 %) |
+| Ausencia de dudas declaradas | Yngrid manifestó que no tenía dudas al finalizar la sesión. | 1 de 3 (33,3 %) |
+| Referencia de precio mensual | Cristopher propuso aproximadamente S/ 100 y Yngrid, S/ 50. | 2 de 3 (66,7 %) |
+
+**Nota.** Elaboración propia a partir de las respuestas de validación. Las frecuencias registran menciones explícitas; la ausencia de una mención no implica una opinión contraria. La respuesta de José sobre el precio no permitió identificar con claridad una tarifa mensual comparable.
+
+En conclusión, los resultados de este segmento muestran una comprensión compartida de la finalidad de SmartStock y una valoración favorable de las alertas de reposición. No obstante, la aceptación general no elimina las dificultades específicas encontradas. Se recomienda explicar los estados de los sensores con lenguaje sencillo, mostrar de forma más clara la secuencia de compras y evaluar la incorporación de códigos de barras. Las referencias de precio presentan diferencias, por lo que no permiten establecer una tarifa única aceptada por el segmento.
+
+#### Segundo segmento objetivo: propietarios y administradores de bodegas de barrio
+
+Se analizaron las entrevistas de Lincoln Bruno, de 49 años y residente en Comas, e Ian Kimi San Martin Cauti, de 20 años y residente en Santiago de Surco. La entrevista de Lincoln cuenta con transcripción completa y la de Ian dispone de una transcripción parcial.
+
+Ambos participantes identificaron beneficios relacionados con el control de productos y la reposición. Lincoln vinculó la solución con la gestión del almacén y del stock de su tienda. Ian destacó la posibilidad de organizar el inventario, reconocer qué productos se están agotando y saber cuándo reponer mercadería. Explicó que, durante los periodos de numerosas ventas, resulta difícil revisar manualmente las existencias.
+
+Los dos participantes solicitaron información adicional sobre los sensores. Lincoln expresó que necesitaba comprender mejor su funcionamiento y cómo apoyarían el control de estantes con numerosos productos. Ian planteó dudas sobre su funcionamiento, los posibles costos adicionales y los requisitos necesarios para implementarlos. Estas respuestas muestran la necesidad de explicar tanto el uso de los dispositivos como las condiciones para incorporarlos al negocio.
+
+Respecto a la adopción, Lincoln prefirió comenzar con el plan Inicial para aprender a utilizar la herramienta y evaluar posteriormente otros planes. Ian también consideró que el plan Inicial podía ser adecuado para una bodega pequeña. Lincoln, además, manifestó que esperaba pasar desde las alertas hacia la compra de los productos faltantes.
+
+**Hallazgos identificados en las entrevistas de validación de bodegas de barrio**
+
+**Tabla 61**
+
+*Hallazgos de las entrevistas de validación a propietarios y administradores de bodegas de barrio*
+
+| Aspecto evaluado | Hallazgo identificado | Alcance de la evidencia |
+|---|---|---|
+| Comprensión de la propuesta | Ambos relacionaron SmartStock con el control de productos, almacén o stock. | 2 de 2 (100 %) |
+| Comprensión de los sensores | Ambos solicitaron explicaciones adicionales sobre su funcionamiento o implementación. | 2 de 2 (100 %) |
+| Reposición de productos | Lincoln indicó que realizaría pedidos al recibir una alerta de stock bajo. | Respuesta verificada en Lincoln; sin respuesta disponible de Ruth a esa pregunta. |
+| Continuidad entre alertas y compras | Lincoln manifestó que esperaba pasar desde las alertas hacia la compra de los productos faltantes. | Hallazgo individual de Lincoln. |
+| Adopción gradual | Lincoln prefirió comenzar con el plan inicial para aprender y evaluar posteriormente otros planes. | Hallazgo individual de Lincoln. |
+| Reducción del trabajo manual | Ruth destacó el beneficio de controlar productos sin revisar todo manualmente. | Hallazgo individual de Ruth. |
+| Instalación y costo de sensores | Ruth solicitó información sobre su colocación y costo de implementación. | Hallazgo individual de Ruth. |
+
+*Nota. Elaboración propia* Los porcentajes se utilizan únicamente en aspectos con respuestas disponibles de ambos participantes. No se atribuyen a Ruth opiniones sobre pantallas o preguntas que no aparecen en su transcripción parcial.
+
+En conclusión, los participantes de este segmento reconocieron la utilidad de SmartStock para controlar existencias y apoyar la reposición. La principal necesidad compartida fue comprender el funcionamiento de los sensores, mencionada por el 100 % de los participantes analizados. Se recomienda incorporar explicaciones visuales sobre su instalación, ejemplos de uso y una presentación clara de sus costos. Asimismo, conviene facilitar el paso desde una alerta hacia el registro de una compra y acompañar a los usuarios durante su aprendizaje inicial.
+
+### Conclusión general
+
+Las entrevistas muestran que los cinco participantes comprendieron la finalidad de SmartStock como herramienta para controlar el inventario. En los minimarkets destacó la confianza declarada en las alertas de reposición, mientras que en las bodegas se identificó una necesidad compartida de información adicional sobre los sensores y su implementación.
+
+Las mejoras prioritarias son explicar los estados y el funcionamiento de los dispositivos, hacer más comprensible el recorrido de compras y facilitar la identificación del registro de ventas. La propuesta de incorporar códigos de barras constituye una oportunidad adicional para reducir la digitación de productos.
+
+Estos hallazgos sirven como insumo para la evaluación de usabilidad y las propuestas de mejora de la interfaz. Las opiniones favorables expresadas durante una demostración guiada no permiten afirmar, por sí solas, que todos los participantes puedan completar las tareas sin ayuda.
+
 
 ### 5.3.3. Evaluaciones según heurísticas
 
-La evaluación heurística se realizó con el formato del Anexo D sobre el Landing Page y la Frontend Web Application desplegados, y cubre usabilidad, arquitectura de información y diseño inclusivo. Cada problema se califica con la siguiente escala de severidad:
 
-**Tabla 54**  
+## Site o app a evaluar
+
+SmartStock: Landing Page y Aplicación Web, en la versión presentada durante las sesiones de validación del curso de Desarrollo de Aplicaciones Open Source.
+
+## Tareas a evaluar
+
+El alcance de esta evaluación comprende las siguientes tareas:
+
+1. Identificar qué ofrece SmartStock y elegir un plan en la Landing Page.
+2. Identificar cómo crear una cuenta.
+3. Registrar productos y definir el umbral mínimo para las alertas.
+4. Identificar la acción para registrar una venta.
+5. Registrar una compra a un proveedor.
+6. Interpretar los estados de los sensores de peso.
+7. Atender una alerta de stock bajo e identificar cómo iniciar la reposición.
+8. Consultar reportes y comparar el inventario registrado con las lecturas de los sensores.
+
+**No se incluyen en esta evaluación:**
+
+- La usabilidad del inicio y cierre de sesión con credenciales propias, ni la recuperación de contraseña (en las sesiones se usó una cuenta ya registrada).
+- La recepción efectiva de notificaciones por correo y WhatsApp.
+- La instalación física de sensores en el negocio.
+- La lectura de códigos de barras, función no implementada en la versión evaluada.
+- El pago de una suscripción.
+
+Estas exclusiones delimitan las tareas evaluadas durante las entrevistas; no implican que todas esas funciones estén pendientes de implementación.
+
+## Escala de severidad
+
+La severidad se asigna considerando el impacto del problema sobre la tarea y la evidencia disponible.
+
+**Tabla 62**
+
 *Escala de severidad de los problemas de usabilidad*
 
 | Nivel | Descripción |
-| --- | --- |
-| 1 | Problema superficial: puede ser fácilmente superado por el usuario o se presenta con muy poca frecuencia. No necesita corregirse a menos que haya tiempo disponible. |
-| 2 | Problema menor: puede ocurrir con un poco más de frecuencia o es un poco más difícil de superar. Se le debe asignar una prioridad baja para la siguiente versión. |
-| 3 | Problema mayor: ocurre con frecuencia o los usuarios no pueden resolverlo. Es importante corregirlo con prioridad alta. |
-| 4 | Problema muy grave: impide que el usuario continúe usando la herramienta. Es imperativo corregirlo antes del lanzamiento. |
+|---|---|
+| 1 | Problema superficial: puede ser fácilmente superado por el usuario o se da con muy poca frecuencia. No necesita ser arreglado a menos que exista disponibilidad de tiempo. |
+| 2 | Problema menor: puede ocurrir con un poco más de frecuencia o es algo más difícil de superar para el usuario. Se le debe asignar una prioridad baja de cara al siguiente release. |
+| 3 | Problema mayor: ocurre con frecuencia o los usuarios no logran resolverlo. Es importante corregirlo y se le debe asignar una prioridad alta. |
+| 4 | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo corregirlo antes del lanzamiento. |
 
-*Nota.* Adaptado del Anexo D del enunciado del trabajo final
+*Nota. Elaboración propia*
 
-**Tabla 55**  
-*Resumen de los problemas identificados*
+## Tabla resumen
 
-| # | Problema | Escala de severidad | Heurística / Principio violado(a) |
-| --- | --- | --- | --- |
-| 1 | La aplicación se abre en inglés aunque los usuarios de ambos segmentos hablan español | 2 | Usability: coincidencia entre el sistema y el mundo real; Inclusive Design: reconocer la exclusión |
-| 2 | La lista de compras no muestra la fecha ni el nombre del proveedor de cada compra | 2 | Usability: reconocer antes que recordar; Information Architecture: ¿es fácil de encontrar? |
-| 3 | [problema identificado en las entrevistas] | [1-4] | [heurística] |
+**Tabla 63**
 
-*Nota.* Elaboración propia
+*Resumen de los problemas de usabilidad identificados*
 
-**Problema 1: La aplicación se abre en inglés aunque los usuarios hablan español**  
-Severidad: 2  
-Heurística violada: Usability – coincidencia entre el sistema y el mundo real; Inclusive Design – reconocer la exclusión.  
-Problema: el idioma por defecto de la Frontend Web Application es inglés (en_US), como pide el enunciado, pero los dueños de bodegas y minimarkets entrevistados hablan español y, en el caso de las bodegas, tienen poca experiencia con herramientas digitales. Antes de cada entrevista fue necesario cambiar el idioma manualmente.  
-Recomendación: detectar el idioma del navegador al primer ingreso y recordar la elección del usuario, manteniendo en_US como idioma por defecto cuando el navegador no esté en español.
+| # | Problema | Escala de severidad | Heurística o principio violado |
+|---|---|---|---|
+| 1 | El estado de los sensores (En línea, Desconectado, Disponible) no se entiende o se interpreta de formas distintas. | 3 | Usability: Correspondencia entre el sistema y el mundo real |
+| 2 | La opción Comprobante se confunde con la acción de registrar una venta. | 3 | Usability: Reconocer antes que recordar |
+| 3 | No hay explicación accesible de cómo se colocan, funcionan y cuánto cuestan los sensores. | 2 | Information Architecture: Is it findable? |
+| 4 | Registrar ventas y compras exige digitar cada producto; no hay lectura de código de barras. | 2 | Usability: Flexibilidad y eficiencia de uso |
+| 5 | El usuario espera pasar de la alerta de stock bajo directamente a registrar la compra. | 1 | Usability: Reconocer antes que recordar |
 
-**Problema 2: La lista de compras no muestra la fecha ni el proveedor**  
-Severidad: 2  
-Heurística violada: Usability – reconocer antes que recordar; Information Architecture – ¿es fácil de encontrar?  
-Problema: con los Web Services del Sprint 3, la respuesta de las compras incluye el identificador del proveedor, el estado y el total, pero no la fecha ni el nombre del proveedor. El usuario debe recordar a qué compra corresponde cada fila, y el filtro por fechas no puede aplicarse.  
-Recomendación: agregar la fecha de registro y el nombre del proveedor a la respuesta de GET /api/compras y mostrarlos en la lista.
+*Nota. Elaboración propia*
+
+## Descripción de problemas
+
+### PROBLEMA #1: El estado de los sensores no se entiende o se interpreta de formas distintas
+
+**Severidad:** 3
+
+**Heurística violada:** Usability – Correspondencia entre el sistema y el mundo real.
+
+**Problema:**
+
+La columna de estado de la pantalla de sensores muestra los valores En línea, Desconectado y Disponible sin explicar qué significan ni qué acción corresponde. José Martín Montañez pudo leer los estados, pero indicó que no los entendía. Cristopher Benavides los interpretó como si el producto estaba siendo contabilizado o si no había datos suficientes. Lincoln Bruno entendió que los sensores estaban «activados». Los tres participantes a quienes se les preguntó por esta columna dieron una lectura distinta o ninguna, lo que muestra que los términos no se corresponden con el lenguaje del usuario. Además, al cierre de su entrevista Lincoln pidió que se explique cómo funciona el sensor.
+
+**Figura 271**
+
+*Pantalla de Sensores con la columna de estado (En línea, Desconectado y Disponible)*
+
+![videovalidacion](../assets/chapter-5/image265.png)
+
+**Nota.** Captura de la entrevista a José Martín Montañez (inicio 00:05). Elaboración propia.
+
+**Recomendación:**
+
+Agregar una breve leyenda junto a la columna de estado que explique cada valor: «En línea: envió una lectura en los últimos 5 minutos», «Desconectado: está vinculado a un producto, pero no envía lecturas recientes» y «Disponible: aún no está vinculado a un producto». Usar un texto de ayuda o un ícono de información con la acción que corresponde cuando un sensor aparece desconectado.
+
+### PROBLEMA #2: La opción Comprobante se confunde con la acción de registrar una venta
+
+**Severidad:** 3
+
+**Heurística violada:** Usability – Reconocer antes que recordar.
+
+**Problema:**
+
+Al pedirles que indicaran cómo registrar una venta, Cristopher Benavides y Lincoln Bruno señalaron la opción Comprobante. Cristopher la entendió como el lugar para ver los productos vendidos; Lincoln, como la acción para emitir el comprobante. En cambio, José Martín Montañez encontró el botón Nueva venta. Dos de tres participantes que realizaron esta tarea no encontraron la acción principal de la pantalla, por lo que la acción de registrar y la de consultar una venta no se diferencian con claridad.
+
+**Figura 272**
+
+*Pantalla de Ventas con las opciones Nueva venta y Comprobante*
+
+![videovalidacion](../assets/chapter-5/image294.png)
+
+**Nota.** Captura de la entrevista a Cristopher Benavides (inicio 07:47). Elaboración propia.
+
+**Recomendación:**
+
+Destacar el botón Nueva venta como acción principal, con mayor tamaño y color, y renombrar la opción Comprobante por un texto que indique que es una consulta, por ejemplo «Ver detalle de la venta».
+
+### PROBLEMA #3: No hay una explicación accesible de los sensores (instalación, funcionamiento y costo)
+
+**Severidad:** 2
+
+**Heurística violada:** Information Architecture – Is it findable?
+
+**Problema:**
+
+Lincoln Bruno solicitó comprender mejor cómo funcionan los sensores y cómo permiten controlar estantes con numerosos productos. Ian San Martin planteó dudas sobre su funcionamiento, los posibles costos adicionales y los requisitos necesarios para implementarlos en una bodega. Aunque la Landing Page presenta información y preguntas sobre los sensores, las respuestas disponibles muestran que persistieron dudas después de la explicación. Por ello, el hallazgo corresponde a la claridad y suficiencia de la información presentada; no demuestra que dicha información esté completamente ausente.
+
+**Figura 273**
+
+*Landing Page, sección donde se mencionan los sensores de peso*
+
+![videovalidacion](../assets/chapter-5/image38.png)
+
+**Nota.** Captura de la entrevista a Ian San Martin (inicio 27:13). Elaboración propia.
+
+**Recomendación:**
+
+Incluir en la Landing Page y en la aplicación una sección breve «Cómo funcionan los sensores» con la instalación, el funcionamiento y una referencia del costo, accesible desde la pantalla de sensores.
+
+### PROBLEMA #4: Registrar ventas y compras exige digitar cada producto
+
+**Severidad:** 2
+
+**Heurística violada:** Usability – Flexibilidad y eficiencia de uso.
+
+**Problema:**
+
+José Martín Montañez indicó que lo más importante que faltaba era la lectura del código de barras en ventas y compras, porque las facturas de sus proveedores llegan con 15, 20, 30 y hasta 40 ítems y digitarlos uno por uno toma mucho tiempo. El problema fue señalado por un solo participante, pero afecta a una tarea que el negocio repite a diario.
+
+**Figura 274**
+
+*Formulario Nueva compra de la aplicación web*
+
+![videovalidacion](../assets/chapter-5/image265.png)
+
+**Nota.** Captura de la entrevista a José Martín Montañez (inicio 00:05). Elaboración propia.
+
+**Recomendación:**
+
+Incorporar la lectura de códigos de barras en los formularios de venta y compra y, mientras tanto, permitir buscar y seleccionar productos desde una lista con búsqueda por nombre.
+
+### PROBLEMA #5: El usuario espera pasar de la alerta de stock bajo directamente a registrar la compra
+
+**Severidad:** 1
+
+**Heurística violada:** Usability – Reconocer antes que recordar.
+
+**Problema:**
+
+Lincoln Bruno esperaba ir de la alerta directamente a la compra, y Cristopher Benavides dijo que la usaría para registrar una nueva compra. Los participantes entendieron bien qué hacer ante la alerta (contactar al proveedor o hacer el pedido), por lo que el problema es leve: el atajo hacia la compra no fue evidente durante la demostración.
+
+**Figura 275**
+
+*Pantalla de Alertas de stock bajo*
+
+![videovalidacion](../assets/chapter-5/image168.png)
+
+**Nota.** Captura de la entrevista a Lincoln Bruno (inicio 20:41). Elaboración propia.
+
+**Recomendación:**
+
+Mantener visible, junto a cada alerta, el botón «Registrar compra» que lleva al formulario con el producto ya seleccionado.
+
+## Observaciones de diseño inclusivo
+
+Cristopher Benavides valoró positivamente el cambio de idioma entre español e inglés, las notificaciones y las opciones de sesión. Durante las sesiones no se probó la aplicación con lectores de pantalla ni con navegación por teclado, por lo que no se registraron problemas de este tipo. La Landing Page y la aplicación incorporan atributos ARIA como parte de la mejora continua, y se recomienda validarlos con un lector de pantalla en el siguiente sprint.
+
 
 ## 5.4. Video About-the-Product
 
-El video About-the-Product presenta SmartStock a los potenciales usuarios: el problema de las diferencias entre el stock físico y el registrado en bodegas y minimarkets, el resumen del modelo de negocio, las principales características del producto (sensores de peso, registro de ventas y compras, alertas de stock bajo, comparación de inventario y reportes) y sus beneficios, con escenas de interacción con la aplicación y opiniones de los segmentos objetivo tomadas de las entrevistas de validación. Dura entre uno y tres minutos, está publicado en YouTube e incrustado en la sección de videos del Landing Page.
+El video About-the-Team resume el proceso de trabajo del equipo NexoStock durante el desarrollo de SmartStock: la organización por bounded context, las sesiones de trabajo y la colaboración mediante GitFlow, e incluye el testimonio ante cámara de cada integrante sobre las actividades realizadas, los logros alcanzados y las competencias desarrolladas. Tiene una duración de (completar - por asignar: mm:ss). Las secuencias del video son:
 
-**Figura 201**  
+- 00:00:00 Presentación del equipo (completar - por asignar)
+- (completar - por asignar: hh:mm:ss) Testimonio de cada integrante
+- (completar - por asignar: hh:mm:ss) Cierre
+
+**Figura 276**
+
 *Video About-the-Product publicado en YouTube*
 
-![Video About-the-Product publicado en YouTube](../assets/chapter-5/sprint3-about-the-product.png)
+![Videoabutthepoduct](../assets/chapter-5/image19.png)
 
-*Nota.* Disponible en https://youtu.be/7PVpjP6lQFA. Elaboración propia
+**Nota.** Elaboración propia.
+
+**Link de Clipchamp:**
+
+`https://upcedupe-my.sharepoint.com/personal/u20241f205_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20241f205%5Fupc%5Fedu%5Fpe%2FDocuments%2FV%C3%ADdeos%2FClipchamp%2FAbout%2DThe%2DProduct%20Copiar%2FExports%2Fupc%2Dpre%2D202620%2D1asi0729%2D7729%2Dnexostock%2Dabout%2Dthe%2Dproduct%2Dsprint%2D3%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Efb4d61de%2Dd6df%2D4f05%2D98d7%2Dad1a15f4e541`
+
+**Link de YouTube:**
+
+`https://youtu.be/QxwsvZKVQao`
+
