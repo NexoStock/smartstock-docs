@@ -4,7 +4,9 @@
 
 Nota sobre roles: SmartStock cuenta con un único actor real, el Store Owner/Manager (Propietario/Administrador del negocio). Por ello, las historias cuyo comportamiento es idéntico para bodega de barrio y minimarket usan el rol superior “administrador de mi negocio”, evitando mezclar segmentos en una misma historia. Las historias cuyo comportamiento sí difiere por segmento (US11, US25) especifican el rol concreto (“administrador de minimarket”). Las historias del sitio web estático (US16 a US24) usan el rol “visitante”, y las Technical Stories (TS01 a TS15) usan el rol “developer”, porque describen trabajo técnico que sostiene a las User Stories.
 
-### Epics
+**Tabla 17**
+
+*Epics de SmartStock*
 
 | Epic ID | Título | Descripción |
 |---|---|---|
@@ -20,7 +22,11 @@ Nota sobre roles: SmartStock cuenta con un único actor real, el Store Owner/Man
 | EP10 | Gestión de ventas | **Como** administrador de mi negocio, **quiero** registrar y consultar mis ventas, **para** controlar lo que sale de mi inventario y mantener mi stock registrado actualizado. |
 | EP11 | Gestión de compras y proveedores | **Como** administrador de mi negocio, **quiero** registrar mis proveedores y las compras que les hago, **para** controlar lo que entra a mi inventario y reponer a tiempo los productos con stock bajo. |
 
-### User Stories
+*Nota. Elaboración propia*
+
+**Tabla 18**
+
+*User Stories y Technical Stories de SmartStock*
 
 | Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
 |---|---|---|---|---|
@@ -76,3 +82,136 @@ Nota sobre roles: SmartStock cuenta con un único actor real, el Store Owner/Man
 | TS13 | Modelo de datos y migraciones de ventas y compras | **Como** developer, **quiero** crear las tablas y columnas de ventas, compras, proveedores y movimientos de stock mediante migraciones, **para** persistir las operaciones del negocio de forma consistente. | **Escenario 1: Migraciones aplicadas**<br>**Dado que** la base de datos tiene el esquema actual,<br>**Cuando** se ejecutan las migraciones,<br>**Entonces** existen las tablas `sales`, `sale_items`, `purchases`, `purchase_items`, `suppliers` y `stock_movements`, y las columnas `sale_price`, `purchase_cost` y `supplier_id` en `products`.<br><br>**Escenario 2: Integridad referencial**<br>**Dado que** se intenta guardar un ítem que referencia un producto inexistente,<br>**Cuando** el sistema escribe en la base de datos,<br>**Entonces** la base de datos rechaza el registro por clave foránea. | EP09 |
 | TS14 | Registro automático de movimientos de stock | **Como** developer, **quiero** que cada venta registrada, compra recibida o ajuste genere un movimiento de stock y actualice el stock registrado, **para** mantener la trazabilidad del inventario y disparar la revisión de alertas. | **Escenario 1: Movimiento de salida por venta**<br>**Dado que** se registra una venta,<br>**Cuando** el sistema la confirma,<br>**Entonces** el sistema crea un movimiento de salida por cada producto, disminuye el stock registrado y emite el evento `StockDecreased`.<br><br>**Escenario 2: Movimiento de entrada por compra**<br>**Dado que** se marca una compra como recibida,<br>**Cuando** el sistema la confirma,<br>**Entonces** el sistema crea un movimiento de entrada por cada producto, aumenta el stock registrado y emite el evento `StockIncreased`.<br><br>**Escenario 3: Ajuste manual**<br>**Dado que** el usuario registra manualmente la cantidad de un producto,<br>**Cuando** el sistema guarda el valor,<br>**Entonces** el sistema crea un movimiento de ajuste con la diferencia. | EP09 |
 | TS15 | Endpoint de movimientos de stock | **Como** developer, **quiero** exponer un endpoint GET `/api/movimientos-stock` con filtro por período, **para** que el dashboard y los reportes muestren las ventas, compras y ajustes. | **Escenario 1: Movimientos del período**<br>**Dado que** existen movimientos de stock en el período consultado,<br>**Cuando** el cliente envía una solicitud GET a `/api/movimientos-stock` con un rango de fechas,<br>**Entonces** el sistema responde con el código de estado 200 y los movimientos con su tipo, origen y cantidad.<br><br>**Escenario 2: Período sin movimientos**<br>**Dado que** no existen movimientos en el período,<br>**Cuando** el cliente realiza la consulta,<br>**Entonces** el sistema responde con el código de estado 200 y una lista vacía. | EP09 |
+
+*Nota. Elaboración propia*
+
+## 3.2. Impact Mapping
+
+El Impact Mapping de SmartStock relaciona las metas del negocio con las personas, los cambios esperados en su comportamiento, los entregables y las historias de usuario.
+Business Goals (¿Por qué?): Se mantienen cuatro metas propuestas: alcanzar información consistente entre el stock físico y registrado en el 80 % de los productos monitoreados durante los primeros tres meses de cada negocio (BG1); lograr que el 80 % de los usuarios considere que las alertas permiten anticipar la reposición durante su primer mes de uso (BG2); y alcanzar 300 minimarkets y 150 bodegas como negocios activos durante los primeros seis meses de operación (BG3 y BG4). Estas metas orientan la evaluación futura y no representan resultados alcanzados.
+Actors (¿Quiénes?): Yngrid Ruiz representa a los propietarios y administradores de minimarkets; Lincoln Bruno, a los propietarios y administradores de bodegas de barrio.
+Impacts (¿Cómo?): Se busca que los usuarios revisen las alertas y gestionen la reposición antes de que los productos se agoten, registren sus ventas y la recepción de compras, y consulten los movimientos de inventario. Para minimarkets, se contempla también revisar los sensores y las discrepancias entre el stock físico y registrado. La comunicación de la propuesta de valor apoya la decisión de registrarse.
+Deliverables (¿Qué?): Monitoreo de sensores, configuración de umbrales y notificaciones, comparación de inventario para minimarkets y Landing Page. Se incorporan el registro y consulta de compras y ventas, y la gestión de proveedores (US26–US31), junto con el inicio de una compra desde una alerta de stock bajo (US32). Las ventas descuentan el stock registrado; las compras lo aumentan al confirmar su recepción.
+
+**Figura 15**
+
+*Impact Map de SmartStock*
+
+![Impact Map](../assets/chapter-3/impactmapping1.png)
+
+*Nota. Impact Mapping de SmartStock. Elaboración propia.*
+
+## Medición de las metas
+
+Para BG1, se propone comparar el stock físico y el registrado de los productos monitoreados, expresados en la misma unidad, y calcular el porcentaje que presenta coincidencia al finalizar los primeros tres meses de cada negocio. Para BG2, se aplicará una encuesta al terminar el primer mes de uso y se calculará el porcentaje de usuarios que afirme que las alertas permiten anticipar la reposición. Para BG3 y BG4, se propone considerar activo a un negocio que registre al menos una compra o venta durante el último mes, diferenciando minimarkets y bodegas.
+
+## Decisiones eficientes
+
+Se priorizan Compras y Ventas porque permiten registrar las entradas y salidas del inventario y explicar sus cambios. La compra iniciada desde una alerta reutiliza el formulario de Compras y precarga los datos del producto, reduciendo el ingreso repetido de información. Las alertas utilizan el stock del sensor cuando está en línea y el stock registrado cuando no hay sensor o está desconectado. En el Sprint 2 se utiliza una Fake API para comprobar los flujos del frontend Angular antes de implementar el backend real con Spring Boot en el Sprint 3.
+
+## Viabilidad económica
+
+SmartStock plantea un modelo de suscripción cuyo precio dependerá de las funcionalidades y la cantidad de sensores contratados. La evaluación económica deberá considerar alojamiento, mantenimiento, soporte, notificaciones y adquisición e instalación del kit IoT. Operar inicialmente con el inventario registrado permite incorporar sensores posteriormente y reducir la inversión inicial. La viabilidad deberá validarse mediante estimaciones del precio del plan y del costo del kit, contrastadas con los costos operativos y la disposición a pagar de los usuarios. Todavía no se cuenta con cifras suficientes para afirmar su rentabilidad.
+
+## 3.3. Product Backlog
+
+El Product Backlog de SmartStock se estructuró a partir de las User Stories y las Technical Stories definidas para el proyecto, organizándolas según sus funcionalidades y prioridades. Para la estimación del esfuerzo se utilizó Planning Poker, empleando la secuencia de Fibonacci modificada (1, 2, 3, 5 y 8 puntos), mientras que la priorización se realizó mediante el Método de los 100 Puntos, permitiendo identificar y consensuar las historias que tendrían mayor prioridad dentro del desarrollo del producto.
+Las 32 User Stories y las 15 Technical Stories fueron organizadas en el Product Backlog y registradas en Trello, incluyendo su respectiva descripción y Story Points. Las historias relacionadas con la construcción del sitio web estático (Landing Page) fueron consideradas dentro de las prioridades iniciales debido a que forman parte del alcance establecido para el Sprint 1. Posteriormente, el equipo incorporó las historias de Compras y Ventas (US26 a US32) y sus Technical Stories, y las ubicó en la parte alta del backlog pendiente, por ser el núcleo funcional del producto: el registro de lo que entra y sale del inventario, que luego el sensor IoT verifica.
+Como evidencia de la organización y gestión del Product Backlog, se presenta a continuación la captura del tablero utilizado en Trello y el enlace de acceso correspondiente.
+
+**Enlace del Product Backlog en Trello:**
+`https://trello.com/invite/b/6aa988a0941a5fb8c814af43/ATTI5eecabb28fdc9c85d7ba8336b688a97353B8B08C/trello`
+
+**Figura 16**
+
+*Tablero del Product Backlog en Trello*
+
+![Tablero product backlog](../assets/chapter-3/image42.png)
+
+*Nota. Elaboración propia*
+
+**Tabla 19**
+
+*Product Backlog de SmartStock*
+
+| **#** | **User Story ID** | **Título** | **Descripción** | **Story Points** |
+|---:|---|---|---|---:|
+| **1** | US16 | Información general de SmartStock | Como visitante, deseo conocer qué es SmartStock y qué problema resuelve, para evaluar si es útil para mi negocio. | **2** |
+| **2** | US17 | Casos de uso – bodegas de barrio | Como visitante del segmento bodegas, deseo ver casos de uso enfocados en negocios pequeños. | **2** |
+| **3** | US18 | Casos de uso – minimarkets | Como visitante del segmento minimarkets, deseo ver casos de uso de mayor volumen. | **2** |
+| **4** | US19 | Planes y precios | Como visitante, deseo ver los planes y precios, para decidir cuál se ajusta a mi presupuesto. | **3** |
+| **5** | US20 | Formulario de contacto | Como visitante, deseo completar un formulario para solicitar una demostración. | **3** |
+| **6** | US21 | FAQ instalación de sensores | Como visitante, deseo ver preguntas frecuentes sobre instalación de sensores. | **2** |
+| **7** | US22 | Testimonios de dueños de bodega | Como visitante del segmento bodegas, deseo ver testimonios de otros clientes. | **2** |
+| **8** | US23 | Comparación frente a otras soluciones | Como visitante del segmento minimarkets, deseo ver una comparación frente a otras soluciones. | **3** |
+| **9** | US24 | Acceso a registro desde el sitio web | Como visitante, deseo acceder a la opción de registro desde cualquier sección. | **1** |
+| **10** | US01 | Registro de cuenta | Como administrador de mi negocio, deseo registrarme con mi correo y datos de mi negocio. | **5** |
+| **11** | US02 | Inicio de sesión | Como administrador de mi negocio, deseo iniciar sesión para acceder al panel. | **3** |
+| **12** | US03 | Recuperación de contraseña | Como administrador de mi negocio, deseo recuperar mi contraseña vía correo. | **3** |
+| **13** | TS04 | Endpoint de autenticación (API) | Como developer, deseo exponer POST /api/auth/login para validar credenciales. | **3** |
+| **14** | US13 | Registro de nuevo producto | Como administrador de mi negocio, deseo registrar un producto con nombre, categoría y peso. | **3** |
+| **15** | US14 | Edición de producto del catálogo | Como administrador de mi negocio, deseo editar la información de un producto existente, incluido su precio de venta, costo y proveedor habitual. | **2** |
+| **16** | US29 | Registro de proveedor | Como administrador de mi negocio, deseo registrar a mis proveedores con su nombre, teléfono y correo opcional. | **2** |
+| **17** | US30 | Registro y recepción de compra | Como administrador de mi negocio, deseo registrar una compra a un proveedor y marcarla como recibida para aumentar mi stock. | **5** |
+| **18** | US26 | Registro de venta | Como administrador de mi negocio, deseo registrar una venta con productos y cantidades para mantener mi stock actualizado. | **5** |
+| **19** | TS13 | Modelo de datos y migraciones de ventas y compras | Como developer, deseo crear las tablas de ventas, compras, proveedores y movimientos de stock mediante migraciones. | **5** |
+| **20** | TS14 | Registro automático de movimientos de stock | Como developer, deseo que cada venta, compra recibida o ajuste genere un movimiento de stock. | **5** |
+| **21** | TS09 | Endpoints de proveedores | Como developer, deseo exponer POST y GET /api/proveedores. | **2** |
+| **22** | TS10 | Endpoint de registro de compras | Como developer, deseo exponer POST /api/compras. | **3** |
+| **23** | TS11 | Endpoint de recepción de compras | Como developer, deseo exponer PATCH /api/compras/{id}/recepcion. | **3** |
+| **24** | TS07 | Endpoint de registro de ventas | Como developer, deseo exponer POST /api/ventas. | **3** |
+| **25** | US32 | Registro de compra desde una alerta de stock bajo | Como administrador de mi negocio, deseo registrar una compra desde una alerta de stock bajo, con el producto y proveedor precargados. | **3** |
+| **26** | US27 | Historial de ventas | Como administrador de mi negocio, deseo consultar el historial de mis ventas por rango de fechas. | **3** |
+| **27** | US28 | Detalle de una venta | Como administrador de mi negocio, deseo ver el detalle de una venta. | **2** |
+| **28** | US31 | Historial de compras | Como administrador de mi negocio, deseo consultar el historial de mis compras por rango de fechas. | **3** |
+| **29** | TS08 | Endpoints de consulta de ventas | Como developer, deseo exponer GET /api/ventas y GET /api/ventas/{id}. | **3** |
+| **30** | TS12 | Endpoints de consulta de compras | Como developer, deseo exponer GET /api/compras y GET /api/compras/{id}. | **2** |
+| **31** | US04 | Vinculación de sensor IoT a un producto | Como administrador de mi negocio, deseo vincular un sensor de peso a un producto. | **5** |
+| **32** | US05 | Configuración de umbral mínimo de stock | Como administrador de mi negocio, deseo configurar el umbral mínimo por producto. | **3** |
+| **33** | US06 | Estado de conexión de sensores | Como administrador de mi negocio, deseo ver el estado de conexión de cada sensor. | **3** |
+| **34** | TS01 | Endpoint de recepción de lecturas (API) | Como developer, deseo exponer POST /api/sensores/{id}/lecturas. | **3** |
+| **35** | TS05 | Endpoint de estado de sensor (API) | Como developer, deseo exponer GET /api/sensores/{id}/estado. | **2** |
+| **36** | US07 | Visualización del peso actual | Como administrador de mi negocio, deseo ver el peso actual registrado por el sensor. | **3** |
+| **37** | US08 | Listado de productos por nivel de stock | Como administrador de mi negocio, deseo ver un listado con el nivel de stock de mis productos. | **3** |
+| **38** | TS02 | Endpoint de consulta de stock (API) | Como developer, deseo exponer GET /api/productos/{id}/stock. | **2** |
+| **39** | US09 | Notificación por correo de stock bajo | Como administrador de mi negocio, deseo recibir un correo cuando el stock llegue al umbral. | **5** |
+| **40** | US10 | Notificación por WhatsApp de stock bajo | Como administrador de mi negocio, deseo recibir WhatsApp cuando el stock llegue al umbral. | **5** |
+| **41** | TS03 | Endpoint de notificación de stock bajo (API) | Como developer, deseo exponer POST /api/notificaciones/stock-bajo. | **3** |
+| **42** | US11 | Comparación inventario físico vs. registrado | Como administrador de minimarket, deseo comparar el peso físico con lo registrado. | **5** |
+| **43** | US12 | Alerta por discrepancia de inventario | Como administrador de mi negocio, deseo recibir alerta si la discrepancia supera 10%. | **3** |
+| **44** | TS06 | Endpoint de comparación de inventario (API) | Como developer, deseo exponer GET /api/inventario/comparacion/{productoId}. | **3** |
+| **45** | US15 | Dashboard resumen de inventario | Como administrador de mi negocio, deseo ver un dashboard resumen del inventario, con las ventas y compras del día. | **5** |
+| **46** | US25 | Reportes de consumo y movimientos de inventario | Como administrador de minimarket, deseo generar reportes de consumo, ventas, compras y movimientos por periodo, para tomar mejores decisiones de reposición y compra. | **5** |
+| **47** | TS15 | Endpoint de movimientos de stock | Como developer, deseo exponer GET /api/movimientos-stock con filtro por periodo. | **3** |
+
+*Nota. Elaboración propia a partir de las User Stories y Technical Stories.*
+
+**Evidencia de la técnica de priorización — Método de los 100 puntos**
+
+El equipo aplicó Dot Voting mediante el Método de los 100 Puntos en 3 sesiones, una por lote de historias. Cada integrante distribuyó su propio total de 100 puntos entre las 31 historias vigentes a la fecha de la votación (25 User Stories y las 6 historias de API que luego se reclasificaron como TS01–TS06). Las historias de Compras y Ventas (US26–US32) y las Technical Stories TS07–TS15 se incorporaron después de la votación y se ubicaron en la parte alta del backlog por ser el núcleo del producto, por lo que no figuran en los gráficos. 
+
+**Figura 17**
+
+*Lote 1: Método de los 100 puntos (US01–US10)*
+
+![Lote1metodo](../assets/chapter-3/lote1metodo100puntos.png)
+
+*Nota. Elaboración propia*
+
+
+**Figura 18**
+
+*Lote 2: Método de los 100 puntos (US11–US20)*
+
+![Lote1metodo](../assets/chapter-3/lote2metodo100puntos.png)
+
+*Nota. Elaboración propia*
+
+
+**Figura 19**
+
+*Lote 3: Método de los 100 puntos (US21–US31)*
+
+![Lote1metodo](../assets/chapter-3/lote3metodo100puntos.png)
+
+*Nota. Elaboración propia. IDs vigentes a la fecha de la votación. Las seis historias de API se reclasificaron como TS01–TS06 y US31 pasó a US25.*

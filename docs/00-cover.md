@@ -4,72 +4,43 @@
 
 <br><br><br>
 
-<h2>Universidad Peruana de Ciencias Aplicadas</h2>
+<div align="center">
 
-<p>
-Facultad de Ingeniería<br><br>
-Carrera de Ingeniería de Software
-</p>
+# Universidad Peruana de Ciencias Aplicadas
 
-<br>
+**Carrera de Ingeniería de Software**
 
-<p>
-<b>Ciclo académico:</b> 2026-2<br>
-<b>Código del curso:</b> 1ASI0729<br>
-<b>Nombre del curso:</b> Desarrollo de Aplicaciones Open Source<br>
-<b>NRC:</b> 7729<br>
-<b>Profesor:</b> Hugo Allan Mori Paiva
-</p>
+**Ciclo: 5to**
 
-<br><br><br>
+**1ASI0729 - Desarrollo de Aplicaciones Open Source**
 
-<h2>Informe de Trabajo Final</h2>
+**NRC: 7729**
 
-<br>
+**Docente**
 
-<h3>Nombre del startup: NexoStock</h3>
+Mori Paiva, Hugo Allan
 
-<p><b>Nombre del producto: SmartStock</b></p>
+# Informe de Trabajo Final
 
-<br><br>
+**Nombre del startup:** NexoStock
 
-<h3>Integrantes</h3>
+**Nombre del producto:** SmartStock
 
-<center>
-<table>
-  <thead>
-    <tr>
-      <th>Código</th>
-      <th>Apellidos y nombres</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>U20221G181</td>
-      <td>Crispin Valdivia, Angel Gabriel</td>
-    </tr>
-    <tr>
-      <td>U20241F946</td>
-      <td>Lopez Rimachi, Sebastian Leonardo</td>
-    </tr>
-    <tr>
-      <td>U202421125</td>
-      <td>Montañez Salinas, Lorena Ariana</td>
-    </tr>
-    <tr>
-      <td>U20251I477</td>
-      <td>Tuesta Girón, Kiara Lucia</td>
-    </tr>
-    <tr>
-      <td>U20241F205</td>
-      <td>Vizcarra Mamani, Candy Milagros</td>
-    </tr>
-  </tbody>
-</table>
-</center>
+## Integrantes
 
-<br><br><br>
+</div>
 
-<p><b>Noviembre 2026</b></p>
+| Código | Apellidos y Nombres |
+|---|---|
+| U20221G181 | Crispin Valdivia, Angel Gabriel |
+| U20241F946 | Lopez Rimachi, Sebastian Leonardo |
+| U202421125 | Montañez Salinas, Lorena Ariana |
+| U20251I477 | Tuesta Girón, Kiara Lucia |
+| U20241F205 | Vizcarra Mamani, Candy Milagros |
+
+<div align="center">
+
+
+**Noviembre, 2026**
 
 </div>
