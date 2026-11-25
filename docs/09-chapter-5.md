@@ -1693,7 +1693,7 @@ En el Sprint 3 los cinco integrantes aportaron commits en el repositorio de Web 
 
 Las entrevistas de validación evaluarán la comprensión y la facilidad de uso del Landing Page y de la Web Application de SmartStock con propietarios y administradores de minimarkets y bodegas de barrio. El equipo realizará entre tres y cinco entrevistas por segmento, buscando contactar nuevamente a los participantes de TB1. A diferencia de las entrevistas iniciales (2.2.1), que buscaban conocer al usuario y su problema, estas sesiones buscan observar cómo el usuario reacciona ante el producto y qué partes no comprende.
 
-Las entrevistas se realizaron sobre las versiones desplegadas del producto. El Landing Page se encuentra en `https://nexostock.github.io/smartstock-landing-page/` y la Web Application en `https://nexostock.github.io/smartstock-frontend/`.
+Las entrevistas se realizaron sobre las versiones desplegadas del producto. El Landing Page se encuentra en https://nexostock.github.io/smartstock-landing-page/ y la Web Application en https://nexostock.github.io/smartstock-frontend/.
 
 Para agilizar las sesiones, se aplicará una demostración guiada e interactiva: la persona entrevistadora presenta y opera el Landing Page y la Web Application, y el participante interactúa indicando qué opción elegiría, qué dato ingresaría y qué espera que ocurra en cada pantalla. Si el participante desea manejar la aplicación, se le cede el control. Las preguntas de opinión se realizan al final. Cada sesión dura aproximadamente 5 a 6 minutos y se edita en un fragmento de 3 a 5 minutos por entrevista, que se integra en el video único de entrevistas de validación.
 
