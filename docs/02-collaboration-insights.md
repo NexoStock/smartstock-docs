@@ -1,41 +1,33 @@
-# **Project Report Collaboration Insights**
+# Project Report Collaboration Insights
 
-**Primera Entrega (AV1)**
+**Repositorio de la documentación del proyecto:**
 
-Repositorio de la documentación del proyecto: https://github.com/NexoStock/smartstock-docs.git
+`https://github.com/NexoStock/smartstock-docs.git`
 
-A continuación, se detallan las actividades realizadas en cada entrega, la participación de los miembros del equipo, y las evidencias correspondientes.
+A continuación, se detallan las actividades realizadas en cada entrega, la participación de los integrantes del equipo y las evidencias correspondientes.
 
-AV1
+## AV1
 
-Report Insights AV1
+Durante la primera entrega (AV1), se registran las actividades iniciales de colaboración del equipo, evidenciando la organización, coordinación y participación de los integrantes en el desarrollo del proyecto.
+
 
 <img src="../assets/chapter-1/insights.jpeg" width="500"/>
 
 <img src="../assets/chapter-1/insights-2.jpeg" width="500"/>
 
-**Trabajo Parcial (TB1)**
+## TB1
 
-Repositorio de la documentación del proyecto: https://github.com/NexoStock/smartstock-docs.git
+En esta etapa (TB1), se presentan las evidencias del trabajo colaborativo realizado por los integrantes, reflejando la continuidad de las actividades y la coordinación para cumplir con los objetivos establecidos.
 
-A continuación, se detallan las actividades realizadas en cada entrega, la participación de los miembros del equipo, y las evidencias correspondientes.
-
-TB1
-
-Report Insights TB1
 
 <img src="../assets/chapter-1/report1.png" width="500"/>
 
 <img src="../assets/chapter-1/report2.png" width="500"/>
 
-**Avance 2 (AV2)**
+## AV2
 
-Repositorio de la documentación del proyecto: https://github.com/NexoStock/smartstock-docs.git
+Durante la segunda entrega (AV2), se evidencia la continuidad del trabajo en equipo, la participación de los integrantes y el avance de las actividades correspondientes al desarrollo del proyecto SmartStock.
 
-A continuación, se detallan las actividades realizadas en cada entrega, la participación de los miembros del equipo, y las evidencias correspondientes.
-
-AV2
-
-Report Insights AV2
+<img src="../assets/chapter-1/image172.png" width="500"/>
 
 <img src="../assets/chapter-1/insights-3.png" width="500"/>

@@ -2,6 +2,8 @@
 
 ## 4.1. Style Guidelines
 
+En este apartado estableceremos los criterios visuales y de comunicación que se utilizarán en el diseño del Landing Page y de la Web Application. El diseño estará centrado en transmitir una imagen simple, moderna y confiable, utilizando colores, tipografías, botones e iconos que permitan entender fácilmente la información. Como SmartStock está dirigido a propietarios y administradores de minimarkets y bodegas de barrio, se evitará un diseño demasiado complejo y se priorizará una interfaz sencilla y fácil de usar para los usuarios.
+
 ### 4.1.1. General Style Guidelines
 
 #### Branding
@@ -23,6 +25,10 @@ Para la identidad visual del producto, se seleccionó una tipografía que combin
 
 La paleta se construyó sobre un azul marino como color de marca, con dos acentos adicionales (cian y verde menta) incorporados para reforzar puntos de interés visual en etiquetas, testimonios y elementos decorativos:
 
+**Tabla 20**
+
+*Paleta de colores y tokens de diseño de SmartStock*
+
 | Token | Valor | Uso |
 | --- | --- | --- |
 | `--navy` | `#082b4c` | Titulares, marca, botón primario, foco de navegación |
@@ -34,11 +40,18 @@ La paleta se construyó sobre un azul marino como color de marca, con dos acento
 | `--border` | `#dce6ef` | Bordes y separadores |
 | `--soft` | `#f5f9fd` | Fondos alternos de sección |
 
-El blanco (`#ffffff`) es el fondo dominante, reforzando una identidad limpia y confiable, apropiada para un producto que maneja datos de inventario de un negocio.
+*Nota. Elaboración propia*
 
-Estas decisiones se sustentan en los principios de claridad, confianza y accesibilidad: el azul marino como color dominante transmite seriedad y profesionalismo sin resultar frío; los acentos cian y verde menta se reservan para elementos puntuales de refuerzo visual (etiquetas, indicadores de interacción), evitando sobrecargar la interfaz; y el uso del blanco como fondo dominante prioriza la legibilidad de los datos de inventario que el producto presenta al usuario.
+El blanco (#ffffff) es el fondo dominante, reforzando una identidad limpia y confiable, apropiada para un producto que maneja datos de inventario de un negocio.
+Estas decisiones se sustentan en los principios de claridad, confianza y accesibilidad: el azul marino como color dominante transmite seriedad y profesionalismo sin resultar frío; los acentos cian y verde menta se reservan para elementos puntuales de refuerzo visual (etiquetas, indicadores de interacción), evitando sobrecargar la interfaz; y el uso del blanco como fondo dominante prioriza la legibilidad de los datos de inventario que el producto presenta al usuario. 
+
+**Figura 20**
+
+*Paleta de colores de SmartStock*
 
 ![Colors General Style Guidelines](../assets/chapter-4/colorsgeneralstyleguidelines.png)
+
+*Nota. Elección y elaboración propia*
 
 #### Spacing
 
@@ -68,11 +81,23 @@ El tono de comunicación definido es cercano, práctico y directo, priorizando l
 
 - **Botones:** se definieron tres variantes: `.btn` como botón primario, con relleno en degradado de navy y estado hover con elevación (desplazamiento sutil hacia arriba) y sombra reforzada; `.btn.ghost` como botón secundario, con borde y sin relleno; y `.btn.block` como botón de ancho completo, utilizado en las tarjetas de planes. Las tres variantes cuentan con un estado hover definido.
 
+**Figura 21**
+
+*Botones del Landing Page: primario, secundario y de selección de plan*
+
 ![Botones Web Style Guidelines](../assets/chapter-4/botoneswebstyleguidelines.png)
+
+*Nota. Elaboración propia*
 
 - **Formularios:** los campos de entrada utilizan un borde de 1px y un radio de 8px. El estado de error se identifica mediante `aria-invalid="true"`, acompañado de un borde rojo `#c0392b` y un mensaje de error asociado mediante `aria-describedby`. La validación se ejecuta en el evento `blur`, en lugar de realizarse mientras el usuario escribe, evitando marcar como inválido un campo que aún se encuentra en proceso de completarse.
 
+**Figura 22**
+
+*Estado de error de validación en el formulario de demostración del Landing Page*
+
 ![Formularios Web Style Guidelines](../assets/chapter-4/formularioswebstyleguidelines.png)
+
+*Nota. Elaboración propia*
 
 - **Foco visible:** se define `:focus-visible` con un outline azul de 2px en toda la interfaz, facilitando la navegación mediante teclado como parte de los criterios de accesibilidad.
 - **Avatares de testimonios:** cada testimonio incorpora un avatar circular con las iniciales de la persona sobre un fondo en degradado (rosa, azul o verde según el caso), reforzando la identificación visual de cada historia sin depender de fotografías reales.
@@ -87,7 +112,13 @@ Ambos productos utilizan la misma preferencia de idioma mediante `localStorage`,
 
 ### Mapa de Arquitectura de Información
 
-![Mapa Arquitectura de Información](../assets/chapter-4/mapaarquitecturadeinformacion.png)
+**Figura 23**
+
+*Mapa de arquitectura de información de SmartStock*
+
+![Mapa Arquitectura de Información](../assets/chapter-4/image170.png)
+
+*Nota. Elaboración propia*
 
 El mapa de arquitectura de información representa la organización de ambos productos y muestra también las conexiones existentes entre ellos. Asimismo, permite identificar visualmente la navegación que ya se encuentra implementada y aquella integración que todavía se encuentra pendiente.
 
@@ -109,9 +140,21 @@ Esto permite que el usuario avance desde una sección general hacia información
 
 Además, dentro del sidebar, las funcionalidades principales se muestran primero, mientras que opciones secundarias como Configuración y Cerrar sesión se encuentran ubicadas al final del menú.
 
+**Figura 24**
+
+*Dashboard con barra lateral de la Web Application para minimarkets*
+
 ![Organización Jerárquica 1](../assets/chapter-4/organizacionjerarquica1.png)
 
+*Nota. Elaboración propia*
+
+**Figura 25**
+
+*Pantalla de inicio de la Web Application para bodegas de barrio*
+
 ![Organización Jerárquica 2](../assets/chapter-4/organizacionjerarquica2.png)
+
+*Nota. Elaboración propia*
 
 #### Organización secuencial
 
@@ -151,7 +194,13 @@ Este tipo de organización permite visualizar diferentes atributos de un mismo p
 
 La organización por audiencia representa una de las decisiones más importantes dentro de SmartStock.
 
+**Figura 26**
+
+*Pantalla de creación de cuenta con selección de segmento*
+
 ![Organización por Audiencia](../assets/chapter-4/organizacionporaudiencia.png)
+
+*Nota. Elaboración propia*
 
 Las funcionalidades disponibles se organizan dependiendo del segmento seleccionado por el usuario durante el registro.
 
@@ -252,7 +301,13 @@ Entre las principales etiquetas se encuentran:
 
 Los íconos ayudan a complementar visualmente el significado de cada opción, permitiendo mantener textos cortos sin perder claridad.
 
+**Figura 27**
+
+*Pantalla de registro de producto de la Web Application*
+
 ![Labeling Systems](../assets/chapter-4/labelingsystems.png)
+
+*Nota. Elaboración propia*
 
 Además, tanto el Landing Page como la Web Application se encuentran disponibles en inglés y español.
 
@@ -364,7 +419,13 @@ Además, el buscador puede combinarse con un filtro de estado que contiene las s
 - Normal.
 - Sin sensor.
 
+**Figura 28**
+
+*Sección Productos con búsqueda y filtro por estado*
+
 ![Productos Searching Systems](../assets/chapter-4/productossearchingsystems.png)
+
+*Nota. Elaboración propia*
 
 Después de realizar una búsqueda, las filas que no coinciden con los criterios ingresados se ocultan.
 
@@ -402,7 +463,13 @@ Después de realizar una búsqueda o aplicar un filtro, el sistema recalcula aut
 
 Esto permite que los indicadores mostrados se mantengan consistentes con los resultados actualmente visibles.
 
+**Figura 29**
+
+*Sección Comparación con búsqueda y filtro de discrepancias*
+
 ![Comparación Searching Systems](../assets/chapter-4/comparacionsearchingsystems.png)
+
+*Nota. Elaboración propia*
 
 #### Alertas
 
@@ -427,9 +494,17 @@ Cada alerta conserva información relevante como:
 
 De esta manera, el usuario puede filtrar rápidamente las alertas y concentrarse únicamente en aquellas que necesita revisar.
 
+**Figura 30**
+
+*Sección Alertas con pestañas por categoría*
+
 ![Alertas Searching Systems](../assets/chapter-4/alertassearchingsystems.png)
 
+*Nota. Elaboración propia*
+
 ### 4.2.5. Navigation Systems
+
+SmartStock utiliza diferentes sistemas de navegación para facilitar el desplazamiento del usuario tanto dentro del Landing Page como dentro de la Web Application. 
 
 #### Landing Page
 
@@ -470,67 +545,340 @@ El bloque que contiene la información del negocio funciona además como un indi
 
 Dentro del Detalle de producto también se proporciona contexto adicional mediante una navegación similar a un breadcrumb:
 
-**Productos / Categoría**
+**Figura 31**
 
-Esto permite al usuario identificar fácilmente la sección desde la cual accedió al producto.
+*Sección Sensores IoT de la Web Application*
 
 ![Navigation Systems 1](../assets/chapter-4/navigationsystems1.png)
 
-#### Navegación cruzada entre productos
+*Nota. Elaboración propia*
 
-Actualmente la navegación entre ambos productos funciona de manera asimétrica.
+#### Navegación entre el Landing Page y la Web Application
 
-Desde la Web Application es posible regresar hacia el Landing Page mediante el logo o mediante el enlace:
+Actualmente, la Web Application permite regresar al Landing Page mediante:
+El logotipo de SmartStock.
+La opción **← Volver al sitio SmartStock**
 
-**“← Volver al sitio SmartStock”**
+**Figura 32**
+
+*Pantalla de inicio de sesión de la Web Application*
+
+![Navigation Systems 2](../assets/chapter-4/navigationsystems2.png)
+
+*Nota. Elaboración propia*
 
 Sin embargo, desde el Landing Page todavía no existe una conexión funcional hacia la Web Application, debido a que los principales botones Call to Action continúan utilizando enlaces temporales.
 
 Esta situación se considera una limitación conocida correspondiente al estado actual del proyecto.
 
-![Navigation Systems 2](../assets/chapter-4/navigationsystems2.png)
-
 ## 4.3. Landing Page UI Design
+
+El diseño de la interfaz de usuario (UI) de la página de inicio de SmartStock es clave para captar la atención de los administradores y propietarios de bodegas y minimarkets, ya que los guía hacia una acción clara: comprender y adoptar una solución inteligente de gestión de inventarios. Se ha priorizado una experiencia continua, de modo que cada elemento de la página sea accesible, interactivo y fácil de usar, transmitiendo confianza, mientras refleja el compromiso de SmartStock con la innovación tecnológica y la claridad en la comunicación. 
 
 ### 4.3.1. Landing Page Wireframe
 
+El wireframe de SmartStock organiza de forma clara la página de inicio, mostrando la secuencia lógica de secciones: desde el problema de la gestión del inventario, pasando por las funcionalidades principales, hasta los beneficios que ofrece la plataforma.
+
+**Desktop:**
+
+**Figura 33**
+
+*Interfaz principal de bienvenida del landing page de SmartStock*
+
 ![Landing Page Wireframe 1](../assets/chapter-4/landingpagewireframe1.png)
+
+* Nota. Wireframe de la estructura principal de inicio del landing page de SmartStock en versión de escritorio.*
+
+**Figura 34**
+
+*Interfaz de la sección de problemas y beneficios de SmartStock en versión de escritorio*
 
 ![Landing Page Wireframe 2](../assets/chapter-4/landingpagewireframe2.png)
 
+*Nota. Wireframe de la estructura de la sección de problemas y beneficios de SmartStock en versión de escritorio.*
+
+**Figura 35**
+
+*Interfaz de la sección de casos de uso de SmartStock en versión de escritorio*
+
 ![Landing Page Wireframe 3](../assets/chapter-4/landingpagewireframe3.png)
+
+*Nota. Wireframe de la estructura de la sección de casos de uso de SmartStock en versión de escritorio.*
+
+**Figura 36**
+
+*Interfaz de la sección comparativa de SmartStock en versión de escritorio*
 
 ![Landing Page Wireframe 4](../assets/chapter-4/landingpagewireframe4.png)
 
+*Nota. Wireframe de la estructura de la sección comparativa de SmartStock en versión de escritorio.*
+
+**Figura 37**
+
+*Interfaz de la sección de planes de SmartStock en versión de escritorio*
+
 ![Landing Page Wireframe 5](../assets/chapter-4/landingpagewireframe5.png)
+
+*Nota. Wireframe de la estructura de la sección de planes de SmartStock en versión de escritorio.*
+
+**Figura 38**
+
+*Interfaz de la sección de testimonios de SmartStock en versión de escritorio*
 
 ![Landing Page Wireframe 6](../assets/chapter-4/landingpagewireframe6.png)
 
+*Nota. Wireframe de la estructura de la sección de testimonios de SmartStock en versión de escritorio.*
+
+**Figura 39**
+
+*Interfaz de la sección de preguntas frecuentes de SmartStock en versión de escritorio*
+
 ![Landing Page Wireframe 7](../assets/chapter-4/landingpagewireframe7.png)
+
+*Nota. Wireframe de la estructura de la sección de preguntas frecuentes de SmartStock en versión de escritorio.*
+
+**Figura 40**
+
+*Interfaz del formulario de demostración de SmartStock en versión de escritorio*
 
 ![Landing Page Wireframe 8](../assets/chapter-4/landingpagewireframe8.png)
 
-**Figura 13. Landing Page Wireframe.**
+*Nota. Wireframe de la estructura del formulario de demostración de SmartStock en versión de escritorio.*
+
+**Figura 41**
+
+*Pie de página del landing page de SmartStock*
+
+![Landing Page Wireframe 9](../assets/chapter-4/image261.png)
+
+*Nota. Wireframe del pie de página del landing page de SmartStock*
+
+
+**Mobile:**
+
+**Figura 42**
+
+*Interfaz principal de inicio de SmartStock en versión móvil*
+
+![Interfazprincipal](../assets/chapter-4/image7.png)
+
+*Nota. Wireframe de la estructura principal de inicio del landing page de SmartStock adaptada para dispositivos móviles.*
+
+**Figura 43**
+
+*Interfaz de la sección de problemas y beneficios de SmartStock en versión móvil*
+
+![Interfazprincipal](../assets/chapter-4/image310.png)
+
+*Nota. Wireframe de la estructura de la sección de problemas y beneficios de SmartStock adaptada para dispositivos móviles.*
+
+**Figura 44**
+ 
+*Interfaz de la sección de casos de uso de SmartStock en versión móvil*
+
+![Interfazprincipal](../assets/chapter-4/image71.png)
+
+*Nota. Wireframe de la estructura de la sección de casos de uso de SmartStock adaptada para dispositivos móviles.*
+
+**Figura 45**
+
+*Interfaz de la sección comparativa de SmartStock en versión móvil*
+
+![Interfazprincipal](../assets/chapter-4/image46.png)
+
+*Nota. Wireframe de la estructura de la sección comparativa de SmartStock adaptada para dispositivos móviles.*
+
+**Figura 46**
+
+*Interfaz de la sección de planes de SmartStock en versión móvil*
+
+![Interfazprincipal](../assets/chapter-4/image205.png)
+
+*Nota. Wireframe de la estructura de la sección de planes de SmartStock adaptada para dispositivos móviles.*
+
+**Figura 47**
+
+*Interfaz de la sección de testimonios de SmartStock en versión móvil*
+
+![Interfazprincipal](../assets/chapter-4/image18.png)
+
+*Nota. Wireframe de la estructura de la sección de testimonios de SmartStock adaptada para dispositivos móviles.*
+
+**Figura 48**
+
+*Interfaz de la sección de preguntas frecuentes de SmartStock en versión móvil*
+
+![Interfazprincipal](../assets/chapter-4/image292.png)
+
+*Nota. Wireframe de la estructura de la sección de preguntas frecuentes de SmartStock adaptada para dispositivos móviles.*
+
+**Figura 49**
+
+*Interfaz del formulario de demostración de SmartStock en versión móvil*
+
+![Interfazprincipal](../assets/chapter-4/image145.png)
+
+*Nota. Wireframe de la estructura del formulario de demostración de SmartStock adaptada para dispositivos móviles.*
+
+**Figura 50**
+
+*Interfaz del menú de navegación de SmartStock en versión móvil*
+
+![Interfazprincipal](../assets/chapter-4/image1.png)
+
+*Nota. Wireframe de la estructura del menú de navegación de SmartStock adaptado para dispositivos móviles.*
 
 ### 4.3.2. Landing Page Mock-up
 
+El mock-up de la página de inicio de SmartStock actúa como un mapa visual que organiza la estructura y el flujo de la información, mientras cada sección conduce al usuario desde la identificación del problema hasta la presentación de las funcionalidades y beneficios de la plataforma. 
+
+**Desktop:**
+
+**Figura 51**
+
+*Interfaz principal de inicio del landing page de SmartStock en versión de escritorio*
+
 ![Landing Page Mock-up 1](../assets/chapter-4/landingpagemockup1.png)
+
+*Nota. Mockup de la interfaz principal de inicio del landing page de SmartStock en versión de escritorio.*
+
+**Figura 52**
+
+*Interfaz de problemas y beneficios de SmartStock en versión de escritorio*
 
 ![Landing Page Mock-up 2](../assets/chapter-4/landingpagemockup2.png)
 
+*Nota. Mockup de la interfaz de problemas y beneficios de SmartStock en versión de escritorio.*
+
+**Figura 53**
+
+*Interfaz de casos de uso de SmartStock en versión de escritorio*
+
 ![Landing Page Mock-up 3](../assets/chapter-4/landingpagemockup3.png)
+
+*Nota. Mockup de la interfaz de casos de uso de SmartStock en versión de escritorio.*
+
+**Figura 54**
+
+*Interfaz de la sección comparativa de SmartStock en versión de escritorio*
 
 ![Landing Page Mock-up 4](../assets/chapter-4/landingpagemockup4.png)
 
+*Nota. Mockup de la interfaz de la sección comparativa de SmartStock en versión de escritorio.*
+
+**Figura 55**
+
+*Interfaz de planes de SmartStock en versión de escritorio*
+
 ![Landing Page Mock-up 5](../assets/chapter-4/landingpagemockup5.png)
+
+*Nota. Mockup de la interfaz de planes de SmartStock en versión de escritorio.*
+
+**Figura 56**
+
+*Interfaz de testimonios de SmartStock en versión de escritorio*
 
 ![Landing Page Mock-up 6](../assets/chapter-4/landingpagemockup6.png)
 
+*Nota. Mockup de la interfaz de testimonios de SmartStock en versión de escritorio.*
+
+**Figura 57**
+
+*Interfaz de preguntas frecuentes de SmartStock en versión de escritorio*
+
 ![Landing Page Mock-up 7](../assets/chapter-4/landingpagemockup7.png)
+
+*Nota. Mockup de la interfaz de preguntas frecuentes de SmartStock en versión de escritorio.*
+
+**Figura 58**
+
+*Interfaz del formulario de demostración y pie de página de SmartStock en versión de escritorio*
 
 ![Landing Page Mock-up 8](../assets/chapter-4/landingpagemockup8.png)
 
-**Figura 14. Landing Page Mock-up.**
+*Nota. Mockup de la interfaz del formulario de demostración y del pie de página de SmartStock en versión de escritorio.*
+
+**Figura 59**
+
+*Pie de página de la verizon de escritorio de SmartStock*
+
+![Landing Page Mock-up 8](../assets/chapter-4/image226.png)
+
+*Nota. Mockup del pie de página de SmartStock*
+
+**Mobile:**
+
+**Figura 60**
+
+*Interfaz principal de inicio del landing page de SmartStock en versión móvil*
+
+![Landing Page Mobile](../assets/chapter-4/image25.png)
+
+*Nota. Mock-up de la interfaz principal de inicio del landing page de SmartStock adaptada para dispositivos móviles.*
+
+**Figura 61**
+
+*Interfaz de problemas y beneficios de SmartStock en versión móvil*
+
+![Landing Page Mobile](../assets/chapter-4/image70.png)
+
+*Nota. Mock-up de la interfaz de problemas y beneficios de SmartStock adaptada para dispositivos móviles.*
+
+**Figura 62**
+
+*Interfaz de casos de uso de SmartStock en versión móvil*
+
+![Landing Page Mobile](../assets/chapter-4/image101.png)
+
+*Nota. Mock-up de la interfaz de casos de uso de SmartStock adaptada para dispositivos móviles.*
+
+**Figura 63**
+
+*Interfaz de la sección comparativa de SmartStock en versión móvil*
+
+![Landing Page Mobile](../assets/chapter-4/image82.png)
+
+*Nota. Mock-up de la interfaz de la sección comparativa de SmartStock adaptada para dispositivos móviles.*
+
+**Figura 64**
+
+*Interfaz de planes de SmartStock en versión móvil*
+
+![Landing Page Mobile](../assets/chapter-4/image222.png)
+
+*Nota. Mock-up de la interfaz de planes de SmartStock adaptada para dispositivos móviles.*
+
+**Figura 65**
+
+*Interfaz de testimonios de SmartStock en versión móvil*
+
+![Landing Page Mobile](../assets/chapter-4/image86.png)
+
+*Nota. Mock-up de la interfaz de testimonios de SmartStock adaptada para dispositivos móviles.*
+
+**Figura 66**
+
+*Interfaz de preguntas frecuentes de SmartStock en versión móvil*
+
+![Landing Page Mobile](../assets/chapter-4/image219.png)
+
+*Nota. Mock-up de la interfaz de preguntas frecuentes de SmartStock adaptada para dispositivos móviles.*
+
+**Figura 67**
+
+*Interfaz del formulario de demostración de SmartStock en versión móvil*
+
+![Landing Page Mobile](../assets/chapter-4/image275.png)
+
+*Nota. Mock-up de la interfaz del formulario de demostración de SmartStock adaptada para dispositivos móviles.*
+
+**Figura 68**
+
+*Interfaz del menú de navegación de SmartStock en versión móvil*
+
+![Landing Page Mobile](../assets/chapter-4/image106.png)
+
+*Nota. Mock-up del menú de navegación del landing page de SmartStock adaptado para dispositivos móviles.*
 
 ## 4.4. Web Applications UX/UI Design
 
@@ -540,273 +888,1077 @@ El diseño está orientado a los propietarios y administradores de minimarkets y
 
 ### 4.4.1. Web Applications Wireframes
 
-#### Owners and managers of mini-markets
+#### Dueños y administradores de Minimarkets
+
+**Figura 69**
+
+*Wireframe 1 de la aplicación web para propietarios y administradores de minimarkets*
 
 ![Web Application Wireframe Mini-market 1](../assets/chapter-4/webapplicationwireframes1.1.png)
 
+*Nota. Elaboración propia.*
+
+**Figura 70**
+
+*Wireframe 2 de la aplicación web para propietarios y administradores de minimarkets*
+
 ![Web Application Wireframe Mini-market 2](../assets/chapter-4/webapplicationwireframes1.2.png)
+
+*Nota. Elaboración propia.*
+
+**Figura 71**
+
+*Wireframe 3 de la aplicación web para propietarios y administradores de minimarkets*
 
 ![Web Application Wireframe Mini-market 3](../assets/chapter-4/webapplicationwireframes1.3.png)
 
+*Nota. Elaboración propia.*
+
+**Figura 72**
+
+*Wireframe 4 de la aplicación web para propietarios y administradores de minimarkets*
+
 ![Web Application Wireframe Mini-market 4](../assets/chapter-4/webapplicationwireframes1.4.png)
+
+*Nota. Elaboración propia.*
+
+**Figura 73**
+
+*Wireframe 5 de la aplicación web para propietarios y administradores de minimarkets*
 
 ![Web Application Wireframe Mini-market 5](../assets/chapter-4/webapplicationwireframes1.5.png)
 
+*Nota. Elaboración propia.*
+
+**Figura 74**
+
+*Wireframe 6 de la aplicación web para propietarios y administradores de minimarkets*
+
 ![Web Application Wireframe Mini-market 6](../assets/chapter-4/webapplicationwireframes1.6.png)
+
+*Nota. Elaboración propia.*
+
+**Figura 75**
+
+*Wireframe 7 de la aplicación web para propietarios y administradores de minimarkets*
 
 ![Web Application Wireframe Mini-market 7](../assets/chapter-4/webapplicationwireframes1.7.png)
 
+*Nota. Elaboración propia.*
+
+**Figura 76**
+
+*Wireframe 8 de la aplicación web para propietarios y administradores de minimarkets*
+
 ![Web Application Wireframe Mini-market 8](../assets/chapter-4/webapplicationwireframes1.8.png)
+
+*Nota. Elaboración propia.*
+
+**Figura 77**
+
+*Wireframe 9 de la aplicación web para propietarios y administradores de minimarkets*
 
 ![Web Application Wireframe Mini-market 9](../assets/chapter-4/webapplicationwireframes1.9.png)
 
+*Nota. Elaboración propia.*
+
+**Figura 78**
+
+*Wireframe 10 de la aplicación web para propietarios y administradores de minimarkets*
+
 ![Web Application Wireframe Mini-market 10](../assets/chapter-4/webapplicationwireframes1.10.png)
+
+*Nota. Elaboración propia.*
+
+**Figura 79**
+
+*Wireframe 11 de la aplicación web para propietarios y administradores de minimarkets*
 
 ![Web Application Wireframe Mini-market 11](../assets/chapter-4/webapplicationwireframes1.11.png)
 
+*Nota. Elaboración propia.*
+
+**Figura 80**
+
+*Wireframe 12 de la aplicación web para propietarios y administradores de minimarkets*
+
 ![Web Application Wireframe Mini-market 12](../assets/chapter-4/webapplicationwireframes1.12.png)
+
+*Nota. Elaboración propia.*
+
+**Figura 81**
+
+*Wireframe 13 de la aplicación web para propietarios y administradores de minimarkets*
 
 ![Web Application Wireframe Mini-market 13](../assets/chapter-4/webapplicationwireframes1.13.png)
 
+*Nota. Elaboración propia.*
+
+**Figura 82**
+
+*Wireframe 14 de la aplicación web para propietarios y administradores de minimarkets*
+
 ![Web Application Wireframe Mini-market 14](../assets/chapter-4/webapplicationwireframes1.14.png)
+
+*Nota. Elaboración propia.*
+
+**Figura 83**
+
+*Wireframe 15 de la aplicación web para propietarios y administradores de minimarkets*
 
 ![Web Application Wireframe Mini-market 15](../assets/chapter-4/webapplicationwireframes1.15.png)
 
+*Nota. Elaboración propia.*
+
+**Figura 84**
+
+*Wireframe 16 de la aplicación web para propietarios y administradores de minimarkets*
+
 ![Web Application Wireframe Mini-market 16](../assets/chapter-4/webapplicationwireframes1.16.png)
+
+*Nota. Elaboración propia.*
+
+**Figura 85**
+
+*Wireframe 17 de la aplicación web para propietarios y administradores de minimarkets*
 
 ![Web Application Wireframe Mini-market 17](../assets/chapter-4/webapplicationwireframes1.17.png)
 
+*Nota. Elaboración propia.*
+
+**Figura 86**
+
+*Wireframe 18 de la aplicación web para propietarios y administradores de minimarkets*
+
 ![Web Application Wireframe Mini-market 18](../assets/chapter-4/webapplicationwireframes1.18.png)
+
+*Nota. Elaboración propia.*
+
+**Figura 87**
+
+*Wireframe 19 de la aplicación web para propietarios y administradores de minimarkets*
 
 ![Web Application Wireframe Mini-market 19](../assets/chapter-4/webapplicationwireframes1.19.png)
 
-#### Owners and managers of corner stores
+*Nota. Elaboración propia.*
+
+
+#### Dueños y administradores de Bodegas
+
+**Figura 88**
+
+*Wireframe 1 de la aplicación web para propietarios y administradores de bodegas de barrio*
 
 ![Web Application Wireframe Corner Store 1](../assets/chapter-4/webapplicationwireframes2.1.png)
 
+*Nota. Elaboración propia.*
+
+**Figura 89**
+
+*Wireframe 2 de la aplicación web para propietarios y administradores de bodegas de barrio*
+
 ![Web Application Wireframe Corner Store 2](../assets/chapter-4/webapplicationwireframes2.2.png)
+
+*Nota. Elaboración propia.*
+
+**Figura 90**
+
+*Wireframe 3 de la aplicación web para propietarios y administradores de bodegas de barrio*
 
 ![Web Application Wireframe Corner Store 3](../assets/chapter-4/webapplicationwireframes2.3.png)
 
+*Nota. Elaboración propia.*
+
+**Figura 91**
+
+*Wireframe 4 de la aplicación web para propietarios y administradores de bodegas de barrio*
+
 ![Web Application Wireframe Corner Store 4](../assets/chapter-4/webapplicationwireframes2.4.png)
+
+*Nota. Elaboración propia.*
+
+**Figura 92**
+
+*Wireframe 5 de la aplicación web para propietarios y administradores de bodegas de barrio*
 
 ![Web Application Wireframe Corner Store 5](../assets/chapter-4/webapplicationwireframes2.5.png)
 
+*Nota. Elaboración propia.*
+
+**Figura 93**
+
+*Wireframe 6 de la aplicación web para propietarios y administradores de bodegas de barrio*
+
 ![Web Application Wireframe Corner Store 6](../assets/chapter-4/webapplicationwireframes2.6.png)
+
+*Nota. Elaboración propia.*
+
+**Figura 94**
+
+*Wireframe 7 de la aplicación web para propietarios y administradores de bodegas de barrio*
 
 ![Web Application Wireframe Corner Store 7](../assets/chapter-4/webapplicationwireframes2.7.png)
 
+*Nota. Elaboración propia.*
+
+**Figura 95**
+
+*Wireframe 8 de la aplicación web para propietarios y administradores de bodegas de barrio*
+
 ![Web Application Wireframe Corner Store 8](../assets/chapter-4/webapplicationwireframes2.8.png)
+
+*Nota. Elaboración propia.*
+
+**Figura 96**
+
+*Wireframe 9 de la aplicación web para propietarios y administradores de bodegas de barrio*
 
 ![Web Application Wireframe Corner Store 9](../assets/chapter-4/webapplicationwireframes2.9.png)
 
+*Nota. Elaboración propia.*
+
+**Figura 97**
+
+*Wireframe 10 de la aplicación web para propietarios y administradores de bodegas de barrio*
+
 ![Web Application Wireframe Corner Store 10](../assets/chapter-4/webapplicationwireframes2.10.png)
+
+*Nota. Elaboración propia.*
+
+**Figura 98**
+
+*Wireframe 11 de la aplicación web para propietarios y administradores de bodegas de barrio*
 
 ![Web Application Wireframe Corner Store 11](../assets/chapter-4/webapplicationwireframes2.11.png)
 
+*Nota. Elaboración propia.*
+
+**Figura 99**
+
+*Wireframe 12 de la aplicación web para propietarios y administradores de bodegas de barrio*
+
 ![Web Application Wireframe Corner Store 12](../assets/chapter-4/webapplicationwireframes2.12.png)
+
+*Nota. Elaboración propia.*
+
+**Figura 100**
+
+*Wireframe 13 de la aplicación web para propietarios y administradores de bodegas de barrio*
 
 ![Web Application Wireframe Corner Store 13](../assets/chapter-4/webapplicationwireframes2.13.png)
 
+*Nota. Elaboración propia.*
+
+**Figura 101**
+
+*Wireframe 14 de la aplicación web para propietarios y administradores de bodegas de barrio*
+
 ![Web Application Wireframe Corner Store 14](../assets/chapter-4/webapplicationwireframes2.14.png)
+
+*Nota. Elaboración propia.*
+
+**Figura 102**
+
+*Wireframe 15 de la aplicación web para propietarios y administradores de bodegas de barrio*
 
 ![Web Application Wireframe Corner Store 15](../assets/chapter-4/webapplicationwireframes2.15.png)
 
+*Nota. Elaboración propia.*
+
+**Figura 103**
+
+*Wireframe 16 de la aplicación web para propietarios y administradores de bodegas de barrio*
+
 ![Web Application Wireframe Corner Store 16](../assets/chapter-4/webapplicationwireframes2.16.png)
 
-![Web Application Wireframe Corner Store 17](../assets/chapter-4/webapplicationwireframes2.17.png)
+*Nota. Elaboración propia.*
+
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
-#### Owners and managers of mini-markets
+Los wireflows muestran las rutas que siguen los usuarios entre las diferentes pantallas de la aplicación según su segmento. Cada wireflow parte de un objetivo del usuario (User Goal), presenta las pantallas involucradas con su código, indica la ruta esperada con una línea azul y las rutas alternativas o de error con una línea roja discontinua, y se acompaña de una explicación del flujo y de su condición principal.
+Se elaboraron wireflows para los dos segmentos objetivo de SmartStock: propietarios y administradores de minimarkets, y propietarios y administradores de bodegas de barrio. Los flujos cubren el acceso a la cuenta, la gestión del catálogo, el monitoreo del stock con sensores IoT, el registro de compras, ventas y proveedores, la reposición desde una alerta de stock bajo y la comparación de inventario. El conjunto completo de wireflows puede consultarse en el siguiente enlace. 
+
+**Link:**
+`https://www.figma.com/board/Tdon4igryTEOc1wl7f5I15/Wireflow-diagrams-SmartStock?node-id=0-1&t=ik1xWHtOIA29fNXh-1`
+
+#### Dueños y administradores de Minimarkets
+
+Para este segmento se presentan 12 wireflows, que cubren el acceso a la cuenta, la gestión del catálogo, el monitoreo del stock con sensores IoT, la configuración del umbral mínimo de stock, el registro de compras, ventas y proveedores, la reposición desde una alerta de stock bajo y la comparación entre el inventario físico y el registrado. 
+
+**Figura 104**
+
+*Wireflow 1 de la aplicación web para propietarios y administradores de minimarkets: iniciar sesión (US02)*
 
 ![Mini-markets Wireflow 1](../assets/chapter-4/minimarketswireflows1.png)
 
+*Nota. Elaboración propia.*
+
+
+**Figura 105**
+
+*Wireflow 2 de la aplicación web para propietarios y administradores de minimarkets: registrar una cuenta (US01)*
+
 ![Mini-markets Wireflow 2](../assets/chapter-4/minimarketswireflows2.png)
+
+*Nota. Elaboración propia.*
+
+
+**Figura 106**
+
+*Wireflow 3 de la aplicación web para propietarios y administradores de minimarkets: consultar el resumen del negocio y navegar a sus módulos (US15)*
 
 ![Mini-markets Wireflow 3](../assets/chapter-4/minimarketswireflows3.png)
 
+*Nota. Elaboración propia.*
+
+
+**Figura 107**
+
+*Wireflow 4 de la aplicación web para propietarios y administradores de minimarkets: registrar un producto en el catálogo (US13)*
+
 ![Mini-markets Wireflow 4](../assets/chapter-4/minimarketswireflows4.png)
+
+*Nota. Elaboración propia.*
+
+
+**Figura 108**
+
+*Wireflow 5 de la aplicación web para propietarios y administradores de minimarkets: consultar el stock de un producto y su peso en el sensor (US07, US08, US06)*
 
 ![Mini-markets Wireflow 5](../assets/chapter-4/minimarketswireflows5.png)
 
+*Nota. Elaboración propia.*
+
+
+**Figura 109**
+
+*Wireflow 6 de la aplicación web para propietarios y administradores de minimarkets: vincular un sensor IoT a un producto (US04)*
+
 ![Mini-markets Wireflow 6](../assets/chapter-4/minimarketswireflows6.png)
+
+*Nota. Elaboración propia.*
+
+
+**Figura 110**
+
+*Wireflow 7 de la aplicación web para propietarios y administradores de minimarkets: configurar el umbral mínimo de stock (US05)*
 
 ![Mini-markets Wireflow 7](../assets/chapter-4/minimarketswireflows7.png)
 
+*Nota. Elaboración propia.*
+
+
+**Figura 111**
+
+*Wireflow 8 de la aplicación web para propietarios y administradores de minimarkets: registrar una compra (US30)*
+
 ![Mini-markets Wireflow 8](../assets/chapter-4/minimarketswireflows8.png)
+
+*Nota. Elaboración propia.*
+
+
+**Figura 112**
+
+*Wireflow 9 de la aplicación web para propietarios y administradores de minimarkets: registrar una venta (US26)*
 
 ![Mini-markets Wireflow 9](../assets/chapter-4/minimarketswireflows9.png)
 
+*Nota. Elaboración propia.*
+
+
+**Figura 113**
+
+*Wireflow 10 de la aplicación web para propietarios y administradores de minimarkets: registrar un proveedor (US211)*
+
 ![Mini-markets Wireflow 10](../assets/chapter-4/minimarketswireflows10.png)
+
+*Nota. Elaboración propia.*
+
+
+**Figura 114**
+
+*Wireflow 11 de la aplicación web para propietarios y administradores de minimarkets: reponer un producto desde una alerta de stock bajo (US32)*
 
 ![Mini-markets Wireflow 11](../assets/chapter-4/minimarketswireflows11.png)
 
+*Nota. Elaboración propia.*
+
+
+**Figura 115**
+
+*Wireflow 12 de la aplicación web para propietarios y administradores de minimarkets: comparar el inventario físico con el registrado (US11, US12)*
+
 ![Mini-markets Wireflow 12](../assets/chapter-4/minimarketswireflows12.png)
 
-![Mini-markets Wireflow 13](../assets/chapter-4/minimarketswireflows13.png)
+*Nota. Elaboración propia.*
 
-#### Owners and managers of corner stores
+
+#### Dueños y administradores de Bodegas
+
+Para este segmento se presentan 11 wireflows. Son los mismos flujos que en minimarkets, salvo la comparación entre inventario físico y registrado, que no forma parte del recorrido de este segmento. Las pantallas se adaptan al tipo de negocio, de modo que cambian el menú y las funciones disponibles. 
+
+**Figura 116**
+
+*Wireflow 1 de la aplicación web para propietarios y administradores de bodegas de barrio: iniciar sesión (US02)*
 
 ![Corner Store Wireflow 1](../assets/chapter-4/cornerstorewireflows1.png)
 
+*Nota. Elaboración propia.*
+
+
+**Figura 117**
+
+*Wireflow 2 de la aplicación web para propietarios y administradores de bodegas de barrio: registrar una cuenta (US01)*
+
 ![Corner Store Wireflow 2](../assets/chapter-4/cornerstorewireflows2.png)
+
+*Nota. Elaboración propia.*
+
+
+**Figura 118**
+
+*Wireflow 3 de la aplicación web para propietarios y administradores de bodegas de barrio: consultar el resumen del negocio y navegar a sus módulos (US15)*
 
 ![Corner Store Wireflow 3](../assets/chapter-4/cornerstorewireflows3.png)
 
+*Nota. Elaboración propia.*
+
+
+**Figura 119**
+
+*Wireflow 4 de la aplicación web para propietarios y administradores de bodegas de barrio: registrar un producto en el catálogo (US13)*
+
 ![Corner Store Wireflow 4](../assets/chapter-4/cornerstorewireflows4.png)
+
+*Nota. Elaboración propia.*
+
+
+**Figura 120**
+
+*Wireflow 5 de la aplicación web para propietarios y administradores de bodegas de barrio: consultar el stock de un producto y su peso en el sensor (US07, US08, US06)*
 
 ![Corner Store Wireflow 5](../assets/chapter-4/cornerstorewireflows5.png)
 
+*Nota. Elaboración propia.*
+
+
+**Figura 121**
+
+*Wireflow 6 de la aplicación web para propietarios y administradores de bodegas de barrio: vincular un sensor IoT a un producto (US04)*
+
 ![Corner Store Wireflow 6](../assets/chapter-4/cornerstorewireflows6.png)
+
+*Nota. Elaboración propia.*
+
+
+**Figura 122**
+
+*Wireflow 7 de la aplicación web para propietarios y administradores de bodegas de barrio: configurar el umbral mínimo de stock (US05)*
 
 ![Corner Store Wireflow 7](../assets/chapter-4/cornerstorewireflows7.png)
 
+*Nota. Elaboración propia.*
+
+
+**Figura 123**
+
+*Wireflow 8 de la aplicación web para propietarios y administradores de bodegas de barrio: registrar una compra (US30)*
+
 ![Corner Store Wireflow 8](../assets/chapter-4/cornerstorewireflows8.png)
+
+*Nota. Elaboración propia.*
+
+
+**Figura 124**
+
+*Wireflow 9 de la aplicación web para propietarios y administradores de bodegas de barrio: registrar una venta (US26)*
 
 ![Corner Store Wireflow 9](../assets/chapter-4/cornerstorewireflows9.png)
 
+*Nota. Elaboración propia.*
+
+
+**Figura 125**
+
+*Wireflow 10 de la aplicación web para propietarios y administradores de bodegas de barrio: registrar un proveedor (US29)*
+
 ![Corner Store Wireflow 10](../assets/chapter-4/cornerstorewireflows10.png)
+
+*Nota. Elaboración propia.*
+
+
+**Figura 126**
+
+*Wireflow 11 de la aplicación web para propietarios y administradores de bodegas de barrio: reponer un producto desde una alerta de stock bajo (US32)*
 
 ![Corner Store Wireflow 11](../assets/chapter-4/cornerstorewireflows11.png)
 
-### 4.4.2. Web Applications Mock-ups
+*Nota. Elaboración propia.*
 
-#### Owners and managers of mini-markets
+
+### 4.4.3. Web Applications Mock-ups
+
+Los mock-ups presentan el diseño visual final de las pantallas de la aplicación web de SmartStock, con la paleta de colores, la tipografía y los componentes definidos en el Style Guide. Se elaboraron para los dos segmentos objetivo y siguen los flujos descritos en los wireflows.
+
+#### Dueños y administradores de Minimarkets
+
+
+**Figura 127**
+
+*Mock-up 1 de la aplicación web para propietarios y administradores de minimarkets: registro de cuenta (US01)*
 
 ![Web Applications Mock-up Mini-market 1](../assets/chapter-4/webapplicationsmockup1.1.png)
 
+*Nota. Elaboración propia.*
+
+
+**Figura 128**
+
+*Mock-up 2 de la aplicación web para propietarios y administradores de minimarkets: inicio de sesión (US02)*
+
 ![Web Applications Mock-up Mini-market 2](../assets/chapter-4/webapplicationsmockup1.2.png)
+
+*Nota. Elaboración propia.*
+
+
+**Figura 129**
+
+*Mock-up 3 de la aplicación web para propietarios y administradores de minimarkets: inicio de sesión con credenciales incorrectas (US02)*
 
 ![Web Applications Mock-up Mini-market 3](../assets/chapter-4/webapplicationsmockup1.3.png)
 
+*Nota. Elaboración propia.*
+
+
+**Figura 130**
+
+*Mock-up 4 de la aplicación web para propietarios y administradores de minimarkets: dashboard inicial del negocio (US15)*
+
 ![Web Applications Mock-up Mini-market 4](../assets/chapter-4/webapplicationsmockup1.4.png)
+
+*Nota. Elaboración propia.*
+
+
+**Figura 131**
+
+*Mock-up 5 de la aplicación web para propietarios y administradores de minimarkets: catálogo de productos sin registros (US07)*
 
 ![Web Applications Mock-up Mini-market 5](../assets/chapter-4/webapplicationsmockup1.5.png)
 
+*Nota. Elaboración propia.*
+
+
+**Figura 132**
+
+*Mock-up 6 de la aplicación web para propietarios y administradores de minimarkets: formulario para registrar un producto (US13)*
+
 ![Web Applications Mock-up Mini-market 6](../assets/chapter-4/webapplicationsmockup1.6.png)
+
+*Nota. Elaboración propia.*
+
+
+**Figura 133**
+
+*Mock-up 7 de la aplicación web para propietarios y administradores de minimarkets: catálogo con el producto registrado (US07)*
 
 ![Web Applications Mock-up Mini-market 7](../assets/chapter-4/webapplicationsmockup1.7.png)
 
+*Nota. Elaboración propia.*
+
+
+**Figura 134**
+
+*Mock-up 8 de la aplicación web para propietarios y administradores de minimarkets: detalle de un producto y nivel de stock (US08)*
+
 ![Web Applications Mock-up Mini-market 8](../assets/chapter-4/webapplicationsmockup1.8.png)
+
+*Nota. Elaboración propia.*
+
+
+**Figura 135**
+
+*Mock-up 9 de la aplicación web para propietarios y administradores de minimarkets: listado de sensores IoT (US06)*
 
 ![Web Applications Mock-up Mini-market 9](../assets/chapter-4/webapplicationsmockup1.9.png)
 
+*Nota. Elaboración propia.*
+
+
+**Figura 136**
+
+*Mock-up 10 de la aplicación web para propietarios y administradores de minimarkets: vincular un sensor a un producto (US04)*
+
 ![Web Applications Mock-up Mini-market 10](../assets/chapter-4/webapplicationsmockup1.10.png)
+
+*Nota. Elaboración propia.*
+
+
+**Figura 137**
+
+*Mock-up 11 de la aplicación web para propietarios y administradores de minimarkets: confirmación de sensor vinculado (US04)*
 
 ![Web Applications Mock-up Mini-market 11](../assets/chapter-4/webapplicationsmockup1.11.png)
 
+*Nota. Elaboración propia.*
+
+
+**Figura 138**
+
+*Mock-up 12 de la aplicación web para propietarios y administradores de minimarkets: alertas, vista de todas*
+
 ![Web Applications Mock-up Mini-market 12](../assets/chapter-4/webapplicationsmockup1.12.png)
+
+*Nota. Elaboración propia.*
+
+
+**Figura 139**
+
+*Mock-up 13 de la aplicación web para propietarios y administradores de minimarkets: alertas de stock bajo*
 
 ![Web Applications Mock-up Mini-market 13](../assets/chapter-4/webapplicationsmockup1.13.png)
 
+*Nota. Elaboración propia.*
+
+
+**Figura 140**
+
+*Mock-up 14 de la aplicación web para propietarios y administradores de minimarkets: alertas de discrepancias de inventario*
+
 ![Web Applications Mock-up Mini-market 14](../assets/chapter-4/webapplicationsmockup1.14.png)
+
+*Nota. Elaboración propia.*
+
+
+**Figura 141**
+
+*Mock-up 15 de la aplicación web para propietarios y administradores de minimarkets: alertas de sensores*
 
 ![Web Applications Mock-up Mini-market 15](../assets/chapter-4/webapplicationsmockup1.15.png)
 
+*Nota. Elaboración propia.*
+
+
+**Figura 142**
+
+*Mock-up 16 de la aplicación web para propietarios y administradores de minimarkets: comparación del inventario físico con el registrado (US11, US12)*
+
 ![Web Applications Mock-up Mini-market 16](../assets/chapter-4/webapplicationsmockup1.16.png)
+
+*Nota. Elaboración propia.*
+
+
+**Figura 143**
+
+*Mock-up 17 de la aplicación web para propietarios y administradores de minimarkets: reportes de consumo (US25)*
 
 ![Web Applications Mock-up Mini-market 17](../assets/chapter-4/webapplicationsmockup1.17.png)
 
+*Nota. Elaboración propia.*
+
+
+**Figura 144**
+
+*Mock-up 18 de la aplicación web para propietarios y administradores de minimarkets: configuración del negocio*
+
 ![Web Applications Mock-up Mini-market 18](../assets/chapter-4/webapplicationsmockup1.18.png)
+
+*Nota. Elaboración propia.*
+
+
+**Figura 145**
+
+*Mock-up 19 de la aplicación web para propietarios y administradores de minimarkets: confirmación de cambios en la configuración*
 
 ![Web Applications Mock-up Mini-market 19](../assets/chapter-4/webapplicationsmockup1.19.png)
 
-#### Owners and managers of corner stores
+*Nota. Elaboración propia.*
+
+
+#### Dueños y administradores de Bodegas
+
+
+**Figura 146**
+
+*Mock-up 1 de la aplicación web para propietarios y administradores de bodegas de barrio: registro de cuenta (US01)*
 
 ![Web Applications Mock-up Corner Store 1](../assets/chapter-4/webapplicationsmockup2.1.png)
 
+*Nota. Elaboración propia.*
+
+
+**Figura 147**
+
+*Mock-up 2 de la aplicación web para propietarios y administradores de bodegas de barrio: inicio de sesión (US02)*
+
 ![Web Applications Mock-up Corner Store 2](../assets/chapter-4/webapplicationsmockup2.2.png)
+
+*Nota. Elaboración propia.*
+
+
+**Figura 148**
+
+*Mock-up 3 de la aplicación web para propietarios y administradores de bodegas de barrio: pantalla de inicio "Mi inventario" (US15)*
 
 ![Web Applications Mock-up Corner Store 3](../assets/chapter-4/webapplicationsmockup2.3.png)
 
+*Nota. Elaboración propia.*
+
+
+**Figura 149**
+
+*Mock-up 4 de la aplicación web para propietarios y administradores de bodegas de barrio: catálogo de productos sin registros (US07)*
+
 ![Web Applications Mock-up Corner Store 4](../assets/chapter-4/webapplicationsmockup2.4.png)
+
+*Nota. Elaboración propia.*
+
+
+**Figura 150**
+
+*Mock-up 5 de la aplicación web para propietarios y administradores de bodegas de barrio: formulario para registrar un producto (US13)*
 
 ![Web Applications Mock-up Corner Store 5](../assets/chapter-4/webapplicationsmockup2.5.png)
 
+*Nota. Elaboración propia.*
+
+
+**Figura 151**
+
+*Mock-up 6 de la aplicación web para propietarios y administradores de bodegas de barrio: catálogo con el producto registrado (US07)*
+
 ![Web Applications Mock-up Corner Store 6](../assets/chapter-4/webapplicationsmockup2.6.png)
+
+*Nota. Elaboración propia.*
+
+
+**Figura 152**
+
+*Mock-up 7 de la aplicación web para propietarios y administradores de bodegas de barrio: detalle de un producto y nivel de stock (US08)*
 
 ![Web Applications Mock-up Corner Store 7](../assets/chapter-4/webapplicationsmockup2.7.png)
 
+*Nota. Elaboración propia.*
+
+
+**Figura 153**
+
+*Mock-up 8 de la aplicación web para propietarios y administradores de bodegas de barrio: alertas, vista de todas*
+
 ![Web Applications Mock-up Corner Store 8](../assets/chapter-4/webapplicationsmockup2.8.png)
+
+*Nota. Elaboración propia.*
+
+
+**Figura 154**
+
+*Mock-up 9 de la aplicación web para propietarios y administradores de bodegas de barrio: alertas de stock bajo*
 
 ![Web Applications Mock-up Corner Store 9](../assets/chapter-4/webapplicationsmockup2.9.png)
 
+*Nota. Elaboración propia.*
+
+
+**Figura 155**
+
+*Mock-up 10 de la aplicación web para propietarios y administradores de bodegas de barrio: alertas de sensores*
+
 ![Web Applications Mock-up Corner Store 10](../assets/chapter-4/webapplicationsmockup2.10.png)
+
+*Nota. Elaboración propia.*
+
+
+**Figura 156**
+
+*Mock-up 11 de la aplicación web para propietarios y administradores de bodegas de barrio: listado de sensores IoT (US06)*
 
 ![Web Applications Mock-up Corner Store 11](../assets/chapter-4/webapplicationsmockup2.11.png)
 
+*Nota. Elaboración propia.*
+
+
+**Figura 157**
+
+*Mock-up 12 de la aplicación web para propietarios y administradores de bodegas de barrio: vincular un sensor a un producto (US04)*
+
 ![Web Applications Mock-up Corner Store 12](../assets/chapter-4/webapplicationsmockup2.12.png)
+
+*Nota. Elaboración propia.*
+
+
+**Figura 158**
+
+*Mock-up 13 de la aplicación web para propietarios y administradores de bodegas de barrio: confirmación de sensor vinculado (US04)*
 
 ![Web Applications Mock-up Corner Store 13](../assets/chapter-4/webapplicationsmockup2.13.png)
 
+*Nota. Elaboración propia.*
+
+
+**Figura 159**
+
+*Mock-up 14 de la aplicación web para propietarios y administradores de bodegas de barrio: configuración del negocio*
+
 ![Web Applications Mock-up Corner Store 14](../assets/chapter-4/webapplicationsmockup2.14.png)
+
+*Nota. Elaboración propia.*
+
+
+**Figura 160**
+
+*Mock-up 15 de la aplicación web para propietarios y administradores de bodegas de barrio: confirmación de cambios en la configuración*
 
 ![Web Applications Mock-up Corner Store 15](../assets/chapter-4/webapplicationsmockup2.15.png)
 
-### 4.4.3. Web Applications User Flow Diagrams
+*Nota. Elaboración propia.*
 
-#### Owners and managers of mini-markets
+
+### 4.4.4. Web Applications User Flow Diagrams
+
+Los user flows muestran, desde el punto de vista del usuario, el recorrido que sigue para lograr un objetivo concreto dentro de la aplicación según su segmento. Cada user flow parte de un objetivo del usuario (User Goal) e indica las pantallas por las que pasa, la ruta esperada con una línea azul y las rutas alternativas o de error con una línea roja discontinua, además de una explicación del flujo y de su condición principal.
+Se elaboraron user flows para los dos segmentos objetivo de SmartStock: propietarios y administradores de minimarkets, y propietarios y administradores de bodegas de barrio. Los flujos cubren el acceso a la cuenta, la gestión del catálogo, el monitoreo del stock con sensores IoT, el registro de compras, ventas y proveedores, y la reposición desde una alerta de stock bajo. El conjunto completo puede consultarse en el siguiente enlace.
+
+**Link:**
+`https://www.figma.com/board/Q4SExEhBOi9wb1iWULW9ce/User-Flow-diagrams-SmartStock?node-id=0-1&t=GD9ioBq6MAOymx5J-1`
+
+#### Dueños y administradores de Minimarkets
+
+Para este segmento se presentan 12 user flows. Los de acceso corresponden al inicio de sesión y al registro de la cuenta; los de gestión, al registro de productos, la consulta del stock, la vinculación de sensores y la configuración del umbral mínimo; y los de operación, al registro de compras, ventas y proveedores, la reposición desde una alerta y la comparación entre el inventario físico y el registrado.
+
+
+**Figura 161**
+
+*User Flow 1 de la aplicación web para propietarios y administradores de minimarkets: iniciar sesión (US02)*
 
 ![User Flow Diagram Mini-market 1](../assets/chapter-4/userflowdiagrams1.1.png)
 
+*Nota. Elaboración propia.*
+
+
+**Figura 162**
+
+*User Flow 2 de la aplicación web para propietarios y administradores de minimarkets: registrar una cuenta (US01)*
+
 ![User Flow Diagram Mini-market 2](../assets/chapter-4/userflowdiagrams1.2.png)
+
+*Nota. Elaboración propia.*
+
+
+**Figura 163**
+
+*User Flow 3 de la aplicación web para propietarios y administradores de minimarkets: consultar el resumen del negocio y navegar a sus módulos (US15)*
 
 ![User Flow Diagram Mini-market 3](../assets/chapter-4/userflowdiagrams1.3.png)
 
+*Nota. Elaboración propia.*
+
+
+**Figura 164**
+
+*User Flow 4 de la aplicación web para propietarios y administradores de minimarkets: registrar un producto en el catálogo (US13)*
+
 ![User Flow Diagram Mini-market 4](../assets/chapter-4/userflowdiagrams1.4.png)
+
+*Nota. Elaboración propia.*
+
+
+**Figura 165**
+
+*User Flow 5 de la aplicación web para propietarios y administradores de minimarkets: consultar el stock de un producto y su peso en el sensor (US07, US08, US06)*
 
 ![User Flow Diagram Mini-market 5](../assets/chapter-4/userflowdiagrams1.5.png)
 
+*Nota. Elaboración propia.*
+
+
+**Figura 166**
+
+*User Flow 6 de la aplicación web para propietarios y administradores de minimarkets: vincular un sensor IoT a un producto (US04)*
+
 ![User Flow Diagram Mini-market 6](../assets/chapter-4/userflowdiagrams1.6.png)
+
+*Nota. Elaboración propia.*
+
+
+**Figura 167**
+
+*User Flow 7 de la aplicación web para propietarios y administradores de minimarkets: configurar el umbral mínimo de stock (US05)*
 
 ![User Flow Diagram Mini-market 7](../assets/chapter-4/userflowdiagrams1.7.png)
 
+*Nota. Elaboración propia.*
+
+
+**Figura 168**
+
+*User Flow 8 de la aplicación web para propietarios y administradores de minimarkets: registrar una compra (US30)*
+
 ![User Flow Diagram Mini-market 8](../assets/chapter-4/userflowdiagrams1.8.png)
+
+*Nota. Elaboración propia.*
+
+
+**Figura 169**
+
+*User Flow 9 de la aplicación web para propietarios y administradores de minimarkets: registrar una venta (US26)*
 
 ![User Flow Diagram Mini-market 9](../assets/chapter-4/userflowdiagrams1.9.png)
 
+*Nota. Elaboración propia.*
+
+
+**Figura 170**
+
+*User Flow 10 de la aplicación web para propietarios y administradores de minimarkets: registrar un proveedor (US29)*
+
 ![User Flow Diagram Mini-market 10](../assets/chapter-4/userflowdiagrams1.10.png)
+
+*Nota. Elaboración propia.*
+
+
+**Figura 171**
+
+*User Flow 11 de la aplicación web para propietarios y administradores de minimarkets: reponer un producto desde una alerta de stock bajo (US32)*
 
 ![User Flow Diagram Mini-market 11](../assets/chapter-4/userflowdiagrams1.11.png)
 
+*Nota. Elaboración propia.*
+
+
+**Figura 172**
+
+*User Flow 12 de la aplicación web para propietarios y administradores de minimarkets: comparar el inventario físico con el registrado (US11, US12)*
+
 ![User Flow Diagram Mini-market 12](../assets/chapter-4/userflowdiagrams1.12.png)
 
-![User Flow Diagram Mini-market 13](../assets/chapter-4/userflowdiagrams1.13.png)
+*Nota. Elaboración propia.*
 
-#### Owners and managers of corner stores
+
+#### Dueños y administradores de Bodegas
+
+Para este segmento se presentan 11 user flows, que cubren el acceso a la cuenta, la gestión del catálogo, el monitoreo del stock con sensores IoT, el registro de compras, ventas y proveedores, y la reposición desde una alerta de stock bajo. Las pantallas se adaptan al tipo de negocio, de modo que cambian el menú y las funciones disponibles.
+
+
+**Figura 173**
+
+*User Flow 1 de la aplicación web para propietarios y administradores de bodegas de barrio: iniciar sesión (US02)*
 
 ![User Flow Diagram Corner Store 1](../assets/chapter-4/userflowdiagrams2.1.png)
 
+*Nota. Elaboración propia.*
+
+
+**Figura 174**
+
+*User Flow 2 de la aplicación web para propietarios y administradores de bodegas de barrio: registrar una cuenta (US01)*
+
 ![User Flow Diagram Corner Store 2](../assets/chapter-4/userflowdiagrams2.2.png)
+
+*Nota. Elaboración propia.*
+
+
+**Figura 175**
+
+*User Flow 3 de la aplicación web para propietarios y administradores de bodegas de barrio: consultar el resumen del negocio y navegar a sus módulos (US15)*
 
 ![User Flow Diagram Corner Store 3](../assets/chapter-4/userflowdiagrams2.3.png)
 
+*Nota. Elaboración propia.*
+
+
+**Figura 176**
+
+*User Flow 4 de la aplicación web para propietarios y administradores de bodegas de barrio: registrar un producto en el catálogo (US13)*
+
 ![User Flow Diagram Corner Store 4](../assets/chapter-4/userflowdiagrams2.4.png)
+
+*Nota. Elaboración propia.*
+
+
+**Figura 177**
+
+*User Flow 5 de la aplicación web para propietarios y administradores de bodegas de barrio: consultar el stock de un producto y su peso en el sensor (US07, US08, US06)*
 
 ![User Flow Diagram Corner Store 5](../assets/chapter-4/userflowdiagrams2.5.png)
 
+*Nota. Elaboración propia.*
+
+
+**Figura 178**
+
+*User Flow 6 de la aplicación web para propietarios y administradores de bodegas de barrio: vincular un sensor IoT a un producto (US04)*
+
 ![User Flow Diagram Corner Store 6](../assets/chapter-4/userflowdiagrams2.6.png)
+
+*Nota. Elaboración propia.*
+
+
+**Figura 179**
+
+*User Flow 7 de la aplicación web para propietarios y administradores de bodegas de barrio: configurar el umbral mínimo de stock (US05)*
 
 ![User Flow Diagram Corner Store 7](../assets/chapter-4/userflowdiagrams2.7.png)
 
+*Nota. Elaboración propia.*
+
+
+**Figura 180**
+
+*User Flow 8 de la aplicación web para propietarios y administradores de bodegas de barrio: registrar una compra (US30)*
+
 ![User Flow Diagram Corner Store 8](../assets/chapter-4/userflowdiagrams2.8.png)
+
+*Nota. Elaboración propia.*
+
+
+**Figura 181**
+
+*User Flow 9 de la aplicación web para propietarios y administradores de bodegas de barrio: registrar una venta (US26)*
 
 ![User Flow Diagram Corner Store 9](../assets/chapter-4/userflowdiagrams2.9.png)
 
+*Nota. Elaboración propia.*
+
+
+**Figura 182**
+
+*User Flow 10 de la aplicación web para propietarios y administradores de bodegas de barrio: registrar un proveedor (US29)*
+
 ![User Flow Diagram Corner Store 10](../assets/chapter-4/userflowdiagrams2.10.png)
+
+*Nota. Elaboración propia.*
+
+
+**Figura 183**
+
+*User Flow 11 de la aplicación web para propietarios y administradores de bodegas de barrio: reponer un producto desde una alerta de stock bajo (US32)*
 
 ![User Flow Diagram Corner Store 11](../assets/chapter-4/userflowdiagrams2.11.png)
 
+*Nota. Elaboración propia.*
+
+
 ## 4.5. Web Applications Prototyping
 
-### Propietarios y administradores de minimarkets
+El prototipo interactivo de la aplicación web se elaboró en Figma a partir de los mock-ups de la sección 4.4.3. Permite recorrer los flujos principales de cada segmento (registro e inicio de sesión, gestión del catálogo, monitoreo del stock con sensores IoT, atención de alertas y configuración) tal como se describen en los wireflows y user flows. Cada segmento tiene su propio prototipo, con el menú y las funciones que corresponden a su tipo de negocio.
 
-https://www.figma.com/proto/UmhwfXcaFyV0VVuE27ASL8/NexoStock-SmartStock-Open-Source?node-id=67-2322&t=AVcSMMYJ210vCUeU-1&scaling=min-zoom&content-scaling=fixed&page-id=3%3A2&starting-point-node-id=67%3A2322
+### Segmento 1: Propietarios y administradores de minimarkets
 
-### Propietarios y administradores de bodegas de barrio
+**Link:**
 
-https://www.figma.com/proto/UmhwfXcaFyV0VVuE27ASL8/NexoStock-SmartStock-Open-Source?node-id=294-757&t=xqYqzXGZf9cDlHhC-1&scaling=min-zoom&content-scaling=fixed&page-id=3%3A3
+`https://www.figma.com/proto/UmhwfXcaFyV0VVuE27ASL8/NexoStock-SmartStock-Open-Source?node-id=67-2322&t=AVcSMMYJ210vCUeU-1&scaling=min-zoom&content-scaling=fixed&page-id=3%3A2&starting-point-node-id=67%3A2322`
+
+### Segmento 2: Propietarios y administradores de bodegas de barrio
+
+**Link:**
+
+`https://www.figma.com/proto/UmhwfXcaFyV0VVuE27ASL8/NexoStock-SmartStock-Open-Source?node-id=294-757&t=xqYqzXGZf9cDlHhC-1&scaling=min-zoom&content-scaling=fixed&page-id=3%3A3`
+
+### Prototipo Mobile
+
+**Link:**
+
+`https://www.figma.com/design/ZXJ7Yk6gBQYIItE5B7hcvj/Wireframes-y-mockup-Mobile?node-id=0-1&t=gTdd0STYXGH6kUgr-1`
 
 ## 4.6. Domain-Driven Software Architecture
 
@@ -827,75 +1979,112 @@ Se utilizó la guía de Philippe Bourgau, proporcionada en la rúbrica del Final
 
 **Miro Board Link:**
 
-https://miro.com/welcomeonboard/WXlEQy9hRngvZnRPQkVlR3pJMDN5M25TTmpLSUY1Rk1kckJOVU15UnczNVNWQURZN3dUVFAxcitFSFJsUXJFaU5ET1JCc2VweWsrNytLZFliMGRLeEU2Y0VkT2ZMMEZSQmZXeXFHL3dBZ1VuR1Y3emdReUdaZHV1WFFLd3BrWDVNakdSWkpBejJWRjJhRnhhb1UwcS9BPT0hdjE=?share_link_id=815705743217
+`https://miro.com/welcomeonboard/WXlEQy9hRngvZnRPQkVlR3pJMDN5M25TTmpLSUY1Rk1kckJOVU15UnczNVNWQURZN3dUVFAxcitFSFJsUXJFaU5ET1JCc2VweWsrNytLZFliMGRLeEU2Y0VkT2ZMMEZSQmZXeXFHL3dBZ1VuR1Y3emdReUdaZHV1WFFLd3BrWDVNakdSWkpBejJWRjJhRnhhb1UwcS9BPT0hdjE=?share_link_id=815705743217`
+
+**Figura 184**
+
+*Design-Level EventStorming de SmartStock con los seis Bounded Contexts*
 
 ![Design Level Event Storming](../assets/chapter-4/designleveleventstorming.png)
 
-**Figura 67. Design Level EventStorming.**
+*Nota. Elaboración propia.*
 
 ### 4.6.2. Software Architecture Context Diagram
 
 El diagrama de contexto presenta la relación del propietario o administrador con SmartStock para gestionar el inventario, registrar compras y ventas y consultar alertas y reportes. También muestra la integración con los sensores IoT, que envían lecturas de peso y estado, y con los servicios externos de WhatsApp y correo electrónico para las notificaciones.
 
+**Figura 185**
+
+*Diagrama de contexto C4 de SmartStock*
+
 ![C4 Context Diagram](../assets/chapter-4/c4contextdiagram.png)
 
-**Figura 68. C4 Context Diagram.**
+*Nota. Elaboración propia.*
 
 ### 4.6.3. Software Architecture Container Diagrams
 
 SmartStock adopta una arquitectura de monolito modular: una sola aplicación backend en Spring Boot, organizada en seis módulos correspondientes a los bounded contexts. Esta decisión separa las responsabilidades del dominio y permite un único despliegue del backend, reduciendo la complejidad para el alcance del proyecto. La Landing Page presenta el producto y dirige al frontend Angular, que consulta la API para realizar las operaciones del negocio. El backend ejecuta las reglas y persiste la información mediante Spring Data JPA en MySQL.
-
 Angular permite organizar la interfaz por contexto y reutilizar componentes; Spring Boot facilita la implementación de los servicios web y Spring Data JPA el acceso a los datos. Los sensores IoT envían lecturas de peso y estado al backend para verificar el inventario físico. Las ventas descuentan el stock registrado y las compras lo aumentan al confirmar su recepción, dejando movimientos de inventario. El backend solicita las notificaciones a los servicios externos de correo electrónico y WhatsApp. Este diagrama representa la arquitectura prevista para el backend real del Sprint 3; en el Sprint 2, el frontend utiliza una Fake API.
+
+**Figura 186**
+
+*Diagrama de contenedores C4 de SmartStock*
 
 ![C4 Container Diagram](../assets/chapter-4/c4containerdiagram.png)
 
-**Figura 69. C4 Container Diagram.**
+*Nota. Elaboración propia.*
 
 ### 4.6.4. Software Architecture Components Diagrams
 
+A continuación se presentan los diagramas de componentes de cada uno de los seis bounded contexts del backend de SmartStock, con la descripción de sus componentes y una leyenda de colores.
+
+**Figura 187**
+
+*Diagrama de componentes C4 del bounded context IAM*
+
 ![C4 Component Diagram 1](../assets/chapter-4/c4componentdiagram1.png)
 
-**Figura 70. C4 Component Diagram 1.**
+*Nota. Elaboración propia.*
 
 **Descripción:** El diagrama detalla IAM dentro del Backend API previsto en Spring Boot. Auth Controller recibe las solicitudes del frontend Angular y las deriva a los servicios de autenticación, registro de cuentas y recuperación de contraseña. User Repository persiste las cuentas y los tokens mediante Spring Data JPA en MySQL. El servicio externo de correo entrega los mensajes de registro y recuperación.
 
 **Leyenda:** Azul oscuro: frontend Angular; azul claro: componentes de IAM; amarillo: servicio externo de correo; verde: MySQL. Los recuadros delimitan el sistema, el backend y el módulo; las flechas indican solicitudes y acceso a datos.
 
+**Figura 188**
+
+*Diagrama de componentes C4 del bounded context Product Catalog*
+
 ![C4 Component Diagram 2](../assets/chapter-4/c4componentdiagram2.png)
 
-**Figura 71. C4 Component Diagram 2.**
+*Nota. Elaboración propia.*
 
-**Descripción:** Product Controller recibe las solicitudes de registro, consulta y actualización de productos. Product Service gestiona sus datos, incluidos categoría, peso unitario, precio, costo y referencia al proveedor; Threshold Service configura el umbral mínimo. Product Repository persiste esta información en MySQL. IoT Device consulta los datos para vincular sensores, mientras Inventory Monitoring los utiliza en compras y ventas y proporciona la información de proveedores.
+**Descripción:** Product Controller recibe las solicitudes de registro, consulta y actualización de productos. Product Service gestiona sus datos, incluidos categoría, peso unitario, precio, costo y referencia al proveedor; Threshold Service configura el umbral mínimo. Product Repository persiste esta información en MySQL. IoT Device consulta los datos para vincular sensores, mientras Inventory Monitoring los utiliza en compras y ventas y proporciona la información de proveedores. 
 
 **Leyenda:** Azul oscuro: frontend Angular; azul claro: componentes de Product Catalog; morado: módulos relacionados; verde: MySQL. Los recuadros delimitan el sistema, el backend y el módulo; las flechas muestran operaciones, consultas entre módulos y persistencia.
 
+**Figura 189**
+
+*Diagrama de componentes C4 del bounded context IoT Device*
+
 ![C4 Component Diagram 3](../assets/chapter-4/c4componentdiagram3.png)
 
-**Figura 72. C4 Component Diagram 3.**
+*Nota. Elaboración propia*
 
 **Descripción:** Sensor Controller recibe las lecturas de los sensores y las solicitudes del frontend Angular. Sensor Reading Service valida, registra y comunica las lecturas; Connection Monitor determina la conexión según la última lectura; Sensor Linking Service vincula el sensor con un producto del catálogo. Sensor Repository persiste los datos en MySQL. Las lecturas se comunican a Inventory Monitoring mediante ReadingReceived para calcular el stock físico y compararlo con el registrado.
 
 **Leyenda:** Azul oscuro: frontend Angular; azul claro: componentes de IoT Device; amarillo: sensores externos; morado: módulos relacionados; verde: MySQL. Los recuadros delimitan el sistema, el backend y el módulo; las flechas representan solicitudes, lecturas, consultas y comunicación entre módulos.
 
+**Figura 190**
+
+*Diagrama de componentes C4 del bounded context Inventory Monitoring*
+
 ![C4 Component Diagram 4](../assets/chapter-4/c4componentdiagram4.png)
 
-**Figura 73. C4 Component Diagram 4.**
+*Nota. Elaboración propia*
 
-**Descripción:** Inventory Controller coordina las operaciones de compras, ventas, proveedores e inventario. Sales Service registra las ventas y Purchases Service gestiona las compras y su recepción. Stock Movement Service registra los movimientos y actualiza el stock registrado: las ventas lo disminuyen y las compras lo aumentan al confirmar su recepción. Inventory Comparison Service utiliza las lecturas IoT para detectar discrepancias sin modificar automáticamente ese stock. Inventory Repository persiste la información en MySQL y el módulo comunica cambios y discrepancias a Alerts & Restocking.
+**Descripción:** Inventory Controller coordina las operaciones de compras, ventas, proveedores e inventario. Sales Service registra las ventas y Purchases Service gestiona las compras y su recepción. Stock Movement Service registra los movimientos y actualiza el stock registrado: las ventas lo disminuyen y las compras lo aumentan al confirmar su recepción. Inventory Comparison Service utiliza las lecturas IoT para detectar discrepancias sin modificar automáticamente ese stock. Inventory Repository persiste la información en MySQL y el módulo comunica cambios y discrepancias a Alerts & Restocking. 
 
 **Leyenda:** Azul oscuro: frontend Angular; azul claro: componentes de Inventory Monitoring; morado: módulos relacionados; verde: MySQL. Los recuadros delimitan el sistema, el backend y el módulo; las flechas muestran operaciones, consultas y comunicación de lecturas o cambios de stock.
 
+**Figura 191**
+
+*Diagrama de componentes C4 del bounded context Alerts & Restocking*
+
 ![C4 Component Diagram 5](../assets/chapter-4/c4componentdiagram5.png)
 
-**Figura 74. C4 Component Diagram 5.**
+*Nota. Elaboración propia*
 
 **Descripción:** Alerts Controller atiende las consultas, la configuración de notificaciones y la acción Registrar compra. Alert Evaluation Service compara el umbral del catálogo con el stock del sensor cuando está en línea; si no está disponible, utiliza el stock registrado. Restocking Service gestiona las necesidades de reposición y solicita iniciar una compra en Inventory Monitoring. Notification Service solicita el envío por los canales activos de correo y WhatsApp. Alerts Repository persiste las alertas, necesidades y preferencias en MySQL.
 
 **Leyenda:** Azul oscuro: frontend Angular; azul claro: componentes de Alerts & Restocking; morado: módulos relacionados; amarillo: servicios externos de notificación; verde: MySQL. Los recuadros delimitan el sistema, el backend y el módulo; las flechas indican evaluación del stock, reposición, envío de notificaciones y persistencia.
 
+**Figura 192**
+
+*Diagrama de componentes C4 del bounded context Analytics & Reporting*
+
 ![C4 Component Diagram 6](../assets/chapter-4/c4componentdiagram6.png)
 
-**Figura 75. C4 Component Diagram 6.**
+*Nota. Elaboración propia*
 
 **Descripción:** Analytics Controller recibe las consultas del dashboard y de reportes por período. Dashboard Query Service construye resúmenes de stock, compras, ventas y alertas; Report Query Service consulta las operaciones y los movimientos del período. Inventory Data Reader y Alerts Data Reader obtienen la información mediante los módulos correspondientes, sin modificar sus datos. Inventory Monitoring y Alerts & Restocking mantienen su propia persistencia en MySQL.
 
@@ -905,40 +2094,71 @@ Angular permite organizar la interfaz por contexto y reutilizar componentes; Spr
 
 ### 4.7.1. Class Diagrams
 
-![Bounded Context 1](../assets/chapter-4/boundedcontext1.png)
+A continuación se presentan los diagramas de clases de cada bounded context, con las entidades, los objetos de valor y las relaciones que componen su modelo de dominio.
 
-**Figura 76**
-*Diagrama de clases del IAM Bounded Context*
+**Figura 193**
 
-![Bounded Context 2](../assets/chapter-4/boundedcontext2.png)
+*Diagrama de clases del bounded context IAM*
 
-**Figura 77**
-*Diagrama de clases del Product Catalog Management Bounded Context*
+![IAM](../assets/chapter-4/boundedcontext1.png)
 
-![Bounded Context 3](../assets/chapter-4/boundedcontext3.png)
+*Nota. Elaboración propia.*
 
-**Figura 78**
-*Diagrama de clases del IoT Device Management Bounded Context*
 
-![Bounded Context 4](../assets/chapter-4/boundedcontext4.png)
+**Figura 194**
 
-**Figura 79**
-*Diagrama de clases del Inventory Monitoring Bounded Context*
+*Diagrama de clases del bounded context Product Catalog Management*
 
-![Bounded Context 5](../assets/chapter-4/boundedcontext5.png)
+![Catalog](../assets/chapter-4/image30.png)
 
-**Figura 80**
-*Diagrama de clases del Alerts & Restocking Bounded Context*
+*Nota. Elaboración propia.*
 
-![Bounded Context 6](../assets/chapter-4/boundedcontext6.png)
 
-**Figura 81**
-*Diagrama de clases del Analytics & Reporting Bounded Context*
+**Figura 195**
+
+*Diagrama de clases del bounded context IoT Device Management*
+
+![IOT](../assets/chapter-4/boundedcontext3.png)
+
+*Nota. Elaboración propia.*
+
+
+**Figura 196**
+
+*Diagrama de clases del bounded context Inventory Monitoring*
+
+![INVENTORY](../assets/chapter-4/boundedcontext4.png)
+
+*Nota. Elaboración propia.*
+
+
+**Figura 197**
+
+*Diagrama de clases del bounded context Alerts & Restocking*
+
+![ALERTS](../assets/chapter-4/boundedcontext5.png)
+
+*Nota. Elaboración propia.*
+
+
+**Figura 198**
+
+*Diagrama de clases del bounded context Analytics & Reporting*
+
+![ANALYTICS](../assets/chapter-4/boundedcontext6.png)
+
+*Nota. Elaboración propia.*
 
 ## 4.8. Database Design
 
 ### 4.8.1. Database Diagrams
 
+El diagrama presenta el diseño relacional de SmartStock en MySQL. Cada negocio se relaciona con sus usuarios, productos, sensores y operaciones de inventario. Las compras se vinculan con proveedores y detalles de productos; las ventas también contienen sus respectivos detalles. Los movimientos registran las entradas por compras recibidas y las salidas por ventas, actualizando el stock registrado. Las lecturas IoT permiten comparar el stock físico con el registrado. Las alertas se relacionan con productos, notificaciones y necesidades de reposición, y pueden originar una compra. Las claves primarias y foráneas identifican los registros y mantienen sus relaciones.
+
+**Figura 199**
+
+*Diagrama de base de datos de SmartStock*
+
 ![Database Diagrams](../assets/chapter-4/databasediagrams.png)
 
-El diagrama presenta el diseño relacional previsto para SmartStock en MySQL. Cada negocio se relaciona con sus usuarios, productos, sensores y operaciones de inventario. Las compras se vinculan con proveedores y detalles de productos; las ventas también contienen sus respectivos detalles. Los movimientos registran las entradas por compras recibidas y las salidas por ventas, actualizando el stock registrado. Las lecturas IoT permiten comparar el stock físico con el registrado. Las alertas se relacionan con productos, notificaciones y necesidades de reposición, y pueden originar una compra. Las claves primarias y foráneas identifican los registros y mantienen sus relaciones.
+*Nota. Elaboración propia.*
