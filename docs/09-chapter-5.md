@@ -1939,13 +1939,13 @@ Respecto a la adopción, Lincoln prefirió comenzar con el plan Inicial para apr
 |---|---|---|
 | Comprensión de la propuesta | Ambos relacionaron SmartStock con el control de productos, almacén o stock. | 2 de 2 (100 %) |
 | Comprensión de los sensores | Ambos solicitaron explicaciones adicionales sobre su funcionamiento o implementación. | 2 de 2 (100 %) |
-| Reposición de productos | Lincoln indicó que realizaría pedidos al recibir una alerta de stock bajo. | Respuesta verificada en Lincoln; sin respuesta disponible de Ruth a esa pregunta. |
+| Reposición de productos | Lincoln indicó que realizaría pedidos al recibir una alerta de stock bajo. | Respuesta verificada en Lincoln; sin respuesta disponible de Ian a esa pregunta. |
 | Continuidad entre alertas y compras | Lincoln manifestó que esperaba pasar desde las alertas hacia la compra de los productos faltantes. | Hallazgo individual de Lincoln. |
 | Adopción gradual | Lincoln prefirió comenzar con el plan inicial para aprender y evaluar posteriormente otros planes. | Hallazgo individual de Lincoln. |
-| Reducción del trabajo manual | Ruth destacó el beneficio de controlar productos sin revisar todo manualmente. | Hallazgo individual de Ruth. |
-| Instalación y costo de sensores | Ruth solicitó información sobre su colocación y costo de implementación. | Hallazgo individual de Ruth. |
+| Reducción del trabajo manual | Ian destacó el beneficio de controlar productos sin revisar todo manualmente. | Hallazgo individual de Ian. |
+| Instalación y costo de sensores | Ian solicitó información sobre su colocación y costo de implementación. | Hallazgo individual de Ian. |
 
-*Nota. Elaboración propia* Los porcentajes se utilizan únicamente en aspectos con respuestas disponibles de ambos participantes. No se atribuyen a Ruth opiniones sobre pantallas o preguntas que no aparecen en su transcripción parcial.
+*Nota. Elaboración propia* Los porcentajes se utilizan únicamente en aspectos con respuestas disponibles de ambos participantes. No se atribuyen a Ian opiniones sobre pantallas o preguntas que no aparecen en su transcripción parcial.
 
 En conclusión, los participantes de este segmento reconocieron la utilidad de SmartStock para controlar existencias y apoyar la reposición. La principal necesidad compartida fue comprender el funcionamiento de los sensores, mencionada por el 100 % de los participantes analizados. Se recomienda incorporar explicaciones visuales sobre su instalación, ejemplos de uso y una presentación clara de sus costos. Asimismo, conviene facilitar el paso desde una alerta hacia el registro de una compra y acompañar a los usuarios durante su aprendizaje inicial.
 
