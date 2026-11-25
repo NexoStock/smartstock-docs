@@ -1356,6 +1356,8 @@ El grafo de red muestra la aplicación de GitFlow en el repositorio de los Web S
 
 Las entrevistas de validación buscan comprobar si los usuarios de cada segmento objetivo entienden el Landing Page y la Frontend Web Application, si pueden completar las tareas principales sin ayuda y qué cambiarían. A diferencia de las entrevistas de needfinding del Capítulo II, el entrevistado no describe su problema: interactúa con el producto desplegado mientras responde preguntas cortas sobre lo que ve. Se entrevistó a dueños o encargados de minimarkets y de bodegas; quienes ya habían participado en el needfinding vieron el producto que antes conocieron como prototipo.
 
+Las entrevistas se realizaron sobre las versiones desplegadas del producto. El Landing Page se encuentra en https://nexostock.github.io/smartstock-landing-page/ y la Web Application en https://nexostock.github.io/smartstock-frontend/.
+
 Cada entrevista dura entre 11 y 15 minutos, se graba con autorización del entrevistado y sigue un orden fijo, igual para todos, para que las respuestas puedan compararse:
 
 (1) **Introducción (20 s).** Presentación del equipo y del objetivo, aclaración de que no es un examen y solicitud de autorización para grabar.
