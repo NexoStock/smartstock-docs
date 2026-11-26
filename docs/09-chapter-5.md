@@ -1319,7 +1319,11 @@ En el Sprint 3 la Frontend Web Application Angular quedó conectada a los Web Se
 
 *Autenticación en la aplicación: (a) registro de negocio, (b) inicio de sesión y (c) error por credenciales inválidas (US01, US02 y US03)*
 
-(completar - LORENA: capturas de /sign-up y /sign-in en la app Angular)
+![Registro de negocio en la aplicación Angular](../assets/chapter-5/angular-sign-up.png)
+
+![Inicio de sesión en la aplicación Angular](../assets/chapter-5/angular-sign-in.png)
+
+![Error por credenciales inválidas en la aplicación Angular](../assets/chapter-5/angular-sign-in-invalid.png)
 
 *Nota.* Elaboración propia
 
