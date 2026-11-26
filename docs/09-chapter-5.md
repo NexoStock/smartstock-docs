@@ -1784,9 +1784,9 @@ Antes de ejecutar cada acción en la aplicación, la persona entrevistadora espe
 
 **Video de entrevistas de validación**
 
-`https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQBFC7khe0dTSaFFsb7f2-qXAfUSmPvc1f4ZhV_XQ6qEaHw?e=zJeXXn&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D`
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQBFC7khe0dTSaFFsb7f2-qXAfUSmPvc1f4ZhV_XQ6qEaHw?e=zJeXXn&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
-La figura 269 muestra el video y los tiempos de cada entrevista son:
+La Figura 270 muestra el video y los tiempos de cada entrevista son:
 
 - Entrevista 01: 00:05 - 07:42
 - Entrevista 02: 07:47 - 14:23
@@ -1831,7 +1831,7 @@ La figura 269 muestra el video y los tiempos de cada entrevista son:
 | Duración | 06:36 |
 | Nombre completo | Cristopher Benavides |
 | Edad | 23 años |
-| Distrito | Jesus Maria |
+| Distrito | Jesús María |
 | Resumen | Cristopher identificó SmartStock como una herramienta para actualizar el stock mediante las entradas y salidas de productos. Eligió el plan Crecimiento y propuso recibir alertas desde cuatro unidades. Consideró el panel la pantalla más clara y destacó el cambio de idioma y las notificaciones. Inicialmente tuvo dificultad para seguir la demostración de compras y, al preguntarle cómo registrar una venta, señaló la opción Comprobante, lo que sugiere revisar la claridad de esa acción. Indicó que confiaría en las alertas para decidir cuándo reponer y consideró razonable un precio mensual cercano a S/100. |
 
 *Nota. Elaboración propia*
@@ -1878,7 +1878,7 @@ La figura 269 muestra el video y los tiempos de cada entrevista son:
 |---|---|
 | Screenshot | ![videovalidacion](../assets/chapter-5/image38.png) |
 | Inicia | 27:13 |
-| Duración | 07:37 |
+| Duración | 12:35 |
 | Nombre completo | Ian Kimi San Martin Cauti |
 | Edad | 20 años |
 | Distrito | Santiago de Surco |
