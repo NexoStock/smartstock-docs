@@ -1467,7 +1467,7 @@ Commits de documentación: ver Tabla 50 (sección 5.2.3.4)
 
 **Figura 249**
 
-*Swagger de IAM: registro, inicio de sesión, solicitud de recuperación y restablecimiento de contraseña (US01, US02 y US03)*
+*Swagger de IAM (entorno local): registro exitoso, correo duplicado, inicio de sesión correcto y credenciales inválidas (US01, US02 y US03)*
 
 ![IAM](../assets/chapter-5/image120.png)
 ![IAM](../assets/chapter-5/sprint3-iam-register-409.png)
