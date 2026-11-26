@@ -91,6 +91,10 @@ Mientras Trax emplea principalmente visión computacional e inteligencia artific
 
 ### Benchmark de precios
 
+**Tabla 3**
+
+*Benchmark de precios*
+
 | Solución | Precio de referencia | Moneda | Modalidad | Fecha de consulta | Fuente / URL |
 | --- | --- | --- | --- | --- | --- |
 | **Alegra POS** | Desde S/ 81.00/mes | PEN | Suscripción mensual o anual | 06/10/2026 | `https://www.alegra.com/peru/punto-venta/precios/` |
