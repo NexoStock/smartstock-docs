@@ -1317,9 +1317,13 @@ En el Sprint 3 la Frontend Web Application Angular quedó conectada a los Web Se
 
 **Figura 238**
 
-*Flujo de registro de una venta en SmartStock (US26)*
+*Autenticación en la aplicación: (a) registro de negocio, (b) inicio de sesión y (c) error por credenciales inválidas (US01, US02 y US03)*
 
-![Formulario de venta con 2 unidades de arroz por S/ 16.00](../assets/chapter-5/A15_Flujo_de_venta.png)
+![Registro de negocio en la aplicación Angular](../assets/chapter-5/angular-sign-up.png)
+
+![Inicio de sesión en la aplicación Angular](../assets/chapter-5/angular-sign-in.png)
+
+![Error por credenciales inválidas en la aplicación Angular](../assets/chapter-5/angular-sign-in-invalid.png)
 
 *Nota.* Elaboración propia
 
