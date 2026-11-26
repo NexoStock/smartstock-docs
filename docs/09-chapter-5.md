@@ -1317,9 +1317,9 @@ En el Sprint 3 la Frontend Web Application Angular quedó conectada a los Web Se
 
 **Figura 238**
 
-*Autenticación en la aplicación: (a) registro de negocio, (b) inicio de sesión y (c) error por credenciales inválidas (US01, US02 y US03)*
+*Flujo de registro de una venta en SmartStock (US26)*
 
-(completar - LORENA: capturas de /sign-up y /sign-in en la app Angular)
+![Formulario de venta con 2 unidades de arroz por S/ 16.00](../assets/chapter-5/A15_Flujo_de_venta.png)
 
 *Nota.* Elaboración propia
 
@@ -1341,17 +1341,31 @@ En el Sprint 3 la Frontend Web Application Angular quedó conectada a los Web Se
 
 **Figura 241**
 
-*Estado de conexión de sensores en línea y desconectados, y peso actual (US06 y US07)*
 
-(completar - ANGEL)
+*Registro de una venta y rechazo por stock insuficiente en SmartStock (US26)*
+
+**(a) Venta registrada**
+
+![Detalle de la venta registrada por S/ 16.00](../assets/chapter-5/A15_Venta_registrada.png)
+
+**(b) Rechazo por stock insuficiente**
+
+![Aviso de stock insuficiente al intentar vender 3 unidades con 2 disponibles](../assets/chapter-5/A15_Rechazo_por_stock_insuficiente.png)
 
 *Nota.* Elaboración propia
 
 **Figura 242**
 
-*Configuración de notificaciones por correo y WhatsApp (US09 y US10)*
 
-(completar - LEO)
+*Historial de ventas por fechas y detalle de la venta en SmartStock (US27 y US28)*
+
+**(a) Historial de ventas por fechas**
+
+![Historial del 25 de noviembre con la venta V-aba38375 por S/ 16.00](../assets/chapter-5/A15_Historial_de_ventas_por_fechas.png)
+
+**(b) Detalle de la venta**
+
+![Detalle de la venta V-aba38375 por S/ 16.00](../assets/chapter-5/A15_Detalle_de_la_venta.png)
 
 *Nota.* Elaboración propia
 
@@ -1381,9 +1395,12 @@ En el Sprint 3 la Frontend Web Application Angular quedó conectada a los Web Se
 
 **Figura 246**
 
-*Inventory Monitoring: (a) lista de productos con su nivel de stock y (b) comparación entre el stock físico y el registrado (US08 y US11)*
+*Monitoreo de inventario y alertas: (a) lista de productos con su nivel de stock, (b) comparación entre el stock físico y el registrado y (c) alerta de stock bajo del arroz (US08, US11 y US12)*
 
-(completar - KIARA)
+
+**(c) Alerta de stock bajo del arroz (US12)**
+
+![Alerta activa de stock bajo para el arroz con 2 unidades registradas](../assets/chapter-5/A15_Alerta_de_stock_bajo.png)
 
 *Nota.* Elaboración propia
 
