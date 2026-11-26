@@ -1694,6 +1694,22 @@ En el Sprint 3 los cinco integrantes aportaron commits en el repositorio de Web 
 
 #### 5.2.4.2. Aspect Leaders and Collaborators
 
+Los aspectos de este sprint son los bounded contexts del backend del Sprint 3 (IAM, IoT Device, Alerts & Restocking, Product Catalog, Inventory Monitoring y Analytics & Reporting) más dos aspectos propios del cierre del producto: el despliegue y la documentación de los servicios en Railway (Swagger UI y OpenAPI públicos, release v1.0.0) y la integración y las pruebas finales de la versión entregada. Cada integrante conserva el liderazgo del contexto que construyó, y L indica el líder del aspecto y C a quienes colaboran.
+
+**Tabla XX**
+
+*Matriz de liderazgo y colaboración (LACX) del Sprint 4*
+
+| **Team Member (Last Name, First Name)** | **GitHub Username** | **IAM** | **IoT Device** | **Alerts & Restocking** | **Product Catalog** | **Inventory Monitoring** | **Analytics & Reporting** | **Despliegue y documentación de servicios** | **Integración y pruebas finales** |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Crispin Valdivia, Angel Gabriel | @FaureGalliard | C | L | C | C | C | C | L | C |
+| Lopez Rimachi, Sebastian Leonardo | @leonardoXd1323 | C | C | L | C | C | C | C | C |
+| Montañez Salinas, Lorena Ariana | @Lore-MS | L | C | C | C | C | C | C | C |
+| Tuesta Girón, Kiara Lucia | @kitu05g | C | C | C | C | L | L | C | C |
+| Vizcarra Mamani, Candy Milagros | @candyvizz | C | C | C | L | C | C | C | L |
+
+*Nota. Elaboración propia*
+
 #### 5.2.4.3. Sprint Backlog 4
 
 #### 5.2.4.4. Development Evidence for Sprint Review
