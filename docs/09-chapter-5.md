@@ -2141,12 +2141,6 @@ Cristopher Benavides valoró positivamente el cambio de idioma entre español e 
 
 ## 5.4. Video About-the-Product
 
-El video About-the-Team resume el proceso de trabajo del equipo NexoStock durante el desarrollo de SmartStock: la organización por bounded context, las sesiones de trabajo y la colaboración mediante GitFlow, e incluye el testimonio ante cámara de cada integrante sobre las actividades realizadas, los logros alcanzados y las competencias desarrolladas. Tiene una duración de (completar - por asignar: mm:ss). Las secuencias del video son:
-
-- 00:00:00 Presentación del equipo (completar - por asignar)
-- (completar - por asignar: hh:mm:ss) Testimonio de cada integrante
-- (completar - por asignar: hh:mm:ss) Cierre
-
 **Figura 276**
 
 *Video About-the-Product publicado en YouTube*
@@ -2157,9 +2151,8 @@ El video About-the-Team resume el proceso de trabajo del equipo NexoStock durant
 
 **Link de Clipchamp:**
 
-`https://upcedupe-my.sharepoint.com/personal/u20241f205_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20241f205%5Fupc%5Fedu%5Fpe%2FDocuments%2FV%C3%ADdeos%2FClipchamp%2FAbout%2DThe%2DProduct%20Copiar%2FExports%2Fupc%2Dpre%2D202620%2D1asi0729%2D7729%2Dnexostock%2Dabout%2Dthe%2Dproduct%2Dsprint%2D3%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Efb4d61de%2Dd6df%2D4f05%2D98d7%2Dad1a15f4e541`
+https://upcedupe-my.sharepoint.com/personal/u20241f205_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20241f205%5Fupc%5Fedu%5Fpe%2FDocuments%2FV%C3%ADdeos%2FClipchamp%2FAbout%2DThe%2DProduct%20Copiar%2FExports%2Fupc%2Dpre%2D202620%2D1asi0729%2D7729%2Dnexostock%2Dabout%2Dthe%2Dproduct%2Dsprint%2D3%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Efb4d61de%2Dd6df%2D4f05%2D98d7%2Dad1a15f4e541
 
-**Link de YouTube:**
+**Link de YouTube:** https://youtu.be/7PVpjP6lQFA
 
-`https://youtu.be/QxwsvZKVQao`
 
