@@ -1821,7 +1821,7 @@ Antes de ejecutar cada acción en la aplicación, la persona entrevistadora espe
 
 **Video de entrevistas de validación**
 
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQBFC7khe0dTSaFFsb7f2-qXAfUSmPvc1f4ZhV_XQ6qEaHw?e=zJeXXn&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQDebrwb3K38TIPsgSMPCk_TATdfY_KjibKhLiRbUZBS8Z0?e=R7dCD6
 
 La Figura 270 muestra el video y los tiempos de cada entrevista son:
 
@@ -1829,7 +1829,8 @@ La Figura 270 muestra el video y los tiempos de cada entrevista son:
 - Entrevista 02: 07:47 - 14:23
 - Entrevista 03: 14:28 - 20:36
 - Entrevista 04: 20:41 - 27:08
-- Entrevista 05: 27:13 - 39:48
+- Entrevista 05: 27:13 - 34:49
+- Entrevista 06: 34:50 - 45:00
 
 **Figura 270**
 
@@ -1915,7 +1916,7 @@ La Figura 270 muestra el video y los tiempos de cada entrevista son:
 |---|---|
 | Screenshot | ![videovalidacion](../assets/chapter-5/image38.png) |
 | Inicia | 27:13 |
-| Duración | 12:35 |
+| Duración | 07:36 |
 | Nombre completo | Ian Kimi San Martin Cauti |
 | Edad | 20 años |
 | Distrito | Santiago de Surco |
@@ -1923,9 +1924,25 @@ La Figura 270 muestra el video y los tiempos de cada entrevista son:
 
 *Nota. Elaboración propia*
 
+**Tabla XX**
+
+*Registro de la entrevista 3 a propietarios y administradores de bodegas de barrio*
+
+| Campo | Información |
+|---|---|
+| Screenshot | ![videovalidacion](../assets/chapter-5/image-pablo.png) |
+| Inicia | 34:50 |
+| Duración | 10:10 |
+| Nombre completo | Pablo Ludeña Flores |
+| Edad | 30 años |
+| Distrito | Los Olivos |
+| Resumen | Pablo, participante del segmento de bodegas de barrio, comprendió la mayoría de las funcionalidades de SmartStock. Indicó que prefiere recibir la alerta cuando quedan 4 unidades, porque desde ese punto empieza a llamar a sus proveedores. Eligió el plan Inicial por considerarlo el más asequible, manifestó dudas sobre la instalación en general y consideró alto el precio mensual. Le resultó claro el inicio de sesión y el registro de productos. |
+
+*Nota. Elaboración propia*
+
 ### Análisis de entrevistas de validación
 
-Se analizaron las respuestas de cinco participantes: tres del segmento de propietarios y administradores de minimarkets y dos del segmento de propietarios y administradores de bodegas de barrio. Las sesiones permitieron recoger opiniones sobre la comprensión de SmartStock, la navegación de la aplicación, las alertas y las mejoras esperadas.
+Se analizaron las respuestas de seis participantes: tres del segmento de propietarios y administradores de minimarkets y tres del segmento de propietarios y administradores de bodegas de barrio. Las sesiones permitieron recoger opiniones sobre la comprensión de SmartStock, la navegación de la aplicación, las alertas y las mejoras esperadas. Las frecuencias y los porcentajes de las tablas corresponden a las cinco primeras entrevistas; la entrevista 6, registrada en la sección 5.3.2, repite hallazgos ya identificados, como las dudas sobre la instalación y el precio mensual, por lo que no se incorporó como un hallazgo nuevo.
 
 Para este análisis se utilizó la transcripción completa de cuatro entrevistas y la transcripción parcial de la entrevista de Ian San Martin. Los resultados de este último se limitan a las respuestas disponibles hasta el minuto 30:00 del video. Los porcentajes describen únicamente a los participantes analizados y no representan a la totalidad de negocios de cada segmento.
 
