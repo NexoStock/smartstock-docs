@@ -2174,9 +2174,9 @@ Yngrid Ruiz, participante del segmento de minimarkets, consideró que la aplicac
 
 **Nota.** Elaboración propia.
 
-**Link de Clipchamp:**
+**Link de Stream:**
 
-https://upcedupe-my.sharepoint.com/personal/u20241f205_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20241f205%5Fupc%5Fedu%5Fpe%2FDocuments%2FV%C3%ADdeos%2FClipchamp%2FAbout%2DThe%2DProduct%20Copiar%2FExports%2Fupc%2Dpre%2D202620%2D1asi0729%2D7729%2Dnexostock%2Dabout%2Dthe%2Dproduct%2Dsprint%2D3%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Efb4d61de%2Dd6df%2D4f05%2D98d7%2Dad1a15f4e541
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQC8uCdHRxvXS6YNVIDxjUcHAWEIySU1WnUFRVFxXZUVC3E?e=Xe06LX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 **Link de YouTube:** https://youtu.be/7PVpjP6lQFA
 
