@@ -2195,6 +2195,10 @@ Cristopher Benavides valoró positivamente el cambio de idioma entre español e 
 
 ## 5.4. Video About-the-Product
 
+El video About-the-Product presenta SmartStock a los visitantes del Landing Page y a los propietarios y administradores de minimarkets y bodegas de barrio que usarían la Web Application. Con un tono cercano y claro, explica el problema del conteo manual del inventario y muestra la propuesta de valor: monitorear el stock físico con sensores de peso IoT, contrastarlo con el inventario registrado, recibir alertas de reposición y registrar compras y ventas desde una sola aplicación. Entre sus beneficios se encuentran ahorrar tiempo de conteo, detectar diferencias de stock y reponer a tiempo.
+
+Yngrid Ruiz, participante del segmento de minimarkets, consideró que la aplicación era completa y afirmó que confiaría en las alertas para decidir cuándo reponer, porque los productos estarían registrados en la aplicación (entrevista 3 del video de validación, desde 14:28).
+
 **Figura 276**
 
 *Video About-the-Product publicado en YouTube*
@@ -2203,10 +2207,10 @@ Cristopher Benavides valoró positivamente el cambio de idioma entre español e 
 
 **Nota.** Elaboración propia.
 
-**Link de Clipchamp:**
+**Link de Stream:**
 
-https://upcedupe-my.sharepoint.com/personal/u20241f205_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20241f205%5Fupc%5Fedu%5Fpe%2FDocuments%2FV%C3%ADdeos%2FClipchamp%2FAbout%2DThe%2DProduct%20Copiar%2FExports%2Fupc%2Dpre%2D202620%2D1asi0729%2D7729%2Dnexostock%2Dabout%2Dthe%2Dproduct%2Dsprint%2D3%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Efb4d61de%2Dd6df%2D4f05%2D98d7%2Dad1a15f4e541
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQC8uCdHRxvXS6YNVIDxjUcHAWEIySU1WnUFRVFxXZUVC3E?e=Xe06LX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 **Link de YouTube:** https://youtu.be/7PVpjP6lQFA
 
-
+**Duración:** 2:56
