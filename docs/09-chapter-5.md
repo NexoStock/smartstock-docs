@@ -1331,7 +1331,7 @@ En el Sprint 3 la Frontend Web Application Angular quedó conectada a los Web Se
 
 *Pantalla de Ventas: (a) venta registrada, (b) rechazo por stock insuficiente, (c) historial por fechas y (d) detalle (US26, US27 y US28)*
 
-(completar - LEO)
+![Flujo de registro de una venta con 2 unidades de arroz por S/ 16.00](../assets/chapter-5/A15_Flujo_de_venta.png)
 
 *Nota.* Elaboración propia
 
