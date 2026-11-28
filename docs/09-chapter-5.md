@@ -1779,9 +1779,9 @@ Para agilizar las sesiones, se aplicará una demostración guiada e interactiva:
 
 **Elementos de la sesión de validación**
 
-El Landing Page se evalúa para comprobar la comprensión de la propuesta de valor, los planes, las preguntas frecuentes y el acceso al registro o contacto. Su dirección, escrita como texto simple, es: (completar - LORENA: dirección del Landing Page de SmartStock, del repositorio de NexoStock).
+El Landing Page se evalúa para comprobar la comprensión de la propuesta de valor, los planes, las preguntas frecuentes y el acceso al registro o contacto. Su dirección, escrita como texto simple, es: [(completar - LORENA: dirección del Landing Page de SmartStock, del repositorio de NexoStock).](https://nexostock.github.io/smartstock-landing-page/)
 
-La Web Application se evalúa con los cuatro user flows de cada segmento, que se describen más abajo. Su dirección, escrita como texto simple, es: (completar - LORENA: dirección de la Web Application de SmartStock, del repositorio de NexoStock).
+La Web Application se evalúa con los cuatro user flows de cada segmento, que se describen más abajo. Su dirección, escrita como texto simple, es: [(completar - LORENA: dirección de la Web Application de SmartStock, del repositorio de NexoStock).](https://nexostock.github.io/smartstock-frontend/)
 
 **Preparación de la sesión**
 
