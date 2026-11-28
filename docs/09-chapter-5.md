@@ -1069,7 +1069,7 @@ El despliegue se verificó abriendo el Landing Page y comprobando que el botón 
 
 *Nota. Elaboración propia*
 
-**Figura 233*
+**Figura 233**
 
 *Frontend Web Application funcionando en su URL pública*
 
@@ -1319,7 +1319,11 @@ En el Sprint 3 la Frontend Web Application Angular quedó conectada a los Web Se
 
 *Autenticación en la aplicación: (a) registro de negocio, (b) inicio de sesión y (c) error por credenciales inválidas (US01, US02 y US03)*
 
-(completar - LORENA: capturas de /sign-up y /sign-in en la app Angular)
+![Registro de negocio en la aplicación Angular](../assets/chapter-5/angular-sign-up.png)
+
+![Inicio de sesión en la aplicación Angular](../assets/chapter-5/angular-sign-in.png)
+
+![Error por credenciales inválidas en la aplicación Angular](../assets/chapter-5/angular-sign-in-invalid.png)
 
 *Nota.* Elaboración propia
 
@@ -1341,17 +1345,31 @@ En el Sprint 3 la Frontend Web Application Angular quedó conectada a los Web Se
 
 **Figura 241**
 
-*Estado de conexión de sensores en línea y desconectados, y peso actual (US06 y US07)*
 
-(completar - ANGEL)
+*Registro de una venta y rechazo por stock insuficiente en SmartStock (US26)*
+
+**(a) Venta registrada**
+
+![Detalle de la venta registrada por S/ 16.00](../assets/chapter-5/A15_Venta_registrada.png)
+
+**(b) Rechazo por stock insuficiente**
+
+![Aviso de stock insuficiente al intentar vender 3 unidades con 2 disponibles](../assets/chapter-5/A15_Rechazo_por_stock_insuficiente.png)
 
 *Nota.* Elaboración propia
 
 **Figura 242**
 
-*Configuración de notificaciones por correo y WhatsApp (US09 y US10)*
 
-(completar - LEO)
+*Historial de ventas por fechas y detalle de la venta en SmartStock (US27 y US28)*
+
+**(a) Historial de ventas por fechas**
+
+![Historial del 25 de noviembre con la venta V-aba38375 por S/ 16.00](../assets/chapter-5/A15_Historial_de_ventas_por_fechas.png)
+
+**(b) Detalle de la venta**
+
+![Detalle de la venta V-aba38375 por S/ 16.00](../assets/chapter-5/A15_Detalle_de_la_venta.png)
 
 *Nota.* Elaboración propia
 
@@ -1381,9 +1399,12 @@ En el Sprint 3 la Frontend Web Application Angular quedó conectada a los Web Se
 
 **Figura 246**
 
-*Inventory Monitoring: (a) lista de productos con su nivel de stock y (b) comparación entre el stock físico y el registrado (US08 y US11)*
+*Monitoreo de inventario y alertas: (a) lista de productos con su nivel de stock, (b) comparación entre el stock físico y el registrado y (c) alerta de stock bajo del arroz (US08, US11 y US12)*
 
-(completar - KIARA)
+
+**(c) Alerta de stock bajo del arroz (US12)**
+
+![Alerta activa de stock bajo para el arroz con 2 unidades registradas](../assets/chapter-5/A15_Alerta_de_stock_bajo.png)
 
 *Nota.* Elaboración propia
 
@@ -1467,9 +1488,10 @@ Commits de documentación: ver Tabla 50 (sección 5.2.3.4)
 
 **Figura 249**
 
-*Swagger de IAM: registro, inicio de sesión, solicitud de recuperación y restablecimiento de contraseña (US01, US02 y US03)*
+*Swagger de IAM (entorno local): registro exitoso, correo duplicado, inicio de sesión correcto y credenciales inválidas (US01, US02 y US03)*
 
 ![IAM](../assets/chapter-5/image120.png)
+![IAM](../assets/chapter-5/sprint3-iam-register-409.png)
 ![IAM](../assets/chapter-5/image49.png)
 ![IAM](../assets/chapter-5/image93.png)
 
@@ -1693,7 +1715,7 @@ En el Sprint 3 los cinco integrantes aportaron commits en el repositorio de Web 
 
 Las entrevistas de validación evaluarán la comprensión y la facilidad de uso del Landing Page y de la Web Application de SmartStock con propietarios y administradores de minimarkets y bodegas de barrio. El equipo realizará entre tres y cinco entrevistas por segmento, buscando contactar nuevamente a los participantes de TB1. A diferencia de las entrevistas iniciales (2.2.1), que buscaban conocer al usuario y su problema, estas sesiones buscan observar cómo el usuario reacciona ante el producto y qué partes no comprende.
 
-Las entrevistas se realizaron sobre las versiones desplegadas del producto. El Landing Page se encuentra en `https://nexostock.github.io/smartstock-landing-page/` y la Web Application en `https://nexostock.github.io/smartstock-frontend/`.
+Las entrevistas se realizaron sobre las versiones desplegadas del producto. El Landing Page se encuentra en https://nexostock.github.io/smartstock-landing-page/ y la Web Application en https://nexostock.github.io/smartstock-frontend/. El informe completo se encuentra en el README del repositorio de documentación: https://github.com/NexoStock/smartstock-docs/blob/main/README.md
 
 Para agilizar las sesiones, se aplicará una demostración guiada e interactiva: la persona entrevistadora presenta y opera el Landing Page y la Web Application, y el participante interactúa indicando qué opción elegiría, qué dato ingresaría y qué espera que ocurra en cada pantalla. Si el participante desea manejar la aplicación, se le cede el control. Las preguntas de opinión se realizan al final. Cada sesión dura aproximadamente 5 a 6 minutos y se edita en un fragmento de 3 a 5 minutos por entrevista, que se integra en el video único de entrevistas de validación.
 
@@ -1783,9 +1805,9 @@ Antes de ejecutar cada acción en la aplicación, la persona entrevistadora espe
 
 **Video de entrevistas de validación**
 
-`https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQBFC7khe0dTSaFFsb7f2-qXAfUSmPvc1f4ZhV_XQ6qEaHw?e=zJeXXn&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D`
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQBFC7khe0dTSaFFsb7f2-qXAfUSmPvc1f4ZhV_XQ6qEaHw?e=zJeXXn&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
-La figura 269 muestra el video y los tiempos de cada entrevista son:
+La Figura 270 muestra el video y los tiempos de cada entrevista son:
 
 - Entrevista 01: 00:05 - 07:42
 - Entrevista 02: 07:47 - 14:23
@@ -1830,7 +1852,7 @@ La figura 269 muestra el video y los tiempos de cada entrevista son:
 | Duración | 06:36 |
 | Nombre completo | Cristopher Benavides |
 | Edad | 23 años |
-| Distrito | Jesus Maria |
+| Distrito | Jesús María |
 | Resumen | Cristopher identificó SmartStock como una herramienta para actualizar el stock mediante las entradas y salidas de productos. Eligió el plan Crecimiento y propuso recibir alertas desde cuatro unidades. Consideró el panel la pantalla más clara y destacó el cambio de idioma y las notificaciones. Inicialmente tuvo dificultad para seguir la demostración de compras y, al preguntarle cómo registrar una venta, señaló la opción Comprobante, lo que sugiere revisar la claridad de esa acción. Indicó que confiaría en las alertas para decidir cuándo reponer y consideró razonable un precio mensual cercano a S/100. |
 
 *Nota. Elaboración propia*
@@ -1877,7 +1899,7 @@ La figura 269 muestra el video y los tiempos de cada entrevista son:
 |---|---|
 | Screenshot | ![videovalidacion](../assets/chapter-5/image38.png) |
 | Inicia | 27:13 |
-| Duración | 07:37 |
+| Duración | 12:35 |
 | Nombre completo | Ian Kimi San Martin Cauti |
 | Edad | 20 años |
 | Distrito | Santiago de Surco |
@@ -1939,13 +1961,13 @@ Respecto a la adopción, Lincoln prefirió comenzar con el plan Inicial para apr
 |---|---|---|
 | Comprensión de la propuesta | Ambos relacionaron SmartStock con el control de productos, almacén o stock. | 2 de 2 (100 %) |
 | Comprensión de los sensores | Ambos solicitaron explicaciones adicionales sobre su funcionamiento o implementación. | 2 de 2 (100 %) |
-| Reposición de productos | Lincoln indicó que realizaría pedidos al recibir una alerta de stock bajo. | Respuesta verificada en Lincoln; sin respuesta disponible de Ruth a esa pregunta. |
+| Reposición de productos | Lincoln indicó que realizaría pedidos al recibir una alerta de stock bajo. | Respuesta verificada en Lincoln; sin respuesta disponible de Ian a esa pregunta. |
 | Continuidad entre alertas y compras | Lincoln manifestó que esperaba pasar desde las alertas hacia la compra de los productos faltantes. | Hallazgo individual de Lincoln. |
 | Adopción gradual | Lincoln prefirió comenzar con el plan inicial para aprender y evaluar posteriormente otros planes. | Hallazgo individual de Lincoln. |
-| Reducción del trabajo manual | Ruth destacó el beneficio de controlar productos sin revisar todo manualmente. | Hallazgo individual de Ruth. |
-| Instalación y costo de sensores | Ruth solicitó información sobre su colocación y costo de implementación. | Hallazgo individual de Ruth. |
+| Reducción del trabajo manual | Ian destacó el beneficio de controlar productos sin revisar todo manualmente. | Hallazgo individual de Ian. |
+| Instalación y costo de sensores | Ian solicitó información sobre su colocación y costo de implementación. | Hallazgo individual de Ian. |
 
-*Nota. Elaboración propia* Los porcentajes se utilizan únicamente en aspectos con respuestas disponibles de ambos participantes. No se atribuyen a Ruth opiniones sobre pantallas o preguntas que no aparecen en su transcripción parcial.
+*Nota. Elaboración propia* Los porcentajes se utilizan únicamente en aspectos con respuestas disponibles de ambos participantes. No se atribuyen a Ian opiniones sobre pantallas o preguntas que no aparecen en su transcripción parcial.
 
 En conclusión, los participantes de este segmento reconocieron la utilidad de SmartStock para controlar existencias y apoyar la reposición. La principal necesidad compartida fue comprender el funcionamiento de los sensores, mencionada por el 100 % de los participantes analizados. Se recomienda incorporar explicaciones visuales sobre su instalación, ejemplos de uso y una presentación clara de sus costos. Asimismo, conviene facilitar el paso desde una alerta hacia el registro de una compra y acompañar a los usuarios durante su aprendizaje inicial.
 
@@ -2140,12 +2162,6 @@ Cristopher Benavides valoró positivamente el cambio de idioma entre español e 
 
 ## 5.4. Video About-the-Product
 
-El video About-the-Team resume el proceso de trabajo del equipo NexoStock durante el desarrollo de SmartStock: la organización por bounded context, las sesiones de trabajo y la colaboración mediante GitFlow, e incluye el testimonio ante cámara de cada integrante sobre las actividades realizadas, los logros alcanzados y las competencias desarrolladas. Tiene una duración de (completar - por asignar: mm:ss). Las secuencias del video son:
-
-- 00:00:00 Presentación del equipo (completar - por asignar)
-- (completar - por asignar: hh:mm:ss) Testimonio de cada integrante
-- (completar - por asignar: hh:mm:ss) Cierre
-
 **Figura 276**
 
 *Video About-the-Product publicado en YouTube*
@@ -2156,9 +2172,8 @@ El video About-the-Team resume el proceso de trabajo del equipo NexoStock durant
 
 **Link de Clipchamp:**
 
-`https://upcedupe-my.sharepoint.com/personal/u20241f205_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20241f205%5Fupc%5Fedu%5Fpe%2FDocuments%2FV%C3%ADdeos%2FClipchamp%2FAbout%2DThe%2DProduct%20Copiar%2FExports%2Fupc%2Dpre%2D202620%2D1asi0729%2D7729%2Dnexostock%2Dabout%2Dthe%2Dproduct%2Dsprint%2D3%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Efb4d61de%2Dd6df%2D4f05%2D98d7%2Dad1a15f4e541`
+https://upcedupe-my.sharepoint.com/personal/u20241f205_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20241f205%5Fupc%5Fedu%5Fpe%2FDocuments%2FV%C3%ADdeos%2FClipchamp%2FAbout%2DThe%2DProduct%20Copiar%2FExports%2Fupc%2Dpre%2D202620%2D1asi0729%2D7729%2Dnexostock%2Dabout%2Dthe%2Dproduct%2Dsprint%2D3%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Efb4d61de%2Dd6df%2D4f05%2D98d7%2Dad1a15f4e541
 
-**Link de YouTube:**
+**Link de YouTube:** https://youtu.be/7PVpjP6lQFA
 
-`https://youtu.be/QxwsvZKVQao`
 

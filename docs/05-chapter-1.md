@@ -24,6 +24,10 @@ De esta manera, NexoStock busca contribuir a una gestión de inventarios más ef
 
 A continuación, se presentan la misión, visión y valores que guían a nuestra startup:
 
+**Tabla 2**
+
+*Misión, visión y valores de SmartStock*
+
 | Elemento | Descripción |
 | --- | --- |
 | **Misión** | Brindar soluciones tecnológicas que permitan a bodegas y minimarkets gestionar sus inventarios de manera eficiente mediante tecnologías web e IoT, facilitando el monitoreo de productos y el envío de alertas oportunas para su reposición. |
