@@ -1069,7 +1069,7 @@ El despliegue se verificó abriendo el Landing Page y comprobando que el botón 
 
 *Nota. Elaboración propia*
 
-**Figura 233*
+**Figura 233**
 
 *Frontend Web Application funcionando en su URL pública*
 

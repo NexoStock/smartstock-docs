@@ -47,7 +47,7 @@ El video About-the-Team resume el proceso de trabajo del equipo NexoStock durant
 - (completar - por asignar: hh:mm:ss) Testimonio de cada integrante
 - (completar - por asignar: hh:mm:ss) Cierre
 
-**Figura 227**
+**Figura 277**
 
 *Video About-the-Team publicado en YouTube*
 
