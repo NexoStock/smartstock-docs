@@ -1251,7 +1251,7 @@ Las tareas se identifican como T-TS##.# (Technical Stories), T-SH3.# (setup comp
 | 3 | TS-SH | Soporte técnico | T-SH3.3 | Deploy Web Services and MySQL | Render (Docker) + Railway, variables, CORS, health; nivel 1 parcial; versiones v1.0.0, v1.1.0 y v1.1.1. | 8 | Crispin Valdivia, Angel Gabriel (@FaureGalliard) | Done |
 | 3 | TS-SH | Soporte técnico | T-SH3.4 | Business rule tests | JUnit del motor de stock y reglas; ventas concurrentes contra MySQL. | 4 | Tuesta Girón, Kiara Lucia (@kitu05g) | Done |
 
-*Nota. Elaboración propia. Estados: To Do · In Progress · Review · Done; al cierre del sprint todas las tareas están en Done. Horas por integrante: Angel 31, Candy 37, Kiara 33, Leo 36, Lore 27; total: 164.*
+*Nota.* Elaboración propia. Todas las tareas cerraron en Done. El sprint sumó 164 horas estimadas (Ángel 31, Candy 37, Kiara 33, Leo 36 y Lore 27), de las cuales 28 corresponden a Alertas y Ventas. Los commits de la Tabla 50 respaldan su implementación. Quedan sin verificar las horas efectivas por tarea y la entrega de notificaciones por correo y WhatsApp en producción.
 
 #### 5.2.3.4. Development Evidence for Sprint Review
 
