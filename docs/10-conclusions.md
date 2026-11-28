@@ -41,11 +41,15 @@
 
 ## Video About-the-Team
 
-El video About-the-Team resume el proceso de trabajo del equipo NexoStock durante el desarrollo de SmartStock: la organización por bounded context, las sesiones de trabajo y la colaboración mediante GitFlow. Incluye escenas reales del trabajo del equipo, una retrospectiva narrada del proyecto y el testimonio ante cámara de cada integrante, en el que describe las actividades que realizó, el logro del Student Outcome y las competencias que desarrolló. Está publicado en YouTube e incrustado en la sección de videos del Landing Page. Tiene una duración de (completar - por asignar: mm:ss). Las secuencias del video son:
+El video About-the-Team resume el proceso de trabajo del equipo NexoStock durante el desarrollo de SmartStock: la organización por bounded context, las sesiones de trabajo y la colaboración mediante GitFlow. Incluye escenas reales del trabajo del equipo, una retrospectiva narrada del proyecto y el testimonio ante cámara de cada integrante, en el que describe las actividades que realizó, el logro del Student Outcome y las competencias que desarrolló. Está publicado en YouTube e incrustado en la sección de videos del Landing Page. Tiene una duración de 07:30. Las secuencias del video son:
 
-- 00:00:00 Presentación del equipo (completar - por asignar)
-- (completar - por asignar: hh:mm:ss) Testimonio de cada integrante
-- (completar - por asignar: hh:mm:ss) Cierre
+- 00:00:00 Presentación del equipo
+- 00:03:10 Testimonio de Candy Vizcarra
+- 00:03:50 Testimonio de Angel Crispin
+- 00:04:38 Testimonio de Lorena Montañez
+- 00:05:28 Testimonio de Sebastián López
+- 00:06:28 Testimonio de Kiara Tuesta
+- 00:07:08 Cierre
 
 **Figura 227**
 
