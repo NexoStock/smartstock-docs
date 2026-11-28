@@ -1539,33 +1539,37 @@ Commits de documentación: ver Tabla 50 (sección 5.2.3.4)
 
 **Figura 255**
 
+*GET /api/alertas en Swagger (TS03, US12 y US32)*
+
+![Consulta de alertas en Swagger](../assets/chapter-5/A16_Figura_255_Swagger_Alertas.png)
+
+*Nota.* Elaboración propia
+
+**Figura 256**
+
 *GET /api/dashboard y GET /api/reportes en Swagger (US15 y US25)*
 
 (completar - KIARA)
 
 *Nota.* Elaboración propia
 
-**Figura 256**
+**Figura 257**
 
 *Swagger de ventas: registro, historial por fechas y detalle (TS07, TS08 y US26 a US28)*
 
-(completar - LEO)
+![Operaciones de registro, historial y detalle de ventas en Swagger](../assets/chapter-5/A16_Figura_257_Swagger_Ventas.png)
+
+![Parámetros y respuestas documentadas del historial de ventas](../assets/chapter-5/A16_Figura_257_Swagger_Historial_Ventas.png)
 
 *Nota.* Elaboración propia
-
-**Figura 257**
-
-*GET /api/alertas en Swagger (TS03, US12 y US32)*
-
-![getapialertas](../assets/chapter-5/image91.png)
-
-*Nota. Elaboración propia*
 
 **Figura 258**
 
 *Swagger de notificaciones: listado y reintento de una notificación fallida (TS03)*
 
-(completar - LEO)
+![Listado de notificaciones en Swagger](../assets/chapter-5/A16_Figura_258_Swagger_Listado_Notificaciones.png)
+
+![Reintento de una notificación fallida en Swagger](../assets/chapter-5/A16_Figura_258_Swagger_Reintento_Notificacion.png)
 
 *Nota.* Elaboración propia
 
