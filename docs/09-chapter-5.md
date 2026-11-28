@@ -1805,7 +1805,7 @@ Antes de ejecutar cada acción en la aplicación, la persona entrevistadora espe
 
 **Video de entrevistas de validación**
 
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQBFC7khe0dTSaFFsb7f2-qXAfUSmPvc1f4ZhV_XQ6qEaHw?e=zJeXXn&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQDebrwb3K38TIPsgSMPCk_TATdfY_KjibKhLiRbUZBS8Z0?e=R7dCD6
 
 La Figura 270 muestra el video y los tiempos de cada entrevista son:
 
@@ -1813,7 +1813,8 @@ La Figura 270 muestra el video y los tiempos de cada entrevista son:
 - Entrevista 02: 07:47 - 14:23
 - Entrevista 03: 14:28 - 20:36
 - Entrevista 04: 20:41 - 27:08
-- Entrevista 05: 27:13 - 39:48
+- Entrevista 05: 27:13 - 34:49
+- Entrevista 06: 34:50 - 45:00
 
 **Figura 270**
 
@@ -1899,7 +1900,7 @@ La Figura 270 muestra el video y los tiempos de cada entrevista son:
 |---|---|
 | Screenshot | ![videovalidacion](../assets/chapter-5/image38.png) |
 | Inicia | 27:13 |
-| Duración | 12:35 |
+| Duración | 07:36 |
 | Nombre completo | Ian Kimi San Martin Cauti |
 | Edad | 20 años |
 | Distrito | Santiago de Surco |
