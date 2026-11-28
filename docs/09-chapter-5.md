@@ -2162,6 +2162,10 @@ Cristopher Benavides valoró positivamente el cambio de idioma entre español e 
 
 ## 5.4. Video About-the-Product
 
+El video About-the-Product presenta SmartStock a los visitantes del Landing Page y a los propietarios y administradores de minimarkets y bodegas de barrio que usarían la Web Application. Con un tono cercano y claro, explica el problema del conteo manual del inventario y muestra la propuesta de valor: monitorear el stock físico con sensores de peso IoT, contrastarlo con el inventario registrado, recibir alertas de reposición y registrar compras y ventas desde una sola aplicación. Entre sus beneficios se encuentran ahorrar tiempo de conteo, detectar diferencias de stock y reponer a tiempo.
+
+Yngrid Ruiz, participante del segmento de minimarkets, consideró que la aplicación era completa y afirmó que confiaría en las alertas para decidir cuándo reponer, porque los productos estarían registrados en la aplicación (entrevista 3 del video de validación, desde 14:28).
+
 **Figura 276**
 
 *Video About-the-Product publicado en YouTube*
@@ -2176,4 +2180,4 @@ https://upcedupe-my.sharepoint.com/personal/u20241f205_upc_edu_pe/_layouts/15/st
 
 **Link de YouTube:** https://youtu.be/7PVpjP6lQFA
 
-
+**Duración:** 2:56
