@@ -42,3 +42,19 @@ En esta sección se presentan los videos audiovisuales elaborados para el Avance
 | Enlace | `https://youtu.be/QxwsvZKVQao` |
 
 *Nota. Elaboración propia*
+
+### C.3. Videos obligatorios y secciones donde se citan
+
+| Video | Enlace (Stream o YouTube) | Duración | Sección donde se cita |
+|---|---|---|---|
+| Needfinding Interviews | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQAv4Fpj5KQORod7BZT5LtxkAfyOpDpCzMJ6LMflgGguH1w?e=9x1CUM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D | 48:29 | 2.2.2 Interview Recording |
+| Landing Page Demonstration Video (Sprint 1) | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQA-Q3weXz9fQKE42Q-KkgoIAadgYrZxWARopglSvgvHunk?e=hNwpTf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D | 0:54 | 5.2.1.5 Execution Evidence for Sprint Review |
+| Execution Evidence Sprint 2 | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421125_upc_edu_pe/IQAKt8LsBsB6TYBsqSsYvpp4AcDMBR0NPQsC-caANRmNjBQ?e=xXLq46 | 3:36 | 5.2.2.5 Execution Evidence for Sprint Review |
+| Execution Evidence Sprint 3 | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f946_upc_edu_pe/IQBdzCqqjN2bRZw1igPd50NKAWzK-qGA2o6WDNVhILYWqao?e=ZpZHyF&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D | 4:45 | 5.2.3.5 Execution Evidence for Sprint Review |
+| Entrevistas de validación | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f205_upc_edu_pe/IQDebrwb3K38TIPsgSMPCk_TATdfY_KjibKhLiRbUZBS8Z0?e=R7dCD6 | 45:00 | 5.3.2 Registro de Entrevistas |
+| About-the-Product | https://youtu.be/7PVpjP6lQFA | 2:56 | 5.4 Video About-the-Product |
+| About-the-Team | https://youtu.be/QxwsvZKVQao | 7:30 | Video About-the-Team (Conclusiones) |
+
+*Nota. Elaboración propia*
+
+
