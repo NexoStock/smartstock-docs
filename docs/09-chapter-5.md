@@ -1711,6 +1711,48 @@ Los aspectos de este sprint son los bounded contexts del backend del Sprint 3 (I
 *Nota. Elaboración propia*
 
 #### 5.2.4.3. Sprint Backlog 4
+El objetivo del Sprint 4 es estabilizar SmartStock, verificar los flujos principales con los Web Services desplegados y preparar la publicación de la versión final v1.0.0. El sprint reúne 19 tareas con un esfuerzo estimado de 63 horas. Las tareas abarcan la validación de la autenticación y las ventas, la integración de la aplicación web con la API y la preparación de las evidencias de la versión final.
+
+URL del tablero de Trello  
+https://trello.com/b/m2D1USjs/sprint-backlog-4-source
+
+**Figura 269A**
+
+*Tablero de Trello del Sprint Backlog 4*
+
+![Tablero de Trello del Sprint Backlog 4](../assets/chapter-5/T03_Sprint_Backlog_4_Trello.png)
+
+*Nota.* Elaboración propia.
+
+Los identificadores N y T corresponden a las tareas del plan TB2. Las validaciones de recuperación de contraseña e idempotencia se vinculan con las historias técnicas TS04 y TS07, respectivamente.
+
+**Tabla 56A**
+
+*Sprint Backlog 4*
+
+| **Sprint #** | **Story Id** | **Story Title** | **Task Id** | **Task Title** | **Task Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+|---|---|---|---|---|---|---:|---|---|
+| 4 | TS04 | Autenticación | T-S4-IAM.1 | Validate password recovery | Solicitar el restablecimiento, verificar la recepción del correo por SMTP e iniciar sesión con la nueva contraseña. | 4 | Montañez Salinas, Lorena Ariana (propuesta) | To Do |
+| 4 | TS07 | Registro de ventas | T-S4-SALES.1 | Validate sale idempotency | Repetir una solicitud con la misma `Idempotency-Key` y comprobar que se devuelva la misma venta y que el stock se descuente una sola vez. | 4 | Lopez Rimachi, Sebastian Leonardo (propuesta) | To Do |
+| 4 | TS-SH | Soporte técnico | N04 | Publish bilingual terms and conditions | Publicar los términos del Landing en español e inglés y verificar los enlaces desde el pie de página del inicio de sesión y del panel. | 4 | Lopez Rimachi, Sebastian Leonardo | Done |
+| 4 | TS-SH | Soporte técnico | N06 | Build and test backend | Ejecutar `./mvnw clean verify` con Java 27 y MySQL 8.4. Registrar el resultado de la compilación y las pruebas. | 3 | Crispin Valdivia, Angel Gabriel | To Do |
+| 4 | TS-SH | Soporte técnico | N07 | Build frontend and verify API connection | Ejecutar `npm ci` y `npm run build`. Verificar que la aplicación desplegada consulta la API de SmartStock en Railway. | 2 | Lopez Rimachi, Sebastian Leonardo | Done |
+| 4 | TS-DOC | Documentación técnica | N05 | Enable Swagger and OpenAPI in production | Habilitar Swagger UI y OpenAPI en Railway después de N06. Verificar el acceso por HTTPS y conservar JWT en las operaciones protegidas. | 4 | Crispin Valdivia, Angel Gabriel | To Do |
+| 4 | TS-INT | Integración | T09 | Validate final integration | Probar los módulos y los flujos de negocio de la versión candidata. Registrar los resultados y los problemas que afecten la publicación. | 6 | Vizcarra Mamani, Candy Milagros | To Do |
+| 4 | TS-INT | Integración | T10 | Validate Angular workflows against the API | Probar el inicio de sesión, productos, ventas y alertas desde Angular. Confirmar que las solicitudes lleguen a la API desplegada y registrar los resultados. | 4 | Lopez Rimachi, Sebastian Leonardo | To Do |
+| 4 | TS-SH | Soporte técnico | T11 | Verify published products | Comprobar que el Landing Page, la aplicación web y los Web Services estén disponibles en sus URLs públicas y correspondan a la versión publicada. | 2 | Crispin Valdivia, Angel Gabriel | To Do |
+| 4 | TS-SH | Soporte técnico | T12 | Verify English and Spanish localization | Revisar los textos de la interfaz, los mensajes y la documentación en inglés y español latinoamericano en los tres productos. | 3 | Tuesta Girón, Kiara Lucia | To Do |
+| 4 | TS-SH | Soporte técnico | T13 | Verify accessibility | Probar la navegación por teclado y revisar los atributos ARIA del Landing Page y de la aplicación web. | 3 | Tuesta Girón, Kiara Lucia | To Do |
+| 4 | TS-SH | Soporte técnico | T14 | Verify terms links in both products | Abrir la página de términos desde el pie de página del Landing Page y desde el de la aplicación web publicada. | 2 | Lopez Rimachi, Sebastian Leonardo | To Do |
+| 4 | TS-SH | Soporte técnico | N16 | Release version v1.0.0 | Tras validar la integración, Candy autoriza el release y Ángel crea el tag `v1.0.0` y ejecuta el despliegue. Verificar las versiones publicadas. | 4 | Vizcarra Mamani, Candy Milagros y Crispin Valdivia, Angel Gabriel | To Do |
+| 4 | TS-DOC | Documentación técnica | T04 | Consolidate development evidence | Registrar el repositorio, la rama, el hash, el mensaje y la fecha de los commits del Sprint 4. Incluir la referencia al release. | 3 | Lopez Rimachi, Sebastian Leonardo | To Do |
+| 4 | TS-DOC | Documentación técnica | T05 | Capture execution evidence | Tomar capturas y grabar un video de navegación de los flujos finales. Registrar la versión y la URL del despliegue probado. | 3 | Lopez Rimachi, Sebastian Leonardo | To Do |
+| 4 | TS-DOC | Documentación técnica | T06 | Document service evidence | Registrar las URLs públicas de Swagger UI y del JSON OpenAPI. Adjuntar capturas de la documentación y de la autorización mediante JWT. | 3 | Crispin Valdivia, Angel Gabriel | To Do |
+| 4 | TS-DOC | Documentación técnica | T07 | Document final deployment evidence | Registrar las URLs públicas, la etiqueta del release y las evidencias de despliegue del Landing Page, la aplicación web y los Web Services. | 4 | Crispin Valdivia, Angel Gabriel | To Do |
+| 4 | TS-DOC | Documentación técnica | T08 | Consolidate team collaboration insights | Revisar los commits y los aportes de los cinco integrantes del Sprint 4. Adjuntar capturas y registrar los resultados en el informe. | 2 | Lopez Rimachi, Sebastian Leonardo | To Do |
+| 4 | TS-REV | Revisión cruzada | T28 | Review the integrated report | Revisar enlaces, ortografía, figuras, tablas, rutas y evidencias de despliegue del informe. | 3 | Tuesta Girón, Kiara Lucia | To Do |
+
+*Nota.* Elaboración propia. Total de 19 tareas y 63 horas estimadas a partir de tareas comparables del Sprint 3. Los códigos `T-S4-IAM.1` y `T-S4-SALES.1` y sus asignaciones son propuestas. Los estados corresponden al corte de planificación registrado en el Excel.
 
 #### 5.2.4.4. Development Evidence for Sprint Review
 
